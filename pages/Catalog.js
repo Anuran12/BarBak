@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
 export default function Catalog() {
@@ -5,6 +6,7 @@ export default function Catalog() {
         <div>
             <Header />
             <div className="page">Catalog Page</div>
+            <Footer />
         </div>
     );
 }
