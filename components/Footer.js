@@ -11,12 +11,14 @@ export default function Footer() {
                 src={Logo1}
                 width={48}
                 height={35}
+                alt="logo"
                 />
                 <Image
                 className="!ml-[-10px]"
                 src={Logo2}
                 width={120}
                 height={35}
+                alt="logo"
                 />
             </Link>
             <div className="text-[12px] text-white/60 pt-2 col-start-3">

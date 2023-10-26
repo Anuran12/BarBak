@@ -12,12 +12,14 @@ export default function Header() {
                 src={Logo1}
                 width={48}
                 height={35}
+                alt="logo"
                 />
                 <Image
                 className="!ml-[-10px]"
                 src={Logo2}
                 width={120}
                 height={35}
+                alt="logo"
                 />
             </Link>
             <div className=" flex flex-col col-start-2 col-end-6 items-center">
