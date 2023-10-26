@@ -26,11 +26,11 @@ export default function Header() {
                 {/* <a className="text-[12px] text-center w-6/12">1234567890</a> */}
                 <nav className="flex gap-10 text-[14px] justify-center items-center">
                     <Link className="hover:text-[#F7BC06] ease-in-out duration-300 pointer" href={'/Catalog'}>CATALOG</Link>
-                    <Link className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer" href={'/barbakplus'}>BARBAK+</Link>
-                    <Link className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer" href={'/about'}>ABOUT</Link>
+                    <Link className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer" href={'/Barbakplus'}>BARBAK+</Link>
+                    <Link className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer" href={'/About'}>ABOUT</Link>
                     <Link className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer" href={'/'}>SERVICES</Link>
-                    <Link className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer" href={'/contact'}>CONTACT</Link>
-                    <Link className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer" href={'/supplier'}>BECOME A SUPPLIER</Link>
+                    <Link className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer" href={'/Contact'}>CONTACT</Link>
+                    <Link className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer" href={'/Supplier'}>BECOME A SUPPLIER</Link>
                 </nav>
             </div>
             <div className="flex justify-center items-center col-start-8 mr-6">
