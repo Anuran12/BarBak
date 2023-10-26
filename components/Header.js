@@ -5,7 +5,7 @@ import Logo2 from '../img/Logo2.png'
 
 export default function Header() {
     return(
-        <header className="bg-[url('../img/bg_black.jpg')] grid grid-cols-8 text-white justify-center">
+        <header className="bg-[url('../img/bg_black.jpg')] grid grid-cols-8 text-white justify-center items-center">
             
             <Link href={'/'} className="my-3 ml-6">
                 <Image
@@ -20,9 +20,9 @@ export default function Header() {
                 height={35}
                 />
             </Link>
-            <div className=" flex flex-col col-start-2 col-end-6">
-                <a className="text-[12px] text-center w-6/12">1234567890</a>
-                <nav className="flex gap-10 text-[14px] justify-center">
+            <div className=" flex flex-col col-start-2 col-end-6 items-center">
+                {/* <a className="text-[12px] text-center w-6/12">1234567890</a> */}
+                <nav className="flex gap-10 text-[14px] justify-center items-center">
                     <Link href={'/catalog'}>CATALOG</Link>
                     <Link href={'/barbakplus'}>BARBAK+</Link>
                     <Link href={'/about'}>ABOUT</Link>
