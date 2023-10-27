@@ -39,9 +39,10 @@ export default function Services() {
             from our fulfillment centers to your shelves and fridges.
           </p>
           <a
-            className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-2 mt-5 text-black w-fit"
+            className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-2 mt-5 text-black w-full text-center"
             href={"/"}
           >
+            {/* <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-64 absolute -z-10 -mt-4"></div> */}
             Learn More
           </a>
         </div>
@@ -59,9 +60,10 @@ export default function Services() {
             and delivery.
           </p>
           <a
-            className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-2 mt-5 text-black w-fit"
+            className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-2 mt-5 text-black w-full text-center"
             href={"/"}
           >
+            {/* <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-64 absolute -z-10 -mt-4"></div> */}
             Learn More
           </a>
         </div>
@@ -79,9 +81,10 @@ export default function Services() {
             and we can implement a strategy to keep clients satisfied.
           </p>
           <a
-            className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-2 mt-5 text-black w-fit"
+            className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-2 mt-5 text-black w-full text-center"
             href={"/"}
           >
+            {/* <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-64 absolute -z-10 -mt-4"></div> */}
             Learn More
           </a>
         </div>
