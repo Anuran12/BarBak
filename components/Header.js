@@ -7,7 +7,7 @@ export default function Header() {
     return(
         <header className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover grid grid-cols-8 text-white justify-center items-center">
             
-            <Link href={'/'} className="my-3 ml-6">
+            <Link href={'/'} className="my-3 ml-6 flex">
                 <Image
                 src={Logo1}
                 width={48}
