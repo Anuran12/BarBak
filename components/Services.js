@@ -10,7 +10,7 @@ export default function Services() {
             COURIERS
           </h1>
           <p className="text-[14px] text-center text-[#0a0a0a85] font-[530]">
-            Need an extra hand? Give us a call we'll have someone ready to help
+            Need an extra hand? Give us a call we&#39;ll have someone ready to help
             with anything to keep you running smooth!
           </p>
           <a
