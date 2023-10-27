@@ -35,7 +35,7 @@ export default function Hero() {
       </div>
       <div className=" absolute right-0 top-[100px] h-[120vh] w-[100vh] overflow-hidden">
         <div className="h-[90vh] w-[90vh] absolute !top-5 !-right-[30vh] hero_circle"></div>
-        <div className="absolute !top-[100px] !right-[40px]">
+        <div className="absolute !top-[50px] !right-[40px]">
           <Image src={HeroImg1} alt="hero image" width={708} height={737} />
         </div>
       </div>
