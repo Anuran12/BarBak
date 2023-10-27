@@ -5,7 +5,7 @@ import Logo2 from '../img/Logo2.png'
 
 export default function Header() {
     return(
-        <header className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover grid grid-cols-8 text-white justify-center items-center">
+        <header className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover z-10 grid grid-cols-8 text-white justify-center items-center">
             
             <Link href={'/'} className="my-3 ml-6 flex">
                 <Image
