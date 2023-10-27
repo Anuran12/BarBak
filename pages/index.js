@@ -31,7 +31,6 @@ export default function HomePage() {
 Discover the peace of mind that comes with clear and       straightforward pricing. Join BarBak today and experience the  difference of transparent pricing for your Business,</p>
         </div>
       </div>
-      <div>Home Page</div>
       <Footer />
     </div>
   );
