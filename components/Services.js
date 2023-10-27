@@ -13,7 +13,7 @@ export default function Services() {
             COURIERS
             <div className=" bg-[url('../img/underline.png')] bg-no-repeat bg-center bg-cover h-1 w-0 group-hover:w-full duration-300 ease-in-out"></div>
           </h1>
-          
+
           <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
             Need an extra hand? Give us a call we&#39;ll have someone ready to
             help with anything to keep you running smooth!
@@ -26,10 +26,11 @@ export default function Services() {
           </a>
         </div>
         <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-between items-center group">
-          <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06]">
+          <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06] w-full">
             WHOLESALE FOOD
             <br />
             DELIVERY
+            <div className=" bg-[url('../img/underline.png')] bg-no-repeat bg-center bg-cover h-1 w-0 group-hover:w-full duration-300 ease-in-out"></div>
           </h1>
           <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
             We give you hours of your precious life back, with full price
@@ -44,10 +45,11 @@ export default function Services() {
           </a>
         </div>
         <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-between items-center group">
-          <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06]">
+          <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06] w-full">
             ALCOHOL
             <br />
             DELIVERY
+            <div className=" bg-[url('../img/underline.png')] bg-no-repeat bg-center bg-cover h-1 w-0 group-hover:w-full duration-300 ease-in-out"></div>
           </h1>
           <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
             We provide Alcohol Delivery for all NC Licensed Liqour
@@ -63,10 +65,11 @@ export default function Services() {
           </a>
         </div>
         <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-between items-center group">
-          <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06]">
+          <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06] w-full">
             COMMERCIAL
             <br />
             CLEANING
+            <div className=" bg-[url('../img/underline.png')] bg-no-repeat bg-center bg-cover h-1 w-0 group-hover:w-full duration-300 ease-in-out"></div>
           </h1>
           <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
             You decide how often you need us! After working in the Hospitality
