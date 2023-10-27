@@ -1,7 +1,7 @@
 export default function Services() {
     return(
         <div className=" flex flex-col justify-center items-center px-[120px] mt-20">
-            <h1 className="text-[40px]">It's time to try our Services</h1>
+            <h1 className="text-[40px]">It&#39;s time to try our Services</h1>
             <div className="grid grid-cols-4 gap-5 mt-16">
                 <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-center items-center">
                     <h1 className=" font-[540] text-[18px] text-center">HOSPITALITY<br/> COURIERS</h1>
