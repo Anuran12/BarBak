@@ -40,6 +40,7 @@ export default function About() {
             </div>
             <Team />
             <Services />
+            <div className="mb-[100px] w-full h-1"></div>
             <Footer />
         </div>
     );
