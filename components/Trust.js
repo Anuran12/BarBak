@@ -1,85 +1,52 @@
 export default function Trust() {
-    return(
-        <div className=" flex flex-col justify-center items-center px-[120px] mt-20">
+  return (
+    <div className=" flex flex-col justify-center items-center px-[120px] mt-20">
       <h1 className="text-[40px]">
-        It&#39;s time to try our{" "}
-        <span className="text-[#F7BC06]">Services</span>
+        Why you can
+        <span className="text-[#F7BC06]"> trust</span> us
       </h1>
       <div className="grid grid-cols-4 gap-5 mt-16">
         <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-center items-center group">
-          <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06]">
-            HOSPITALITY
-            <br />
-            COURIERS
+          <h1 className=" font-[540] text-[22px] text-center group-hover:text-[#F7BC06]">
+            Fast
           </h1>
           <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
-            Need an extra hand? Give us a call we&#39;ll have someone ready to
-            help with anything to keep you running smooth!
+            Ordering your items has never been more efficient using the
+            Restaurant Depot website. Order online by 9pm EST for next day
+            delivery
           </p>
-          <a
-            className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-2 mt-5 text-black w-fit"
-            href={"/"}
-          >
-            Learn More
-          </a>
         </div>
         <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-center items-center group">
-          <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06]">
-            WHOLESALE FOOD
-            <br />
-            DELIVERY
+          <h1 className=" font-[540] text-[22px] text-center group-hover:text-[#F7BC06]">
+            Local
           </h1>
           <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
-            We give you hours of your precious life back, with full price
-            transparency, by supplying everything you need to run your business
-            from our fulfillment centers to your shelves and fridges.
+            BarBak Hospitality is your go-to delivery service. Our goal is to
+            assist individual's and local businesses by loading, transporting,
+            and delivering items to clients businesses in a safe, timely manner.
           </p>
-          <a
-            className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-2 mt-5 text-black w-fit"
-            href={"/"}
-          >
-            Learn More
-          </a>
         </div>
         <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-center items-center group">
-          <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06]">
-            ALCOHOL
-            <br />
-            DELIVERY
+          <h1 className=" font-[540] text-[22px] text-center group-hover:text-[#F7BC06]">
+            Reliable
           </h1>
           <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
-            We provide Alcohol Delivery for all NC Licensed Liqour
-            Establishments at an affordable rate. Simply input your order, or
-            send it for us to place. We will charge you by the case for pickup
-            and delivery.
+            Your business is our business. If you experience any dissatisfaction
+            we will address it immediately. If we are experiencing delays in our
+            routes we will contact you in advance.
           </p>
-          <a
-            className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-2 mt-5 text-black w-fit"
-            href={"/"}
-          >
-            Learn More
-          </a>
         </div>
         <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-center items-center group">
-          <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06]">
-            COMMERCIAL
-            <br />
-            CLEANING
+          <h1 className=" font-[540] text-[22px] text-center group-hover:text-[#F7BC06]">
+            Hospitality
           </h1>
           <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
-            You decide how often you need us! After working in the Hospitality
-            industry for years, we were able to come up with a concept that
-            makes the customer happy. We understand the needs of the restaurant
-            and we can implement a strategy to keep clients satisfied.
+            It's rooted in our name. Providing quality service with one smile at
+            a time. Our staff is committed to creating a friendly environment
+            for our clients.
           </p>
-          <a
-            className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-2 mt-5 text-black w-fit"
-            href={"/"}
-          >
-            Learn More
-          </a>
         </div>
       </div>
     </div>
-    )
+  );
 }
