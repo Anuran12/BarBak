@@ -24,8 +24,9 @@ export default function Trust() {
           </h1>
           <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
             BarBak Hospitality is your go-to delivery service. Our goal is to
-            assist individual's and local businesses by loading, transporting,
-            and delivering items to clients businesses in a safe, timely manner.
+            assist individual&#39;s and local businesses by loading,
+            transporting, and delivering items to clients businesses in a safe,
+            timely manner.
           </p>
         </div>
         <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-center items-center group">
@@ -45,9 +46,9 @@ export default function Trust() {
             <div className=" bg-[url('../img/underline.png')] bg-no-repeat bg-center bg-cover h-1 w-0 group-hover:w-full duration-300 ease-in-out"></div>
           </h1>
           <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
-            It's rooted in our name. Providing quality service with one smile at
-            a time. Our staff is committed to creating a friendly environment
-            for our clients.
+            It&#39;s rooted in our name. Providing quality service with one
+            smile at a time. Our staff is committed to creating a friendly
+            environment for our clients.
           </p>
         </div>
       </div>
