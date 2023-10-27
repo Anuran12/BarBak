@@ -6,6 +6,7 @@ import Specials from "@/components/Specials";
 import Stats from "@/components/Stats";
 import Image from "next/legacy/image";
 import VagImg from "../img/vagitables.png";
+import Feedback from "@/components/Feedback";
 
 export default function HomePage() {
   return(
@@ -15,6 +16,7 @@ export default function HomePage() {
       <Stats />
       <Services />
       <Specials />
+      <Feedback />
       <div className="flex flex-row px-[120px] mt-[100px]">
         <div className="w-1/3">
           <Image 
