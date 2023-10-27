@@ -1,7 +1,7 @@
 import Image from "next/legacy/image";
 import UserImg from '../img/user.png';
 
-export default function() {
+export default function feedback() {
     return(
         <div>
             <h1 className="text-[40px] text-center mt-[100px]">Discover What Others Say</h1>
