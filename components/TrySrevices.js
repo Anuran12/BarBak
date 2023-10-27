@@ -1,4 +1,4 @@
-export default function Services() {
+export default function TryServices() {
   return (
     <div className=" flex flex-col justify-center items-center px-[120px] mt-20">
       <h1 className="text-[40px]">
