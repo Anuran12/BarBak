@@ -1,7 +1,10 @@
 export default function Services() {
   return (
     <div className=" flex flex-col justify-center items-center px-[120px] mt-20">
-      <h1 className="text-[40px]">It&#39;s time to try our Services</h1>
+      <h1 className="text-[40px]">
+        It&#39;s time to try our{" "}
+        <span className="text-[#F7BC06]">Services</span>
+      </h1>
       <div className="grid grid-cols-4 gap-5 mt-16">
         <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-center items-center">
           <h1 className=" font-[540] text-[18px] text-center">
@@ -9,7 +12,7 @@ export default function Services() {
             <br />
             COURIERS
           </h1>
-          <p className="text-[14px] text-center text-[#0a0a0a85] font-[530]">
+          <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
             Need an extra hand? Give us a call we'll have someone ready to help
             with anything to keep you running smooth!
           </p>
@@ -26,7 +29,7 @@ export default function Services() {
             <br />
             Delivery
           </h1>
-          <p className="text-[14px] text-center text-[#0a0a0a85] font-[530]">
+          <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
             We give you hours of your precious life back, with full price
             transparency, by supplying everything you need to run your business
             from our fulfillment centers to your shelves and fridges.
@@ -44,7 +47,7 @@ export default function Services() {
             <br />
             DELIVERY
           </h1>
-          <p className="text-[14px] text-center text-[#0a0a0a85] font-[530]">
+          <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
             We provide Alcohol Delivery for all NC Licensed Liqour
             Establishments at an affordable rate. Simply input your order, or
             send it for us to place. We will charge you by the case for pickup
@@ -63,7 +66,7 @@ export default function Services() {
             <br />
             CLEANING
           </h1>
-          <p className="text-[14px] text-center text-[#0a0a0a85] font-[530]">
+          <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
             You decide how often you need us! After working in the Hospitality
             industry for years, we were able to come up with a concept that
             makes the customer happy. We understand the needs of the restaurant

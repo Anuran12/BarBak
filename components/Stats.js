@@ -27,8 +27,8 @@ export default function Stats() {
             50K+
           </h1>
           <p className=" w-1/2 ml-16 h-fit leading-4 text-[16px] text-[#ffffff] break-words font-normal">
-            Timely
-            <br /> Deliveries
+            Orders
+            <br /> Processed
           </p>
         </div>
         <div className="w-6/12 ml-16 flex bg-gradient-to-r from-[#F7BC06] to-[#ffefbf] px-5 py-1 rounded-2xl items-center">
@@ -36,8 +36,9 @@ export default function Stats() {
             2000+
           </h1>
           <p className=" w-1/2 ml-14 h-fit leading-4 text-[16px] text-[#0A0A0A] break-words font-normal">
-            Timely
-            <br /> Deliveries
+            Total
+            <br /> Accounts
+            <br /> Served
           </p>
         </div>
         <div className="w-6/12 flex bg-gradient-to-r from-[#a7a7a7] to-[#262628] px-5 py-1 rounded-2xl items-center">
@@ -45,8 +46,9 @@ export default function Stats() {
             90%
           </h1>
           <p className=" w-1/2 ml-20 h-fit leading-4 text-[16px] text-[#ffffff] break-words font-normal">
-            Timely
-            <br /> Deliveries
+            Accounts
+            <br /> Recommend
+            <br /> BarBak
           </p>
         </div>
       </div>
