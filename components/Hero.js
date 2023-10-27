@@ -25,8 +25,8 @@ export default function Hero() {
                     </a>
                 </div>
             </div>
-            <div className=" absolute right-0 top-0 h-[120vh] w-[100vh] overflow-hidden">
-                <div className="h-[90vh] w-[90vh] absolute !top-20 !-right-[30vh] hero_circle"></div>
+            <div className=" absolute right-0 top-[70px] h-[120vh] w-[100vh] overflow-hidden">
+                <div className="h-[90vh] w-[90vh] absolute !top-5 !-right-[30vh] hero_circle"></div>
                 <div className="absolute !top-[100px] !right-[40px]">
                     <Image
                     src={HeroImg1}
