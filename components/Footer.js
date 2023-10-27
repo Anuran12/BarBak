@@ -70,16 +70,28 @@ export default function Footer() {
       </div>
       <div className="text-[12px] text-white/60 pt-2 col-start-5">
         <ul>
-          <li>FAQ</li>
-          <li>TERMS & CONDITIONS</li>
+          <li className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer">
+            FAQ
+          </li>
+          <li className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer">
+            TERMS & CONDITIONS
+          </li>
         </ul>
       </div>
       <div className="text-[12px] text-white/80 pt-2 col-start-8">
         <ul>
-          <li>1234567890</li>
-          <li>9876543210</li>
-          <li>abcd@gmail.com</li>
-          <li>Kolkata, India</li>
+          <li className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer">
+            <a href="tel:1234567890">1234567890</a>
+          </li>
+          <li className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer">
+            <a href="tel:9876543210">9876543210</a>
+          </li>
+          <li className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer">
+            <a href="mailto:abcd@gmail.com">abcd@gmail.com</a>
+          </li>
+          <li className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer">
+            Kolkata, India
+          </li>
         </ul>
       </div>
       <div className="text-[12px] text-white/80 pt-2 col-start-9">
