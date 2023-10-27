@@ -19,9 +19,10 @@ export default function Services() {
             help with anything to keep you running smooth!
           </p>
           <a
-            className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-2 mt-5 text-black w-fit"
+            className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-2 mt-5 text-black w-full text-center"
             href={"/"}
           >
+            {/* <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-64 absolute -z-10 -mt-4"></div> */}
             Learn More
           </a>
         </div>
