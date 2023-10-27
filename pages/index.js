@@ -33,7 +33,7 @@ export default function HomePage() {
             <br />
             Discover the peace of mind that comes with clear and straightforward
             pricing. Join BarBak today and experience the difference of
-            transparent pricing for your Business
+            transparent pricing for your Business.
           </p>
         </div>
       </div>
