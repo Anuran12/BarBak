@@ -71,7 +71,7 @@ export default function Footer() {
       <div className="text-[12px] text-white/60 pt-2 col-start-5">
         <ul>
           <li>FAQ</li>
-          <li>Terms & Conditions</li>
+          <li>TERMS & CONDITIONS</li>
         </ul>
       </div>
       <div className="text-[12px] text-white/80 pt-2 col-start-8">

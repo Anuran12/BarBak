@@ -18,10 +18,13 @@ export default function Hero() {
         </div>
         <div className="h-[80vh] flex flex-col justify-center">
           <h1 className="text-white text-[65px] leading-tight">
-            Need your favourite <br />
-            <span className="text-[#F7BC06]">Restaurant</span> at Home?
+            A Partner You can Count On <br />
+            <span className="text-[#F7BC06]">Transparent</span> Pricing
           </h1>
-          <p className="text-white text-[24px] mt-8">Try BarBak</p>
+          <p className="text-white text-[24px] mt-8 w-1/2">
+            Order 10,000+ products, with same-day & next day delivery straight
+            into your kitchen
+          </p>
           <a
             className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-8 mt-10 text-white w-fit"
             href={"/"}
