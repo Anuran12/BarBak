@@ -12,9 +12,9 @@ export default function Services() {
             <br />
             COURIERS
           </h1>
-          <p className="text-[14px] text-center text-[#0a0a0a85] font-[530]">
-            Need an extra hand? Give us a call we'll have someone ready to help
-            with anything to keep you running smooth!
+          <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
+            Need an extra hand? Give us a call we&#39;ll have someone ready to
+            help with anything to keep you running smooth!
           </p>
           <a
             className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-2 mt-5 text-black w-fit"
