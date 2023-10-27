@@ -6,8 +6,8 @@ export default function Services() {
         <span className="text-[#F7BC06]">Services</span>
       </h1>
       <div className="grid grid-cols-4 gap-5 mt-16">
-        <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-center items-center">
-          <h1 className=" font-[540] text-[18px] text-center">
+        <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-center items-center group">
+          <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06]">
             HOSPITALITY
             <br />
             COURIERS
@@ -23,11 +23,11 @@ export default function Services() {
             Learn More
           </a>
         </div>
-        <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-center items-center">
-          <h1 className=" font-[540] text-[18px] text-center">
-            Wholesale Food
+        <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-center items-center group">
+          <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06]">
+            WHOLESALE FOOD
             <br />
-            Delivery
+            DELIVERY
           </h1>
           <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
             We give you hours of your precious life back, with full price
@@ -41,8 +41,8 @@ export default function Services() {
             Learn More
           </a>
         </div>
-        <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-center items-center">
-          <h1 className=" font-[540] text-[18px] text-center">
+        <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-center items-center group">
+          <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06]">
             ALCOHOL
             <br />
             DELIVERY
@@ -60,8 +60,8 @@ export default function Services() {
             Learn More
           </a>
         </div>
-        <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-center items-center">
-          <h1 className=" font-[540] text-[18px] text-center">
+        <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-center items-center group">
+          <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06]">
             COMMERCIAL
             <br />
             CLEANING
