@@ -5,7 +5,9 @@ import HeroBg from "../../img/hero_bg.png";
 import HeroImg1 from "../../img/HospitalityCouriers/Item1.png";
 import HeroImg2 from "../../img/HospitalityCouriers/Item2.png";
 import CourierImg1 from "../../img/HospitalityCouriers/Item4.png";
-import CourierImg2 from "../../img/HospitalityCouriers/courier2.png";
+import CourierImg2 from "../../img/HospitalityCouriers/Item7.png";
+import CourierImg3 from "../../img/HospitalityCouriers/Item6.png";
+import CourierImg4 from "../../img/HospitalityCouriers/Item3.png";
 
 export default function HospitalityCouriers() {
   return (
@@ -106,19 +108,30 @@ export default function HospitalityCouriers() {
         <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
           <div className="bg-[url('../img/patternDown.png')] flex flex-row justify-between bg-no-repeat bg-bottom bg-contain px-[30px]">
             <div className="w-1/3 flex flex-col justify-evenly">
-              <h1 className="text-white text-[24px] text-center">Delivering Dreams, Not Just Couriers</h1>
-              <Image src={CourierImg1} className=" scale-50"/>
-              <h1 className="text-white text-[24px] text-center">More than Couriers, We're Your Partners</h1>
+              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+                Delivering Dreams, <br />
+                Not Just <span className="text-[#F7BC06]">Couriers</span>
+              </h1>
+              <Image src={CourierImg1} className=" scale-75" />
+              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+                More than <span className="text-[#F7BC06]">Couriers</span>,{" "}
+                <br />
+                We're Your <span className="text-[#F7BC06]">Partners</span>
+              </h1>
             </div>
             <div className="w-1/3 flex flex-col justify-evenly">
-              <Image src={CourierImg1} className=" scale-50"/>
-              <h1 className="text-white text-[24px] text-center">Fast, Flexible, and Always Friendly</h1>
-              <Image src={CourierImg1} className=" scale-50"/>
+              <Image src={CourierImg3} className=" scale-75" />
+              <h1 className="text-white text-[28px] mr-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+                <span className="text-[#F7BC06]">Fast</span>,{" "}
+                <span className="text-[#F7BC06]">Flexible</span>, and <br />
+                Always <span className="text-[#F7BC06]">Friendly</span>
+              </h1>
+              <Image src={CourierImg4} className=" scale-75" />
             </div>
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-center -mt-[620px] scale-150">
+      <div className="w-full flex justify-center -mt-[900px] scale-100">
         <Image src={CourierImg2} />
       </div>
       <div className="flex flex-row justify-center items-center px-[120px] ">

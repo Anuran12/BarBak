@@ -4,6 +4,10 @@ import Image from "next/legacy/image";
 import HeroBg from "../../img/hero_bg.png";
 import WaterImg from "../../img/water.png";
 import HeroImg1 from "../../img/CommercialCleaning/Item1.png";
+import CourierImg1 from "../../img/CommercialCleaning/Item6.png";
+import CourierImg2 from "../../img/CommercialCleaning/Item9.png";
+import CourierImg3 from "../../img/CommercialCleaning/Item8.png";
+import CourierImg4 from "../../img/CommercialCleaning/Item7.png";
 
 export default function CommercialCleaning() {
   return (
@@ -70,6 +74,37 @@ export default function CommercialCleaning() {
               we&#39;re always striving to meet and exceed industry expectations.
             </p>
           </div>
+
+      <div className="bg-[url('../img/wood.jpg')] bg-no-repeat bg-center bg-cover ] mt-20">
+        <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
+          <div className="bg-[url('../img/patternDown.png')] flex flex-row justify-between bg-no-repeat bg-bottom bg-contain px-[30px]">
+            <div className="w-1/3 flex flex-col justify-evenly">
+              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+                Shine Bright with Our <br />
+                <span className="text-[#F7BC06]">Cleaning</span>Services.
+              </h1>
+              <Image src={CourierImg1} className=" scale-75" />
+              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+                Cleaning for a <span className="text-[#F7BC06]">Healthier</span>
+                , <br />
+                <span className="text-[#F7BC06]">Happier </span>Workplace.
+              </h1>
+            </div>
+            <div className="w-1/3 flex flex-col justify-evenly">
+              <Image src={CourierImg3} className=" scale-100" />
+              <h1 className="text-white text-[28px] mr-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+                <span className="text-[#F7BC06]">Reliable</span>,{" "}
+                <span className="text-[#F7BC06]">Responsible</span>, <br />
+                <span className="text-[#F7BC06]">Remarkably</span> Clean.
+              </h1>
+              <Image src={CourierImg4} className=" scale-75" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-full flex justify-center -mt-[1150px] scale-90">
+        <Image src={CourierImg2} />
+      </div>
 
       <div className=" flex flex-col justify-center items-center px-[120px] mt-20">
         <h1 className="text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
