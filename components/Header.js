@@ -52,7 +52,7 @@ export default function Header() {
               <li class="">
                 <Link
                   class="whitespace-no-wrap block bg-gray-200 px-4 py-2 hover:bg-[#F7BC06]"
-                  href={'/FoodDelivery'}
+                  href={'/services/FoodDelivery'}
                 >
                   Wholesale Food Delivery
                 </Link>
@@ -60,7 +60,7 @@ export default function Header() {
               <li class="">
                 <Link
                   class="whitespace-no-wrap block bg-gray-200 px-4 py-2 hover:bg-[#F7BC06]"
-                  href={'/AlcoholDelivery'}
+                  href={'/services/AlcoholDelivery'}
                 >
                   Alcohol Delivery
                 </Link>
@@ -68,7 +68,7 @@ export default function Header() {
               <li class="">
                 <Link
                   class="whitespace-no-wrap block bg-gray-200 px-4 py-2 hover:bg-[#F7BC06]"
-                  href={'/HospitalityCouriers'}
+                  href={'/services/HospitalityCouriers'}
                 >
                   Hospitality Couriers
                 </Link>
@@ -76,7 +76,7 @@ export default function Header() {
               <li class="">
                 <Link
                   class="whitespace-no-wrap block bg-gray-200 px-4 py-2 hover:bg-[#F7BC06]"
-                  href={'/CommercialCleaning'}
+                  href={'/services/CommercialCleaning'}
                 >
                   Commercial Cleaning
                 </Link>
