@@ -2,12 +2,14 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/legacy/image";
 import HeroBg from "../../img/hero_bg.png";
-import HeroImg1 from "../../img/Hospitality Couriers/Item1.png";
-import HeroImg2 from "../../img/Hospitality Couriers/Item2.png";
+import HeroImg1 from "../../img/HospitalityCouriers/Item1.png";
+import HeroImg2 from "../../img/HospitalityCouriers/Item2.png";
+import CourierImg1 from "../../img/HospitalityCouriers/Item4.png";
+import CourierImg2 from "../../img/HospitalityCouriers/courier2.png";
 
 export default function HospitalityCouriers() {
   return (
-    <div>
+    <div className=" overflow-hidden">
       <Header />
       {/* Hero Section */}
 
@@ -99,6 +101,25 @@ export default function HospitalityCouriers() {
             </p>
           </div>
         </div>
+      </div>
+      <div className="bg-[url('../img/wood.jpg')] bg-no-repeat bg-center bg-cover ] mt-20">
+        <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
+          <div className="bg-[url('../img/patternDown.png')] flex flex-row justify-between bg-no-repeat bg-bottom bg-contain px-[30px]">
+            <div className="w-1/3 flex flex-col justify-evenly">
+              <h1 className="text-white text-[24px] text-center">Delivering Dreams, Not Just Couriers</h1>
+              <Image src={CourierImg1} className=" scale-50"/>
+              <h1 className="text-white text-[24px] text-center">More than Couriers, We're Your Partners</h1>
+            </div>
+            <div className="w-1/3 flex flex-col justify-evenly">
+              <Image src={CourierImg1} className=" scale-50"/>
+              <h1 className="text-white text-[24px] text-center">Fast, Flexible, and Always Friendly</h1>
+              <Image src={CourierImg1} className=" scale-50"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-full flex justify-center -mt-[620px] scale-150">
+        <Image src={CourierImg2} />
       </div>
       <div className="flex flex-row justify-center items-center px-[120px] ">
         <div className="w-1/2 drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
