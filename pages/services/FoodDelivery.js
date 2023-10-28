@@ -5,6 +5,10 @@ import HeroBg from "../../img/hero_bg.png";
 import HeroImg1 from "../../img/hero/hero1.png";
 import ProcessImg from "../../img/FoodDelivery/Process.png";
 import DishImg from "../../img/dish.png";
+import CourierImg1 from "../../img/FoodDelivery/Item3.png";
+import CourierImg2 from "../../img/FoodDelivery/Item1.png";
+import CourierImg3 from "../../img/FoodDelivery/Item4.png";
+import CourierImg4 from "../../img/FoodDelivery/Item2.png";
 
 export default function FoodDelivery() {
   return (
@@ -52,9 +56,7 @@ export default function FoodDelivery() {
       <div className="w-full flex px-[100px]">
         <div className="w-1/2 flex flex-col justify-center items-center">
           <div className="w-full h-28"></div>
-          <Image
-          src={ProcessImg} className="mt-10"
-          />
+          <Image src={ProcessImg} className="mt-10" />
         </div>
         <div className="w-1/2">
           <div className="bg-[url('../img/NoticeBG.png')]  bg-no-repeat bg-center bg-contain w-full h-[80vh] flex justify-center items-center px-20">
@@ -69,89 +71,113 @@ export default function FoodDelivery() {
           </div>
         </div>
       </div>
-        <div className="mt-20 px-[120px]">
-          <h1 className="text-black pt-20 text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
-            Monthly Specials
-          </h1>
-          <div className="mt-16 pb-32 grid grid-cols-5 gap-10">
-            <div className="">
-              <h1 className=" text-gray-900/60 text-[20px] pl-6 mb-8">
-                Test Food 1
+
+      <div className="bg-[url('../img/wood.jpg')] bg-no-repeat bg-center bg-cover ] mt-20">
+        <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
+          <div className="bg-[url('../img/patternDown.png')] flex flex-row justify-between bg-no-repeat bg-bottom bg-contain px-[30px]">
+            <div className="w-1/3 flex flex-col justify-evenly">
+              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+                Delivering quality
+                <span className="text-[#F7BC06]"> food</span>
+                <br /> to your door.
               </h1>
-              <Image src={DishImg} alt="dish 1" />
-              <p className="text-gray-900/60 text-[14px] pl-6 mb-5">
-                $16 / 1 pc
-              </p>
-              <a
-                className=" ml-10 bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-black w-fit"
-                href={"/"}
-              >
-                $14
-              </a>
+              <Image src={CourierImg1} className=" scale-100" />
+              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+                Save <span className="text-[#F7BC06]">time</span> and{" "}
+                <span className="text-[#F7BC06]">money</span> <br /> with our
+                service.
+              </h1>
             </div>
-            <div className="">
-              <h1 className=" text-gray-900/60 text-[20px] pl-6 mb-8">
-                Test Food 1
+            <div className="w-1/3 flex flex-col justify-evenly">
+              <Image src={CourierImg3} className=" scale-100" />
+              <h1 className="text-white text-[28px] mr-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+                <span className="text-[#F7BC06]">Fast</span>,{" "}
+                <span className="text-[#F7BC06]">Safe</span>, and
+                <span className="text-[#F7BC06]"> Free</span>
+                <br /> Delivery
               </h1>
-              <Image src={DishImg} alt="dish 1" />
-              <p className="text-gray-900/60 text-[14px] pl-6 mb-5">
-                $16 / 1 pc
-              </p>
-              <a
-                className=" ml-10 bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-black w-fit"
-                href={"/"}
-              >
-                $14
-              </a>
-            </div>
-            <div className="">
-              <h1 className=" text-gray-900/60 text-[20px] pl-6 mb-8">
-                Test Food 1
-              </h1>
-              <Image src={DishImg} alt="dish 1" />
-              <p className="text-gray-900/60 text-[14px] pl-6 mb-5">
-                $16 / 1 pc
-              </p>
-              <a
-                className=" ml-10 bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-black w-fit"
-                href={"/"}
-              >
-                $14
-              </a>
-            </div>
-            <div className="">
-              <h1 className=" text-gray-900/60 text-[20px] pl-6 mb-8">
-                Test Food 1
-              </h1>
-              <Image src={DishImg} alt="dish 1" />
-              <p className="text-gray-900/60 text-[14px] pl-6 mb-5">
-                $16 / 1 pc
-              </p>
-              <a
-                className=" ml-10 bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-black w-fit"
-                href={"/"}
-              >
-                $14
-              </a>
-            </div>
-            <div className="">
-              <h1 className=" text-gray-900/60 text-[20px] pl-6 mb-8">
-                Test Food 1
-              </h1>
-              <Image src={DishImg} alt="dish 1" />
-              <p className="text-gray-900/60 text-[14px] pl-6 mb-5">
-                $16 / 1 pc
-              </p>
-              <a
-                className=" ml-10 bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-black w-fit"
-                href={"/"}
-              >
-                $14
-              </a>
+              <Image src={CourierImg4} className=" scale-100" />
             </div>
           </div>
-          <div></div>
         </div>
+      </div>
+      <div className="w-full flex justify-center -mt-[1000px] scale-75">
+        <Image src={CourierImg2} />
+      </div>
+
+      <div className=" px-[120px]">
+        <h1 className="text-black pt-20 text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+          Monthly Specials
+        </h1>
+        <div className="mt-16 pb-32 grid grid-cols-5 gap-10">
+          <div className="">
+            <h1 className=" text-gray-900/60 text-[20px] pl-6 mb-8">
+              Test Food 1
+            </h1>
+            <Image src={DishImg} alt="dish 1" />
+            <p className="text-gray-900/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
+            <a
+              className=" ml-10 bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-black w-fit"
+              href={"/"}
+            >
+              $14
+            </a>
+          </div>
+          <div className="">
+            <h1 className=" text-gray-900/60 text-[20px] pl-6 mb-8">
+              Test Food 1
+            </h1>
+            <Image src={DishImg} alt="dish 1" />
+            <p className="text-gray-900/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
+            <a
+              className=" ml-10 bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-black w-fit"
+              href={"/"}
+            >
+              $14
+            </a>
+          </div>
+          <div className="">
+            <h1 className=" text-gray-900/60 text-[20px] pl-6 mb-8">
+              Test Food 1
+            </h1>
+            <Image src={DishImg} alt="dish 1" />
+            <p className="text-gray-900/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
+            <a
+              className=" ml-10 bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-black w-fit"
+              href={"/"}
+            >
+              $14
+            </a>
+          </div>
+          <div className="">
+            <h1 className=" text-gray-900/60 text-[20px] pl-6 mb-8">
+              Test Food 1
+            </h1>
+            <Image src={DishImg} alt="dish 1" />
+            <p className="text-gray-900/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
+            <a
+              className=" ml-10 bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-black w-fit"
+              href={"/"}
+            >
+              $14
+            </a>
+          </div>
+          <div className="">
+            <h1 className=" text-gray-900/60 text-[20px] pl-6 mb-8">
+              Test Food 1
+            </h1>
+            <Image src={DishImg} alt="dish 1" />
+            <p className="text-gray-900/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
+            <a
+              className=" ml-10 bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-black w-fit"
+              href={"/"}
+            >
+              $14
+            </a>
+          </div>
+        </div>
+        <div></div>
+      </div>
 
       <div>Wholesale Food Delivery</div>
       <Footer />
