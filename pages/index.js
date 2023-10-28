@@ -12,9 +12,8 @@ import Feedback from "@/components/Feedback";
 
 export default function HomePage() {
   return (
-    <div id="smooth-wrapper">
+    <div>
       <Header />
-      <div id="smooth-content">
         <Hero />
         <Stats />
         <Services />
@@ -40,9 +39,7 @@ export default function HomePage() {
             </p>
           </div>
         </div>
-        <Footer />
-      </div>
-      
+        <Footer /> 
     </div>
   );
 }
