@@ -7,20 +7,10 @@ import Stats from "@/components/Stats";
 import Image from "next/legacy/image";
 import VagImg from "../img/vagitables.png";
 import Feedback from "@/components/Feedback";
-import { useRef, useLayoutEffect } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { ScrollSmoother } from "gsap/ScrollSmoother";
 
 
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 export default function HomePage() {
-  useLayoutEffect(() => {
-    ScrollSmoother.create({
-      smooth: 2 // how long (in seconds) it takes to "catch up" to the native scroll position
-    });
-  }, []);
   return (
     <div id="smooth-wrapper">
       <Header />

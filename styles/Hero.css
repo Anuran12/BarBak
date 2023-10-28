@@ -1,10 +1,110 @@
-.hero_circle {
-    border-radius: 50px; /*1*/
-    border: 10px solid transparent; /*2*/
-    background: linear-gradient(45deg,red,blue) border-box; /*3*/
-    -webkit-mask: /*4*/
-       linear-gradient(#fff 0 0) padding-box, 
-       linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor; /*5'*/
-            mask-composite: exclude; /*5*/
-  }
+
+  .container {
+   box-sizing: border-box;
+   position: relative;
+   width: 100%;
+   height: 100%;
+   background-color: #aac9d0;
+   padding: 0;
+   margin: 0;
+   overflow: hidden;
+   padding: 50px;
+ }
+ .wrapper {
+   position: relative;
+   width: 100%;
+   max-width: 500px;
+   height: auto;
+   margin: 0 auto;
+   padding: 0;
+ }
+ #path-svg {
+   position: relative;
+   width: 100%;
+   height: auto;
+   z-index: 1;
+ }
+ .content {
+   position: relative;
+   top: 0;
+   left: 0;
+   /*width: 100%;*/
+   /*height: 0;*/
+   overflow: visible;
+   /*padding-bottom: 84%;*/
+   z-index: 2;
+ 
+ }
+ 
+ .content::before {
+   float: left;
+   padding-top: 84%;
+   content: "";
+ }
+ 
+ .content::after {
+   display: block;
+   content: "";
+   clear: both;
+ }
+ .track {
+   border: 1px solid #708a91;
+   border-radius: 50%;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+ }
+ 
+ .item {
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: #708a91;
+   border-radius: 50%;
+ }
+ .item .child {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   color: #fee3c9;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .descriptions {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 3;
+   pointer-events: none;
+ }
+ .title {
+   position: absolute;
+   top: 50px;
+   left: 50%;
+   transform: translateX(-50%);
+   width: fit-content;
+   height: auto;
+   opacity: 0;
+   /* 			transition: 0.3s; */
+   font-size: 20px;
+ }
+ .title.active {
+   opacity: 1;
+ }
+ .item.active {
+   background-color: red;
+ }
+ 
+ @media (max-width: 799px) {
+   .wrapper {
+          max-width: 360px;
+       }
+ }
