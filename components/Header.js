@@ -5,18 +5,16 @@ import Logo2 from "../img/Logo2.png";
 
 export default function Header() {
   return (
-    <header className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover z-10 grid grid-cols-8 text-white justify-center items-center">
-      <Link href={"/"} className="my-3 ml-6 flex">
-        <Image src={Logo1} width={48} height={35} alt="logo" />
+    <header className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover z-10 grid grid-cols-8 px-10 text-white justify-center fixed items-center">
+      <Link href={"/"} className="my-5 scale-125 ml-6 flex">
+        <Image src={Logo1} alt="logo" />
         <Image
           className="!ml-[-10px]"
           src={Logo2}
-          width={120}
-          height={35}
           alt="logo"
         />
       </Link>
-      <div className=" flex flex-col col-start-2 col-end-6 items-center">
+      <div className=" flex flex-col ml-16 col-start-2 col-end-7 items-center">
         {/* <a className="text-[12px] text-center w-6/12">1234567890</a> */}
         <nav className="flex gap-10 text-[14px] justify-center items-center">
           <Link
@@ -97,7 +95,7 @@ export default function Header() {
           </Link>
         </nav>
       </div>
-      <div className="flex justify-center items-center col-start-8 mr-6">
+      <div className="flex gap-3 justify-center items-center col-start-8 mr-6">
         <a>
           <svg
             width="46"
