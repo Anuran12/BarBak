@@ -22,7 +22,7 @@ export default function CommercialCleaning() {
             />
           </div>
           <div className="h-[80vh] flex flex-col justify-center">
-            <h1 className="text-white text-[65px] leading-tight">
+            <h1 className="text-white text-[65px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               Do you need a reliable <br />
               <span className="text-[#F7BC06]">Cleaning</span> service?
             </h1>

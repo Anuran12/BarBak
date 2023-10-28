@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Image from "next/legacy/image";
 import HeroBg from "../../img/hero_bg.png";
 import HeroImg1 from "../../img/Hospitality Couriers/Item1.png";
-import VagImg from "../img/vagitables.png";
+import HeroImg2 from "../../img/Hospitality Couriers/Item2.png";
 
 export default function HospitalityCouriers() {
   return (
@@ -23,7 +23,7 @@ export default function HospitalityCouriers() {
             />
           </div>
           <div className="h-[80vh] flex flex-col justify-center">
-            <h1 className="text-white text-[65px] leading-tight">
+            <h1 className="text-white text-[65px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               Need your
               <span className="text-[#F7BC06]"> Package</span>
               <br /> at your doorstep?
@@ -101,22 +101,23 @@ export default function HospitalityCouriers() {
         </div>
       </div>
       <div className="flex flex-row px-[120px] mt-[100px]">
-        <div className="w-1/3">
-          <Image src={VagImg} alt="vagitables img" />
+        <div className="w-1/3 drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <Image src={HeroImg2} alt="hero image" />
         </div>
         <div className="w-2/3 flex flex-col ml-16">
-          <h1 className="text-[40px] text-[#F7BC06]">
-            Say Goodbye To Hidden Fees
+          <h1 className="text-[40px]">
+            Your
+            <span className="text-[#F7BC06]"> Parcel</span>, Our
+            <span className="text-[#F7BC06]"> Passion</span>.
           </h1>
           <p className="text-[20px] w-11/12 mt-6">
-            At BARBAK, we prioritize transparency and simplicity in our pricing.
-            We aim to give our customers the confidence that they are receiving
-            the best value for their money. We are dedicated to offering clear,
-            straightforward pricing on all our products. <br />
+            Join the countless satisfied customers who rely on us for their
+            courier delivery needs. Experience the convenience and peace of mind
+            that comes with choosing BARBAK as your go-to courier service. Your
+            satisfaction is our top priority, and we look forward to serving
+            you. <br />
             <br />
-            Discover the peace of mind that comes with clear and straightforward
-            pricing. Join BarBak today and experience the difference of
-            transparent pricing for your Business.
+            Make your delivery with confidence; make it with us.
           </p>
         </div>
       </div>
