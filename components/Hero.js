@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover h-[100vh]">
-      <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain h-[100vh] px-[120px]">
+      <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain h-[100.2vh] px-[120px]">
         <div className="absolute !top-[350px] !left-[200px]">
           <Image
             src={HeroBg}

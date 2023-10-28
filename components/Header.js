@@ -5,6 +5,8 @@ import Logo2 from "../img/Logo2.png";
 import React, {useState, useEffect} from "react";
 import ReactDOM from "react-dom";
 
+
+
 export default function Header() {
   const [position, setPosition] = useState()
     const [visible, setVisible] = useState(true) 
