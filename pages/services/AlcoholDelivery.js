@@ -84,14 +84,14 @@ export default function AlcoholDelivery() {
           </div>
         </div>
         <div className="w-1/2">
-          <div className="bg-[url('../img/NoticeBG.png')]  bg-no-repeat bg-center bg-contain w-full h-[80vh] flex justify-center items-center px-20">
-            <p className="text-black !text-[20px] mt-16">
-              Do you really like pushing that cart at 6:00 AM? Seriously?! Do
-              you really like that rep who keeps changing prices on you? We
-              don&#39;t believe it. We give you hours of your precious life
-              back, with full price transparency, by supplying everything you
-              need to run your business from our fulfillment centers to your
-              shelves and fridges.
+          <div className="bg-[url('../img/NoticeBG.png')]  bg-no-repeat bg-center bg-contain w-full h-[80vh] flex flex-col justify-center items-center px-20">
+            <h1 className="text-[24px] text-center font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] group-hover:text-[#F7BC06] w-full">
+              Important Information:
+            </h1>
+            <p className="text-[20px] text-center text-black font-[530] mt-2">
+              We deliver liquor 6 days a week (Mon-Sat) We are licensed, insured
+              and bonded and there is no contract, we deliver on an as needed
+              basis.
             </p>
           </div>
         </div>
