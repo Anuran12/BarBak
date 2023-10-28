@@ -17,7 +17,7 @@ export default function Hero() {
           />
         </div>
         <div className="h-[80vh] flex flex-col justify-center">
-          <h1 className="text-white text-[65px] leading-tight">
+          <h1 className="text-white text-[65px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
             A Partner You can Count On <br />
             <span className="text-[#F7BC06]">Transparent</span> Pricing
           </h1>
