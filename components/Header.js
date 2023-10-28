@@ -2,10 +2,26 @@ import Link from "next/link";
 import Image from "next/legacy/image";
 import Logo1 from "../img/Logo1.png";
 import Logo2 from "../img/Logo2.png";
+import React, {useState, useEffect} from "react";
 
 export default function Header() {
+  const [position, setPosition] = useState(window.pageYOffset)
+    const [visible, setVisible] = useState(true) 
+    useEffect(()=> {
+        const handleScroll = () => {
+           let moving = window.pageYOffset
+           
+           setVisible(position > moving);
+           setPosition(moving)
+        };
+        window.addEventListener("scroll", handleScroll);
+        return(() => {
+           window.removeEventListener("scroll", handleScroll);
+        })
+    })
+
   return (
-    <header className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover z-10 grid grid-cols-8 px-10 text-white justify-center fixed items-center">
+    <header className={`bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover z-10 grid grid-cols-8 px-10 text-white justify-center fixed items-center transition-[top] duration-[0.4s] ease-[ease-out] ${visible ? "top-0" : "-top-20"}`}>
       <Link href={"/"} className="my-5 scale-125 ml-6 flex">
         <Image src={Logo1} alt="logo" />
         <Image
