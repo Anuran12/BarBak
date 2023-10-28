@@ -6,23 +6,20 @@ import React, {useState, useEffect} from "react";
 import ReactDOM from "react-dom";
 
 export default function Header() {
-  useEffect(() => {
-    const [position, setPosition] = useState(window.pageYOffset)
-      const [visible, setVisible] = useState(true) 
-      useEffect(()=> {
-          const handleScroll = () => {
-             let moving = window.pageYOffset
-             
-             setVisible(position > moving);
-             setPosition(moving)
-          };
-          window.addEventListener("scroll", handleScroll);
-          return(() => {
-             window.removeEventListener("scroll", handleScroll);
-          })
-      })
-
-  }, []);
+  const [position, setPosition] = useState()
+    const [visible, setVisible] = useState(true) 
+    useEffect(()=> {
+        const handleScroll = () => {
+           let moving = window.pageYOffset
+           
+           setVisible(position > moving);
+           setPosition(moving)
+        };
+        window.addEventListener("scroll", handleScroll);
+        return(() => {
+           window.removeEventListener("scroll", handleScroll);
+        })
+    })
 
   return (
     <header className={`bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover z-10 grid grid-cols-8 px-10 text-white justify-center fixed items-center transition-[top] duration-[0.4s] ease-[ease-out] ${visible ? "top-0" : "-top-20"}`}>
