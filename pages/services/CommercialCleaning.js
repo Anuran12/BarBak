@@ -2,10 +2,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/legacy/image";
 import HeroBg from "../../img/hero_bg.png";
-<<<<<<< HEAD
 import WaterImg from "../../img/water.png";
-=======
->>>>>>> 0b53d1a0517e6e367f4e0e70db7e371597ba5d6f
 import HeroImg1 from "../../img/CommercialCleaning/Item1.png";
 
 export default function CommercialCleaning() {
