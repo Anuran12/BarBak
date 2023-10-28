@@ -7,6 +7,7 @@ import Stats from "@/components/Stats";
 import Image from "next/legacy/image";
 import VagImg from "../img/vagitables.png";
 import Feedback from "@/components/Feedback";
+import HeroCircle from "@/components/HeroCircle";
 
 
 
@@ -15,6 +16,7 @@ export default function HomePage() {
     <div>
       <Header />
         <Hero />
+        <HeroCircle />
         <Stats />
         <Services />
         <Specials />
