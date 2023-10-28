@@ -14,12 +14,12 @@ export const FancyCarousel = ({ images, setFocusElement = () => { }, offsetAngle
     const [carousel, setCarousel] = useState({
         carouselOrietation: 0,
         elementOrientation: 0,
-        focusElement: 0
+        focusElement: 1
     });
     setFocusElement(carousel.focusElement);
     if (autoRotateTime) {
         setTimeout(() => {
-            rotateRight();
+            rotateLeft();
         }, autoRotateTime * 1000);
     }
     const noOfImages = images.length;
@@ -61,7 +61,6 @@ export const FancyCarousel = ({ images, setFocusElement = () => { }, offsetAngle
                             transform: `rotate(${carousel.elementOrientation}deg)`, width: `${peripheralImageRadius * 2}px`, height: `${peripheralImageRadius * 2}px`,
                             left: `${rotatedCoordinates[index][0]}px`,
                             bottom: `${rotatedCoordinates[index][1]}px`,
-                            boxShadow: `${peripheralImageBoxShadow}`,
                             transition: `${transitionTime}`
                         } },
                         React.createElement("img", { className: "fancy-carousel-image", src: item, style: { width: `${peripheralImageRadius * 2}px`, height: `${peripheralImageRadius * 2}px` } })) :
@@ -69,14 +68,13 @@ export const FancyCarousel = ({ images, setFocusElement = () => { }, offsetAngle
                             transform: `rotate(${carousel.elementOrientation}deg)`, width: `${peripheralImageRadius * 2}px`, height: `${peripheralImageRadius * 2}px`,
                             left: `${rotatedCoordinates[index][0]}px`,
                             bottom: `${rotatedCoordinates[index][1]}px`,
-                            boxShadow: `${peripheralImageBoxShadow}`,
                             transition: `${transitionTime}`
                         }, focusElementStyling) },
                         React.createElement("img", { className: "fancy-carousel-image", src: item, style: { width: `${peripheralImageRadius * 2}px`, height: `${peripheralImageRadius * 2}px`, transition: `${transitionTime}` } })))),
                 React.createElement("div", { className: "fancy-carousel-element central-img", key: noOfImages, style: {
                         transform: `rotate(${carousel.elementOrientation}deg)`, width: `${centralImageRadius * 2}px`, height: `${centralImageRadius * 2}px`,
                         left: `${carouselRadius - centralImageRadius - 10}px`, bottom: `${carouselRadius - centralImageRadius - 10}px`,
-                        boxShadow: `${centralImageBoxShadow}`,
+                        
                         transition: `${transitionTime}`
                     } },
                     React.createElement("img", { className: "fancy-carousel-central-image", src: images[carousel.focusElement], style: { width: `${centralImageRadius * 2}px`, height: `${centralImageRadius * 2}px`, transition: `${transitionTime}` } })))),
@@ -86,7 +84,7 @@ export const FancyCarousel = ({ images, setFocusElement = () => { }, offsetAngle
                     backgroundColor: `#${navigationButtonBgColor}`, color: `#${navigationButtonColor}`,
                     fontSize: `${navigationTextSize}rem`
                 }, navigationButtonStyling) }, "\u2193"),
-            React.createElement("button", { className: "fancy-carousel-navigation-button", onClick: rotateRight, style: Object.assign({
+            React.createElement("button", { className: "fancy-carousel-navigation-button", onClick: rotateLeft, style: Object.assign({
                     width: `${navigationButtonRadius * 2}px`, height: `${navigationButtonRadius * 2}px`,
                     backgroundColor: `#${navigationButtonBgColor}`, color: `#${navigationButtonColor}`,
                     fontSize: `${navigationTextSize}rem`
@@ -100,10 +98,17 @@ export const FancyCarousel = ({ images, setFocusElement = () => { }, offsetAngle
 
 
 export default function HeroCircle() {
-    const images = ["/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero1.00236b01.png&w=1920&q=75", "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem1.297026b0.png&w=1920&q=75", "", "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem1.6a4b7184.png&w=1920&q=75"];
+    const images = ["/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero1.00236b01.png&w=1920&q=75", "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem1.297026b0.png&w=1920&q=75", "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem1.6a4b7184.png&w=1920&q=75", "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem1.e1fca5d6.png&w=1920&q=75"];
     return(
-        <div className="carousel">
-    <FancyCarousel images={images} />
+        <div className="carousel absolute !top-20 -right-60 z-50">
+    <FancyCarousel 
+    images={images}
+    autoRotateTime={3}
+    centralImageRadius={0}
+    border={false}
+    focusElementStyling={{scale: '3.5'}}
+    carouselRadius={320}
+    />
   </div>
     )
 }
