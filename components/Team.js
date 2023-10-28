@@ -1,5 +1,7 @@
 import Image from "next/image";
 import DummyImg from "../img/dummy.png";
+import CEOImg from "../img/Team/Jordan Frye.png";
+import MDirectorImg from "../img/Team/Marissa FallenBaum.png";
 
 export default function Team() {
   return (
@@ -11,12 +13,12 @@ export default function Team() {
           </h1>
           <div className="grid grid-cols-4 mt-10 pb-16">
             <div className="card">
-              <Image src={DummyImg} alt="" srcset="" />
+              <Image src={CEOImg} alt="" srcset="" />
               <div className="content">
                 <p className="title">
-                  Sayan Das
+                  Jordan Frye
                   <br />
-                  <span>Creative Designer</span>
+                  <span>CEO, co-owner</span>
                   <br />
                   <span className="lowercase">abcd@gmail.com</span>
                 </p>
@@ -33,12 +35,14 @@ export default function Team() {
               </div>
             </div>
             <div className="card">
-              <Image src={DummyImg} alt="" srcset="" />
+              <Image src={MDirectorImg} alt="" srcset="" />
               <div className="content">
                 <p className="title">
-                  Sayan Das
+                  Marissa FallenBaum
                   <br />
-                  <span>Creative Designer</span>
+                  <span>Sales & Marketing Director</span>
+                  <br />
+                  <span className="lowercase">abcd@gmail.com</span>
                 </p>
               </div>
             </div>
