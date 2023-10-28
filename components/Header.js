@@ -3,9 +3,12 @@ import Image from "next/legacy/image";
 import Logo1 from "../img/Logo1.png";
 import Logo2 from "../img/Logo2.png";
 import React, {useState, useEffect} from "react";
+import ReactDOM from "react-dom";
+
+
 
 export default function Header() {
-  const [position, setPosition] = useState(window.pageYOffset)
+  const [position, setPosition] = useState()
     const [visible, setVisible] = useState(true) 
     useEffect(()=> {
         const handleScroll = () => {
