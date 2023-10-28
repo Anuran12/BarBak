@@ -2,7 +2,8 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/legacy/image";
 import HeroBg from "../../img/hero_bg.png";
-import HeroImg1 from "../../img/Commercial Cleaning/Item1.png";
+import WaterImg from "../../img/water.png";
+import HeroImg1 from "../../img/CommercialCleaning/Item1.png";
 
 export default function CommercialCleaning() {
   return (
@@ -47,23 +48,28 @@ export default function CommercialCleaning() {
       </div>
 
       {/* Hero Section */}
+      <div className=" absolute h-[600px] w-full flex">
+        <Image src={WaterImg} width={600} height={500} className=" !mb-48" />
+        <div className="h-2 w-1/4"></div>
+        <Image src={WaterImg} width={600} height={500} className="!mt-48 "/>
 
-      <div className=" w-full text-center px-[300px] pt-28">
-        <h1 className="text-[#F7BC06] text-[48px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
-          Our Story
-        </h1>
-        <p className="text-black pt-10 text-[20px]">
-          Since 2019, our mission has remained the same—Save you time supplying
-          everything your Buisness needs and provide unparalleled service. It
-          was only natural for us to expand into the commercial commercial
-          cleaning market. From the smallest and easiest job to the most
-          strenuous, we make sure that we&#39;re not finished until the
-          satisfaction of our customers is met.We aim to finish each project in
-          a timely-manner and with the highest level of quality. With a focus on
-          personalized service, competitive rates and customer satisfaction,
-          we&#39;re always striving to meet and exceed industry expectations.
-        </p>
       </div>
+          <div className=" w-full text-center px-[300px] pt-28">
+            <h1 className="text-[#F7BC06] text-[48px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+              Our Story
+            </h1>
+            <p className="text-black pt-10 text-[20px]">
+              Since 2019, our mission has remained the same—Save you time supplying
+              everything your Buisness needs and provide unparalleled service. It
+              was only natural for us to expand into the commercial commercial
+              cleaning market. From the smallest and easiest job to the most
+              strenuous, we make sure that we&#39;re not finished until the
+              satisfaction of our customers is met.We aim to finish each project in
+              a timely-manner and with the highest level of quality. With a focus on
+              personalized service, competitive rates and customer satisfaction,
+              we&#39;re always striving to meet and exceed industry expectations.
+            </p>
+          </div>
 
       <div className=" flex flex-col justify-center items-center px-[120px] mt-20">
         <h1 className="text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">

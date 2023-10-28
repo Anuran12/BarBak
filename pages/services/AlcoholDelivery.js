@@ -2,7 +2,8 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/legacy/image";
 import HeroBg from "../../img/hero_bg.png";
-import HeroImg1 from "../../img/Alcohol Delivery/Item1.png";
+import HeroImg1 from "../../img/AlcoholDelivery/Item1.png";
+import BottlesImg from "../../img/AlcoholDelivery/3bottles.png";
 
 export default function AlcoholDelivery() {
   return (
@@ -49,10 +50,10 @@ export default function AlcoholDelivery() {
       {/* Hero Section */}
 
       <div className="flex flex-row justify-center items-center px-[120px] ">
-        <div className="w-1/2 drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
-          <Image src={HeroImg1} alt="hero image" className="" />
+        <div className="w-1/2 drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)] -ml-60">
+          <Image src={BottlesImg} alt="hero image" className=" scale-[1.4]" />
         </div>
-        <div className="w-1/2 flex flex-col ml-16">
+        <div className="w-1/2 flex flex-col ml-32">
           <h1 className="text-[40px] text-[#F7BC06] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
             Mixed Beverage
             <br /> Permit Holder?
@@ -68,8 +69,8 @@ export default function AlcoholDelivery() {
       </div>
 
       <div className="w-full flex px-[100px]">
-        <div className="w-1/2">
-          <div className="shadow hover:shadow-2xl p-6 h-[80vh] flex flex-col justify-center items-center group">
+        <div className="w-1/2 flex justify-center items-center">
+          <div className="shadow hover:shadow-2xl p-6 h-fit  flex flex-col justify-center items-center group">
             <h1 className="text-[24px] text-center font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] group-hover:text-[#F7BC06] w-full">
               Cost:
               <div className=" bg-[url('../img/underline.png')] bg-no-repeat bg-center bg-cover h-1 w-0 group-hover:w-full duration-300 ease-in-out"></div>
