@@ -50,7 +50,7 @@ export default function HospitalityCouriers() {
 
       {/* Hero Section */}
       <div className=" flex flex-col justify-center items-center px-[120px] mt-20">
-        <h1 className="text-[40px]">
+        <h1 className="text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
           YOU
           <span className="text-[#F7BC06]"> ASK</span>. WE
           <span className="text-[#F7BC06]"> DELIVER</span>.
@@ -105,7 +105,7 @@ export default function HospitalityCouriers() {
           <Image src={HeroImg2} alt="hero image" />
         </div>
         <div className="w-2/3 flex flex-col ml-16">
-          <h1 className="text-[40px]">
+          <h1 className="text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
             Your
             <span className="text-[#F7BC06]"> Parcel</span>, Our
             <span className="text-[#F7BC06]"> Passion</span>.

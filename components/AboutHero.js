@@ -14,7 +14,9 @@ export default function AboutHero() {
         />
       </div>
       <div className=" w-1/3 pt-28">
-        <h1 className="text-[#F7BC06] text-[48px]">About us</h1>
+        <h1 className="text-[#F7BC06] text-[48px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+          About us
+        </h1>
         <p className="text-white text-[16px]">
           BarBak Hospitality, established in 2019 in Charlotte, NC, has its
           roots firmly planted in wholesale third-party delivery. We&#39;ve

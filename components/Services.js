@@ -1,7 +1,7 @@
 export default function Services() {
   return (
     <div className=" flex flex-col justify-center items-center px-[120px] mt-20">
-      <h1 className="text-[40px]">
+      <h1 className="text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
         It&#39;s time to try our{" "}
         <span className="text-[#F7BC06]">Services</span>
       </h1>
