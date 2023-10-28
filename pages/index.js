@@ -16,7 +16,6 @@ export default function HomePage() {
       <Header />
         <Hero />
         <Stats />
-        <HeroCircle />
         <Services />
         <Specials />
         <Feedback />
