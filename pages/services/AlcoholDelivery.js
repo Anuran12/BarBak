@@ -3,6 +3,10 @@ import Header from "@/components/Header";
 import Image from "next/legacy/image";
 import HeroBg from "../../img/hero_bg.png";
 import HeroImg1 from "../../img/AlcoholDelivery/Item1.png";
+import CourierImg1 from "../../img/AlcoholDelivery/Item5.png";
+import CourierImg2 from "../../img/AlcoholDelivery/Item3.png";
+import CourierImg3 from "../../img/AlcoholDelivery/Item4.png";
+import CourierImg4 from "../../img/AlcoholDelivery/Item7.png";
 
 export default function AlcoholDelivery() {
   return (
@@ -65,6 +69,39 @@ export default function AlcoholDelivery() {
             pickup.
           </p>
         </div>
+      </div>
+
+      <div className="bg-[url('../img/wood.jpg')] bg-no-repeat bg-center bg-cover ] mt-20">
+        <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
+          <div className="bg-[url('../img/patternDown.png')] flex flex-row justify-between bg-no-repeat bg-bottom bg-contain px-[30px]">
+            <div className="w-1/3 flex flex-col justify-evenly">
+              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+                No need to go out, we&#39;ll <br />
+                bring the <span className="text-[#F7BC06]">booze</span> to you.
+              </h1>
+              <Image src={CourierImg1} className=" scale-75" />
+              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+                No <span className="text-[#F7BC06]">Bar</span>, no problem,{" "}
+                <br />
+                we&#39;ll bring the{" "}
+                <span className="text-[#F7BC06]">drinks</span>
+                <br /> to you.
+              </h1>
+            </div>
+            <div className="w-1/3 flex flex-col justify-evenly">
+              <Image src={CourierImg3} className=" scale-75" />
+              <h1 className="text-white text-[28px] mr-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+                You <span className="text-[#F7BC06]">order</span>, we <br />
+                <span className="text-[#F7BC06]"> deliver</span>, you{" "}
+                <span className="text-[#F7BC06]">enjoy</span>.
+              </h1>
+              <Image src={CourierImg4} className=" scale-75" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-full flex justify-center -mt-[1000px]">
+        <Image src={CourierImg2} />
       </div>
 
       <div className="w-full flex px-[100px]">
