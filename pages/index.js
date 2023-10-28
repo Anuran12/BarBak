@@ -10,14 +10,13 @@ import Feedback from "@/components/Feedback";
 import HeroCircle from "@/components/HeroCircle";
 
 
-
 export default function HomePage() {
   return (
     <div>
       <Header />
         <Hero />
-        <HeroCircle />
         <Stats />
+        <HeroCircle />
         <Services />
         <Specials />
         <Feedback />

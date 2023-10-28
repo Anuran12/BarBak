@@ -4,7 +4,7 @@ import UserImg from "../img/user.png";
 export default function Feedback() {
   return (
     <div>
-      <h1 className="text-[40px] text-center mt-[100px]">
+      <h1 className="text-[40px] text-center mt-[100px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
         Discover What Others Say
       </h1>
       <section class="container">
@@ -415,7 +415,7 @@ export default function Feedback() {
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover ]">
         <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
           <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain  px-[120px]">
-            <h1 className="text-white text-center pt-20 text-[40px]">
+            <h1 className="text-white text-center pt-20 text-[40px] font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               Leave your feedback
             </h1>
             <p className="text-white text-center">

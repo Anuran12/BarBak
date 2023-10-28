@@ -22,7 +22,7 @@ export default function FoodDelivery() {
             />
           </div>
           <div className="h-[80vh] flex flex-col justify-center">
-            <h1 className="text-white text-[65px] leading-tight">
+            <h1 className="text-white text-[65px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               A Partner You can Count On <br />
               <span className="text-[#F7BC06]">Transparent</span> Pricing
             </h1>
@@ -47,6 +47,22 @@ export default function FoodDelivery() {
       </div>
 
       {/* Hero Section */}
+      <div className="w-full flex px-[100px]">
+        <div className="w-1/2 h-10"></div>
+        <div className="w-1/2">
+          <div className="bg-[url('../img/NoticeBG.png')]  bg-no-repeat bg-center bg-contain w-full h-[80vh] flex justify-center items-center px-20">
+            <p className="text-black !text-[20px] mt-16">
+              Do you really like pushing that cart at 6:00 AM? Seriously?! Do
+              you really like that rep who keeps changing prices on you? We
+              don&#39;t believe it. We give you hours of your precious life
+              back, with full price transparency, by supplying everything you
+              need to run your business from our fulfillment centers to your
+              shelves and fridges.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div>Wholesale Food Delivery</div>
       <Footer />
     </div>

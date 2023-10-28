@@ -22,7 +22,7 @@ export default function AlcoholDelivery() {
             />
           </div>
           <div className="h-[80vh] flex flex-col justify-center">
-            <h1 className="text-white text-[65px] leading-tight">
+            <h1 className="text-white text-[65px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               Do you hate having <br /> to pickup your
               <span className="text-[#F7BC06]"> liquor</span>?
             </h1>
@@ -47,7 +47,55 @@ export default function AlcoholDelivery() {
       </div>
 
       {/* Hero Section */}
-      <div>Alcohol Delivery</div>
+
+      <div className="flex flex-row justify-center items-center px-[120px] ">
+        <div className="w-1/2 drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <Image src={HeroImg1} alt="hero image" className="" />
+        </div>
+        <div className="w-1/2 flex flex-col ml-16">
+          <h1 className="text-[40px] text-[#F7BC06] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+            Mixed Beverage
+            <br /> Permit Holder?
+          </h1>
+          <p className="text-[20px] w-11/12 mt-6">
+            Our goal is to relieve you of the burden and frustrations of dealing
+            with the state-run ABC. We aim to make ordering liquor as easy as it
+            is to order beer and wine. Either let us log in and make your orders
+            for you, or place your order and let us know when its available for
+            pickup.
+          </p>
+        </div>
+      </div>
+
+      <div className="w-full flex px-[100px]">
+        <div className="w-1/2">
+          <div className="shadow hover:shadow-2xl p-6 h-[80vh] flex flex-col justify-center items-center group">
+            <h1 className="text-[24px] text-center font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] group-hover:text-[#F7BC06] w-full">
+              Cost:
+              <div className=" bg-[url('../img/underline.png')] bg-no-repeat bg-center bg-cover h-1 w-0 group-hover:w-full duration-300 ease-in-out"></div>
+            </h1>
+            <p className="text-[20px] text-center text-[#0a0a0a85] font-[530] mt-2">
+              $35 flat fee for delivery per liquor store $18 for every 5 cases
+              ordered We will invoice you separately for liquor deliveries and
+              can do this per delivery, weekly, or bi-weekly basis. We prefer
+              our clients to be on Fentech for invoicing with us, but
+              traditional methods are available as well.
+            </p>
+          </div>
+        </div>
+        <div className="w-1/2">
+          <div className="bg-[url('../img/NoticeBG.png')]  bg-no-repeat bg-center bg-contain w-full h-[80vh] flex flex-col justify-center items-center px-20">
+            <h1 className="text-[24px] text-center font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] group-hover:text-[#F7BC06] w-full">
+              Important Information:
+            </h1>
+            <p className="text-[20px] text-center text-black font-[530] mt-2">
+              We deliver liquor 6 days a week (Mon-Sat) We are licensed, insured
+              and bonded and there is no contract, we deliver on an as needed
+              basis.
+            </p>
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   );

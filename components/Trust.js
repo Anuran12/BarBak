@@ -1,7 +1,7 @@
 export default function Trust() {
   return (
     <div className=" flex flex-col justify-center items-center px-[120px] mt-20">
-      <h1 className="text-[40px]">
+      <h1 className="text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
         Why you can
         <span className="text-[#F7BC06]"> trust</span> us
       </h1>
