@@ -66,6 +66,36 @@ export default function AlcoholDelivery() {
           </p>
         </div>
       </div>
+
+      <div className="w-full flex px-[100px]">
+        <div className="w-1/2">
+          <div className="shadow hover:shadow-2xl p-6 h-[80vh] flex flex-col justify-center items-center group">
+            <h1 className="text-[24px] text-center font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] group-hover:text-[#F7BC06] w-full">
+              Cost:
+              <div className=" bg-[url('../img/underline.png')] bg-no-repeat bg-center bg-cover h-1 w-0 group-hover:w-full duration-300 ease-in-out"></div>
+            </h1>
+            <p className="text-[20px] text-center text-[#0a0a0a85] font-[530] mt-2">
+              $35 flat fee for delivery per liquor store $18 for every 5 cases
+              ordered We will invoice you separately for liquor deliveries and
+              can do this per delivery, weekly, or bi-weekly basis. We prefer
+              our clients to be on Fentech for invoicing with us, but
+              traditional methods are available as well.
+            </p>
+          </div>
+        </div>
+        <div className="w-1/2">
+          <div className="bg-[url('../img/NoticeBG.png')]  bg-no-repeat bg-center bg-contain w-full h-[80vh] flex justify-center items-center px-20">
+            <p className="text-black !text-[20px] mt-16">
+              Do you really like pushing that cart at 6:00 AM? Seriously?! Do
+              you really like that rep who keeps changing prices on you? We
+              don&#39;t believe it. We give you hours of your precious life
+              back, with full price transparency, by supplying everything you
+              need to run your business from our fulfillment centers to your
+              shelves and fridges.
+            </p>
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   );
