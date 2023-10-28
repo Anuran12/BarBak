@@ -3,7 +3,6 @@ import Image from "next/legacy/image";
 import React, { useState } from "react";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
-import BGImg1 from "../img/BGItem1.png";
 
 export default function Stats() {
   const [counterOn, setCounterOn] = useState(false);
