@@ -2,7 +2,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/legacy/image";
 import HeroBg from "../../img/hero_bg.png";
-import HeroImg1 from "../../img/Alcohol Delivery/Item1.png";
+import HeroImg1 from "../../img/AlcoholDelivery/Item1.png";
 
 export default function AlcoholDelivery() {
   return (
