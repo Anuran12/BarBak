@@ -47,7 +47,25 @@ export default function AlcoholDelivery() {
       </div>
 
       {/* Hero Section */}
-      <div>Alcohol Delivery</div>
+
+      <div className="flex flex-row justify-center items-center px-[120px] ">
+        <div className="w-1/2 drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <Image src={HeroImg1} alt="hero image" className="" />
+        </div>
+        <div className="w-1/2 flex flex-col ml-16">
+          <h1 className="text-[40px] text-[#F7BC06] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+            Mixed Beverage
+            <br /> Permit Holder?
+          </h1>
+          <p className="text-[20px] w-11/12 mt-6">
+            Our goal is to relieve you of the burden and frustrations of dealing
+            with the state-run ABC. We aim to make ordering liquor as easy as it
+            is to order beer and wine. Either let us log in and make your orders
+            for you, or place your order and let us know when its available for
+            pickup.
+          </p>
+        </div>
+      </div>
       <Footer />
     </div>
   );

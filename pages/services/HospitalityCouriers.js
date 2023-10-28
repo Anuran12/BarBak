@@ -100,11 +100,11 @@ export default function HospitalityCouriers() {
           </div>
         </div>
       </div>
-      <div className="flex flex-row px-[120px] mt-[100px]">
-        <div className="w-1/3 drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
-          <Image src={HeroImg2} alt="hero image" />
+      <div className="flex flex-row justify-center items-center px-[120px] ">
+        <div className="w-1/2 drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <Image src={HeroImg2} alt="hero image" className=" scale-75" />
         </div>
-        <div className="w-2/3 flex flex-col ml-16">
+        <div className="w-1/2 flex flex-col ml-16">
           <h1 className="text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
             Your
             <span className="text-[#F7BC06]"> Parcel</span>, Our
@@ -121,7 +121,6 @@ export default function HospitalityCouriers() {
           </p>
         </div>
       </div>
-      <div className="mb-[100px] w-full h-1"></div>
       <Footer />
     </div>
   );

@@ -47,6 +47,7 @@ export default function FoodDelivery() {
       </div>
 
       {/* Hero Section */}
+
       <div>Wholesale Food Delivery</div>
       <Footer />
     </div>
