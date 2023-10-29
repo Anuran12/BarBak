@@ -471,6 +471,12 @@ export default function Feedback() {
           </div>
         </div>
       </div>
+      <div className=" absolute w-[200px] -mt-44 ml-28 rotate-180 h-auto">
+        <Image src={LeafBG} className="" />
+      </div>
+      <div className=" absolute w-[30px] -mt-72 ml-56 h-auto">
+        <Image src={DotBG} className="" />
+      </div>
     </div>
   );
 }
