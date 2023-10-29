@@ -1,5 +1,6 @@
 import Image from "next/legacy/image";
 import HeroBg from "../img/hero_bg.png";
+import DotBG from "../img/BG_Images/dot2.png";
 
 export default function AboutHero() {
   return (
@@ -44,6 +45,12 @@ export default function AboutHero() {
           or supplying goods to the local military base for our service members,
           you&#39;re likely to spot us in action!
         </p>
+      </div>
+      <div className=" absolute right-0 w-[30px] mt-56 mr-64 h-auto">
+        <Image src={DotBG} className="" />
+      </div>
+      <div className=" absolute right-0 w-[20px] mt-40 mr-96 h-auto">
+        <Image src={DotBG} className="" />
       </div>
     </div>
   );
