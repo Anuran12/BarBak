@@ -1,5 +1,8 @@
 import Image from "next/legacy/image";
 import UserImg from "../img/user.png";
+import PepperBG from "../img/BG_Images/pepper.png";
+import LeafBG from "../img/BG_Images/Leaf2.png";
+import DotBG from "../img/BG_Images/dot2.png";
 
 export default function Feedback() {
   return (
@@ -411,6 +414,15 @@ export default function Feedback() {
           </figure>
         </div>
       </section>
+      <div className=" absolute w-[130px] -mt-40 ml-28 h-auto">
+        <Image src={PepperBG} className="" />
+      </div>
+      <div className=" absolute right-0 w-[200px] -mt-4 mr-28 h-auto">
+        <Image src={LeafBG} className="" />
+      </div>
+      <div className=" absolute right-0 w-[30px] mt-56 mr-64 h-auto">
+        <Image src={DotBG} className="" />
+      </div>
 
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover ]">
         <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
