@@ -12,6 +12,7 @@ import PapperBG from "../img/BG_Images/papper.png";
 import LeafBG from "../img/BG_Images/Leaf1.png";
 import BallBG from "../img/BG_Images/ballbg1.png";
 import BGItem from "../img/BG_Images/BGItem1.png";
+import BallBG1 from "../img/BG_Images/ballbg2.png";
 
 export default function HomePage() {
   return (
@@ -32,6 +33,9 @@ export default function HomePage() {
         <Image src={BGItem} className="" />
       </div>
       <Services />
+      <div className=" absolute right-0 w-[60px] mt-2 mr-[700px] h-auto">
+        <Image src={BallBG1} className="" />
+      </div>
       <Specials />
       <Feedback />
       <div className="flex flex-row px-[120px] mt-[100px]">

@@ -2,36 +2,34 @@ import Link from "next/link";
 import Image from "next/legacy/image";
 import Logo1 from "../img/Logo1.png";
 import Logo2 from "../img/Logo2.png";
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
 
-
-
 export default function Header() {
-  const [position, setPosition] = useState()
-    const [visible, setVisible] = useState(true) 
-    useEffect(()=> {
-        const handleScroll = () => {
-           let moving = window.pageYOffset
-           
-           setVisible(position > moving);
-           setPosition(moving)
-        };
-        window.addEventListener("scroll", handleScroll);
-        return(() => {
-           window.removeEventListener("scroll", handleScroll);
-        })
-    })
+  const [position, setPosition] = useState();
+  const [visible, setVisible] = useState(true);
+  useEffect(() => {
+    const handleScroll = () => {
+      let moving = window.pageYOffset;
+
+      setVisible(position > moving);
+      setPosition(moving);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
 
   return (
-    <header className={`bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover z-10 grid grid-cols-8 px-10 text-white justify-center fixed items-center transition-[top] duration-[0.4s] ease-[ease-out] ${visible ? "top-0" : "-top-20"}`}>
+    <header
+      className={`bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover z-10 grid grid-cols-8 px-10 text-white justify-center fixed items-center transition-[top] duration-[0.4s] ease-[ease-out] ${
+        visible ? "top-0" : "-top-20"
+      }`}
+    >
       <Link href={"/"} className="my-5 scale-125 ml-6 flex">
         <Image src={Logo1} alt="logo" />
-        <Image
-          className="!ml-[-10px]"
-          src={Logo2}
-          alt="logo"
-        />
+        <Image className="!ml-[-10px]" src={Logo2} alt="logo" />
       </Link>
       <div className=" flex flex-col ml-16 col-start-2 col-end-7 items-center">
         {/* <a className="text-[12px] text-center w-6/12">1234567890</a> */}
@@ -69,7 +67,7 @@ export default function Header() {
               <li class="">
                 <Link
                   class="whitespace-no-wrap block bg-gray-200 px-4 py-2 hover:bg-[#F7BC06]"
-                  href={'/services/FoodDelivery'}
+                  href={"/services/FoodDelivery"}
                 >
                   Wholesale Food Delivery
                 </Link>
@@ -77,7 +75,7 @@ export default function Header() {
               <li class="">
                 <Link
                   class="whitespace-no-wrap block bg-gray-200 px-4 py-2 hover:bg-[#F7BC06]"
-                  href={'/services/AlcoholDelivery'}
+                  href={"/services/AlcoholDelivery"}
                 >
                   Alcohol Delivery
                 </Link>
@@ -85,7 +83,7 @@ export default function Header() {
               <li class="">
                 <Link
                   class="whitespace-no-wrap block bg-gray-200 px-4 py-2 hover:bg-[#F7BC06]"
-                  href={'/services/HospitalityCouriers'}
+                  href={"/services/HospitalityCouriers"}
                 >
                   Hospitality Couriers
                 </Link>
@@ -93,7 +91,7 @@ export default function Header() {
               <li class="">
                 <Link
                   class="whitespace-no-wrap block bg-gray-200 px-4 py-2 hover:bg-[#F7BC06]"
-                  href={'/services/CommercialCleaning'}
+                  href={"/services/CommercialCleaning"}
                 >
                   Commercial Cleaning
                 </Link>
@@ -138,7 +136,7 @@ export default function Header() {
             />
           </svg>
         </a>
-        <Link href={'/Login'} className="mr-2">
+        <Link href={"/Login"} className="mr-2">
           <svg
             width="31"
             height="30"
