@@ -2,13 +2,16 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import DishImg from "../img/dish.png";
 import Image from "next/legacy/image";
+import Category from "@/components/Category";
 
 export default function Catalog() {
 	return (
         <div>
             <Header />
             <div className="bg-[url('../img/bg_black.jpg')] bg-no-repea flex  bg-center bg-cover">
-                <div className=" w-1/5 h-1"></div>
+                <div className=" w-1/5 h-1 mt-20 ">
+                    <Category />
+                </div>
                 <div className=" w-4/5 mt-24 pr-24">
                     <h1 className=" text-[40px] text-white  mb-10">We recommend</h1>
                     <div className=" grid grid-cols-4 gap-8">
