@@ -4,7 +4,7 @@ import Image from "next/legacy/image";
 import HeroBg from "../img/hero_bg.png";
 import Link from "next/link";
 
-export default function Login() {
+export default function Signup() {
   return (
     <div>
       <Header />
@@ -22,7 +22,7 @@ export default function Login() {
           <div className="w-1/2"></div>
           <div className="w-1/2 flex flex-col justify-center items-center">
             <h1 className=" text-[40px] text-[#F7BC06] font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
-              Welcome Back
+              Welcome
             </h1>
             <div className="w-2/3 !bg-white/20 rounded-3xl flex flex-col justify-center p-10">
               <h1 className="text-[24px] text-[#F7BC06]">Email</h1>
@@ -38,7 +38,7 @@ export default function Login() {
               />
               <p className="text-[#F7BC06] text-end">Forgot Password?</p>
               <button className="mt-10 bg-[#F7BC06] w-full px-6 rounded-full py-2 text-[24px] font-bold">
-                Log In
+                Sign Up
               </button>
               <button className="mt-5 bg-white w-full flex items-center justify-center px-6 rounded-full py-2 text-[24px] font-bold">
                 <svg
@@ -67,13 +67,13 @@ export default function Login() {
                     d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"
                   ></path>
                 </svg>
-                Login With Google
+                Signup With Google
               </button>
             </div>
             <h1 className="text-white mt-6 text-[20px]">
-              Dont have an account?{" "}
-              <Link href={"/Signup"}>
-                <span className="text-[#F7BC06] underline">Sign Up</span>
+              Already have an account?{" "}
+              <Link href={"/Login"}>
+                <span className="text-[#F7BC06] underline">Sign In</span>
               </Link>
             </h1>
           </div>
