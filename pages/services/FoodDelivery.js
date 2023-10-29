@@ -10,6 +10,11 @@ import CourierImg2 from "../../img/FoodDelivery/Item1.png";
 import CourierImg3 from "../../img/FoodDelivery/Item4.png";
 import CourierImg4 from "../../img/FoodDelivery/Item2.png";
 import HeroCircle from "@/components/HeroCircle";
+import BGImg1 from "../../img/BG_Images/tomato.png";
+import BGImg2 from "../../img/BG_Images/tomato1.png";
+import FoodBG1 from "../../img/BG_Images/food1.png";
+import FoodBG2 from "../../img/BG_Images/food2.png";
+import DotBG from "../../img/BG_Images/dot2.png";
 
 export default function FoodDelivery() {
   return (
@@ -52,6 +57,13 @@ export default function FoodDelivery() {
         </div>
       </div>
 
+      <div className=" absolute w-[230px] ml-16 -mt-20 h-auto">
+        <Image src={BGImg1} className="" />
+      </div>
+      <div className=" absolute w-[250px] ml-60 -mt-24 h-auto">
+        <Image src={BGImg2} className="" />
+      </div>
+
       {/* Hero Section */}
       <div className="w-full flex px-[100px]">
         <div className="w-1/2 flex flex-col justify-center items-center">
@@ -70,6 +82,10 @@ export default function FoodDelivery() {
             </p>
           </div>
         </div>
+      </div>
+
+      <div className=" absolute right-0 w-[250px] -mt-8 mr-28 h-auto">
+        <Image src={FoodBG1} className="" />
       </div>
 
       <div className="bg-[url('../img/wood.jpg')] bg-no-repeat bg-center bg-cover ] mt-20">
@@ -103,6 +119,10 @@ export default function FoodDelivery() {
       </div>
       <div className="w-full flex justify-center -mt-[1000px]">
         <Image src={CourierImg2} className="scale-75" />
+      </div>
+
+      <div className=" absolute right-0 w-[250px] -mt-96 mr-28 -rotate-180 h-auto">
+        <Image src={FoodBG2} className="" />
       </div>
 
       <div className=" -mt-48 px-[120px]">
@@ -174,6 +194,12 @@ export default function FoodDelivery() {
             >
               $14
             </a>
+          </div>
+          <div className=" absolute  w-[30px] mt-96 mr-64 h-auto">
+            <Image src={DotBG} className="" />
+          </div>
+          <div className=" absolute  w-[20px] mt-72 -ml-16 h-auto">
+            <Image src={DotBG} className="" />
           </div>
         </div>
         <div></div>
