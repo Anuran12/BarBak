@@ -13,6 +13,7 @@ import LeafBG from "../img/BG_Images/Leaf1.png";
 import BallBG from "../img/BG_Images/ballbg1.png";
 import BGItem from "../img/BG_Images/BGItem1.png";
 import BallBG1 from "../img/BG_Images/ballbg2.png";
+import Fees from "../img/BG_Images/money.png";
 
 export default function HomePage() {
   return (
@@ -44,6 +45,9 @@ export default function HomePage() {
         <Image src={LeafBG} className=" -rotate-90" />
       </div>
       <Feedback />
+      <div className=" absolute right-0 w-[150px] mt-16 mr-20 h-auto">
+        <Image src={Fees} className="" />
+      </div>
       <div className="flex flex-row px-[120px] mt-[100px]">
         <div className="w-1/3">
           <Image src={VagImg} alt="vagitables img" />
