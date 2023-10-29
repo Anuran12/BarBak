@@ -12,6 +12,7 @@ import TeamImg from "../img/Team.png";
 import LeafBG from "../img/BG_Images/Leaf1.png";
 import BGItem1 from "../img/BG_Images/BgItem2.png";
 import BGItem2 from "../img/BG_Images/BgItem3.png";
+import BGItem3 from "../img/BG_Images/knife.png";
 
 export default function About() {
   return (
@@ -51,6 +52,9 @@ export default function About() {
         <Image src={LeafBG} className="" />
       </div>
       <Team />
+      <div className=" absolute w-[250px] ml-28 -mt-8 h-auto">
+        <Image src={BGItem3} className="" />
+      </div>
       <Services />
       <div className=" absolute right-0 w-[130px] mr-28 -mt-2 h-auto">
         <Image src={BGItem1} className="" />
