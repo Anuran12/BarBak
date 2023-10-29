@@ -9,6 +9,9 @@ import LoyaltyImg from "../img/Loyalty.png";
 import SincerityImg from "../img/Sincerity.png";
 import TrustImg from "../img/Trust.png";
 import TeamImg from "../img/Team.png";
+import LeafBG from "../img/BG_Images/Leaf1.png";
+import BGItem1 from "../img/BG_Images/BgItem2.png";
+import BGItem2 from "../img/BG_Images/BgItem3.png";
 
 export default function About() {
   return (
@@ -44,8 +47,17 @@ export default function About() {
           </div>
         </div>
       </div>
+      <div className=" absolute right-0 w-[130px] mt-16 -rotate-90 mr-28 h-auto">
+        <Image src={LeafBG} className="" />
+      </div>
       <Team />
       <Services />
+      <div className=" absolute right-0 w-[130px] mr-28 -mt-2 h-auto">
+        <Image src={BGItem1} className="" />
+      </div>
+      <div className=" absolute right-0 w-[100px] mr-60 -mt-2 h-auto">
+        <Image src={BGItem2} className="" />
+      </div>
       <div className="mb-[100px] w-full h-1"></div>
       <Footer />
     </div>
