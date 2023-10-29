@@ -36,6 +36,7 @@ export default function Login() {
                                 </svg>
                                 Login With Google</button>
                         </div>
+                        <h1 className="text-white mt-6 text-[20px]">Dont have an account? <span className="text-[#F7BC06] underline">Sign Up</span></h1>
                     </div>
                 </div>
 
