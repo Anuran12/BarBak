@@ -105,9 +105,10 @@ export default function HeroCircle() {
     images={images}
     autoRotateTime={3}
     centralImageRadius={0}
-    border={false}
+    border={true}
     focusElementStyling={{scale: '3.5'}}
     carouselRadius={320}
+    borderHexColor={808080}
     />
   </div>
     )
