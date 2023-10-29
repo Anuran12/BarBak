@@ -138,7 +138,7 @@ export default function Header() {
             />
           </svg>
         </a>
-        <a className="mr-2">
+        <Link href={'/Login'} className="mr-2">
           <svg
             width="31"
             height="30"
@@ -177,7 +177,7 @@ export default function Header() {
               </clipPath>
             </defs>
           </svg>
-        </a>
+        </Link>
         <a className="mb-[-5px]">
           <svg
             width="33"
