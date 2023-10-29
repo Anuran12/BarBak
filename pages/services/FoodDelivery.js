@@ -106,7 +106,7 @@ export default function FoodDelivery() {
         <Image src={CourierImg2} className="scale-75" />
       </div>
 
-      <div className=" -mt-56 px-[120px]">
+      <div className=" -mt-48 px-[120px]">
         <h1 className="text-black text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
           Monthly Specials
         </h1>
