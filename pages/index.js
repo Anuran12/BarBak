@@ -37,6 +37,12 @@ export default function HomePage() {
         <Image src={BallBG1} className="" />
       </div>
       <Specials />
+      <div className=" absolute right-0 w-[130px] mr-28 h-auto">
+        <Image src={LeafBG} className=" rotate-180" />
+      </div>
+      <div className=" absolute right-0 w-[70px] mt-16 mr-64 h-auto">
+        <Image src={LeafBG} className=" -rotate-90" />
+      </div>
       <Feedback />
       <div className="flex flex-row px-[120px] mt-[100px]">
         <div className="w-1/3">
