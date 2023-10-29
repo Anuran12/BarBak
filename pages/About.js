@@ -10,8 +10,8 @@ import SincerityImg from "../img/Sincerity.png";
 import TrustImg from "../img/Trust.png";
 import TeamImg from "../img/Team.png";
 import LeafBG from "../img/BG_Images/Leaf1.png";
-import BGItem1 from "../img/BG_Images/BgItem2.png";
-import BGItem2 from "../img/BG_Images/BgItem3.png";
+import BGItem1 from "../img/BG_Images/mushroom1.png";
+import BGItem2 from "../img/BG_Images/mushroom2.png";
 import BGItem3 from "../img/BG_Images/knife.png";
 
 export default function About() {
