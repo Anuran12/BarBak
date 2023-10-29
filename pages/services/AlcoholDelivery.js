@@ -8,6 +8,7 @@ import CourierImg2 from "../../img/AlcoholDelivery/Item3.png";
 import CourierImg3 from "../../img/AlcoholDelivery/Item4.png";
 import CourierImg4 from "../../img/AlcoholDelivery/Item7.png";
 import BottlesImg from "../../img/AlcoholDelivery/3bottles.png";
+import HeroCircle from "@/components/HeroCircle";
 
 export default function AlcoholDelivery() {
   return (
@@ -43,18 +44,18 @@ export default function AlcoholDelivery() {
             </a>
           </div>
         </div>
-        <div className=" absolute right-0 top-[100px] h-[120vh] w-[100vh] overflow-hidden">
-          <div className="h-[90vh] w-[90vh] absolute !top-5 !-right-[30vh] hero_circle"></div>
-          <div className="absolute scale-[.6] rotate-12 !top-[50px] !right-[40px]">
-            <Image src={HeroImg1} alt="hero image" width={708} height={737} />
+        <div className=" absolute right-0 top-0 h-[120vh] w-[100vh] overflow-hidden">
+          <div className="h-[90vh] w-[90vh] absolute !top-28 !-right-[30vh] hero_circle"></div>
+          <div className="absolute !top-[50px] !right-[40px]">
+            <HeroCircle />
           </div>
-        </div>
+      </div>
       </div>
 
       {/* Hero Section */}
 
       <div className="flex flex-row justify-center items-center px-[120px] ">
-        <div className="w-1/2 drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)] -ml-60">
+        <div className="w-1/2 drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)] -ml-60 -mb-3">
           <Image src={BottlesImg} alt="hero image" className=" scale-[1.4]" />
         </div>
         <div className="w-1/2 flex flex-col ml-32">
@@ -72,7 +73,7 @@ export default function AlcoholDelivery() {
         </div>
       </div>
 
-      <div className="bg-[url('../img/wood.jpg')] bg-no-repeat bg-center bg-cover ] mt-20">
+      <div className="bg-[url('../img/wood.jpg')] bg-no-repeat bg-center bg-cover ]">
         <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
           <div className="bg-[url('../img/patternDown.png')] flex flex-row justify-between bg-no-repeat bg-bottom bg-contain px-[30px]">
             <div className="w-1/3 flex flex-col justify-evenly">

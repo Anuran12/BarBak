@@ -8,6 +8,7 @@ import CourierImg1 from "../../img/HospitalityCouriers/Item4.png";
 import CourierImg2 from "../../img/HospitalityCouriers/Item7.png";
 import CourierImg3 from "../../img/HospitalityCouriers/Item6.png";
 import CourierImg4 from "../../img/HospitalityCouriers/Item3.png";
+import HeroCircle from "@/components/HeroCircle";
 
 export default function HospitalityCouriers() {
   return (
@@ -44,11 +45,11 @@ export default function HospitalityCouriers() {
             </a>
           </div>
         </div>
-        <div className=" absolute right-0 top-[100px] h-[120vh] w-[100vh] overflow-hidden">
-          <div className="h-[90vh] w-[90vh] absolute !top-5 !-right-[30vh] hero_circle"></div>
-          <div className="absolute scale-75 rotate-12 !top-[50px] !right-[50px]">
-            <Image src={HeroImg1} alt="hero image" width={708} height={737} />
-          </div>
+        <div className=" absolute right-0 top-0 h-[120vh] w-[100vh] overflow-hidden">
+          <div className="h-[90vh] w-[90vh] absolute !top-28 !-right-[30vh] hero_circle"></div>
+            <div className="absolute !top-[50px] !right-[40px]">
+              <HeroCircle />
+            </div>
         </div>
       </div>
 

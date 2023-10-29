@@ -8,6 +8,7 @@ import CourierImg1 from "../../img/CommercialCleaning/Item6.png";
 import CourierImg2 from "../../img/CommercialCleaning/Item9.png";
 import CourierImg3 from "../../img/CommercialCleaning/Item8.png";
 import CourierImg4 from "../../img/CommercialCleaning/Item7.png";
+import HeroCircle from "@/components/HeroCircle";
 
 export default function CommercialCleaning() {
   return (
@@ -43,12 +44,12 @@ export default function CommercialCleaning() {
             </a>
           </div>
         </div>
-        <div className=" absolute right-0 top-[100px] h-[120vh] w-[100vh] overflow-hidden">
-          <div className="h-[90vh] w-[90vh] absolute !top-5 !-right-[30vh] hero_circle"></div>
-          <div className="absolute scale-[.6] rotate-12 !top-[50px] !right-[40px]">
-            <Image src={HeroImg1} alt="hero image" width={708} height={737} />
-          </div>
-        </div>
+        <div className=" absolute right-0 top-0 h-[120vh] w-[100vh] overflow-hidden">
+          <div className="h-[90vh] w-[90vh] absolute !top-28 !-right-[30vh] hero_circle"></div>
+            <div className="absolute !top-[50px] !right-[40px]">
+              <HeroCircle />
+            </div>
+      </div>
       </div>
 
       {/* Hero Section */}

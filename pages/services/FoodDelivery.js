@@ -9,6 +9,7 @@ import CourierImg1 from "../../img/FoodDelivery/Item3.png";
 import CourierImg2 from "../../img/FoodDelivery/Item1.png";
 import CourierImg3 from "../../img/FoodDelivery/Item4.png";
 import CourierImg4 from "../../img/FoodDelivery/Item2.png";
+import HeroCircle from "@/components/HeroCircle";
 
 export default function FoodDelivery() {
   return (
@@ -44,10 +45,10 @@ export default function FoodDelivery() {
             </a>
           </div>
         </div>
-        <div className=" absolute right-0 top-[100px] h-[120vh] w-[100vh] overflow-hidden">
-          <div className="h-[90vh] w-[90vh] absolute !top-5 !-right-[30vh] hero_circle"></div>
+        <div className=" absolute right-0 top-0 h-[120vh] w-[100vh] overflow-hidden">
+          <div className="h-[90vh] w-[90vh] absolute !top-28 !-right-[30vh] hero_circle"></div>
           <div className="absolute !top-[50px] !right-[40px]">
-            <Image src={HeroImg1} alt="hero image" width={708} height={737} />
+            <HeroCircle />
           </div>
         </div>
       </div>
@@ -101,12 +102,12 @@ export default function FoodDelivery() {
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-center -mt-[1000px] scale-75">
-        <Image src={CourierImg2} />
+      <div className="w-full flex justify-center -mt-[1000px]">
+        <Image src={CourierImg2} className="scale-75" />
       </div>
 
-      <div className=" px-[120px]">
-        <h1 className="text-black pt-20 text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+      <div className=" -mt-56 px-[120px]">
+        <h1 className="text-black text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
           Monthly Specials
         </h1>
         <div className="mt-16 pb-32 grid grid-cols-5 gap-10">
@@ -178,8 +179,6 @@ export default function FoodDelivery() {
         </div>
         <div></div>
       </div>
-
-      <div>Wholesale Food Delivery</div>
       <Footer />
     </div>
   );
