@@ -55,10 +55,26 @@ export default function Signup() {
                 Confirm Password
               </h1>
               <input
-                placeholder="Password*"
+                placeholder="Confirm Password*"
                 type="password"
                 className=" bg-transparent border-b-2 outline-none !focus:outline-none active:border-none p-1 border-[#F7BC06]"
               />
+              <input
+                id="default-checkbox"
+                type="checkbox"
+                value=""
+                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+              />
+              <label
+                for="default-checkbox"
+                class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              >
+                I agree to the{" "}
+                <span className="text-[#F7BC06] underline underline-offset-2">
+                  terms and conditions
+                </span>{" "}
+                and give my consent to receive advertising messages
+              </label>
               <button className="mt-10 bg-[#F7BC06] w-full px-6 rounded-full py-2 text-[24px] font-bold">
                 Sign Up
               </button>
