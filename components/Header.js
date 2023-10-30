@@ -113,7 +113,7 @@ export default function Header() {
         </nav>
       </div>
       <div className="flex gap-3 justify-center items-center col-start-8 mr-6">
-        <a>
+        <a href="tel:9876543210">
           <svg
             width="46"
             height="30"
