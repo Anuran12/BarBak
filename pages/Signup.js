@@ -8,7 +8,7 @@ export default function Signup() {
   return (
     <div>
       <Header />
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover ] h-[100vh]">
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover ] h-[150vh]">
         <div className="absolute !top-[300px] !left-[80px]">
           <Image
             src={HeroBg}
@@ -20,12 +20,27 @@ export default function Signup() {
         </div>
         <div className="flex flex-row w-full h-full justify-center items-center">
           <div className="w-1/2"></div>
-          <div className="w-1/2 flex flex-col justify-center items-center">
+          <div className="w-1/2 flex flex-col justify-center items-center -mb-20">
             <h1 className=" text-[40px] text-[#F7BC06] font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               Welcome
             </h1>
             <div className="w-2/3 !bg-white/20 rounded-3xl flex flex-col justify-center p-10">
-              <h1 className="text-[24px] text-[#F7BC06]">Email</h1>
+              <h1 className="text-[24px] text-[#F7BC06]">Name</h1>
+              <input
+                placeholder="Name*"
+                className=" bg-transparent border-b-2 outline-none !focus:outline-none active:border-none p-1 border-[#F7BC06]"
+              />
+              <h1 className="text-[24px] mt-10 text-[#F7BC06]">Address</h1>
+              <input
+                placeholder="Address*"
+                className=" bg-transparent border-b-2 outline-none !focus:outline-none active:border-none p-1 border-[#F7BC06]"
+              />
+              <h1 className="text-[24px] mt-10 text-[#F7BC06]">Phone</h1>
+              <input
+                placeholder="Phone*"
+                className=" bg-transparent border-b-2 outline-none !focus:outline-none active:border-none p-1 border-[#F7BC06]"
+              />
+              <h1 className="text-[24px] mt-10 text-[#F7BC06]">Email</h1>
               <input
                 placeholder="Email*"
                 className=" bg-transparent border-b-2 outline-none !focus:outline-none active:border-none p-1 border-[#F7BC06]"
@@ -36,7 +51,14 @@ export default function Signup() {
                 type="password"
                 className=" bg-transparent border-b-2 outline-none !focus:outline-none active:border-none p-1 border-[#F7BC06]"
               />
-              <p className="text-[#F7BC06] text-end">Forgot Password?</p>
+              <h1 className="text-[24px] mt-10 text-[#F7BC06]">
+                Confirm Password
+              </h1>
+              <input
+                placeholder="Password*"
+                type="password"
+                className=" bg-transparent border-b-2 outline-none !focus:outline-none active:border-none p-1 border-[#F7BC06]"
+              />
               <button className="mt-10 bg-[#F7BC06] w-full px-6 rounded-full py-2 text-[24px] font-bold">
                 Sign Up
               </button>
