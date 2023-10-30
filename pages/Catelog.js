@@ -14,7 +14,7 @@ export default function Catalog() {
                     <Category />
                 </div>
                 <div className=" w-4/5 mt-24 pr-24">
-                    <div className="flex flex-row justify-between  w-full">
+                    <div className="flex flex-row justify-between items-center w-full">
                         <h1 className=" text-[40px] text-white ">We recommend</h1>
                             <div class="relative  flex items-center w-1/3 h-12 rounded-lg focus-within:shadow-lg bg-black overflow-hidden">
                                 <input
@@ -29,7 +29,7 @@ export default function Catalog() {
                                 </div>
                         </div>
                     </div>
-                    <div className="flex mb-8 w-full justify-between">
+                    <div className="flex mb-8 mt-1 w-full justify-between">
                         <div className="flex">
                             <div className="text-[#f9fafb99] flex items-center gap-3 px-2 rounded-full border border-[#f9fafb99] bg-black">
                                 Depertment
@@ -79,10 +79,10 @@ export default function Catalog() {
                                 </p>
                                 <div className=" w-full flex justify-center h-fit pr-5">
                                     <a
-                                        className="bg-[url('../img/btn_border_white.png')] bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
+                                        className="bg-[url('../img/btn_border_white.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
                                         href={"/"}
                                     >
-                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-48"></div>
+                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
 
                                         $14
                                     </a>
@@ -107,10 +107,10 @@ export default function Catalog() {
                                 </p>
                                 <div className=" w-full flex justify-center h-fit pr-5">
                                     <a
-                                        className="bg-[url('../img/btn_border_white.png')] bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
+                                        className="bg-[url('../img/btn_border_white.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
                                         href={"/"}
                                     >
-                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-48"></div>
+                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
 
                                         $14
                                     </a>
@@ -135,10 +135,10 @@ export default function Catalog() {
                                 </p>
                                 <div className=" w-full flex justify-center h-fit pr-5">
                                     <a
-                                        className="bg-[url('../img/btn_border_white.png')] bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
+                                        className="bg-[url('../img/btn_border_white.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
                                         href={"/"}
                                     >
-                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-48"></div>
+                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
 
                                         $14
                                     </a>
@@ -163,10 +163,10 @@ export default function Catalog() {
                                 </p>
                                 <div className=" w-full flex justify-center h-fit pr-5">
                                     <a
-                                        className="bg-[url('../img/btn_border_white.png')] bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
+                                        className="bg-[url('../img/btn_border_white.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
                                         href={"/"}
                                     >
-                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-48"></div>
+                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
 
                                         $14
                                     </a>
@@ -191,10 +191,10 @@ export default function Catalog() {
                                 </p>
                                 <div className=" w-full flex justify-center h-fit pr-5">
                                     <a
-                                        className="bg-[url('../img/btn_border_white.png')] bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
+                                        className="bg-[url('../img/btn_border_white.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
                                         href={"/"}
                                     >
-                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-48"></div>
+                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
 
                                         $14
                                     </a>
@@ -219,10 +219,10 @@ export default function Catalog() {
                                 </p>
                                 <div className=" w-full flex justify-center h-fit pr-5">
                                     <a
-                                        className="bg-[url('../img/btn_border_white.png')] bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
+                                        className="bg-[url('../img/btn_border_white.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
                                         href={"/"}
                                     >
-                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-48"></div>
+                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
 
                                         $14
                                     </a>
@@ -247,10 +247,10 @@ export default function Catalog() {
                                 </p>
                                 <div className=" w-full flex justify-center h-fit pr-5">
                                     <a
-                                        className="bg-[url('../img/btn_border_white.png')] bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
+                                        className="bg-[url('../img/btn_border_white.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
                                         href={"/"}
                                     >
-                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-48"></div>
+                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
 
                                         $14
                                     </a>
@@ -275,10 +275,38 @@ export default function Catalog() {
                                 </p>
                                 <div className=" w-full flex justify-center h-fit pr-5">
                                     <a
-                                        className="bg-[url('../img/btn_border_white.png')] bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
+                                        className="bg-[url('../img/btn_border_white.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
                                         href={"/"}
                                     >
-                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-48"></div>
+                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
+
+                                        $14
+                                    </a>
+                                </div>
+                            </div>
+                        </Link>
+                        <Link href={'/Item'}>
+                            <div className=" bg-black rounded-2xl group hover:inner-border-2 hover:inner-border-white p-6 pt-1 pr-1">
+                                <div className="w-full flex justify-end">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" className=" fill-[#f9fafb99] hover:fill-white" width="40" height="40" viewBox="0 0 30 30">
+                                        <path d="M15,3C8.373,3,3,8.373,3,15c0,6.627,5.373,12,12,12s12-5.373,12-12C27,8.373,21.627,3,15,3z M21,16h-5v5c0,0.553-0.448,1-1,1s-1-0.447-1-1v-5H9c-0.552,0-1-0.447-1-1s0.448-1,1-1h5V9c0-0.553,0.448-1,1-1s1,0.447,1,1v5h5c0.552,0,1,0.447,1,1S21.552,16,21,16z"></path>
+                                    </svg>
+                                </div>
+                                <div className="pr-5">
+                                    <Image src={DishImg} alt="dish 1" />
+                                </div>
+                                <h1 className=" text-gray-50/60 text-[20px] mb-3 pr-5">
+                                    Test Food 1
+                                </h1>
+                                <p className="text-gray-50/60 text-[14px] mb-2 pr-5">
+                                    1 pc
+                                </p>
+                                <div className=" w-full flex justify-center h-fit pr-5">
+                                    <a
+                                        className="bg-[url('../img/btn_border_white.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
+                                        href={"/"}
+                                    >
+                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
 
                                         $14
                                     </a>

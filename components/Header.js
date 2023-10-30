@@ -36,9 +36,9 @@ export default function Header() {
         <nav className="flex gap-10 text-[14px] justify-center items-center">
           <Link
             className="hover:text-[#F7BC06] ease-in-out duration-300 pointer"
-            href={"/Catalog"}
+            href={"/Catelog"}
           >
-            CATALOG
+            CATELOG
           </Link>
           <Link
             className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer"
