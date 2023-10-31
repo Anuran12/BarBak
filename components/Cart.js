@@ -11,7 +11,7 @@ export default function Cart({cartOpen, setCartOpen}) {
 
     })
     return(
-        <div className={`fixed bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover h-[100vh] w-[400px] flex flex-col justify-between bg-white z-[999999] duration-300 right-${cartOpen ? "0" : "[-400px]"}`}>
+        <div className={`fixed bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover h-[100vh] w-[400px] flex flex-col justify-between bg-white z-[999999] duration-300 ${cartOpen ? "right-0" : "right-[-400px]"}`}>
             <div>
             <div className="flex flex-row justify-between p-5">
                 <h1 className="text-[40px] text-[#F7BC06]">Cart</h1>
