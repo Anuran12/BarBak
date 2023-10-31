@@ -67,16 +67,16 @@ export default function Item() {
                   </div>
                 </div>
                 <select id="countries" class="bg-gray-50 size border overflow-y-scroll border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" onfocus='this.size=3;' onblur='this.size=1;' onchange='this.size=1; this.blur();'>
-                  <option selected><div className=""><span>1</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
-                  <option value="2"><div className=""><span>2</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$71.2</span></div></option>
-                  <option value="3"><div className=""><span>3</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
-                  <option value="4"><div className=""><span>4</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
-                  <option value="5"><div className=""><span>5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
-                  <option value="6"><div className=""><span>6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
-                  <option value="7"><div className=""><span>7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
-                  <option value="8"><div className=""><span>8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
-                  <option value="9"><div className=""><span>9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
-                  <option value="10"><div className=""><span>10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                  <option selected>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
+                  <option value="2">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$71.2</option>
+                  <option value="3">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
+                  <option value="4">4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
+                  <option value="5">5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
+                  <option value="6">6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
+                  <option value="7">7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
+                  <option value="8">8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
+                  <option value="9">9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
+                  <option value="10">10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
                   
                 </select>
               </div>
@@ -92,17 +92,17 @@ export default function Item() {
                     </span>
                   </div>
                 </div>
-                <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                <option selected><div className=""><span>1</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
-                  <option value="2"><div className=""><span>2</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$71.2</span></div></option>
-                  <option value="3"><div className=""><span>3</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
-                  <option value="4"><div className=""><span>4</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
-                  <option value="5"><div className=""><span>5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
-                  <option value="6"><div className=""><span>6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
-                  <option value="7"><div className=""><span>7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
-                  <option value="8"><div className=""><span>8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
-                  <option value="9"><div className=""><span>9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
-                  <option value="10"><div className=""><span>10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                <select id="countries" class="bg-gray-50 size border overflow-y-scroll border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" onfocus='this.size=3;' onblur='this.size=1;' onchange='this.size=1; this.blur();'>
+                  <option selected>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
+                  <option value="2">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$71.2</option>
+                  <option value="3">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
+                  <option value="4">4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
+                  <option value="5">5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
+                  <option value="6">6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
+                  <option value="7">7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
+                  <option value="8">8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
+                  <option value="9">9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
+                  <option value="10">10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
                   
                 </select>
               </div>
