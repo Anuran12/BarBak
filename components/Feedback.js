@@ -3,6 +3,7 @@ import UserImg from "../img/user.png";
 import PepperBG from "../img/BG_Images/pepper.png";
 import LeafBG from "../img/BG_Images/Leaf2.png";
 import DotBG from "../img/BG_Images/dot2.png";
+import ChiefBG from "../img/BG_Images/chief.png";
 
 export default function Feedback() {
   return (
@@ -476,6 +477,9 @@ export default function Feedback() {
       </div>
       <div className=" absolute w-[30px] -mt-72 ml-56 h-auto">
         <Image src={DotBG} className="" />
+      </div>
+      <div className=" absolute w-[200px] -mt-[340px] mr-28 right-0 h-auto">
+        <Image src={ChiefBG} className="" />
       </div>
     </div>
   );
