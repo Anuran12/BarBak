@@ -181,7 +181,7 @@ export default function Item() {
         </div>
       </div>
 
-      {/* <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-slate-50/60 bg-center bg-cover ] -mt-40 px-[120px]">
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-slate-50/60 bg-center bg-cover ] pt-16 px-[120px]">
         
           <h1 className="text-white text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
             We recommend you try it
@@ -264,7 +264,7 @@ export default function Item() {
             </div>
           
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
