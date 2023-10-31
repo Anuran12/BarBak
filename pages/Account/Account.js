@@ -49,7 +49,7 @@ export default function Account() {
                                 </Link>
                                 <Link
                                     className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-4 text-[20px] text-white text-center w-full"
-                                    href={"/"}
+                                    href={"/Account/Referral"}
                                 >
                                     REFERRALS
                                 </Link>
