@@ -12,44 +12,7 @@ export default function Item() {
   return (
     <div>
       <Header />
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover px-[120px]">
-          <div className="flex items-center pt-24">
-          <svg width="30px" height="30px" viewBox="0 0 1024 1024" fill="#fff" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M669.6 849.6c8.8 8 22.4 7.2 30.4-1.6s7.2-22.4-1.6-30.4l-309.6-280c-8-7.2-8-17.6 0-24.8l309.6-270.4c8.8-8 9.6-21.6 2.4-30.4-8-8.8-21.6-9.6-30.4-2.4L360.8 480.8c-27.2 24-28 64-0.8 88.8l309.6 280z" fill="" /></svg>
-            <span className="text-white text-[24px]">Back</span>
-          </div>
-        <div className="flex flex-row w-full">
-          <div className="w-1/2 flex flex-col justify-center items-center">
-              <div className="w-1/2">
-                <Image src={DishImg} />
-              </div>
-              <span className="text-gray-50/60 text-[14px]">Category / Sub Category</span>
-              <h1 className="text-[40px] text-[#F7BC06]">Product Name</h1>
-              <span className="text-gray-50/60 text-[14px]">Brand</span>
-              <div className="text-white w-3/4 mt-6">
-                <h1 className="text-[25px] text-[#F7BC06]">Details</h1>
-                <div className="w-full flex flex-col gap-2">
-                  <div className="w-full flex justify-between flex-row">
-                    <span>Case items</span><span>8/8 ct</span>
-                  </div>
-                  <div className="w-full flex justify-between flex-row">
-                    <span>Case weight</span><span>avg 9.5 lb</span>
-                  </div>
-                  <div className="w-full flex justify-between flex-row">
-                    <span>Case dimensions</span><span>L 19.06" W 14.75" H 3.44"</span>
-                  </div>
-                  <div className="w-full flex justify-between flex-row">
-                    <span>SKU</span><span>124880</span>
-                  </div>
-                  <div className="w-full flex justify-between flex-row">
-                    <span>UPC</span><span>124880</span>
-                  </div>
-                </div>
-              </div>
-              <p className="text-white w-3/4 mt-10">Product information or packaging displayed may not be current or complete. *Actual weight may vary based on seasonality and other factors.</p>
-          </div>
-          
-        </div>
-      </div>
+      
 
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-slate-50/60 bg-center bg-cover ] pt-16 px-[120px]">
         
