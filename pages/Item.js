@@ -66,7 +66,7 @@ export default function Item() {
                     </span>
                   </div>
                 </div>
-                <select id="countries" class="bg-gray-50 size border overflow-y-scroll border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" onfocus='this.size=3;' onblur='this.size=1;' onchange='this.size=1; this.blur();'>
+                <select id="countries" class="bg-gray-50 size border overflow-y-scroll border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                   <option selected>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
                   <option value="2">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$71.2</option>
                   <option value="3">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
@@ -92,7 +92,7 @@ export default function Item() {
                     </span>
                   </div>
                 </div>
-                <select id="countries" class="bg-gray-50 size border overflow-y-scroll border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" onfocus='this.size=3;' onblur='this.size=1;' onchange='this.size=1; this.blur();'>
+                <select id="countries" class="bg-gray-50 size border overflow-y-scroll border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                   <option selected>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
                   <option value="2">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$71.2</option>
                   <option value="3">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
