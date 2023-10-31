@@ -9,7 +9,7 @@ export default function Feedback() {
   return (
     <div>
       <h1 className="text-[40px] text-center mt-[100px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
-        Discover What Others Say
+        <span className="text-[#F7BC06]">Discover</span> What Others Say
       </h1>
       <section class="container">
         <div id="carousel">
@@ -418,7 +418,7 @@ export default function Feedback() {
       <div className=" absolute w-[130px] -mt-40 ml-28 h-auto">
         <Image src={PepperBG} className="" />
       </div>
-      <div className=" absolute right-0 w-[200px] -mt-4 mr-28 h-auto">
+      <div className=" absolute right-0 w-[200px] -mt-8 mr-28 h-auto">
         <Image src={LeafBG} className="" />
       </div>
       <div className=" absolute right-0 w-[30px] mt-56 mr-64 h-auto">
@@ -428,10 +428,10 @@ export default function Feedback() {
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover ]">
         <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
           <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain  px-[120px]">
-            <h1 className="text-white text-center pt-20 text-[40px] font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
-              Leave your feedback
+            <h1 className="text-white text-center pt-10 text-[40px] font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              Leave your <span className="text-[#F7BC06]">feedback</span>
             </h1>
-            <p className="text-white text-center">
+            <p className="text-white  mt-4 mb-4 text-center">
               Your opinion is important to us
             </p>
             <div className="w-full flex justify-center items-center">

@@ -5,10 +5,10 @@ import Services from "@/components/Services";
 import Team from "@/components/Team";
 import Trust from "@/components/Trust";
 import Image from "next/legacy/image";
-import LoyaltyImg from "../img/Loyalty.png";
-import SincerityImg from "../img/Sincerity.png";
-import TrustImg from "../img/Trust.png";
-import TeamImg from "../img/Team.png";
+import LoyaltyImg from "../img/loyalty1.png";
+import SincerityImg from "../img/Sincerity1.png";
+import TrustImg from "../img/Trust1.png";
+import TeamImg from "../img/Team1.png";
 import LeafBG from "../img/BG_Images/Leaf1.png";
 import BGItem1 from "../img/BG_Images/mushroom1.png";
 import BGItem2 from "../img/BG_Images/mushroom2.png";
@@ -30,19 +30,19 @@ export default function About() {
           our employees to take care of our customers
         </p>
         <div className="flex flex-row justify-between mt-16">
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col mt-12 justify-between">
             <Image src={LoyaltyImg} />
             <p className=" text-center mt-3">Loyalty</p>
           </div>
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-between">
             <Image src={SincerityImg} />
             <p className=" text-center mt-3">Sincerity</p>
           </div>
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-between">
             <Image src={TrustImg} />
             <p className=" text-center mt-3">Trust</p>
           </div>
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col mt-12 justify-between">
             <Image src={TeamImg} />
             <p className=" text-center mt-3">Team</p>
           </div>
