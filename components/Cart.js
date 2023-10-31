@@ -11,7 +11,8 @@ export default function Cart({cartOpen, setCartOpen}) {
 
     })
     return(
-        <div className={`fixed bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover h-[100vh] w-[400px] bg-white z-[999999] duration-300 right-${cartOpen ? "0" : "[-400px]"}`}>
+        <div className={`fixed bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover h-[100vh] w-[400px] flex flex-col justify-between bg-white z-[999999] duration-300 right-${cartOpen ? "0" : "[-400px]"}`}>
+            <div>
             <div className="flex flex-row justify-between p-5">
                 <h1 className="text-[40px] text-[#F7BC06]">Cart</h1>
                 <button onClick={HandleCloseBtn}>
@@ -25,20 +26,85 @@ export default function Cart({cartOpen, setCartOpen}) {
                 <span>Available Tomorrow</span>
                 <span>1 item</span>
             </div>
-            <div>
-                <div className="grid grid-cols-4">
-                    <div className="pr-5 start-1">
+            <div className="flex flex-col gap-1">
+                <div className="grid grid-cols-4 m-5 justify-center items-center">
+                    <div className="pr-5 col-start-1">
                         <Image src={DishImg} alt="dish 1" />
                     </div>
-                    <div className="flex flex-col start-4">
-                        <h1 className=" text-gray-50/60 text-[20px] mb-3 pr-5">
+                    <div className="flex flex-col justify-center col-start-2 col-end-4">
+                        <h1 className=" text-gray-50/60 text-[20px] mb-1 pr-5 w-full">
                                     Test Food 1
                         </h1>
-                        <p className="text-gray-50/60 text-[14px] mb-2 pr-5">
-                                    1 pc
+                        <p className="text-gray-50/60 text-[14px] pr-5 ">
+                                    $35.60/case
                         </p>
                     </div>
+                    <div className="flex flex-row justify-end items-center">
+                        <div className="bg-slate-50/20 w-fit flex items-center px-2 rounded-md border-[1px] border-white py-1">
+                            <span className="text-white mr-2">2</span>
+                            <svg fill="#f9fafb99" height="10px" width="10px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 330 330">
+                                <path id="XMLID_102_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                                        c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                                        s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"/>
+                            </svg>
+                        </div>
+                    </div>
                 </div>
+                <div className="grid grid-cols-4 m-5 justify-center items-center">
+                    <div className="pr-5 col-start-1">
+                        <Image src={DishImg} alt="dish 1" />
+                    </div>
+                    <div className="flex flex-col justify-center col-start-2 col-end-4">
+                        <h1 className=" text-gray-50/60 text-[20px] mb-1 pr-5 w-full">
+                                    Test Food 1
+                        </h1>
+                        <p className="text-gray-50/60 text-[14px] pr-5 ">
+                                    $35.60/case
+                        </p>
+                    </div>
+                    <div className="flex flex-row justify-end items-center">
+                        <div className="bg-slate-50/20 w-fit flex items-center px-2 rounded-md border-[1px] border-white py-1">
+                            <span className="text-white mr-2">2</span>
+                            <svg fill="#f9fafb99" height="10px" width="10px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 330 330">
+                                <path id="XMLID_102_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                                        c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                                        s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div className="grid grid-cols-4 m-5 justify-center items-center">
+                    <div className="pr-5 col-start-1">
+                        <Image src={DishImg} alt="dish 1" />
+                    </div>
+                    <div className="flex flex-col justify-center col-start-2 col-end-4">
+                        <h1 className=" text-gray-50/60 text-[20px] mb-1 pr-5 w-full">
+                                    Test Food 1
+                        </h1>
+                        <p className="text-gray-50/60 text-[14px] pr-5 ">
+                                    $35.60/case
+                        </p>
+                    </div>
+                    <div className="flex flex-row justify-end items-center">
+                        <div className="bg-slate-50/20 w-fit flex items-center px-2 rounded-md border-[1px] border-white py-1">
+                            <span className="text-white mr-2">2</span>
+                            <svg fill="#f9fafb99" height="10px" width="10px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 330 330">
+                                <path id="XMLID_102_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                                        c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                                        s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div className="p-8">
+                <button className=" bg-[#F7BC06] w-full px-6 rounded-full py-2 text-[24px] font-bold">
+                    Add to cart
+                </button>
             </div>
         </div>
     )
