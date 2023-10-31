@@ -5,16 +5,9 @@ import DishImg from "../img/dish.png";
 import { useState } from "react";
 import Link from "next/link";
 
+
 export default function Item() {
-  const [value, setValue] = useState(0);
-
-  const decrement = () => {
-    setValue(value - 1);
-  };
-
-  const increment = () => {
-    setValue(value + 1);
-  };
+  
   
   return (
     <div>
@@ -33,60 +26,88 @@ export default function Item() {
               <h1 className="text-[40px] text-[#F7BC06]">Product Name</h1>
               <span className="text-gray-50/60 text-[14px]">Brand</span>
               <div className="text-white w-3/4 mt-6">
-                <h1 className="text-[25px]">Details</h1>
+                <h1 className="text-[25px] text-[#F7BC06]">Details</h1>
                 <div className="w-full flex flex-col gap-2">
                   <div className="w-full flex justify-between flex-row">
-                    <span>Case items</span><span>25 lb</span><span></span>
+                    <span>Case items</span><span>8/8 ct</span>
                   </div>
                   <div className="w-full flex justify-between flex-row">
-                    <span>Case items</span><span>25 lb</span><span></span>
+                    <span>Case weight</span><span>avg 9.5 lb</span>
                   </div>
                   <div className="w-full flex justify-between flex-row">
-                    <span>Case items</span><span>25 lb</span><span></span>
+                    <span>Case dimensions</span><span>L 19.06" W 14.75" H 3.44"</span>
                   </div>
                   <div className="w-full flex justify-between flex-row">
-                    <span>Case items</span><span>25 lb</span><span></span>
+                    <span>SKU</span><span>124880</span>
+                  </div>
+                  <div className="w-full flex justify-between flex-row">
+                    <span>UPC</span><span>124880</span>
                   </div>
                 </div>
               </div>
+              <p className="text-white w-3/4 mt-10">Product information or packaging displayed may not be current or complete. *Actual weight may vary based on seasonality and other factors.</p>
           </div>
           <div className="w-1/2 flex flex-col">
 
-            <div className="mt-10 w-4/5 flex flex-row justify-between items-center">
+            <div className="mt-10 w-[90%] flex flex-row justify-between gap-4 items-center">
               <div className="flex w-fit bg-[#F7BC06] rounded-full py-2 px-6 flex-row items-center">
                 <h1 className="text-[40px] font-bold">$14</h1>
-                <span className="bg-gray-300 px-2 h-5 rounded-full ml-2">
-                $0.52/lb
-                </span>
+                
               </div>
-              <div className="custom-number-input w-32 -mt-5">
-                <label htmlFor="custom-input-number" className="w-full text-[#F7BC06] text-sm font-semibold">
-                  Case
-                </label>
-                <div className="flex flex-row h-10 w-full rounded-lg relative bg-transparent mt-1">
-                  <button
-                    data-action="decrement"
-                    onClick={decrement}
-                    className="bg-[#F7BC06] text-gray-600 hover:text-gray-700 hover:bg-gray-400 h-full w-20 rounded-l cursor-pointer outline-none"
-                  >
-                    <span className="m-auto text-2xl font-thin">−</span>
-                  </button>
-                  <input
-                    type="number"
-                    className="focus:outline-none text-center w-full bg-[#F7BC06] font-semibold text-md hover:text-black focus:text-black md:text-base cursor-default flex items-center text-gray-700 outline-none"
-                    name="custom-input-number"
-                    value={value}
-                    onChange={(e) => setValue(e.target.value)}
-                  />
-                  <button
-                    data-action="increment"
-                    onClick={increment}
-                    className="bg-[#F7BC06] text-gray-600 hover:text-gray-700 hover:bg-gray-400 h-full w-20 rounded-r cursor-pointer"
-                  >
-                    <span className="m-auto text-2xl font-thin">+</span>
-                  </button>
+              <div className="custom-number-input w-full ">
+                <div className="flex flex-row justify-between">
+                  <label for="countries" class="block mb-2 text-sm font-mediu text-white !text-[24px] font-bold">Case</label>
+                  <div>
+                    <span className=" text-[#F7BC06]">
+                      $35.60
+                    </span>
+                    <span className="bg-gray-300 px-2 rounded-full py-[2px] text-[14px] ml-2">
+                    $4.45/lb
+                    </span>
+                  </div>
                 </div>
+                <select id="countries" class="bg-gray-50 size border overflow-y-scroll border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" onfocus='this.size=3;' onblur='this.size=1;' onchange='this.size=1; this.blur();'>
+                  <option selected><div className=""><span>1</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                  <option value="2"><div className=""><span>2</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$71.2</span></div></option>
+                  <option value="3"><div className=""><span>3</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                  <option value="4"><div className=""><span>4</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                  <option value="5"><div className=""><span>5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                  <option value="6"><div className=""><span>6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                  <option value="7"><div className=""><span>7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                  <option value="8"><div className=""><span>8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                  <option value="9"><div className=""><span>9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                  <option value="10"><div className=""><span>10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                  
+                </select>
               </div>
+              <div className="custom-number-input w-full ">
+                <div className="flex flex-row justify-between">
+                  <label for="countries" class="block mb-2 text-sm font-mediu text-white !text-[24px] font-bold">Unit</label>
+                  <div>
+                    <span className=" text-[#F7BC06]">
+                      $5.95
+                    </span>
+                    <span className="bg-gray-300 px-2 rounded-full py-[2px] text-[14px] ml-2">
+                    $5.95/lb
+                    </span>
+                  </div>
+                </div>
+                <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                <option selected><div className=""><span>1</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                  <option value="2"><div className=""><span>2</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$71.2</span></div></option>
+                  <option value="3"><div className=""><span>3</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                  <option value="4"><div className=""><span>4</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                  <option value="5"><div className=""><span>5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                  <option value="6"><div className=""><span>6</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                  <option value="7"><div className=""><span>7</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                  <option value="8"><div className=""><span>8</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                  <option value="9"><div className=""><span>9</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                  <option value="10"><div className=""><span>10</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>$35.60</span></div></option>
+                  
+                </select>
+              </div>
+              
+              
               
             </div>
             <div className="flex flex-row items-center gap-5 mt-6">
@@ -110,7 +131,8 @@ export default function Item() {
                   <span className="text-white text-center">Share</span>
               </div>
             </div>
-            <div className="w-4/5 mt-10 bg-white/20 rounded-3xl p-8 flex flex-col">
+            <p className="text-white">Order today, receive as early as tomorrow</p>
+            <div className="w-[90%] mt-10 bg-white/20 rounded-3xl p-8 flex flex-col">
               <div className="flex flex-row justify-between">
                 <h1 className="text-[#F7BC06] text-[20px]">Related items</h1>
                 <div className="flex flex-row">
