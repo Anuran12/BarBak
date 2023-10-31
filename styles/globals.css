@@ -19,3 +19,9 @@ body {
   -webkit-mask-composite: xor; /*5'*/
           mask-composite: exclude; /*5*/
 }
+
+.counter_btn::-webkit-inner-spin-button,
+  .counter_btn::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
