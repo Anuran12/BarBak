@@ -9,7 +9,7 @@ export default function Tracking() {
         <div>
             <Header />
             <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover pt-28 pb-16 px-[120px]">
-                <div className="flex justify-between">
+                <div className="flex justify-between  mb-16">
                 <div className="flex items-center">
                 <svg width="30px" height="30px" viewBox="0 0 1024 1024" fill="#fff" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M669.6 849.6c8.8 8 22.4 7.2 30.4-1.6s7.2-22.4-1.6-30.4l-309.6-280c-8-7.2-8-17.6 0-24.8l309.6-270.4c8.8-8 9.6-21.6 2.4-30.4-8-8.8-21.6-9.6-30.4-2.4L360.8 480.8c-27.2 24-28 64-0.8 88.8l309.6 280z" fill="" /></svg>
                     <span className="text-white text-[24px]">Back</span>
@@ -54,25 +54,19 @@ export default function Tracking() {
                                     className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-4 text-[20px] text-white text-center w-full"
                                     href={"/Account/Orders"}
                                 >
-                                    ORDERS
+                                    Cancel Order
                                 </Link>
                                 <Link
                                     className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-4 text-[20px] text-white text-center w-full"
                                     href={"/Account/Favourites"}
                                 >
-                                    FAVOURITES
+                                    Download Invoice
                                 </Link>
                                 <Link
                                     className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-4 text-[20px] text-white text-center w-full"
                                     href={"/Account/Referral"}
                                 >
-                                    REFERRALS
-                                </Link>
-                                <Link
-                                    className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-4 text-[20px] text-white text-center w-full"
-                                    href={"/"}
-                                >
-                                    HELP CENTER
+                                    call delivery Pro's 
                                 </Link>
                             </div>
                 </div>
