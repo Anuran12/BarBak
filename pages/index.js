@@ -14,6 +14,9 @@ import BallBG from "../img/BG_Images/ballbg1.png";
 import BGItem from "../img/BG_Images/BGItem1.png";
 import BallBG1 from "../img/BG_Images/ballbg2.png";
 import Fees from "../img/BG_Images/money.png";
+import DotBG from "../img/BG_Images/food6.png";
+import DotBG1 from "../img/BG_Images/food5.png";
+import Fees1 from "../img/BG_Images/Purse.png";
 
 export default function HomePage() {
   return (
@@ -44,8 +47,17 @@ export default function HomePage() {
       <div className=" absolute right-0 w-[70px] mt-16 mr-64 h-auto">
         <Image src={LeafBG} className=" -rotate-90" />
       </div>
+      <div className=" absolute w-[30px] mt-16 ml-64 h-auto">
+        <Image src={DotBG} className="" />
+      </div>
+      <div className=" absolute w-[20px] mt-6 ml-48 h-auto">
+        <Image src={DotBG1} className="" />
+      </div>
+      <div className=" absolute w-[25px] mt-32 ml-40 h-auto">
+        <Image src={DotBG} className="" />
+      </div>
       <Feedback />
-      <div className=" absolute right-0 w-[150px] mt-16 mr-20 h-auto">
+      <div className=" absolute w-[150px] mt-4 ml-[500px] h-auto">
         <Image src={Fees} className="" />
       </div>
       <div className="flex flex-row px-[120px] mt-[100px]">
@@ -66,6 +78,9 @@ export default function HomePage() {
             pricing. Join BarBak today and experience the difference of
             transparent pricing for your Business.
           </p>
+        </div>
+        <div className=" absolute right-0 w-[150px] mt-[270px] mr-20 h-auto">
+          <Image src={Fees1} className="" />
         </div>
       </div>
       <Footer />
