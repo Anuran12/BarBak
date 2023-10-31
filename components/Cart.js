@@ -102,8 +102,8 @@ export default function Cart({cartOpen, setCartOpen}) {
             </div>
             </div>
             <div className="p-8">
-                <button className=" bg-[#F7BC06] w-full px-6 rounded-full py-2 text-[24px] font-bold">
-                    Add to cart
+                <button className=" bg-[#F7BC06] w-full px-6 rounded-full py-2 text-[20px] font-bold">
+                Go to checkout · $348.69
                 </button>
             </div>
         </div>

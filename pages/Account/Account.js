@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/legacy/image";
 import AccountImg from "../../img/account.png"
+import Link from "next/link";
 
 export default function Account() {
     return(
@@ -34,30 +35,30 @@ export default function Account() {
                                 <h1 className="text-[40px] px-20 py-3">loyalty points:-  0</h1>
                             </div>
                             <div className=" grid grid-cols-2 w-3/5 gap-4 mt-10">
-                                <a
+                                <Link
+                                    className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-4 text-[20px] text-white text-center w-full"
+                                    href={"/Account/Orders"}
+                                >
+                                    ORDERS
+                                </Link>
+                                <Link
+                                    className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-4 text-[20px] text-white text-center w-full"
+                                    href={"/Account/Favourites"}
+                                >
+                                    FAVOURITES
+                                </Link>
+                                <Link
+                                    className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-4 text-[20px] text-white text-center w-full"
+                                    href={"/Account/Referral"}
+                                >
+                                    REFERRALS
+                                </Link>
+                                <Link
                                     className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-4 text-[20px] text-white text-center w-full"
                                     href={"/"}
                                 >
-                                    Order Delivery
-                                </a>
-                                <a
-                                    className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-4 text-[20px] text-white text-center w-full"
-                                    href={"/"}
-                                >
-                                    Order Delivery
-                                </a>
-                                <a
-                                    className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-4 text-[20px] text-white text-center w-full"
-                                    href={"/"}
-                                >
-                                    Order Delivery
-                                </a>
-                                <a
-                                    className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-4 text-[20px] text-white text-center w-full"
-                                    href={"/"}
-                                >
-                                    Order Delivery
-                                </a>
+                                    HELP CENTER
+                                </Link>
                             </div>
                         </div>
                     </div>
