@@ -54,58 +54,7 @@ export default function Item() {
                 <h1 className="text-[40px] font-bold">$14</h1>
                 
               </div>
-              <div className="custom-number-input w-full ">
-                <div className="flex flex-row justify-between">
-                  <label for="countries" class="block mb-2 text-sm font-mediu text-white !text-[24px] font-bold">Case</label>
-                  <div>
-                    <span className=" text-[#F7BC06]">
-                      $35.60
-                    </span>
-                    <span className="bg-gray-300 px-2 rounded-full py-[2px] text-[14px] ml-2">
-                    $4.45/lb
-                    </span>
-                  </div>
-                </div>
-                <select id="countries" class="bg-gray-50 size border overflow-y-scroll border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                  <option selected>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
-                  <option value="2">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$71.2</option>
-                  <option value="3">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
-                  <option value="4">4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
-                  <option value="5">5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
-                  <option value="6">6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
-                  <option value="7">7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
-                  <option value="8">8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
-                  <option value="9">9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
-                  <option value="10">10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
-                  
-                </select>
-              </div>
-              <div className="custom-number-input w-full ">
-                <div className="flex flex-row justify-between">
-                  <label for="countries" class="block mb-2 text-sm font-mediu text-white !text-[24px] font-bold">Unit</label>
-                  <div>
-                    <span className=" text-[#F7BC06]">
-                      $5.95
-                    </span>
-                    <span className="bg-gray-300 px-2 rounded-full py-[2px] text-[14px] ml-2">
-                    $5.95/lb
-                    </span>
-                  </div>
-                </div>
-                <select id="countries" class="bg-gray-50 size border overflow-y-scroll border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                  <option selected>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
-                  <option value="2">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$71.2</option>
-                  <option value="3">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
-                  <option value="4">4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
-                  <option value="5">5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
-                  <option value="6">6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
-                  <option value="7">7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
-                  <option value="8">8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
-                  <option value="9">9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
-                  <option value="10">10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60</option>
-                  
-                </select>
-              </div>
+              
               
               
               
