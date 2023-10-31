@@ -158,14 +158,14 @@ export default function Item() {
                                     1 pc
                                 </p>
                                 <div className=" w-full flex justify-center h-fit pr-5">
-                                    <a
+                                    <div
                                         className="bg-[url('../img/btn_border_white.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
                                         href={"/"}
                                     >
                                     <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
 
                                         $14
-                                    </a>
+                                    </div>
                                 </div>
                             </div>
                         </Link>
@@ -186,14 +186,14 @@ export default function Item() {
                                     1 pc
                                 </p>
                                 <div className=" w-full flex justify-center h-fit pr-5">
-                                    <a
+                                    <div
                                         className="bg-[url('../img/btn_border_white.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
                                         href={"/"}
                                     >
                                     <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
 
                                         $14
-                                    </a>
+                                    </div>
                                 </div>
                             </div>
                         </Link>

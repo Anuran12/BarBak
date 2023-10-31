@@ -4,10 +4,16 @@ import Logo1 from "../img/Logo1.png";
 import Logo2 from "../img/Logo2.png";
 import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
+import Cart from "./Cart";
 
 export default function Header() {
   const [position, setPosition] = useState();
   const [visible, setVisible] = useState(true);
+  const [cartOpen, setCartOpen] = useState(false);
+
+  const handleCartButtonClick = (() => {
+    setCartOpen(!cartOpen);
+  })
   useEffect(() => {
     const handleScroll = () => {
       let moving = window.pageYOffset;
@@ -22,7 +28,8 @@ export default function Header() {
   });
 
   return (
-    <header
+    <div>
+      <header
       className={`bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover z-10 grid grid-cols-8 px-10 text-white justify-center fixed items-center transition-[top] duration-[0.4s] ease-[ease-out] ${
         visible ? "top-0" : "-top-20"
       }`}
@@ -176,7 +183,7 @@ export default function Header() {
             </defs>
           </svg>
         </Link>
-        <a className="mb-[-5px]">
+        <button onClick={handleCartButtonClick} className="mb-[-5px]">
           <svg
             width="33"
             height="36"
@@ -209,8 +216,10 @@ export default function Header() {
               </clipPath>
             </defs>
           </svg>
-        </a>
+        </button>
       </div>
     </header>
+    <Cart cartOpen={cartOpen} setCartOpen={setCartOpen}/>
+    </div>
   );
 }
