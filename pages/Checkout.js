@@ -2,10 +2,25 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/legacy/image";
 import DishImg from "../img/dish.png";
+import Link from "next/link";
+import Logo1 from "../img/Logo1.png";
+import Logo2 from "../img/Logo2.png";
 
 export default function checkout() {
     return(
-            <div className="bg-[url('../img/bg_black.jpg')] flex flex-row bg-no-repeat bg-center bg-cover">
+        <div>
+            <div className="bg-[url('../img/bg_black.jpg')] grid grid-cols-2 items-center px-10 fixed w-full bg-no-repeat bg-center bg-cover">
+                <Link href={'/'} className="flex text-white gap-2">
+                <svg width="30px" height="30px" viewBox="0 0 1024 1024" fill="#fff" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M669.6 849.6c8.8 8 22.4 7.2 30.4-1.6s7.2-22.4-1.6-30.4l-309.6-280c-8-7.2-8-17.6 0-24.8l309.6-270.4c8.8-8 9.6-21.6 2.4-30.4-8-8.8-21.6-9.6-30.4-2.4L360.8 480.8c-27.2 24-28 64-0.8 88.8l309.6 280z" fill="" /></svg>
+
+                <h1 className="text-[24px]">Back</h1>
+                </Link>
+                <Link href={"/"} className="my-5  -ml-10 flex">
+                    <Image src={Logo1} alt="logo" />
+                    <Image className="!ml-[-10px]" src={Logo2} alt="logo" />
+                </Link>
+            </div>
+            <div className="bg-[url('../img/bg_black.jpg')] flex pt-20 flex-row bg-no-repeat bg-center bg-cover">
                 <div className="w-[60%] pl-10 flex flex-col gap-40 mb-64">
                     <div className="h-1 p-10 flex flex-row gap-8">
                         <div>
@@ -97,5 +112,7 @@ export default function checkout() {
                     </div>
                 </div>
             </div>
+
+        </div>
     )
 }
