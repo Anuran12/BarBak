@@ -5,10 +5,10 @@ import HeroBg from "../../img/hero_bg.png";
 import HeroImg1 from "../../img/hero/hero1.png";
 import ProcessImg from "../../img/FoodDelivery/Process.png";
 import DishImg from "../../img/dish.png";
-import CourierImg1 from "../../img/FoodDelivery/Item3.png";
-import CourierImg2 from "../../img/FoodDelivery/Item1.png";
-import CourierImg3 from "../../img/FoodDelivery/Item4.png";
-import CourierImg4 from "../../img/FoodDelivery/Item2.png";
+import CourierImg1 from "../../img/FoodDelivery/Item11.png";
+import CourierImg2 from "../../img/FoodDelivery/Item8.png";
+import CourierImg3 from "../../img/FoodDelivery/Item13.png";
+import CourierImg4 from "../../img/FoodDelivery/Item12.png";
 import HeroCircle from "@/components/HeroCircle";
 import BGImg1 from "../../img/BG_Images/tomato.png";
 import BGImg2 from "../../img/BG_Images/tomato1.png";
@@ -92,21 +92,21 @@ export default function FoodDelivery() {
         <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
           <div className="bg-[url('../img/patternDown.png')] flex flex-row justify-between bg-no-repeat bg-bottom bg-contain px-[30px]">
             <div className="w-1/3 flex flex-col justify-evenly">
-              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white text-[28px] ml-28 mt-8 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 Delivering quality
                 <span className="text-[#F7BC06]"> food</span>
                 <br /> to your door.
               </h1>
-              <Image src={CourierImg1} className=" scale-100" />
-              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <Image src={CourierImg1} className=" scale-75" />
+              <h1 className="text-white text-[28px] ml-28 mb-8 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 Save <span className="text-[#F7BC06]">time</span> and{" "}
                 <span className="text-[#F7BC06]">money</span> <br /> with our
                 service.
               </h1>
             </div>
             <div className="w-1/3 flex flex-col justify-evenly">
-              <Image src={CourierImg3} className=" scale-100" />
-              <h1 className="text-white text-[28px] mr-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <Image src={CourierImg3} className=" scale-75" />
+              <h1 className="text-white text-[28px] mr-28 mb-14 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 <span className="text-[#F7BC06]">Fast</span>,{" "}
                 <span className="text-[#F7BC06]">Safe</span>, and
                 <span className="text-[#F7BC06]"> Free</span>
@@ -117,15 +117,15 @@ export default function FoodDelivery() {
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-center -mt-[1000px]">
-        <Image src={CourierImg2} className="scale-75" />
+      <div className="w-full flex justify-center -mt-[600px]">
+        <Image src={CourierImg2} className="" />
       </div>
 
-      <div className=" absolute right-0 w-[250px] -mt-96 mr-28 -rotate-180 h-auto">
+      <div className=" absolute right-0 w-[250px] -mt-10 mr-28 -rotate-180 h-auto">
         <Image src={FoodBG2} className="" />
       </div>
 
-      <div className=" -mt-48 px-[120px]">
+      <div className=" mt-20 px-[120px]">
         <h1 className="text-black text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
           Monthly Specials
         </h1>
