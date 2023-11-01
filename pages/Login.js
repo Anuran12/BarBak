@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/legacy/image";
-import HeroBg from "../img/hero_bg.png";
+import HeroBg from "../img/Login.png";
 import Link from "next/link";
 
 export default function Login() {
@@ -9,14 +9,8 @@ export default function Login() {
     <div>
       <Header />
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover ] h-[100vh]">
-        <div className="absolute !top-[300px] !left-[80px]">
-          <Image
-            src={HeroBg}
-            alt="hero bg"
-            width={700}
-            height={250}
-            style={{ opacity: "0.2" }}
-          />
+        <div className="absolute !top-[80px] !left-[80px]">
+          <Image src={HeroBg} alt="hero bg" width={700} height={700} />
         </div>
         <div className="flex flex-row w-full h-full justify-center items-center">
           <div className="w-1/2"></div>
