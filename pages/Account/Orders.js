@@ -11,7 +11,7 @@ export default function Orders(){
             <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover pt-28 pb-16 px-[120px]">
                 <h1 className="text-[40px] text-[#F7BC06] text-center">My Orders</h1>
                 <div className="flex flex-col gap-4">
-                    <Link className="" href={'/'}>
+                    <Link className="" href={'/Account/Tracking'}>
                         <div href={'/Account/Tracking'} className="grid grid-cols-5 bg-white/20 rounded-t-xl p-2 items-center">
                             <div className="w-full flex justify-center">
                                 <div className="w-1/2">

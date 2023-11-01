@@ -18,21 +18,82 @@ export default function Tracking() {
                                 <h1 className="text-[24px] text-center w-full font-bold">In Progress</h1>
                             </div>
                 </div>
-                <div className=" grid grid-cols-3 justify-center">
-                    <div className="w-full flex flex-col justify-center items-center">
-                        <div className="w-1/2">
+                <div className=" grid grid-cols-3 gap-5 justify-center">
+                    <div className="w-full flex flex-row col-span-2 justify-around p-5 items-center">
+                        <div className="w-1/3">
                             <Image src={DishImg} />
                         </div>
                         <div className="flex flex-col text-white items-center">
                             <h1 className="text-[24px] text-[#F7BC06]">Food Name</h1>
-                            <span>Case: 1</span>
-                            <span>Unit: 1</span>
-                        </div>
-                        <div className="flex w-fit bg-[#F7BC06] rounded-full py-1 px-6 flex-row items-center">
-                            <h1 className="text-[40px] font-bold">$14</h1>
+                            <h1>Order Id: #12345</h1>
+                            <div className="flex gap-4 my-3">
+                                <span>Case: 1</span>
+                                <span>Unit: 1</span>
+                            </div>
+                            <div className="flex w-fit bg-[#F7BC06] text-black rounded-full py-1 px-6 flex-row items-center">
+                                <h1 className="text-[40px] font-bold">$14</h1>
+                            </div>
                         </div>
                     </div>
-                    <div className=" bg-white/20 p-3 rounded-lg flex flex-col justify-between">
+                    
+                    
+                            <div className=" row-span-2">
+                            <section class=" bg-white/20 rounded-xl">
+                                <div class="order-track text-white">
+                                    <div class="order-track-step">
+                                    <div class="order-track-status">
+                                        <span class="order-track-status-dot"></span>
+                                        <span class="order-track-status-line"></span>
+                                    </div>
+                                    <div class="order-track-text">
+                                        <p class="order-track-text-stat">Order Received</p>
+                                        <span class="order-track-text-sub">1st November, 2023</span>
+                                    </div>
+                                    </div>
+                                    <div class="order-track-step">
+                                    <div class="order-track-status">
+                                        <span class="order-track-status-dot"></span>
+                                        <span class="order-track-status-line"></span>
+                                    </div>
+                                    <div class="order-track-text">
+                                        <p class="order-track-text-stat">Order Processed</p>
+                                        <span class="order-track-text-sub">1st November, 2023</span>
+                                    </div>
+                                    </div>
+                                    <div class="order-track-step">
+                                    <div class="order-track-status">
+                                        <span class="order-track-status-dot"></span>
+                                        <span class="order-track-status-line"></span>
+                                    </div>
+                                    <div class="order-track-text">
+                                        <p class="order-track-text-stat">Manufracturing In Progress</p>
+                                        <span class="order-track-text-sub">1st November, 2023</span>
+                                    </div>
+                                    </div>
+                                    <div class="order-track-step">
+                                    <div class="order-track-status">
+                                        <span class="order-track-status-dot"></span>
+                                        <span class="order-track-status-line"></span>
+                                    </div>
+                                    <div class="order-track-text">
+                                        <p class="order-track-text-stat">Order Dispatched</p>
+                                        <span class="order-track-text-sub">1st November, 2023</span>
+                                    </div>
+                                    </div>
+                                    <div class="order-track-step">
+                                    <div class="order-track-status">
+                                        <span class="order-track-status-dot"></span>
+                                        <span class="order-track-status-line"></span>
+                                    </div>
+                                    <div class="order-track-text">
+                                        <p class="order-track-text-stat">Order Deliverd</p>
+                                        <span class="order-track-text-sub">1st November, 2023</span>
+                                    </div>
+                                    </div>
+                                </div>
+                                </section>
+                            </div>
+                            <div className=" bg-white/20 p-3 mt-8 rounded-lg flex flex-col justify-between">
                         <h1 className="text-[24px] text-[#F7BC06] font-semibold">Location</h1>
                         <div className="text-white">
                             <h1 className="text-[18px] font-semibold">Delivering to Restaurant Chungdam</h1>
@@ -70,6 +131,7 @@ export default function Tracking() {
                                 </Link>
                             </div>
                 </div>
+                
 
                 <div>
                     
