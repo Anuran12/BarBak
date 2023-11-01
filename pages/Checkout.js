@@ -6,7 +6,7 @@ import DishImg from "../img/dish.png";
 export default function checkout() {
     return(
             <div className="bg-[url('../img/bg_black.jpg')] flex flex-row bg-no-repeat bg-center bg-cover">
-                <div className="w-[60%] flex flex-col gap-40 mb-64">
+                <div className="w-[60%] pl-10 flex flex-col gap-40 mb-64">
                     <div className="h-1 p-10 flex flex-row gap-8">
                         <div>
                             <h1 className="text-white text-[28px]">Delivery</h1>
