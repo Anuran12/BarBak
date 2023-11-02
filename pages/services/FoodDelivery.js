@@ -6,9 +6,9 @@ import HeroImg1 from "../../img/hero/hero1.png";
 import ProcessImg from "../../img/FoodDelivery/Process.png";
 import DishImg from "../../img/dish.png";
 import CourierImg1 from "../../img/FoodDelivery/Item11.png";
-import CourierImg2 from "../../img/FoodDelivery/Item8.png";
+import CourierImg2 from "../../img/FoodDelivery/Item12.png";
 import CourierImg3 from "../../img/FoodDelivery/Item13.png";
-import CourierImg4 from "../../img/FoodDelivery/Item12.png";
+import CourierImg4 from "../../img/FoodDelivery/Item8.png";
 import HeroCircle from "@/components/HeroCircle";
 import BGImg1 from "../../img/BG_Images/tomato.png";
 import BGImg2 from "../../img/BG_Images/tomato1.png";
@@ -106,26 +106,26 @@ export default function FoodDelivery() {
             </div>
             <div className="w-1/3 flex flex-col justify-evenly">
               <Image src={CourierImg3} className=" scale-75" />
-              <h1 className="text-white text-[28px] mr-28 mb-14 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white text-[28px] mr-28 mt-14 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 <span className="text-[#F7BC06]">Fast</span>,{" "}
                 <span className="text-[#F7BC06]">Safe</span>, and
                 <span className="text-[#F7BC06]"> Free</span>
                 <br /> Delivery
               </h1>
-              <Image src={CourierImg4} className=" scale-100" />
+              <Image src={CourierImg4} className=" scale-50" />
             </div>
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-center -mt-[600px]">
+      <div className="w-full flex justify-center -mt-[700px]">
         <Image src={CourierImg2} className="" />
       </div>
 
-      <div className=" absolute right-0 w-[250px] -mt-10 mr-28 -rotate-180 h-auto">
+      <div className=" absolute right-0 w-[250px] mt-60 mr-28 -rotate-180 h-auto">
         <Image src={FoodBG2} className="" />
       </div>
 
-      <div className=" mt-20 px-[120px]">
+      <div className=" mt-96 px-[120px]">
         <h1 className="text-black text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
           Monthly Specials
         </h1>
