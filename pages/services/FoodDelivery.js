@@ -88,17 +88,17 @@ export default function FoodDelivery() {
         <Image src={FoodBG1} className="" />
       </div>
 
-      <div className="bg-[url('../img/wood.jpg')] bg-no-repeat bg-center bg-cover ] mt-20">
+      <div className="bg-[url('../img/wood.jpg')] bg-no-repeat h-[900px] w-auto bg-center bg-cover ] mt-20">
         <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
           <div className="bg-[url('../img/patternDown.png')] flex flex-row justify-between bg-no-repeat bg-bottom bg-contain px-[30px]">
             <div className="w-1/3 flex flex-col justify-evenly">
-              <h1 className="text-white text-[28px] ml-28 mt-8 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 Delivering quality
                 <span className="text-[#F7BC06]"> food</span>
                 <br /> to your door.
               </h1>
               <Image src={CourierImg1} className=" scale-75" />
-              <h1 className="text-white text-[28px] ml-28 mb-8 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white text-[28px] ml-28 mb-32 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 Save <span className="text-[#F7BC06]">time</span> and{" "}
                 <span className="text-[#F7BC06]">money</span> <br /> with our
                 service.
@@ -106,26 +106,26 @@ export default function FoodDelivery() {
             </div>
             <div className="w-1/3 flex flex-col justify-evenly">
               <Image src={CourierImg3} className=" scale-75" />
-              <h1 className="text-white text-[28px] mr-28 mt-14 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white text-[28px] ml-20 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 <span className="text-[#F7BC06]">Fast</span>,{" "}
                 <span className="text-[#F7BC06]">Safe</span>, and
                 <span className="text-[#F7BC06]"> Free</span>
                 <br /> Delivery
               </h1>
-              <Image src={CourierImg4} className=" scale-50" />
+              <Image src={CourierImg4} className="scale-50" />
             </div>
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-center -mt-[700px]">
-        <Image src={CourierImg2} className="" />
+      <div className="w-full flex justify-center -mt-[600px]">
+        <Image src={CourierImg2} className=" " />
       </div>
 
-      <div className=" absolute right-0 w-[250px] mt-60 mr-28 -rotate-180 h-auto">
+      <div className=" absolute right-0 w-[250px] mt-48 mr-28 -rotate-180 h-auto">
         <Image src={FoodBG2} className="" />
       </div>
 
-      <div className=" mt-96 px-[120px]">
+      <div className=" mt-80 px-[120px]">
         <h1 className="text-black text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
           Monthly Specials
         </h1>
