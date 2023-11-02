@@ -9,7 +9,7 @@ export default function Signup() {
     <div>
       <Header />
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover ] h-[150vh]">
-        <div className="absolute !top-[200px] !left-[80px]">
+        <div className="absolute !top-[20px] !left-[80px]">
           <Image src={HeroBg} alt="hero bg" width={800} height={800} />
         </div>
         <div className="flex flex-row w-full h-full justify-center items-center">
