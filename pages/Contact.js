@@ -107,30 +107,65 @@ export default function Contact() {
       </div>
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover flex flex-col justify-center items-center px-[120px] pt-10 pb-16">
         <div className="w-1/2 !bg-white/20 rounded-3xl flex flex-col justify-center p-10">
-          <div className="flex flex-row justify-between mb-8">
-            <input
-              placeholder="Name*"
-              className=" bg-transparent w-1/3 border-2 rounded-lg p-1 border-[#F7BC06]"
-            />
-            <input
-              placeholder="Email*"
-              className=" bg-transparent border-2 w-1/2 rounded-lg p-1 border-[#F7BC06]"
-            />
-          </div>
-          <input
-            placeholder="Subject*"
-            className=" bg-transparent border-2 w-3/4 rounded-lg mb-8 p-1  border-[#F7BC06]"
-          />
-          <textarea
-            placeholder="Message*"
-            type=""
-            className=" bg-transparent border-2 text-start items-start border-[#F7BC06] p-1 h-32 rounded-lg"
-          />
-          <div className="w-full flex justify-center items-center">
-            <button className="mt-5 bg-[#F7BC06] w-fit px-6 rounded-full py-2">
-              SEND
+          <form>
+            <div class="-mx-2 md:items-center md:flex">
+              <div class="flex-1 px-2">
+                <label class="block mb-2 text-sm text-gray-200">
+                  First Name
+                </label>
+                <input
+                  type="text"
+                  placeholder="John "
+                  class="block w-full px-5 py-2.5 mt-2 text-gray-200 placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                />
+              </div>
+
+              <div class="flex-1 px-2 mt-4 md:mt-0">
+                <label class="block mb-2 text-sm text-gray-200">
+                  Last Name
+                </label>
+                <input
+                  type="text"
+                  placeholder="Doe"
+                  class="block w-full px-5 py-2.5 mt-2 text-gray-200 placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                />
+              </div>
+            </div>
+
+            <div class="mt-4">
+              <label class="block mb-2 text-sm text-gray-200">
+                Phone Number
+              </label>
+              <input
+                type="number"
+                placeholder="+1 (000) 000-0000"
+                class="block w-full px-5 py-2.5 mt-2 text-gray-200 placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+              />
+            </div>
+
+            <div class="mt-4">
+              <label class="block mb-2 text-sm text-gray-200">
+                Email address
+              </label>
+              <input
+                type="email"
+                placeholder="johndoe@example.com"
+                class="block w-full px-5 py-2.5 mt-2 text-gray-200 placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+              />
+            </div>
+
+            <div class="w-full mt-4">
+              <label class="block mb-2 text-sm text-gray-200">Message</label>
+              <textarea
+                class="block w-full h-32 px-5 py-2.5 mt-2 text-gray-200 placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg md:h-56 focus:border-[#f7bb06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                placeholder="Message"
+              ></textarea>
+            </div>
+
+            <button class=" px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[rgb(247,188,6)] rounded-lg hover:bg-[#f7bb06e9] focus:outline-none focus:ring focus:ring-[#f7bb06bb] focus:ring-opacity-50">
+              Send message
             </button>
-          </div>
+          </form>
         </div>
         <div class="mt-6 w-80 md:mt-8 flex flex-col justify-center items-center">
           <h3 class="text-white">Follow us</h3>
