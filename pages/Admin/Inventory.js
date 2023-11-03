@@ -2,7 +2,7 @@ import Link from "next/link";
 import Logo1 from "../../img/Logo1.png";
 import Logo2 from "../../img/Logo2.png";
 import Image from "next/legacy/image";
-import Category1 from "../../img/Admin/Category1.png";
+import Category1 from "../../img/Admin/category1.png";
 import DishImg from "../../img/dish.png";
 
 export default function Inventory() {
