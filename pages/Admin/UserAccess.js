@@ -556,7 +556,7 @@ export default function UserAccess() {
                     </div>
                     <div className="w-[90%] bg-white/20 p-5 rounded-lg">
                         <div className="flex justify-between">
-                            <h1 className="text-white text-[30px] mb-5">L0gistics Access</h1>
+                            <h1 className="text-white text-[30px] mb-5">Logistics Access</h1>
                             <div class="relative  flex items-center w-1/3 h-12 rounded-lg focus-within:shadow-lg bg-black overflow-hidden">
                                     <input
                                     class="peer h-full w-full bg-black pl-3 outline-none text-sm text-gray-300 pr-2"
