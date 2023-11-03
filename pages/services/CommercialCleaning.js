@@ -91,7 +91,7 @@ export default function CommercialCleaning() {
             </div>
             <div className="w-1/3 flex flex-col justify-evenly">
               <Image src={CourierImg3} className=" scale-100" />
-              <h1 className="text-white text-[28px] mr-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 <span className="text-[#F7BC06]">Reliable</span>,{" "}
                 <span className="text-[#F7BC06]">Responsible</span>, <br />
                 <span className="text-[#F7BC06]">Remarkably</span> Clean.
