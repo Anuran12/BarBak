@@ -44,7 +44,7 @@ export default function FoodDelivery() {
             </p>
             <a
               className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-8 mt-10 text-white w-fit z-50"
-              href={"/"}
+              href={"/Catalog"}
             >
               BROWSE CATALOG
             </a>
