@@ -37,7 +37,7 @@ export default function AlcoholDelivery() {
               into your kitchen
             </p>
             <a
-              className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-8 mt-10 text-white w-fit"
+              className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-8 mt-10 text-white w-fit z-50"
               href={"/"}
             >
               SCHEDULE BARBAK
@@ -48,7 +48,7 @@ export default function AlcoholDelivery() {
           <div className="absolute !top-[50px] !right-[40px]">
             <HeroCircle />
           </div>
-      </div>
+        </div>
       </div>
 
       {/* Hero Section */}

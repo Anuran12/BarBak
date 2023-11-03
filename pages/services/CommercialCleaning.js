@@ -37,7 +37,7 @@ export default function CommercialCleaning() {
               into your kitchen
             </p>
             <a
-              className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-8 mt-10 text-white w-fit"
+              className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-8 mt-10 text-white w-fit z-50"
               href={"/"}
             >
               SCHEDULE BARBAK
@@ -45,10 +45,10 @@ export default function CommercialCleaning() {
           </div>
         </div>
         <div className=" absolute right-0 top-0 h-[120vh] w-[100vh] overflow-hidden">
-            <div className="absolute !top-[50px] !right-[40px]">
-              <HeroCircle />
-            </div>
-      </div>
+          <div className="absolute !top-[50px] !right-[40px]">
+            <HeroCircle />
+          </div>
+        </div>
       </div>
 
       {/* Hero Section */}
