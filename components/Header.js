@@ -72,10 +72,10 @@ export default function Header() {
                   <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                 </svg>
               </button>
-              <ul class="absolute hidden pt-1 text-black group-hover:block w-40">
+              <ul class="absolute  hidden pt-1 text-black group-hover:block w-40">
                 <li class="">
                   <Link
-                    class="whitespace-no-wrap block backdrop-blur-sm text-gray-200 px-4 py-2 hover:bg-[#F7BC06]"
+                    class="whitespace-no-wrap block bg-[url('../img/bg_black.jpg')] rounded-t-lg text-gray-200 px-4 py-2 hover:text-[#F7BC06]"
                     href={"/services/FoodDelivery"}
                   >
                     Wholesale Food Delivery
@@ -83,7 +83,7 @@ export default function Header() {
                 </li>
                 <li class="">
                   <Link
-                    class="whitespace-no-wrap block backdrop-blur-sm text-gray-200 px-4 py-2 hover:bg-[#F7BC06]"
+                    class="whitespace-no-wrap block bg-[url('../img/bg_black.jpg')] text-gray-200 px-4 py-2 hover:text-[#F7BC06]"
                     href={"/services/AlcoholDelivery"}
                   >
                     Alcohol Delivery
@@ -91,7 +91,7 @@ export default function Header() {
                 </li>
                 <li class="">
                   <Link
-                    class="whitespace-no-wrap block backdrop-blur-sm text-gray-200 px-4 py-2 hover:bg-[#F7BC06]"
+                    class="whitespace-no-wrap block bg-[url('../img/bg_black.jpg')] text-gray-200 px-4 py-2 hover:text-[#F7BC06]"
                     href={"/services/HospitalityCouriers"}
                   >
                     Hospitality Couriers
@@ -99,7 +99,7 @@ export default function Header() {
                 </li>
                 <li class="">
                   <Link
-                    class="whitespace-no-wrap block backdrop-blur-sm text-gray-200 px-4 py-2 hover:bg-[#F7BC06]"
+                    class="whitespace-no-wrap block bg-[url('../img/bg_black.jpg')] rounded-b-lg text-gray-200 px-4 py-2 hover:text-[#F7BC06]"
                     href={"/services/CommercialCleaning"}
                   >
                     Commercial Cleaning
