@@ -14,7 +14,8 @@ export default function Barbakplus() {
   return (
     <div>
       <Header />
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover h-[100vh]">
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover ">
+      <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain">
         <div className="h-[80vh] flex flex-col justify-center items-center">
           <h1 className="text-[#F7BC06] text-[200px] mt-20 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
             BARBAK+
@@ -23,6 +24,7 @@ export default function Barbakplus() {
             Exclusive Membership Benefits
           </p>
         </div>
+      </div>
       </div>
       <div className=" flex flex-col justify-center items-center px-[120px] mt-20">
         <h1 className="text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
@@ -71,19 +73,23 @@ export default function Barbakplus() {
           </div>
         </div>
       </div>
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover text-white flex flex-row justify-center items-center px-[120px] mt-32">
-        <div className="w-1/2">
-          <Image src={CalendarImg} className=" scale-75" />
-        </div>
-        <div className="w-1/2">
-          <h1 className="text-[40px] font-bold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
-            GUARANTEED DELIVERY <br /> DAY OPTIONS
-          </h1>
-          <p className="text-center">
-            ENJOY THE CONVENIENCE OF UP TO 7 DELIVERY DAYS PER WEEK BASED UPON
-            YOUR GEOGRAPHY - ALLOWING YOU TO RESTOCK YOUR INVENTORY MORE
-            FREQUENTLY AND DEPENDABLY.
-          </p>
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover mt-32">
+        <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
+            <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain text-white flex flex-row justify-center items-center  px-[120px]">
+                <div className="w-1/2">
+                <Image src={CalendarImg} className=" scale-75" />
+                </div>
+                <div className="w-1/2">
+                <h1 className="text-[40px] font-bold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+                    GUARANTEED DELIVERY <br /> DAY OPTIONS
+                </h1>
+                <p className="text-center">
+                    ENJOY THE CONVENIENCE OF UP TO 7 DELIVERY DAYS PER WEEK BASED UPON
+                    YOUR GEOGRAPHY - ALLOWING YOU TO RESTOCK YOUR INVENTORY MORE
+                    FREQUENTLY AND DEPENDABLY.
+                </p>
+                </div>
+            </div>
         </div>
       </div>
       <div className=" flex flex-row justify-center items-center px-[120px]">
@@ -100,19 +106,23 @@ export default function Barbakplus() {
           <Image src={ClockImg} className=" scale-75" />
         </div>
       </div>
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover flex text-white flex-row justify-center items-center px-[120px]">
-        <div className="w-1/2">
-          <Image src={DeliveryImg} className=" scale-75" />
-        </div>
-        <div className="w-1/2">
-          <h1 className="text-[40px] font-bold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
-            LOWER DELIVERY MINIMUMS
-          </h1>
-          <p className="text-center">
-            FREE DELIVERY FOR ORDERS OVER $500. THIS ALLOWS YOU TO MANAGE YOUR
-            INVENTORY MORE EFFICIENTLY WITHOUT THE PRESSURE OF MEETING HIGHER
-            MINIMUM THRESHOLDS.{" "}
-          </p>
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover">
+        <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
+            <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain flex text-white flex-row justify-center items-center px-[120px]">
+                <div className="w-1/2">
+                <Image src={DeliveryImg} className=" scale-75" />
+                </div>
+                <div className="w-1/2">
+                <h1 className="text-[40px] font-bold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+                    LOWER DELIVERY MINIMUMS
+                </h1>
+                <p className="text-center">
+                    FREE DELIVERY FOR ORDERS OVER $500. THIS ALLOWS YOU TO MANAGE YOUR
+                    INVENTORY MORE EFFICIENTLY WITHOUT THE PRESSURE OF MEETING HIGHER
+                    MINIMUM THRESHOLDS.{" "}
+                </p>
+                </div> 
+            </div>
         </div>
       </div>
       <div className=" flex flex-row justify-center items-center px-[120px]">
@@ -128,19 +138,23 @@ export default function Barbakplus() {
           <Image src={CuriousImg} className=" scale-75" />
         </div>
       </div>
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover h-[100vh] flex text-white flex-row justify-center items-center px-[120px]">
-        <div className="w-1/2">
-          <Image src={SupportImg} className=" scale-75" />
-        </div>
-        <div className="w-1/2">
-          <h1 className="text-[40px] font-bold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
-            DEDICATED AROUND-THE-CLOCK SERVICE
-          </h1>
-          <p className="text-center">
-            CONTACT YOUR DEDICATED RESTAURANT ADVISOR FOR ANY OF YOUR NEEDS AND
-            ENJOY A 24/7 DEDICATED CHEETAH+ CUSTOMER SERVICE HOTLINE FOR
-            ANYTHING YOU NEED.{" "}
-          </p>
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover">
+        <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
+            <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain flex text-white flex-row justify-center items-center px-[120px]">
+                <div className="w-1/2">
+                <Image src={SupportImg} className=" scale-75" />
+                </div>
+                <div className="w-1/2">
+                <h1 className="text-[40px] font-bold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+                    DEDICATED AROUND-THE-CLOCK SERVICE
+                </h1>
+                <p className="text-center">
+                    CONTACT YOUR DEDICATED RESTAURANT ADVISOR FOR ANY OF YOUR NEEDS AND
+                    ENJOY A 24/7 DEDICATED CHEETAH+ CUSTOMER SERVICE HOTLINE FOR
+                    ANYTHING YOU NEED.{" "}
+                </p>
+                </div>
+            </div>
         </div>
       </div>
       <Footer />
