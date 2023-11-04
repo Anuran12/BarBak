@@ -146,6 +146,20 @@ export default function Barbakplus() {
           </div>
         </div>
       </div>
+
+      <div className="flex flex-col justify-center items-center px-[120px] my-16">
+        <h1 className="text-[30px] font-semibold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+        Join thousands of foodservice operators who get all BarBak+ benefits and single-handedly earn back the membership cost when they restock their inventory with BARBAK.
+        </h1>
+        <a
+            className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-5 mt-5 text-black w-full text-center"
+            href={"/"}
+          >
+            {/* <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-64 absolute -z-10 -mt-4"></div> */}
+            
+            ENROLL IN BARBAK+
+          </a>
+      </div>
       <Footer />
     </div>
   );
