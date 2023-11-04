@@ -19,40 +19,66 @@ export default function Signup() {
               Welcome
             </h1>
             <div className="w-2/3 !bg-white/20 rounded-3xl flex flex-col justify-center p-10">
-              <h1 className="text-[24px] text-[#F7BC06]">Name</h1>
-              <input
-                placeholder="Name*"
-                className=" bg-transparent border-b-2 outline-none !focus:outline-none active:border-none p-1 border-[#F7BC06]"
-              />
-              <h1 className="text-[24px] mt-10 text-[#F7BC06]">Address</h1>
-              <input
-                placeholder="Address*"
-                className=" bg-transparent border-b-2 outline-none !focus:outline-none active:border-none p-1 border-[#F7BC06]"
-              />
-              <h1 className="text-[24px] mt-10 text-[#F7BC06]">Phone</h1>
-              <input
-                placeholder="Phone*"
-                className=" bg-transparent border-b-2 outline-none !focus:outline-none active:border-none p-1 border-[#F7BC06]"
-              />
-              <h1 className="text-[24px] mt-10 text-[#F7BC06]">Email</h1>
-              <input
-                placeholder="Email*"
-                className=" bg-transparent border-b-2 outline-none !focus:outline-none active:border-none p-1 border-[#F7BC06]"
-              />
-              <h1 className="text-[24px] mt-10 text-[#F7BC06]">Password</h1>
-              <input
-                placeholder="Password*"
-                type="password"
-                className=" bg-transparent border-b-2 outline-none !focus:outline-none active:border-none p-1 border-[#F7BC06]"
-              />
-              <h1 className="text-[24px] mt-10 text-[#F7BC06]">
-                Confirm Password
-              </h1>
-              <input
-                placeholder="Confirm Password*"
-                type="password"
-                className=" bg-transparent border-b-2 outline-none !focus:outline-none active:border-none p-1 border-[#F7BC06]"
-              />
+              <div class="">
+                <label class="block mb-2 text-[24px] text-[#F7BC06]">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  placeholder="Name*"
+                  class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                />
+              </div>
+              <div class="mt-4">
+                <label class="block mb-2 text-[24px] text-[#F7BC06]">
+                  Address
+                </label>
+                <input
+                  type="text"
+                  placeholder="Address*"
+                  class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                />
+              </div>
+              <div class="mt-4">
+                <label class="block mb-2 text-[24px] text-[#F7BC06]">
+                  Mobile Number
+                </label>
+                <input
+                  type="number"
+                  placeholder="Mobile Number*"
+                  class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                />
+              </div>
+              <div class="mt-4">
+                <label class="block mb-2 text-[24px] text-[#F7BC06]">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  placeholder="Email*"
+                  class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                />
+              </div>
+              <div class="mt-4">
+                <label class="block mb-2 text-[24px] text-[#F7BC06]">
+                  Password
+                </label>
+                <input
+                  type="password"
+                  placeholder="Password*"
+                  class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                />
+              </div>
+              <div class="mt-4">
+                <label class="block mb-2 text-[24px] text-[#F7BC06]">
+                  Confirm Password
+                </label>
+                <input
+                  type="password"
+                  placeholder="Confirm Password*"
+                  class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                />
+              </div>
               <div className=" flex flex-row mt-6">
                 <input
                   id="default-checkbox"

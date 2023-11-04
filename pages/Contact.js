@@ -134,7 +134,7 @@ export default function Contact() {
 
             <div class="mt-4">
               <label class="block mb-2 text-sm text-gray-200">
-                Phone Number
+                Mobile Number
               </label>
               <input
                 type="number"
