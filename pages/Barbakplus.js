@@ -9,6 +9,8 @@ import ClockImg from "../img/clock.png";
 import DeliveryImg from "../img/delivery1.png";
 import CuriousImg from "../img/Curious.png";
 import SupportImg from "../img/support.png";
+import CoinBG1 from "../img/coin.png";
+import CoinBG2 from "../img/note.png";
 
 export default function Barbakplus() {
   return (
@@ -32,6 +34,9 @@ export default function Barbakplus() {
           AS A BARBAK+ MEMBER, YOU HAVE THE OPPORTUNITY TO EARN CREDITS BASED ON
           YOUR MONTHLY PURCHASE VOLUME:
         </p>
+        <div className=" absolute left-0 w-[250px] -mt-96 ml-10 h-auto">
+          <Image src={CoinBG2} className=" scale-75" />
+        </div>
         <div className="grid grid-cols-3 gap-5 mt-16">
           <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-between items-center group">
             <h1 className=" font-bold text-[30px] text-center group-hover:text-[#F7BC06] w-full">
@@ -39,9 +44,7 @@ export default function Barbakplus() {
               <div className=" bg-[url('../img/underline.png')] bg-no-repeat bg-center bg-cover h-1 w-0 group-hover:w-full duration-300 ease-in-out"></div>
             </h1>
             <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
-              We give you hours of your precious life back, with full price
-              transparency, by supplying everything you need to run your
-              business from our fulfillment centers to your shelves and fridges.
+              Spend $0 &#8211; $9,999 for 1% credit
             </p>
           </div>
           <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-between items-center group">
@@ -50,10 +53,7 @@ export default function Barbakplus() {
               <div className=" bg-[url('../img/underline.png')] bg-no-repeat bg-center bg-cover h-1 w-0 group-hover:w-full duration-300 ease-in-out"></div>
             </h1>
             <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
-              We provide Alcohol Delivery for all NC Licensed Liqour
-              Establishments at an affordable rate. Simply input your order, or
-              send it for us to place. We will charge you by the case for pickup
-              and delivery.
+              Spend $10,000 &#8211; $19,999 for 2% credit
             </p>
           </div>
           <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-between items-center group">
@@ -62,14 +62,13 @@ export default function Barbakplus() {
               <div className=" bg-[url('../img/underline.png')] bg-no-repeat bg-center bg-cover h-1 w-0 group-hover:w-full duration-300 ease-in-out"></div>
             </h1>
             <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
-              You decide how often you need us! After working in the Hospitality
-              industry for years, we were able to come up with a concept that
-              makes the customer happy. We understand the needs of the
-              restaurant and we can implement a strategy to keep clients
-              satisfied.
+              Spend $20,000+ for 3% credit
             </p>
           </div>
         </div>
+      </div>
+      <div className=" absolute right-0 w-[250px] -mt-20 mr-20 h-auto">
+        <Image src={CoinBG1} className=" scale-[.4]" />
       </div>
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover text-white flex flex-row justify-center items-center px-[120px] mt-32">
         <div className="w-1/2">
