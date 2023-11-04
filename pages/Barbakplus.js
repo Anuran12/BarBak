@@ -1,9 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/legacy/image";
-import HeroBg from "../img/hero_bg.png";
-import HeroImg1 from "../img/hero/hero1.png";
-import Link from "next/link";
 import CalendarImg from "../img/calendar.png";
 import ClockImg from "../img/clock.png";
 import DeliveryImg from "../img/delivery1.png";
@@ -16,14 +13,16 @@ export default function Barbakplus() {
   return (
     <div>
       <Header />
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover h-[100vh]">
-        <div className="h-[80vh] flex flex-col justify-center items-center">
-          <h1 className="text-[#F7BC06] text-[200px] mt-20 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
-            BARBAK+
-          </h1>
-          <p className="text-white text-[24px] mt-8 w-1/2 text-center">
-            Exclusive Membership Benefits
-          </p>
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover ">
+        <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain">
+          <div className="h-[80vh] flex flex-col justify-center items-center">
+            <h1 className="text-[#F7BC06] text-[200px] mt-20 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              BARBAK+
+            </h1>
+            <p className="text-white text-[24px] mt-8 w-1/2 text-center">
+              Exclusive Membership Benefits
+            </p>
+          </div>
         </div>
       </div>
       <div className=" flex flex-col justify-center items-center px-[120px] mt-20">
@@ -67,9 +66,6 @@ export default function Barbakplus() {
           </div>
         </div>
       </div>
-      <div className=" absolute right-0 w-[250px] -mt-20 mr-20 h-auto">
-        <Image src={CoinBG1} className=" scale-[.4]" />
-      </div>
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover text-white flex flex-row justify-center items-center px-[120px] mt-32">
         <div className="w-1/2">
           <Image src={CalendarImg} className=" scale-75" />
@@ -99,19 +95,23 @@ export default function Barbakplus() {
           <Image src={ClockImg} className=" scale-75" />
         </div>
       </div>
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover flex text-white flex-row justify-center items-center px-[120px]">
-        <div className="w-1/2">
-          <Image src={DeliveryImg} className=" scale-75" />
-        </div>
-        <div className="w-1/2">
-          <h1 className="text-[40px] font-bold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
-            LOWER DELIVERY MINIMUMS
-          </h1>
-          <p className="text-center">
-            FREE DELIVERY FOR ORDERS OVER $500. THIS ALLOWS YOU TO MANAGE YOUR
-            INVENTORY MORE EFFICIENTLY WITHOUT THE PRESSURE OF MEETING HIGHER
-            MINIMUM THRESHOLDS.{" "}
-          </p>
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover">
+        <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
+          <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain flex text-white flex-row justify-center items-center px-[120px]">
+            <div className="w-1/2">
+              <Image src={DeliveryImg} className=" scale-75" />
+            </div>
+            <div className="w-1/2">
+              <h1 className="text-[40px] font-bold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+                LOWER DELIVERY MINIMUMS
+              </h1>
+              <p className="text-center">
+                FREE DELIVERY FOR ORDERS OVER $500. THIS ALLOWS YOU TO MANAGE
+                YOUR INVENTORY MORE EFFICIENTLY WITHOUT THE PRESSURE OF MEETING
+                HIGHER MINIMUM THRESHOLDS.{" "}
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div className=" flex flex-row justify-center items-center px-[120px]">
@@ -127,19 +127,23 @@ export default function Barbakplus() {
           <Image src={CuriousImg} className=" scale-75" />
         </div>
       </div>
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover h-[100vh] flex text-white flex-row justify-center items-center px-[120px]">
-        <div className="w-1/2">
-          <Image src={SupportImg} className=" scale-75" />
-        </div>
-        <div className="w-1/2">
-          <h1 className="text-[40px] font-bold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
-            DEDICATED AROUND-THE-CLOCK SERVICE
-          </h1>
-          <p className="text-center">
-            CONTACT YOUR DEDICATED RESTAURANT ADVISOR FOR ANY OF YOUR NEEDS AND
-            ENJOY A 24/7 DEDICATED CHEETAH+ CUSTOMER SERVICE HOTLINE FOR
-            ANYTHING YOU NEED.{" "}
-          </p>
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover">
+        <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
+          <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain flex text-white flex-row justify-center items-center px-[120px]">
+            <div className="w-1/2">
+              <Image src={SupportImg} className=" scale-75" />
+            </div>
+            <div className="w-1/2">
+              <h1 className="text-[40px] font-bold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+                DEDICATED AROUND-THE-CLOCK SERVICE
+              </h1>
+              <p className="text-center">
+                CONTACT YOUR DEDICATED RESTAURANT ADVISOR FOR ANY OF YOUR NEEDS
+                AND ENJOY A 24/7 DEDICATED CHEETAH+ CUSTOMER SERVICE HOTLINE FOR
+                ANYTHING YOU NEED.{" "}
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <Footer />
