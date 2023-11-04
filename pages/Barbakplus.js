@@ -66,6 +66,10 @@ export default function Barbakplus() {
           </div>
         </div>
       </div>
+
+      <div className=" absolute right-0 w-[250px] -mt-20 mr-20 h-auto">
+        <Image src={CoinBG1} className=" scale-50" />
+      </div>
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover text-white flex flex-row justify-center items-center px-[120px] mt-32">
         <div className="w-1/2">
           <Image src={CalendarImg} className=" scale-75" />
