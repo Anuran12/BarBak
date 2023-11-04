@@ -14,7 +14,7 @@ export default function Supplier() {
                     BECOME A SUPPLIER
                     </h1>
                     <p className="text-white text-[24px] mt-8 w-1/2 text-center">
-                    Join our network and become a valued supplier today. Let's build a successful partnership together.
+                    Join our network and become a valued supplier today. Let&sbquo;s build a successful partnership together.
                     </p>
                     </div>
                 </div>
