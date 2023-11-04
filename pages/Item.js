@@ -11,7 +11,7 @@ export default function Item() {
       <Header />
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover px-[120px]">
         <Link href={"/Catalog"}>
-          <div className="flex items-center pt-24 group">
+          <div className=" absolute flex items-center pt-24 group">
             <svg
               width="30px"
               height="30px"
@@ -31,7 +31,7 @@ export default function Item() {
             </span>
           </div>
         </Link>
-        <div className="flex flex-row w-full">
+        <div className="flex flex-row w-full pt-20">
           <div className="w-1/2 flex flex-col justify-center items-center">
             <div className="w-1/2">
               <Image src={DishImg} />
@@ -94,7 +94,7 @@ export default function Item() {
                 </div>
                 <select
                   id="countries"
-                  class="bg-gray-50 size border overflow-y-scroll border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  class="bg-gray-50 size border overflow-y-scroll border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#F7BC06] focus:border-[#F7BC06] block w-full p-2.5"
                 >
                   <option selected>
                     1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60
@@ -145,7 +145,7 @@ export default function Item() {
                 </div>
                 <select
                   id="countries"
-                  class="bg-gray-50 size border overflow-y-scroll border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  class="bg-gray-50 size border overflow-y-scroll border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#F7BC06] focus:border-[#F7BC06] block w-full p-2.5"
                 >
                   <option selected>
                     1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.60
@@ -184,11 +184,11 @@ export default function Item() {
               <button className=" bg-[#F7BC06] w-1/2  px-6 rounded-full py-2 text-[24px] font-bold">
                 Add to cart
               </button>
-              <div className=" flex flex-col justify-center">
-                <div className="bg-gray-200/50 rounded-full p-1">
+              <div className=" flex flex-col justify-center group">
+                <div className="bg-white/20 rounded-full p-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className=" fill-black"
+                    className=" fill-gray-400 group-hover:fill-[#F7BC06]"
                     x="0px"
                     y="0px"
                     width="30"
@@ -198,12 +198,15 @@ export default function Item() {
                     <path d="M23,27l-8-7l-8,7V5c0-1.105,0.895-2,2-2h12c1.105,0,2,0.895,2,2V27z"></path>
                   </svg>
                 </div>
-                <span className="text-white text-center">Save</span>
+                <span className="text-white group-hover:text-[#F7BC06] text-center">
+                  Save
+                </span>
               </div>
-              <div>
-                <div className="bg-gray-200/50 rounded-full p-1">
+              <div className=" flex flex-col justify-center group">
+                <div className="bg-white/20 rounded-full p-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
+                    className=" fill-gray-400 group-hover:fill-[#F7BC06]"
                     x="0px"
                     y="0px"
                     width="30"
@@ -213,7 +216,9 @@ export default function Item() {
                     <path d="M 23 3 A 4 4 0 0 0 19 7 A 4 4 0 0 0 19.09375 7.8359375 L 10.011719 12.376953 A 4 4 0 0 0 7 11 A 4 4 0 0 0 3 15 A 4 4 0 0 0 7 19 A 4 4 0 0 0 10.013672 17.625 L 19.089844 22.164062 A 4 4 0 0 0 19 23 A 4 4 0 0 0 23 27 A 4 4 0 0 0 27 23 A 4 4 0 0 0 23 19 A 4 4 0 0 0 19.986328 20.375 L 10.910156 15.835938 A 4 4 0 0 0 11 15 A 4 4 0 0 0 10.90625 14.166016 L 19.988281 9.625 A 4 4 0 0 0 23 11 A 4 4 0 0 0 27 7 A 4 4 0 0 0 23 3 z"></path>
                   </svg>
                 </div>
-                <span className="text-white text-center">Share</span>
+                <span className="text-white group-hover:text-[#F7BC06] text-center">
+                  Share
+                </span>
               </div>
             </div>
             <p className="text-white">
