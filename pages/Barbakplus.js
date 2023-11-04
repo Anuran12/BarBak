@@ -70,19 +70,23 @@ export default function Barbakplus() {
       <div className=" absolute right-0 w-[250px] -mt-20 mr-20 h-auto">
         <Image src={CoinBG1} className=" scale-50" />
       </div>
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover text-white flex flex-row justify-center items-center px-[120px] mt-32">
-        <div className="w-1/2">
-          <Image src={CalendarImg} className=" scale-75" />
-        </div>
-        <div className="w-1/2">
-          <h1 className="text-[40px] font-bold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
-            GUARANTEED DELIVERY <br /> DAY OPTIONS
-          </h1>
-          <p className="text-center">
-            ENJOY THE CONVENIENCE OF UP TO 7 DELIVERY DAYS PER WEEK BASED UPON
-            YOUR GEOGRAPHY - ALLOWING YOU TO RESTOCK YOUR INVENTORY MORE
-            FREQUENTLY AND DEPENDABLY.
-          </p>
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover text-white flex flex-row justify-center items-center mt-32">
+        <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
+          <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain flex text-white flex-row justify-center items-center px-[120px]">
+            <div className="w-1/2">
+              <Image src={CalendarImg} className=" scale-75" />
+            </div>
+            <div className="w-1/2">
+              <h1 className="text-[40px] font-bold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+                GUARANTEED DELIVERY <br /> DAY OPTIONS
+              </h1>
+              <p className="text-center">
+                ENJOY THE CONVENIENCE OF UP TO 7 DELIVERY DAYS PER WEEK BASED
+                UPON YOUR GEOGRAPHY - ALLOWING YOU TO RESTOCK YOUR INVENTORY
+                MORE FREQUENTLY AND DEPENDABLY.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div className=" flex flex-row justify-center items-center px-[120px]">
@@ -153,16 +157,17 @@ export default function Barbakplus() {
 
       <div className="flex flex-col justify-center items-center px-[120px] my-16">
         <h1 className="text-[30px] font-semibold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
-        Join thousands of foodservice operators who get all BarBak+ benefits and single-handedly earn back the membership cost when they restock their inventory with BARBAK.
+          Join thousands of foodservice operators who get all BarBak+ benefits
+          and single-handedly earn back the membership cost when they restock
+          their inventory with BARBAK.
         </h1>
         <a
-            className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-5 mt-5 text-black w-full text-center"
-            href={"/"}
-          >
-            {/* <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-64 absolute -z-10 -mt-4"></div> */}
-            
-            ENROLL IN BARBAK+
-          </a>
+          className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-5 mt-5 text-black w-full text-center"
+          href={"/"}
+        >
+          {/* <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-64 absolute -z-10 -mt-4"></div> */}
+          ENROLL IN BARBAK+
+        </a>
       </div>
       <Footer />
     </div>
