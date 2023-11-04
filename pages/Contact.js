@@ -2,6 +2,8 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/legacy/image";
 import ContactImg from "../img/contact1.png";
+import Plane1 from "../img/paperplane1.png";
+import Plane2 from "../img/paperplane2.png";
 
 export default function Contact() {
   return (
@@ -106,6 +108,9 @@ export default function Contact() {
         </div>
       </div>
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover flex flex-col justify-center items-center px-[120px] pt-10 pb-16">
+        <div className=" absolute left-0 w-[250px] -mt-96 ml-10 h-auto">
+          <Image src={Plane1} className=" scale-75" />
+        </div>
         <div className="w-1/2 !bg-white/20 rounded-3xl flex flex-col justify-center p-10">
           <form>
             <div class="-mx-2 md:items-center md:flex">
@@ -166,6 +171,9 @@ export default function Contact() {
               Send message
             </button>
           </form>
+        </div>
+        <div className=" absolute right-0 w-[250px] mt-96 mr-10 h-auto">
+          <Image src={Plane2} className=" scale-50" />
         </div>
         <div class="mt-6 w-80 md:mt-8 flex flex-col justify-center items-center">
           <h3 class="text-white">Follow us</h3>
