@@ -38,7 +38,7 @@ export default function HospitalityCouriers() {
               into your kitchen
             </p>
             <a
-              className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-8 mt-10 text-white w-fit"
+              className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-8 mt-10 text-white w-fit z-50"
               href={"/"}
             >
               SCHEDULE BARBAK
@@ -46,9 +46,9 @@ export default function HospitalityCouriers() {
           </div>
         </div>
         <div className=" absolute right-0 top-0 h-[120vh] w-[100vh] overflow-hidden">
-            <div className="absolute !top-[50px] !right-[40px]">
-              <HeroCircle />
-            </div>
+          <div className="absolute !top-[50px] !right-[40px]">
+            <HeroCircle />
+          </div>
         </div>
       </div>
 
@@ -121,7 +121,7 @@ export default function HospitalityCouriers() {
             </div>
             <div className="w-1/3 flex flex-col justify-evenly">
               <Image src={CourierImg3} className=" scale-75" />
-              <h1 className="text-white text-[28px] mr-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 <span className="text-[#F7BC06]">Fast</span>,{" "}
                 <span className="text-[#F7BC06]">Flexible</span>, and <br />
                 Always <span className="text-[#F7BC06]">Friendly</span>

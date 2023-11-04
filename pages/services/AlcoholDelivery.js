@@ -9,6 +9,9 @@ import CourierImg3 from "../../img/AlcoholDelivery/Item4.png";
 import CourierImg4 from "../../img/AlcoholDelivery/Item7.png";
 import BottlesImg from "../../img/AlcoholDelivery/3bottles.png";
 import HeroCircle from "@/components/HeroCircle";
+import AlcoholBG1 from "../../img/AlcoholDelivery/BG3.png";
+import AlcoholBG2 from "../../img/AlcoholDelivery/BG2.png";
+import AlcoholBG3 from "../../img/AlcoholDelivery/BG1.png";
 
 export default function AlcoholDelivery() {
   return (
@@ -37,7 +40,7 @@ export default function AlcoholDelivery() {
               into your kitchen
             </p>
             <a
-              className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-8 mt-10 text-white w-fit"
+              className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-8 mt-10 text-white w-fit z-50"
               href={"/"}
             >
               SCHEDULE BARBAK
@@ -48,7 +51,7 @@ export default function AlcoholDelivery() {
           <div className="absolute !top-[50px] !right-[40px]">
             <HeroCircle />
           </div>
-      </div>
+        </div>
       </div>
 
       {/* Hero Section */}
@@ -72,6 +75,10 @@ export default function AlcoholDelivery() {
         </div>
       </div>
 
+      <div className=" absolute right-0 -rotate-12 -mt-[250px] mr-24">
+        <Image src={AlcoholBG1} className=" scale-75 " />
+      </div>
+
       <div className="bg-[url('../img/wood.jpg')] bg-no-repeat bg-center bg-cover ]">
         <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
           <div className="bg-[url('../img/patternDown.png')] flex flex-row justify-between bg-no-repeat bg-bottom bg-contain px-[30px]">
@@ -91,7 +98,7 @@ export default function AlcoholDelivery() {
             </div>
             <div className="w-1/3 flex flex-col justify-evenly">
               <Image src={CourierImg3} className=" scale-75" />
-              <h1 className="text-white text-[28px] mr-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 You <span className="text-[#F7BC06]">order</span>, we <br />
                 <span className="text-[#F7BC06]"> deliver</span>, you{" "}
                 <span className="text-[#F7BC06]">enjoy</span>.
@@ -105,7 +112,11 @@ export default function AlcoholDelivery() {
         <Image src={CourierImg2} />
       </div>
 
-      <div className="w-full flex px-[100px]">
+      <div className=" absolute w-[250px] ml-28 -mt-28 rotate-[30deg] h-auto">
+        <Image src={AlcoholBG2} className=" scale-50" />
+      </div>
+
+      <div className="w-full flex px-[100px] -mt-16">
         <div className="w-1/2 flex justify-center items-center">
           <div className="shadow hover:shadow-2xl p-6 h-fit  flex flex-col justify-center items-center group">
             <h1 className="text-[24px] text-center font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] group-hover:text-[#F7BC06] w-full">
@@ -133,6 +144,9 @@ export default function AlcoholDelivery() {
             </p>
           </div>
         </div>
+      </div>
+      <div className=" absolute right-0 -mt-44">
+        <Image src={AlcoholBG3} className=" scale-50 " />
       </div>
       <Footer />
     </div>
