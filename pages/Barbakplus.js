@@ -62,7 +62,7 @@ export default function Barbakplus() {
                     </div>
                 </div>
             </div>
-            <div className=" flex flex-row justify-center items-center px-[120px] mt-52">
+            <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover text-white flex flex-row justify-center items-center px-[120px] py-52 mt-32">
                 <div className="w-1/2">
 
                 </div>
@@ -75,7 +75,7 @@ export default function Barbakplus() {
                     </p>
                 </div>
             </div>
-            <div className=" flex flex-row justify-center items-center px-[120px] mt-52">
+            <div className=" flex flex-row justify-center items-center px-[120px] py-52">
                 <div className="w-1/2">
                     <h1 className="text-[40px] font-bold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
                     PRIORITY DELIVERY WINDOWS
@@ -87,7 +87,7 @@ export default function Barbakplus() {
 
                 </div>
             </div>
-            <div className=" flex flex-row justify-center items-center px-[120px] mt-52">
+            <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover flex flex-row justify-center items-center px-[120px] py-52">
                 <div className="w-1/2">
 
                 </div>
@@ -99,7 +99,7 @@ export default function Barbakplus() {
                     FREE DELIVERY FOR ORDERS OVER $500. THIS ALLOWS YOU TO MANAGE YOUR INVENTORY MORE EFFICIENTLY WITHOUT THE PRESSURE OF MEETING HIGHER MINIMUM THRESHOLDS.                    </p>
                 </div>
             </div>
-            <div className=" flex flex-row justify-center items-center px-[120px] mt-52">
+            <div className=" flex flex-row justify-center items-center px-[120px] py-52">
                 <div className="w-1/2">
                     <h1 className="text-[40px] font-bold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
                     EMERGENCY AFTER ORDER CUT-OFF 
@@ -111,7 +111,7 @@ export default function Barbakplus() {
 
                 </div>
             </div>
-            <div className=" flex flex-row justify-center items-center px-[120px] mt-52 mb-52">
+            <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover h-[100vh] flex flex-row justify-center items-center px-[120px] py-52">
                 <div className="w-1/2">
 
                 </div>
