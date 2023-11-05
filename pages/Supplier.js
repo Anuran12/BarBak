@@ -23,7 +23,7 @@ export default function Supplier() {
       <div className=" flex flex-row justify-center items-center px-[120px]">
         <div className="w-1/2">
           <h1 className="text-[40px] font-bold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
-            At Cheetah we deliver
+            At Barbak we deliver
             <br /> more than supplies.
           </h1>
           <p className="text-center text-[20px]">
