@@ -13,7 +13,7 @@ export default function Contact() {
         <div className="w-1/2 text-white flex flex-col px-16 -mt-20">
           <div class="container mx-auto flex flex-col">
             <div class="text-center">
-              <h1 class="mt-2 text-2xl font-semibold text-white md:text-3xl">
+              <h1 class="mt-2 text-[48px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] text-white">
                 Get in touch
               </h1>
 
@@ -167,7 +167,8 @@ export default function Contact() {
               ></textarea>
             </div>
 
-            <button class=" px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[rgb(247,188,6)] rounded-lg hover:bg-[#f7bb06e9] focus:outline-none focus:ring focus:ring-[#f7bb06bb] focus:ring-opacity-50">
+            <button class="bg-yellow-950 text-yellow-400 border border-yellow-400 border-b-4 font-medium overflow-hidden relative rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-3 mt-4 group">
+              <span class="bg-yellow-400 shadow-yellow-400 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
               Send message
             </button>
           </form>

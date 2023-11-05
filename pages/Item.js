@@ -181,10 +181,11 @@ export default function Item() {
               </div>
             </div>
             <div className="flex flex-row items-center gap-5 mt-6">
-              <button className=" bg-[#F7BC06] w-1/2  px-6 rounded-full py-2 text-[24px] font-bold">
+              <button class="bg-yellow-950 text-yellow-400 border border-yellow-400 border-b-4 overflow-hidden relative hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 font-bold text-[24px] w-1/2 flex items-center justify-center rounded-full  group">
+                <span class="bg-yellow-400 shadow-yellow-400 absolute -top-[150%] left-0 inline-flex w-full h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
                 Add to cart
               </button>
-              <div className=" flex flex-col justify-center group">
+              <div className=" flex flex-col justify-center group mt-5">
                 <div className="bg-white/20 rounded-full p-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -202,7 +203,7 @@ export default function Item() {
                   Save
                 </span>
               </div>
-              <div className=" flex flex-col justify-center group">
+              <div className=" flex flex-col justify-center group mt-5">
                 <div className="bg-white/20 rounded-full p-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -221,7 +222,7 @@ export default function Item() {
                 </span>
               </div>
             </div>
-            <p className="text-white">
+            <p className="text-white ml-4">
               Order today, receive as early as tomorrow
             </p>
             <div className="w-[90%] mt-10 bg-white/20 rounded-3xl p-8 flex flex-col">

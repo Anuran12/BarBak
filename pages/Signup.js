@@ -98,10 +98,12 @@ export default function Signup() {
                 </label>
               </div>
 
-              <button className="mt-10 bg-[#F7BC06] w-full px-6 rounded-full py-2 text-[24px] font-bold">
+              <button class="bg-yellow-950 text-yellow-400 border border-yellow-400 border-b-4 overflow-hidden relative hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 mt-10 font-bold text-[24px] w-full flex items-center justify-center rounded-full  group">
+                <span class="bg-yellow-400 shadow-yellow-400 absolute -top-[150%] left-0 inline-flex w-full h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
                 Sign Up
               </button>
-              <button className="mt-5 bg-white w-full flex items-center justify-center px-6 rounded-full py-2 text-[24px] font-bold">
+              <button class="bg-gray-950 text-gray-400 border border-gray-400 border-b-4 overflow-hidden relative hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 mt-5 font-bold text-[24px] w-full flex items-center justify-center rounded-full  group">
+                <span class="bg-gray-400 shadow-gray-400 absolute -top-[150%] left-0 inline-flex w-full h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
