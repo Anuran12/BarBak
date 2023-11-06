@@ -9,12 +9,13 @@ export default function Stats() {
   return (
     <div>
       <div className="mt-[120px] flex flex-row justify-center w-full px-[120px]">
-        <div className="w-full">
+        <div className="w-full laptop">
           <Image
             src={MacImg}
             alt="macbook and phone image"
             width={748}
             height={600}
+            
           />
         </div>
         <ScrollTrigger
