@@ -14,7 +14,6 @@ export default function Refferal() {
                         alt="hero bg"
                         width={700}
                         height={250}
-                        style={{ opacity: "0.2" }}
                     />
                 </div>
                 <h1 className="text-[40px] text-[#F7BC06] mb-3">Refer & Earn</h1>

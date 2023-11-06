@@ -11,7 +11,6 @@ export default function AboutHero() {
           alt="hero bg"
           width={700}
           height={250}
-          style={{ opacity: "0.2" }}
         />
       </div>
       <div className=" w-1/3 pt-28">

@@ -24,7 +24,6 @@ export default function HospitalityCouriers() {
               alt="hero bg"
               width={700}
               height={250}
-              style={{ opacity: "0.2" }}
             />
           </div>
           <div className="h-[80vh] flex flex-col justify-center">
