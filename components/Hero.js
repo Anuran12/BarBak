@@ -4,18 +4,13 @@ import HeroImg1 from "../img/hero/hero1.png";
 import Link from "next/link";
 import gsap from "gsap";
 import HeroCircle from "./HeroCircle";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function Hero() {
-  useEffect(() => {
-    let textAnimation = gsap.timeline();
-    textAnimation.from('.word', {
-      y: 100,
-      stagger: {
-        each: 0.05
-      }
-    })
-  }, [])
+  
+  
+
+  
   return (
     <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover h-[100vh]">
       <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain h-[100.2vh] px-[120px]">
@@ -29,11 +24,15 @@ export default function Hero() {
         </div>
         <div className="h-[80vh] flex flex-col justify-center">
           <div className="text-white text-[65px] flex overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
-            {
-              'A Partner You can Count On'.split('').map((word) => {
-                return word === ' ' ? <span className="word flex">&nbsp;</span> : <span className="word flex">{word}</span>
-              })
-            }
+          {
+          initialSentences[currentSentence].split('').map((word, index) => (
+            word === ' ' ? (
+              <span key={index} className="word flex">&nbsp;</span>
+            ) : (
+              <span key={index} className="word flex">{word}</span>
+            )
+          ))
+        }
           </div>
           <div className="text-white text-[65px] flex overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
             {
