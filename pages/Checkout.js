@@ -98,7 +98,8 @@ export default function checkout() {
                 </h1>
               </div>
               <div className="w-full flex justify-end text-black">
-                <button className=" bg-[#F7BC06] w-fit font-bold px-6 rounded-full py-2">
+                <button class="bg-yellow-950 text-yellow-400 border border-yellow-400 border-b-4 font-medium overflow-hidden relative rounded-full w-fit hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-8 py-2 mt-4 group">
+                  <span class="bg-yellow-400 shadow-yellow-400 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
                   Edit
                 </button>
               </div>
@@ -137,7 +138,8 @@ export default function checkout() {
               </div>
             </div>
             <div className="w-full flex justify-center">
-              <button className="mt-10 bg-[#F7BC06] w-2/3 font-bold px-6 rounded-full py-2">
+              <button class="bg-yellow-950 text-yellow-400 border border-yellow-400 border-b-4 font-medium overflow-hidden relative rounded-full w-2/3 hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 mt-10 group">
+                <span class="bg-yellow-400 shadow-yellow-400 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
                 Place Order
               </button>
             </div>
