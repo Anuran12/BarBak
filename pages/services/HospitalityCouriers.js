@@ -134,7 +134,7 @@ export default function HospitalityCouriers() {
       <div className="w-full flex justify-center -mt-[900px] scale-100">
         <Image src={CourierImg2} />
       </div>
-      <div className="flex flex-row justify-center items-center px-[120px] ">
+      <div className="flex flex-row justify-center items-center px-[120px] -mt-32">
         <div className="w-1/2 drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
           <Image src={HeroImg2} alt="hero image" className=" scale-75" />
         </div>
