@@ -121,6 +121,6 @@ body {
     box-sizing: border-box;
     filter: drop-shadow(5px 15px 8px #00000099);
   transform: translatey(0px);
-  -webkit-animation: float 6s ease-in-out infinite;
-          animation: float 6s ease-in-out infinite;
+  -webkit-animation: float 2.5s ease-in-out infinite;
+          animation: float 2.5s ease-in-out infinite;
   }
