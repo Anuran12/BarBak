@@ -79,7 +79,7 @@ export default function HomePage() {
             transparent pricing for your Business.
           </p>
         </div>
-        <div className=" absolute right-0 w-[150px] mt-[270px] mr-20 h-auto">
+        <div className=" absolute right-0 md:w-[150px] w-[100px] md:mt-[270px] mt-[850px] md:mr-20 mr-5 h-auto">
           <Image src={Fees1} className="" />
         </div>
       </div>
