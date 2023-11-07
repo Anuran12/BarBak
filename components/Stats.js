@@ -8,7 +8,7 @@ export default function Stats() {
   const [counterOn, setCounterOn] = useState(false);
   return (
     <div>
-      <div className="mt-[120px] flex flex-col md:flex-row justify-center w-full md:px-[120px]">
+      <div className="md:mt-[120px] mt-[50px] flex flex-col md:flex-row justify-center w-full md:px-[120px]">
         <div className="md:w-full w-[90%] laptop">
           <Image
             src={MacImg}

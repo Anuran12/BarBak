@@ -23,17 +23,17 @@ export default function HomePage() {
     <div>
       <Header />
       <Hero />
-      <div className=" absolute w-[250px] ml-16 -mt-48 h-auto">
+      <div className=" absolute md:w-[250px] w-[130px] ml-5 -mt-16 md:ml-16 md:-mt-48 h-auto">
         <Image src={PapperBG} className="" />
       </div>
       <Stats />
       <div className=" absolute right-0 w-[100px] -mt-24 mr-96 h-auto">
         <Image src={BallBG} className="" />
       </div>
-      <div className=" absolute right-0 w-[130px] -mt-14 mr-28 h-auto">
+      <div className=" absolute right-0 md:w-[130px] w-[70px] md:-mt-14 md:mr-28 -mt-[720px] -rotate-90 md:rotate-0  h-auto">
         <Image src={LeafBG} className="" />
       </div>
-      <div className=" absolute w-[230px] ml-16 mr-28 h-auto">
+      <div className=" absolute md:w-[230px] w-[130px] md:ml-16 md:mr-28 mt-10 h-auto">
         <Image src={BGItem} className="" />
       </div>
       <Services />
@@ -41,19 +41,19 @@ export default function HomePage() {
         <Image src={BallBG1} className="" />
       </div>
       <Specials />
-      <div className=" absolute right-0 w-[130px] mr-28 h-auto">
+      <div className=" absolute right-0 md:w-[130px] w-[70px] md:mr-28 h-auto">
         <Image src={LeafBG} className=" rotate-180" />
       </div>
       <div className=" absolute right-0 w-[70px] mt-16 mr-64 h-auto">
         <Image src={LeafBG} className=" -rotate-90" />
       </div>
-      <div className=" absolute w-[30px] mt-16 ml-64 h-auto">
+      <div className=" absolute w-[30px] mt-16 ml-64 h-auto hidden md:block">
         <Image src={DotBG} className="" />
       </div>
-      <div className=" absolute w-[20px] mt-6 ml-48 h-auto">
+      <div className=" absolute w-[20px] mt-6 ml-48 h-auto hidden md:block">
         <Image src={DotBG1} className="" />
       </div>
-      <div className=" absolute w-[25px] mt-32 ml-40 h-auto">
+      <div className=" absolute w-[25px] mt-32 ml-40 h-auto hidden md:block">
         <Image src={DotBG} className="" />
       </div>
       <Feedback />

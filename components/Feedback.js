@@ -416,7 +416,7 @@ export default function Feedback() {
           
         </div>
       </section>
-      <div className=" absolute right-0 w-[200px] -mt-8 mr-28 h-auto">
+      <div className=" absolute right-0 md:w-[200px] w-[80px] -mt-8 md:mr-28 h-auto">
         <Image src={LeafBG} className="" />
       </div>
       <div className=" absolute w-[130px] -mt-40 -ml-[1000px] h-auto">
@@ -472,13 +472,13 @@ export default function Feedback() {
             </div>
           </div>
         </div>
-      <div className=" absolute w-[200px] -mt-44 ml-28 rotate-180 h-auto">
+      <div className=" absolute md:w-[200px] w-[80px] md:-mt-44 md:ml-28 -mt-28 rotate-180 h-auto">
         <Image src={LeafBG} className="" />
       </div>
       <div className=" absolute w-[30px] -mt-72 ml-56 h-auto">
         <Image src={DotBG} className="" />
       </div>
-      <div className=" absolute w-[200px] -mt-[340px] mr-28 right-0 h-auto">
+      <div className=" absolute md:w-[200px] w-[130px] md:-mt-[340px] md:mr-28 -mt-[210px] right-0 h-auto">
         <Image src={ChiefBG} className="" />
       </div>
       </div>
