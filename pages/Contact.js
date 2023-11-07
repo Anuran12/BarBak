@@ -9,11 +9,11 @@ export default function Contact() {
   return (
     <div>
       <Header />
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover flex flex-row px-[120px] pt-[100px]">
-        <div className="w-1/2 text-white flex flex-col px-16 -mt-20">
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover flex lg:flex-row flex-col lg:px-[120px] px-[20px] pt-[100px]">
+        <div className="lg:w-1/2 text-white flex flex-col lg:px-16 -mt-20">
           <div class="container mx-auto flex flex-col">
             <div class="text-center">
-              <h1 class="mt-2 text-[48px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] text-white">
+              <h1 class="lg:mt-2 md:mt-10 mt-16 text-[48px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] text-white">
                 Get in touch
               </h1>
 
@@ -22,7 +22,7 @@ export default function Contact() {
               </p>
             </div>
 
-            <div class="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2 lg:grid-cols-3">
+            <div class="grid grid-cols-3 gap-12 mt-10 lg:grid-cols-3">
               <div class="flex flex-col items-center justify-center text-center">
                 <span class="p-3 text-[#F7BC06] rounded-full bg-white/20">
                   <svg
@@ -103,15 +103,15 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="lg:w-1/2 mt-16 md:mt-0">
           <Image src={ContactImg} />
         </div>
       </div>
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover flex flex-col justify-center items-center px-[120px] pt-10 pb-16">
-        <div className=" absolute left-0 w-[250px] -mt-96 ml-10 h-auto">
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover flex flex-col justify-center items-center lg:px-[120px] px-[20px] pt-10 pb-16">
+        <div className=" absolute left-0 md:w-[250px] w-[150px] lg:-mt-96 lg:ml-10 -mt-[750px] h-auto">
           <Image src={Plane1} className=" scale-75" />
         </div>
-        <div className="w-1/2 !bg-white/20 rounded-3xl flex flex-col justify-center p-10">
+        <div className="lg:w-1/2 w-[90%] md:w-[75%] !bg-white/20 rounded-3xl flex flex-col justify-center p-10">
           <form>
             <div class="-mx-2 lg:items-center lg:flex">
               <div class="flex-1 px-2">
@@ -173,7 +173,7 @@ export default function Contact() {
             </button>
           </form>
         </div>
-        <div className=" absolute right-0 w-[250px] mt-96 mr-10 h-auto">
+        <div className=" absolute right-0 md:w-[250px] w-[150px] lg:mt-96 lg:mr-10 mt-[500px] mr-0 h-auto">
           <Image src={Plane2} className=" scale-50" />
         </div>
         <div class="mt-6 w-80 lg:mt-8 flex flex-col justify-center items-center">
