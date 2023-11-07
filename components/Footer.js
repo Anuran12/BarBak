@@ -5,8 +5,8 @@ import Logo2 from "../img/Logo2.png";
 
 export default function Footer() {
   return (
-    <footer className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover pt-10 pb-10 flex flex-col justify-center items-start pl-10 gap-5 md:grid md:grid-cols-9 text-white">
-      <Link href={"/"} className="my-3 md:ml-6 flex">
+    <footer className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover pt-10 pb-10 flex flex-col md:flex-row justify-center items-start pl-10 gap-5 lg:grid lg:grid-cols-9 text-white">
+      <Link href={"/"} className="my-3 lg:ml-6 flex">
         <Image src={Logo1} className="w-[85px] h-auto" alt="logo" />
         <Image
           className="!ml-[-10px] w-[200px] h-auto"
@@ -14,7 +14,7 @@ export default function Footer() {
           alt="logo"
         />
       </Link>
-      <div className="md:text-[12px] text-white/60 pt-2 col-start-3">
+      <div className="lg:text-[12px] text-white/60 pt-2 col-start-3">
         <ul>
           <li>
             <Link
@@ -66,7 +66,7 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-      <div className="md:text-[12px] text-white/60 pt-2 col-start-5">
+      <div className="lg:text-[12px] text-white/60 pt-2 col-start-5">
         <ul>
           <li className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer">
             FAQ
@@ -76,7 +76,7 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-      <div className="md:text-[12px] text-white/80 pt-2 col-start-8">
+      <div className="lg:text-[12px] text-white/80 pt-2 col-start-8">
         <ul>
           <li className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer">
             <a href="tel:1234567890">1234567890</a>

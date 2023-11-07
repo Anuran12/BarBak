@@ -40,15 +40,15 @@ export default function Header() {
   return (
     <div>
       <header
-        className={`bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover z-[9999] grid grid-cols-8 md:px-10 text-white justify-center fixed items-center transition-[top] duration-[0.4s] ease-[ease-out] ${
+        className={`bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover z-[9999] grid grid-cols-8 lg:px-10 text-white justify-center fixed items-center transition-[top] duration-[0.4s] ease-[ease-out] ${
           visible ? "top-0" : "-top-20"
         }`}
       >
-        <Link href={"/"} className="my-5 md:scale-125 w-48 h-auto md:ml-6 flex">
+        <Link href={"/"} className="my-5 lg:scale-125 w-48 h-auto lg:ml-6 flex">
           <Image src={Logo1} alt="logo" />
           <Image className="!ml-[-10px]" src={Logo2} alt="logo" />
         </Link>
-        <div className=" md:flex hidden flex-col ml-16 col-start-2 col-end-7 items-center">
+        <div className=" lg:flex hidden flex-col ml-16 col-start-2 col-end-7 items-center">
           {/* <a className="text-[12px] text-center w-6/12">1234567890</a> */}
           <nav className="flex gap-10 text-[14px] justify-center items-center">
             <Link
@@ -132,7 +132,7 @@ export default function Header() {
           </nav>
         </div>
         <div className="flex gap-3 justify-center items-center col-start-8 mr-6">
-          <a href="tel:9876543210" className="md:flex hidden">
+          <a href="tel:9876543210" className="lg:flex hidden">
             <svg
               width="46"
               height="30"
@@ -155,7 +155,7 @@ export default function Header() {
               />
             </svg>
           </a>
-          <Link href={"/Login"} className="mr-2 hidden md:block">
+          <Link href={"/Login"} className="mr-2 hidden lg:block">
             <svg
               width="31"
               height="30"
@@ -195,12 +195,12 @@ export default function Header() {
               </defs>
             </svg>
           </Link>
-          <button onClick={handleMenuButtonClick} href={"/Login"} className="mr-2 md:hidden block">
+          <button onClick={handleMenuButtonClick} href={"/Login"} className="mr-2 lg:hidden block">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" fill="#fff" viewBox="0 0 50 50">
             <path d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z"></path>
             </svg>
           </button>
-          <button onClick={handleCartButtonClick} className="mb-[-5px] md:flex hidden">
+          <button onClick={handleCartButtonClick} className="mb-[-5px] lg:flex hidden">
             <svg
               width="33"
               height="36"

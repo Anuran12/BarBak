@@ -22,7 +22,7 @@ export default function Contact() {
               </p>
             </div>
 
-            <div class="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3">
+            <div class="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2 lg:grid-cols-3">
               <div class="flex flex-col items-center justify-center text-center">
                 <span class="p-3 text-[#F7BC06] rounded-full bg-white/20">
                   <svg
@@ -113,7 +113,7 @@ export default function Contact() {
         </div>
         <div className="w-1/2 !bg-white/20 rounded-3xl flex flex-col justify-center p-10">
           <form>
-            <div class="-mx-2 md:items-center md:flex">
+            <div class="-mx-2 lg:items-center lg:flex">
               <div class="flex-1 px-2">
                 <label class="block mb-2 text-sm text-gray-200">
                   First Name
@@ -125,7 +125,7 @@ export default function Contact() {
                 />
               </div>
 
-              <div class="flex-1 px-2 mt-4 md:mt-0">
+              <div class="flex-1 px-2 mt-4 lg:mt-0">
                 <label class="block mb-2 text-sm text-gray-200">
                   Last Name
                 </label>
@@ -162,7 +162,7 @@ export default function Contact() {
             <div class="w-full mt-4">
               <label class="block mb-2 text-sm text-gray-200">Message</label>
               <textarea
-                class="block w-full h-32 px-5 py-2.5 mt-2 text-gray-200 placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg md:h-56 focus:border-[#f7bb06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                class="block w-full h-32 px-5 py-2.5 mt-2 text-gray-200 placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg lg:h-56 focus:border-[#f7bb06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
                 placeholder="Message"
               ></textarea>
             </div>
@@ -176,7 +176,7 @@ export default function Contact() {
         <div className=" absolute right-0 w-[250px] mt-96 mr-10 h-auto">
           <Image src={Plane2} className=" scale-50" />
         </div>
-        <div class="mt-6 w-80 md:mt-8 flex flex-col justify-center items-center">
+        <div class="mt-6 w-80 lg:mt-8 flex flex-col justify-center items-center">
           <h3 class="text-white">Follow us</h3>
 
           <div class="flex mt-4 -mx-1.5 ">

@@ -8,13 +8,13 @@ import ChiefBG from "../img/BG_Images/chief.png";
 export default function Feedback() {
   return (
     <div className="flex flex-col justify-center items-center">
-      <h1 className="md:text-[40px] text-[25px] text-center mt-[100px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+      <h1 className="lg:text-[40px] md:text-[35px] text-[25px] text-center mt-[100px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
         <span className="text-[#F7BC06]">Discover</span> What Others Say
       </h1>
       <section class="container flex justify-center items-center">
         <div id="carousel" className="flex justify-center items-center w-full ml-[30%]">
-          <figure className="flex md:flex-row flex-col w-full">
-            <div className="flex flex-row justify-center items-center md:w-1/2">
+          <figure className="flex lg:flex-row flex-col w-full">
+            <div className="flex flex-row justify-center items-center lg:w-1/2">
               <div>
                 <Image src={UserImg} alt="user ing" />
               </div>
@@ -23,7 +23,7 @@ export default function Feedback() {
                 <p>5 September 2023</p>
               </div>
             </div>
-            <div className="md:w-1/2 w-full">
+            <div className="lg:w-1/2 w-full">
               <div className="flex flex-row">
                 <svg
                   height="20px"
@@ -113,8 +113,8 @@ export default function Feedback() {
               </p>
             </div>
           </figure>
-          <figure className="flex md:flex-row flex-col w-full">
-            <div className="flex flex-row justify-center items-center md:w-1/2">
+          <figure className="flex lg:flex-row flex-col w-full">
+            <div className="flex flex-row justify-center items-center lg:w-1/2">
               <div>
                 <Image src={UserImg} alt="user ing" />
               </div>
@@ -123,7 +123,7 @@ export default function Feedback() {
                 <p>5 September 2023</p>
               </div>
             </div>
-            <div className="md:w-1/2 w-full">
+            <div className="lg:w-1/2 w-full">
               <div className="flex flex-row">
                 <svg
                   height="20px"
@@ -213,8 +213,8 @@ export default function Feedback() {
               </p>
             </div>
           </figure>
-          <figure className="flex md:flex-row flex-col w-full">
-            <div className="flex flex-row justify-center items-center md:w-1/2">
+          <figure className="flex lg:flex-row flex-col w-full">
+            <div className="flex flex-row justify-center items-center lg:w-1/2">
               <div>
                 <Image src={UserImg} alt="user ing" />
               </div>
@@ -223,7 +223,7 @@ export default function Feedback() {
                 <p>5 September 2023</p>
               </div>
             </div>
-            <div className="md:w-1/2 w-full">
+            <div className="lg:w-1/2 w-full">
               <div className="flex flex-row">
                 <svg
                   height="20px"
@@ -313,8 +313,8 @@ export default function Feedback() {
               </p>
             </div>
           </figure>
-          <figure className="flex md:flex-row flex-col w-full">
-            <div className="flex flex-row justify-center items-center md:w-1/2">
+          <figure className="flex lg:flex-row flex-col w-full">
+            <div className="flex flex-row justify-center items-center lg:w-1/2">
               <div>
                 <Image src={UserImg} alt="user ing" />
               </div>
@@ -323,7 +323,7 @@ export default function Feedback() {
                 <p>5 September 2023</p>
               </div>
             </div>
-            <div className="md:w-1/2 w-full">
+            <div className="lg:w-1/2 w-full">
               <div className="flex flex-row">
                 <svg
                   height="20px"
@@ -416,7 +416,7 @@ export default function Feedback() {
           
         </div>
       </section>
-      <div className=" absolute right-0 md:w-[200px] w-[80px] -mt-8 md:mr-28 h-auto">
+      <div className=" absolute right-0 lg:w-[200px] w-[80px] -mt-8 lg:mr-28 h-auto">
         <Image src={LeafBG} className="" />
       </div>
       <div className=" absolute w-[130px] -mt-40 -ml-[1000px] h-auto">
@@ -428,8 +428,8 @@ export default function Feedback() {
 
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover w-full">
         <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
-          <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain  md:px-[120px]">
-            <h1 className="text-white text-center pt-10 md:text-[40px] text-[25px] font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain  lg:px-[120px]">
+            <h1 className="text-white text-center pt-10 lg:text-[40px] md:text-[35px] text-[25px] font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               Leave your <span className="text-[#F7BC06]">feedback</span>
             </h1>
             <p className="text-white  mt-4 mb-4 text-center">
@@ -463,7 +463,7 @@ export default function Feedback() {
                 </label>
                 <br />
                 <button
-                  className="bg-[url('../img/btn_border_white.png')] md:ml-28 bg-no-repeat bg-center bg-contain p-8 mt-10 text-white w-fit"
+                  className="bg-[url('../img/btn_border_white.png')] lg:ml-28 bg-no-repeat bg-center bg-contain p-8 mt-10 text-white w-fit"
                   href={"/"}
                 >
                   LEAVE A REVIEW
@@ -472,13 +472,13 @@ export default function Feedback() {
             </div>
           </div>
         </div>
-      <div className=" absolute md:w-[200px] w-[80px] md:-mt-44 md:ml-28 -mt-28 rotate-180 h-auto">
+      <div className=" absolute lg:w-[200px] w-[80px] lg:-mt-44 lg:ml-28 -mt-28 rotate-180 h-auto">
         <Image src={LeafBG} className="" />
       </div>
       <div className=" absolute w-[30px] -mt-72 ml-56 h-auto">
         <Image src={DotBG} className="" />
       </div>
-      <div className=" absolute md:w-[200px] w-[130px] md:-mt-[340px] md:mr-28 -mt-[210px] right-0 h-auto">
+      <div className=" absolute lg:w-[200px] w-[130px] lg:-mt-[340px] lg:mr-28 -mt-[210px] right-0 h-auto">
         <Image src={ChiefBG} className="" />
       </div>
       </div>
