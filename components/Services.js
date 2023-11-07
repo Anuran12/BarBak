@@ -1,11 +1,11 @@
 export default function Services() {
   return (
-    <div className=" flex flex-col justify-center items-center px-[120px] mt-20">
+    <div className=" flex flex-col justify-center items-center md:px-[120px] mt-20">
       <h1 className="text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
         It&#39;s time to try our{" "}
         <span className="text-[#F7BC06]">Services</span>
       </h1>
-      <div className="grid grid-cols-4 gap-5 mt-16">
+      <div className="grid md:grid-cols-4 grid-cols-1 gap-5 mt-16">
         <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-between items-center group">
           <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06] w-full">
             HOSPITALITY

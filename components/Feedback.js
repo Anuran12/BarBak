@@ -462,7 +462,7 @@ export default function Feedback() {
                 </label>
                 <br />
                 <button
-                  className="bg-[url('../img/btn_border_white.png')] ml-28 bg-no-repeat bg-center bg-contain p-8 mt-10 text-white w-fit"
+                  className="bg-[url('../img/btn_border_white.png')] md:ml-28 bg-no-repeat bg-center bg-contain p-8 mt-10 text-white w-fit"
                   href={"/"}
                 >
                   LEAVE A REVIEW

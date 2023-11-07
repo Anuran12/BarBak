@@ -38,7 +38,7 @@ export default function Header() {
           <Image src={Logo1} alt="logo" />
           <Image className="!ml-[-10px]" src={Logo2} alt="logo" />
         </Link>
-        <div className=" flex flex-col ml-16 col-start-2 col-end-7 items-center">
+        <div className=" md:flex hidden flex-col ml-16 col-start-2 col-end-7 items-center">
           {/* <a className="text-[12px] text-center w-6/12">1234567890</a> */}
           <nav className="flex gap-10 text-[14px] justify-center items-center">
             <Link
@@ -121,7 +121,7 @@ export default function Header() {
             </Link>
           </nav>
         </div>
-        <div className="flex gap-3 justify-center items-center col-start-8 mr-6">
+        <div className="md:flex hidden gap-3 justify-center items-center col-start-8 mr-6">
           <a href="tel:9876543210">
             <svg
               width="46"

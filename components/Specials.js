@@ -9,7 +9,7 @@ export default function Specials() {
           <h1 className="text-white pt-20 text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
             Monthly Specials
           </h1>
-          <div className="mt-16 pb-32 grid grid-cols-5 gap-10">
+          <div className="mt-16 pb-32 grid md:grid-cols-5 gap-10">
             <div className="">
               <h1 className=" text-gray-50/60 text-[20px] pl-6 mb-8">
                 Test Food 1

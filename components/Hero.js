@@ -45,7 +45,7 @@ export default function Hero() {
           </a>
         </div>
       </div>
-      <div className=" absolute right-0 top-5 h-[120vh] w-[100vh] overflow-hidden">
+      <div className=" absolute right-0 top-5 h-[120vh] w-full overflow-hidden">
         {/* <div className="h-[90vh] w-[90vh] absolute !top-28 !-right-[30vh] hero_circle"></div> */}
         <div className="absolute !top-[50px] !right-[40px]">
           <HeroCircle />

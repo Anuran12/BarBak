@@ -57,7 +57,7 @@ export default function HomePage() {
         <Image src={DotBG} className="" />
       </div>
       <Feedback />
-      <div className=" absolute w-[150px] mt-4 ml-[500px] h-auto">
+      <div className="hidden md:block absolute w-[150px] mt-4 ml-[500px] h-auto">
         <Image src={Fees} className="" />
       </div>
       <div className="flex flex-row px-[120px] mt-[100px]">
