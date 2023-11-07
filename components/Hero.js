@@ -5,6 +5,7 @@ import Link from "next/link";
 import gsap from "gsap";
 import HeroCircle from "./HeroCircle";
 import { useEffect, useState } from "react";
+import HeroCircleMobile from "./HeroCircleMobile";
 
 export default function Hero() {
   
@@ -12,8 +13,8 @@ export default function Hero() {
 
   
   return (
-    <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover h-[100vh]">
-      <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain h-[100.2vh] px-[120px]">
+    <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover md:h-[100vh]">
+      <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain md:h-[100.2vh] md:px-[120px] px-[20px]">
         <div className="absolute !top-[350px] !left-[200px]">
           <Image
             src={HeroBg}
@@ -23,17 +24,13 @@ export default function Hero() {
           />
         </div>
         <div className="h-[80vh] flex flex-col justify-center">
-          <div className="text-white text-[65px] flex overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <div className="text-white md:text-[65px] text-[25px] flex overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
           A Partner You can Count On
           </div>
-          <div className="text-white text-[65px] flex overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
-            {
-              'Transparent Pricing'.split('').map((word) => {
-                return word === ' ' ? <span className="word flex">&nbsp;</span> : <span className="word flex">{word}</span>
-              })
-            }
+          <div className="text-white md:text-[65px] text-[25px] flex overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          Transparent Pricing
           </div>
-          <p className="text-white text-[24px] mt-8 w-1/2">
+          <p className="text-white md:text-[24px] mt-8 w-1/2">
             Order 10,000+ products, with same-day & next day delivery straight
             into your kitchen
           </p>
@@ -47,8 +44,11 @@ export default function Hero() {
       </div>
       <div className=" absolute right-0 top-5 h-[120vh] w-full overflow-hidden">
         {/* <div className="h-[90vh] w-[90vh] absolute !top-28 !-right-[30vh] hero_circle"></div> */}
-        <div className="absolute !top-[50px] !right-[40px]">
+        <div className="absolute !top-[50px] !right-[40px] hidden md:block">
           <HeroCircle />
+        </div>
+        <div className="absolute !top-[150px] !right-[160px] md:hidden block">
+          <HeroCircleMobile />
         </div>
       </div>
     </div>
