@@ -37,7 +37,7 @@ export default function HomePage() {
         <Image src={BGItem} className="" />
       </div>
       <Services />
-      <div className=" absolute right-0 w-[60px] mt-2 mr-[700px] h-auto">
+      <div className=" absolute right-0 w-[60px] mt-2  h-auto">
         <Image src={BallBG1} className="" />
       </div>
       <Specials />
