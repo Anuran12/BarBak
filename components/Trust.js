@@ -1,11 +1,11 @@
 export default function Trust() {
   return (
-    <div className=" flex flex-col justify-center items-center px-[120px] mt-20">
-      <h1 className="text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+    <div className=" flex flex-col justify-center items-center lg:px-[120px] mt-20">
+      <h1 className="lg:text-[40px] md:text-[35px] text-[25px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
         Why you can
         <span className="text-[#F7BC06]"> trust</span> us
       </h1>
-      <div className="grid grid-cols-4 gap-5 mt-16">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 px-10 md:px-16 lg:px-0 gap-5 mt-16">
         <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-center items-center group">
           <h1 className=" font-[540] text-[22px] text-center group-hover:text-[#F7BC06] w-full">
             Fast

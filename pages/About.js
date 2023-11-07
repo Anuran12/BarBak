@@ -20,8 +20,8 @@ export default function About() {
       <Header />
       <AboutHero />
       <Trust />
-      <div className="mt-[100px] flex flex-col w-full px-[120px]">
-        <h1 className="text-[40px] text-center font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+      <div className="mt-[100px] flex flex-col w-full lg:px-[120px] px-10">
+        <h1 className="lg:text-[40px] md:text-[35px] text-[25px] text-center font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
           We create an excellent service
           <br /> built on values
         </h1>

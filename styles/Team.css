@@ -114,6 +114,10 @@
 /* Responsive */
 
 @media (max-width: 798px) {
+  .card{
+    width: 150px;
+    height: 150px;
+  }
     .founder{
         flex-direction: column;
         padding: 20px;
