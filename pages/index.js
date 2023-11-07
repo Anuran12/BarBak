@@ -27,7 +27,7 @@ export default function HomePage() {
         <Image src={PapperBG} className="" />
       </div>
       <Stats />
-      <div className=" absolute right-0 w-[100px] -mt-24 mr-96 h-auto">
+      <div className=" absolute right-0 w-[100px] -mt-14 mr-96 h-auto">
         <Image src={BallBG} className="" />
       </div>
       <div className=" absolute right-0 lg:w-[130px] w-[70px] lg:-mt-14 lg:mr-28 -mt-[720px] -rotate-90 lg:rotate-0  h-auto">

@@ -15,7 +15,6 @@ export default function Stats() {
             alt="macbook and phone image"
             width={748}
             height={600}
-            
           />
         </div>
         <ScrollTrigger
@@ -68,7 +67,7 @@ export default function Stats() {
                 %
               </h1>
               <p className=" lg:w-1/2 lg:ml-20 ml-8 h-fit lg:leading-10 lg:text-[32px] text-[#ffffff] break-words font-semibold">
-                 Recommend
+                Recommend
                 <br /> BarBak
               </p>
             </div>
