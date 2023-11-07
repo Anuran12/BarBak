@@ -418,13 +418,13 @@ export default function Feedback() {
           </figure>
         </div>
       </section>
-      <div className=" absolute right-0 lg:w-[200px] w-[80px] mt-10 lg:mr-28 h-auto">
+      <div className=" absolute right-0 lg:w-[200px] w-[80px] lg:mt-10 -mt-14 lg:mr-28 h-auto">
         <Image src={LeafBG} className="" />
       </div>
-      <div className=" absolute left-0 w-[130px] -mt-40 ml-[100px] h-auto">
+      <div className=" absolute left-0 lg:w-[130px] w-[80px] -mt-40 lg:ml-[100px] ml-2 h-auto">
         <Image src={PepperBG} className="" />
       </div>
-      <div className=" absolute right-0 w-[30px] mt-96 mr-64 h-auto">
+      <div className=" absolute right-0 lg:w-[30px] w-[15px] lg:mt-96 mt-80 lg:mr-64 mr-80 h-auto">
         <Image src={DotBG} className="" />
       </div>
 
@@ -474,10 +474,10 @@ export default function Feedback() {
             </div>
           </div>
         </div>
-        <div className=" absolute lg:w-[200px] w-[80px] lg:-mt-44 lg:ml-28 -mt-28 rotate-180 h-auto">
+        <div className=" absolute lg:w-[200px] w-[80px] lg:-mt-44 lg:ml-28 -mt-[70px] rotate-180 h-auto">
           <Image src={LeafBG} className="" />
         </div>
-        <div className=" absolute w-[30px] -mt-72 ml-56 h-auto">
+        <div className=" absolute lg:w-[30px] w-[15px] -mt-72 ml-56 h-auto">
           <Image src={DotBG} className="" />
         </div>
         <div className=" absolute lg:w-[200px] w-[130px] lg:-mt-[340px] lg:mr-28 -mt-[210px] right-0 h-auto">
