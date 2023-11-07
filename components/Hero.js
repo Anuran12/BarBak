@@ -24,15 +24,7 @@ export default function Hero() {
         </div>
         <div className="h-[80vh] flex flex-col justify-center">
           <div className="text-white text-[65px] flex overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
-          {
-          initialSentences[currentSentence].split('').map((word, index) => (
-            word === ' ' ? (
-              <span key={index} className="word flex">&nbsp;</span>
-            ) : (
-              <span key={index} className="word flex">{word}</span>
-            )
-          ))
-        }
+          A Partner You can Count On
           </div>
           <div className="text-white text-[65px] flex overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
             {
