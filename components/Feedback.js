@@ -8,13 +8,13 @@ import ChiefBG from "../img/BG_Images/chief.png";
 export default function Feedback() {
   return (
     <div className="flex flex-col justify-center items-center">
-      <h1 className="text-[40px] text-center mt-[100px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+      <h1 className="md:text-[40px] text-[25px] text-center mt-[100px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
         <span className="text-[#F7BC06]">Discover</span> What Others Say
       </h1>
       <section class="container flex justify-center items-center">
-        <div id="carousel" className="flex justify-center items-center w-full">
-          <figure className="flex !flex-row">
-            <div className="flex flex-row justify-center items-center w-1/2">
+        <div id="carousel" className="flex justify-center items-center w-full ml-[30%]">
+          <figure className="flex md:flex-row flex-col w-full">
+            <div className="flex flex-row justify-center items-center md:w-1/2">
               <div>
                 <Image src={UserImg} alt="user ing" />
               </div>
@@ -23,7 +23,7 @@ export default function Feedback() {
                 <p>5 September 2023</p>
               </div>
             </div>
-            <div className="w-1/2">
+            <div className="md:w-1/2 w-full">
               <div className="flex flex-row">
                 <svg
                   height="20px"
@@ -113,8 +113,8 @@ export default function Feedback() {
               </p>
             </div>
           </figure>
-          <figure className="flex !flex-row">
-            <div className="flex flex-row justify-center items-center w-1/2">
+          <figure className="flex md:flex-row flex-col w-full">
+            <div className="flex flex-row justify-center items-center md:w-1/2">
               <div>
                 <Image src={UserImg} alt="user ing" />
               </div>
@@ -123,7 +123,7 @@ export default function Feedback() {
                 <p>5 September 2023</p>
               </div>
             </div>
-            <div className="w-1/2">
+            <div className="md:w-1/2 w-full">
               <div className="flex flex-row">
                 <svg
                   height="20px"
@@ -213,8 +213,8 @@ export default function Feedback() {
               </p>
             </div>
           </figure>
-          <figure className="flex !flex-row">
-            <div className="flex flex-row justify-center items-center w-1/2">
+          <figure className="flex md:flex-row flex-col w-full">
+            <div className="flex flex-row justify-center items-center md:w-1/2">
               <div>
                 <Image src={UserImg} alt="user ing" />
               </div>
@@ -223,7 +223,7 @@ export default function Feedback() {
                 <p>5 September 2023</p>
               </div>
             </div>
-            <div className="w-1/2">
+            <div className="md:w-1/2 w-full">
               <div className="flex flex-row">
                 <svg
                   height="20px"
@@ -313,8 +313,8 @@ export default function Feedback() {
               </p>
             </div>
           </figure>
-          <figure className="flex !flex-row">
-            <div className="flex flex-row justify-center items-center w-1/2">
+          <figure className="flex md:flex-row flex-col w-full">
+            <div className="flex flex-row justify-center items-center md:w-1/2">
               <div>
                 <Image src={UserImg} alt="user ing" />
               </div>
@@ -323,7 +323,7 @@ export default function Feedback() {
                 <p>5 September 2023</p>
               </div>
             </div>
-            <div className="w-1/2">
+            <div className="md:w-1/2 w-full">
               <div className="flex flex-row">
                 <svg
                   height="20px"
@@ -413,6 +413,7 @@ export default function Feedback() {
               </p>
             </div>
           </figure>
+          
         </div>
       </section>
       <div className=" absolute right-0 w-[200px] -mt-8 mr-28 h-auto">
@@ -427,15 +428,15 @@ export default function Feedback() {
 
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover w-full">
         <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
-          <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain  px-[120px]">
-            <h1 className="text-white text-center pt-10 text-[40px] font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain  md:px-[120px]">
+            <h1 className="text-white text-center pt-10 md:text-[40px] text-[25px] font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               Leave your <span className="text-[#F7BC06]">feedback</span>
             </h1>
             <p className="text-white  mt-4 mb-4 text-center">
               Your opinion is important to us
             </p>
             <div className="w-full flex justify-center items-center">
-              <div className="text-white w-1/3">
+              <div className="text-white w-2/3">
                 <p>Your Name</p>
                 <hr class="h-px my-8 bg-gray-200 border-0" />
                 <p>Phone</p>

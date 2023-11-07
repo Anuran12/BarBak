@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover md:h-[100vh]">
       <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain md:h-[100.2vh] md:px-[120px] px-[20px]">
-        <div className="absolute !top-[350px] !left-[200px]">
+        <div className="absolute md:!top-[350px] top-[350px] md:!left-[200px]">
           <Image
             src={HeroBg}
             alt="hero bg"
