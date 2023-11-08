@@ -20,7 +20,7 @@ export default function About() {
       <Header />
       <AboutHero />
       <Trust />
-      <div className="mt-[100px] flex flex-col w-full lg:px-[120px] px-10">
+      <div className="mt-[100px] flex flex-col w-full lg:px-[120px] px-4">
         <h1 className="lg:text-[40px] md:text-[35px] text-[25px] text-center font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
           We create an excellent service
           <br /> built on values
@@ -30,25 +30,25 @@ export default function About() {
           our employees to take care of our customers
         </p>
         <div className="flex flex-row justify-between mt-16">
-          <div className="flex flex-col mt-12 justify-between">
+          <div className="flex flex-col lg:mt-12 mt-9 lg:justify-between mx-1">
             <Image src={LoyaltyImg} />
             <p className=" text-center mt-3">Loyalty</p>
           </div>
-          <div className="flex flex-col justify-between">
+          <div className="flex flex-col mt-4 lg:justify-between mx-1">
             <Image src={SincerityImg} />
             <p className=" text-center mt-3">Sincerity</p>
           </div>
-          <div className="flex flex-col justify-between">
+          <div className="flex flex-col mt-1 lg:justify-between mx-1">
             <Image src={TrustImg} />
             <p className=" text-center mt-3">Trust</p>
           </div>
-          <div className="flex flex-col mt-12 justify-between">
+          <div className="flex flex-col lg:mt-12 mt-8 lg:justify-between mx-1">
             <Image src={TeamImg} />
             <p className=" text-center mt-3">Team</p>
           </div>
         </div>
       </div>
-      <div className=" absolute right-0 w-[130px] mt-16 -rotate-90 mr-28 h-auto">
+      <div className=" absolute right-0 lg:w-[130px] w-[100px] mt-16 -rotate-90 lg:mr-28 mr-4 h-auto">
         <Image src={LeafBG} className="" />
       </div>
       <Team />
