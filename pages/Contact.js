@@ -13,7 +13,7 @@ export default function Contact() {
         <div className="lg:w-1/2 text-white flex flex-col lg:px-16 -mt-20">
           <div class="container mx-auto flex flex-col">
             <div class="text-center">
-              <h1 class="lg:mt-2 md:mt-10 mt-16 text-[48px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] text-white">
+              <h1 class="lg:mt-56 md:mt-10 mt-40 text-[48px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] text-white">
                 Get in touch
               </h1>
 
@@ -42,10 +42,8 @@ export default function Contact() {
                 </span>
 
                 <h2 class="mt-4 text-lg font-medium text-white">Email</h2>
-                <p class="mt-2 text-gray-500">
-                  Our friendly team is here to help.
-                </p>
-                <p class="mt-2 text-[#F7BC06]">hello@barbak.com</p>
+                <p class="mt-2 text-gray-500">Our team is here to help.</p>
+                <p class="mt-2 text-[#F7BC06]">hello@ barbak.com</p>
               </div>
 
               <div class="flex flex-col items-center justify-center text-center">
@@ -173,7 +171,7 @@ export default function Contact() {
             </button>
           </form>
         </div>
-        <div className=" absolute right-0 md:w-[250px] w-[150px] lg:mt-96 lg:mr-10 mt-[500px] mr-0 h-auto">
+        <div className=" absolute right-0 md:w-[250px] w-[150px] lg:mt-96 lg:mr-10 mt-[550px] mr-0 h-auto">
           <Image src={Plane2} className=" scale-50" />
         </div>
         <div class="mt-6 w-80 lg:mt-8 flex flex-col justify-center items-center">
