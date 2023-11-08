@@ -70,9 +70,7 @@ export default function Contact() {
                 </span>
 
                 <h2 class="mt-4 text-lg font-medium text-white">Office</h2>
-                <p class="mt-2 text-gray-500">
-                  Come say hello at our office HQ.
-                </p>
+                <p class="mt-2 text-gray-500">Come say hello at our office.</p>
                 <p class="mt-2 text-[#F7BC06]">Kolkata, India</p>
               </div>
 
