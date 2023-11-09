@@ -27,7 +27,8 @@ module.exports = {
   
         '2xl': '1536px',
         // => @media (min-width: 1536px) { ... }
-        'nust': {'raw': '(max-height: 602px)'}
+        'nust': {'raw': '(max-height: 602px)'},
+        'nustmax': {'raw': '(max-height: 800px),(min-width:1280px)'}
       }
     },
   },

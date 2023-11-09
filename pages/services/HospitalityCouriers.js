@@ -28,8 +28,8 @@ export default function HospitalityCouriers() {
               height={250}
             />
           </div>
-          <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28">
-            <h1 className="text-white lg:text-[65px] md:text-[50px] text-[25px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28 nustmax:pt-0">
+            <h1 className="text-white lg:text-[65px] md:text-[50px] nustmax:text-[50px] text-[25px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               Need your
               <span className="text-[#F7BC06]"> Package</span>
               <br /> at your doorstep?

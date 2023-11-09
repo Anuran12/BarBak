@@ -30,7 +30,7 @@ export default function Stats() {
                 )}
                 %
               </h1>
-              <p className=" w-1/2 lg:ml-20 ml-8 h-fit lg:leading-10 lg:text-[32px] text-[#0A0A0A] break-words font-semibold">
+              <p className=" w-1/2 lg:ml-20 ml-8 nustmax:ml-5 h-fit lg:leading-10 lg:text-[32px] nustmax:text-[24px] text-[#0A0A0A] break-words font-semibold">
                 Timely
                 <br /> Deliveries
               </p>
@@ -42,7 +42,7 @@ export default function Stats() {
                 )}
                 K+
               </h1>
-              <p className=" w-1/2 lg:ml-20 ml-8 h-fit lg:leading-10 lg:text-[32px] text-[#ffffff] break-words font-semibold">
+              <p className=" w-1/2 lg:ml-20 ml-8 nustmax:ml-5 h-fit lg:leading-10 lg:text-[32px] nustmax:text-[24px] text-[#ffffff] break-words font-semibold">
                 Orders
                 <br /> Processed
               </p>
@@ -54,7 +54,7 @@ export default function Stats() {
                 )}
                 +
               </h1>
-              <p className=" w-1/2 lg:ml-20 ml-5 h-fit lg:leading-10 lg:text-[32px] text-[#0A0A0A] break-words font-semibold">
+              <p className=" w-1/2 lg:ml-20 ml-5 nustmax:ml-5 h-fit lg:leading-10 lg:text-[32px] nustmax:text-[24px] text-[#0A0A0A] break-words font-semibold">
                 Accounts
                 <br /> Served
               </p>
@@ -66,7 +66,7 @@ export default function Stats() {
                 )}
                 %
               </h1>
-              <p className=" lg:w-1/2 lg:ml-20 ml-8 h-fit lg:leading-10 lg:text-[32px] text-[#ffffff] break-words font-semibold">
+              <p className=" lg:w-1/2 lg:ml-20 ml-8 nustmax:ml-5 h-fit lg:leading-10 lg:text-[32px] nustmax:text-[24px] text-[#ffffff] break-words font-semibold">
                 Recommend
                 <br /> BarBak
               </p>

@@ -24,11 +24,11 @@ export default function Hero() {
             height={250}
           />
         </div>
-        <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28">
-          <div className="text-white lg:text-[65px] md:text-[50px] text-[25px] flex overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+        <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28 nustmax:pt-0">
+          <div className="text-white lg:text-[65px] md:text-[50px] nustmax:text-[50px] text-[25px] flex overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
           A Partner You can Count On
           </div>
-          <div className="text-white lg:text-[65px] md:text-[50px] text-[25px] flex overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <div className="text-white lg:text-[65px] md:text-[50px] nustmax:text-[50px] text-[25px] flex overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
           Transparent Pricing
           </div>
           <p className="text-white lg:text-[24px] mt-8 w-1/2">

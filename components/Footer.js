@@ -5,7 +5,7 @@ import Logo2 from "../img/Logo2.png";
 
 export default function Footer() {
   return (
-    <footer className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover pt-10 pb-10 flex flex-col md:flex-row justify-center items-start pl-10 gap-5 lg:grid lg:grid-cols-9 text-white">
+    <footer className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover pt-10 pb-10 flex flex-col md:flex-row justify-center items-start pl-10 gap-5 lg:grid lg:grid-cols-9 nustmax:grid-cols-10 text-white">
       <Link href={"/"} className="my-3 lg:ml-6 flex">
         <Image src={Logo1} className="w-[85px] h-auto" alt="logo" />
         <Image

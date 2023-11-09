@@ -11,7 +11,7 @@ export default function Team() {
           <h1 className="text-[#F7BC06] pt-20 text-[40px] text-center font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
             Team
           </h1>
-          <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 mt-10 pb-16 md:justify-center md:items-center">
+          <div className="grid lg:grid-cols-4 nustmax:grid-cols-3 md:grid-cols-2 grid-cols-2 mt-10 pb-16 md:justify-center md:items-center">
             <div className="w-full flex justify-center items-center">
               <div className="card">
                 <Image src={CEOImg} alt="" srcset="" />
