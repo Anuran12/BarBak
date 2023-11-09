@@ -421,7 +421,7 @@ export default function Feedback() {
       <div className=" absolute right-0 lg:w-[200px] w-[80px] lg:mt-10 -mt-14 lg:mr-28 h-auto">
         <Image src={LeafBG} className="" />
       </div>
-      <div className=" absolute left-0 lg:w-[130px] w-[80px] -mt-40 lg:ml-[100px] ml-2 h-auto">
+      <div className=" absolute left-0 lg:w-[100px] w-[60px] -mt-56 lg:ml-[100px] ml-2 h-auto">
         <Image src={PepperBG} className="" />
       </div>
       <div className=" absolute right-0 lg:w-[30px] w-[15px] lg:mt-96 mt-80 lg:mr-64 mr-80 h-auto">

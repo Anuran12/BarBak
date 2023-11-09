@@ -6,12 +6,7 @@ export default function AboutHero() {
   return (
     <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover lg:h-[100vh] pb-10 lg:px-[120px] px-[30px]">
       <div className="absolute lg:!top-16 md:-top-48 z-0 !left-0 m-auto w-full h-full flex justify-center items-center">
-        <Image
-          src={HeroBg}
-          alt="hero bg"
-          width={700}
-          height={250}
-        />
+        <Image src={HeroBg} alt="hero bg" width={700} height={250} />
       </div>
       <div className=" lg:w-1/3 pt-28">
         <h1 className="text-[#F7BC06] text-[48px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
@@ -45,10 +40,10 @@ export default function AboutHero() {
           you&#39;re likely to spot us in action!
         </p>
       </div>
-      <div className=" absolute right-0 w-[30px] mt-56 mr-64 h-auto">
+      <div className=" absolute right-0 w-[30px] lg:mt-40 mt-40 lg:mr-64 mr-4 h-auto">
         <Image src={DotBG} className="" />
       </div>
-      <div className=" absolute right-0 w-[20px] mt-40 mr-96 h-auto">
+      <div className=" absolute right-0 w-[20px] lg:mt-28 lg:mr-96 mr-40 mt-20 h-auto">
         <Image src={DotBG} className="" />
       </div>
     </div>

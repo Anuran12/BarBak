@@ -1,6 +1,7 @@
 .container {
   width: 100%;
-  margin-top: 100px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   position: relative;
   perspective: 3000px;
   height: 40vh;

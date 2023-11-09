@@ -41,10 +41,10 @@ export default function HomePage() {
         <Image src={BallBG1} className="" />
       </div>
       <Specials />
-      <div className=" absolute right-0 lg:w-[130px] w-[70px] lg:mr-28 h-auto">
+      <div className=" absolute right-0 lg:w-[130px] w-[70px] lg:mr-28 mr-2 h-auto">
         <Image src={LeafBG} className=" rotate-180" />
       </div>
-      <div className=" absolute right-0 w-[70px] mt-16 mr-64 h-auto">
+      <div className=" absolute right-0 w-[70px] lg:mt-16 lg:mr-64 mt-8 mr-20 h-auto">
         <Image src={LeafBG} className=" -rotate-90" />
       </div>
       <div className=" absolute w-[30px] mt-16 ml-64 h-auto hidden lg:block">
