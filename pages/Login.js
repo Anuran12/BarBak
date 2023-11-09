@@ -9,16 +9,16 @@ export default function Login() {
     <div>
       <Header />
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover ] h-[100vh]">
-        <div className="absolute !top-[80px] !left-[80px]">
+        <div className=" absolute !top-[80px] hidden lg:block !left-[80px]">
           <Image src={HeroBg} alt="hero bg" width={700} height={700} />
         </div>
-        <div className="flex flex-row w-full h-full justify-center items-center">
-          <div className="w-1/2"></div>
-          <div className="w-1/2 flex flex-col justify-center items-center">
+        <div className="flex lg:flex-row flex-col w-full h-full justify-center items-center">
+          <div className="lg:w-1/2"></div>
+          <div className="lg:w-1/2 flex flex-col justify-center items-center">
             <h1 className=" text-[40px] text-[#F7BC06] font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               Welcome Back
             </h1>
-            <div className="w-2/3 !bg-white/20 rounded-3xl flex flex-col justify-center p-10">
+            <div className="lg:w-2/3 w-[90%]  !bg-white/20 rounded-3xl flex flex-col justify-center p-10">
               <div class="mt-4">
                 <label class="block mb-2 text-[24px] text-[#F7BC06]">
                   Email
@@ -40,11 +40,11 @@ export default function Login() {
                 />
               </div>
               <p className="text-[#F7BC06] text-end">Forgot Password?</p>
-              <button class="bg-yellow-950 text-yellow-400 border border-yellow-400 border-b-4 overflow-hidden relative hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 mt-10 font-bold text-[24px] w-full flex items-center justify-center rounded-full  group">
+              <button class="bg-yellow-950 text-yellow-400 border border-yellow-400 border-b-4 overflow-hidden relative hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 mt-10 font-bold lg:text-[24px]  w-full flex items-center justify-center rounded-full  group">
                 <span class="bg-yellow-400 shadow-yellow-400 absolute -top-[150%] left-0 inline-flex w-full h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
                 Log In
               </button>
-              <button class="bg-gray-950 text-gray-400 border border-gray-400 border-b-4 overflow-hidden relative hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 mt-5 font-bold text-[24px] w-full flex items-center justify-center rounded-full  group">
+              <button class="bg-gray-950 text-gray-400 border border-gray-400 border-b-4 overflow-hidden relative hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 mt-5 font-bold lg:text-[24px] w-full flex items-center justify-center rounded-full  group">
                 <span class="bg-gray-400 shadow-gray-400 absolute -top-[150%] left-0 inline-flex w-full h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
