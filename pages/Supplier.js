@@ -8,7 +8,7 @@ export default function Supplier() {
     <div>
       <Header />
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover ">
-        <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain">
+        <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain pb-16">
           <div className="lg:h-[80vh] md:h-[50vh] h-[60vh] flex flex-col justify-center items-center">
             <h1 className="text-[#F7BC06] lg:text-[100px] md:text-[60px] text-[40px] mt-40 leading-tight text-center font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               BECOME A SUPPLIER
