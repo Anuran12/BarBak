@@ -24,18 +24,6 @@ export default function Header() {
       setCartOpen(!cartOpen);
     }
   };
-  useEffect(() => {
-    const handleScroll = () => {
-      let moving = window.pageYOffset;
-
-      setVisible(position > moving);
-      setPosition(moving);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  });
 
   return (
     <div>
