@@ -143,7 +143,7 @@ export default function AlcoholDelivery() {
           </div>
         </div>
         <div className="lg:w-1/2">
-          <div className="bg-[url('../img/NoticeBG.png')]  bg-no-repeat bg-center bg-contain w-full lg:h-[80vh] h-[40vh] flex flex-col justify-center items-center px-10 md:px-40 lg:px-20">
+          <div className="bg-[url('../img/NoticeBG.png')]  bg-no-repeat bg-center bg-contain w-full lg:h-[80vh] h-[40vh] nust:h-[80vh] flex flex-col justify-center items-center px-10 md:px-40 lg:px-20 nust:px-72">
             <h1 className="md:text-[24px] text-[20px] text-center font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] group-hover:text-[#F7BC06] w-full">
               Important Information:
             </h1>
