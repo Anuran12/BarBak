@@ -4,19 +4,31 @@ import DishImg from "../img/dish.png";
 import Image from "next/legacy/image";
 import Category from "@/components/Category";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Catalog() {
+    const [categoryOpen, setCategoryOpen] = useState(false);
+    const handleCategoryButtonClick = () => {
+        setCategoryOpen(!categoryOpen);
+        }
+
 	return (
         <div>
             <Header />
             <div className="bg-[url('../img/bg_black.jpg')] bg-no-repea flex  bg-center bg-cover">
-                <div className=" w-1/5 h-1 mt-20 ">
-                    <Category />
+                    <Category categoryOpen={categoryOpen} setCategoryOpen={setCategoryOpen}/>
+                <div className=" w-1/5 h-1 mt-20 hidden lg:block">
                 </div>
-                <div className=" w-4/5 mt-24 pr-24">
-                    
-                    <div className="flex flex-row justify-between items-center w-full">
-                        <h1 className=" text-[40px] text-white ">We recommend</h1>
+                <div className=" lg:w-4/5 w-full mt-24 lg:pr-24">
+                    <div className="flex items-center px-6 lg:hidden">
+                    <button onClick={handleCategoryButtonClick} className="text-[#f9fafb99] md:text-[24px] flex items-center gap-3 lg:px-2 px-1 h-fit rounded-full border border-[#f9fafb99] bg-black">
+                                Category
+                            </button>
+                            <p className="text-[10px] text-end w-full lg:hidden block text-white">Home - recommend - We recommend</p>
+
+                    </div>
+                    <div className="flex flex-row justify-between items-center w-full p-4 lg:p-0">
+                        <h1 className=" lg:text-[40px] md:text-[35px] text-[25px] text-white ">We recommend</h1>
                             <div class="relative  flex items-center w-1/3 h-12 rounded-lg focus-within:shadow-lg bg-black overflow-hidden">
                                 <input
                                 class="peer h-full w-full bg-black pl-3 outline-none text-sm text-gray-300 pr-2"
@@ -30,9 +42,9 @@ export default function Catalog() {
                                 </div>
                         </div>
                     </div>
-                    <div className="flex mb-8 mt-1 w-full justify-between">
+                    <div className="flex mb-8 mt-1 w-full justify-between px-4 lg:px-0">
                         <div className="flex">
-                            <div className="text-[#f9fafb99] flex items-center gap-3 px-2 rounded-full border border-[#f9fafb99] bg-black">
+                            <div className="text-[#f9fafb99] md:text-[24px] lg:text-[16px] flex items-center gap-3 lg:px-2 px-1 h-fit rounded-full border border-[#f9fafb99] bg-black">
                                 Depertment
                                 <svg fill="#f9fafb99" height="10px" width="10px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 330 330">
@@ -41,7 +53,7 @@ export default function Catalog() {
                                     s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"/>
                                 </svg>
                             </div>
-                            <div className="text-[#f9fafb99] ml-3 flex items-center gap-3 px-2 rounded-full border border-[#f9fafb99] bg-black">
+                            <div className="text-[#f9fafb99] md:text-[24px] lg:text-[16px] ml-3 flex items-center gap-3 lg:px-2 px-1 h-fit rounded-full border border-[#f9fafb99] bg-black">
                                 Brand
                                 <svg fill="#f9fafb99" height="10px" width="10px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 330 330">
@@ -51,8 +63,8 @@ export default function Catalog() {
                                 </svg>
                             </div>
                         </div>
-                        <div className="text-[#f9fafb99] ml-3 flex items-center gap-3 px-2 rounded-full border border-[#f9fafb99] bg-black">
-                                Sort by: recommend
+                        <div className="text-[#f9fafb99] md:text-[24px] lg:text-[16px] ml-3 flex items-center gap-3 lg:px-2 px-1 h-fit rounded-full border border-[#f9fafb99] bg-black">
+                                Sort by:
                                 <svg fill="#f9fafb99" height="10px" width="10px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 330 330">
                                 <path id="XMLID_102_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
@@ -61,7 +73,7 @@ export default function Catalog() {
                                 </svg>
                             </div>
                     </div>
-                    <div className=" grid grid-cols-5 gap-5">
+                    <div className=" grid lg:grid-cols-5 grid-cols-2 gap-5 p-4 lg:p-0 md:p-10">
                         <Link href={'/Item'}>
                             <div className=" bg-black rounded-2xl group hover:inner-border-2 hover:inner-border-white p-6 pt-1 pr-1">
                                 <div className="w-full flex justify-end">
