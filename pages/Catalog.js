@@ -14,6 +14,7 @@ export default function Catalog() {
                     <Category />
                 </div>
                 <div className=" w-4/5 mt-24 pr-24">
+                    
                     <div className="flex flex-row justify-between items-center w-full">
                         <h1 className=" text-[40px] text-white ">We recommend</h1>
                             <div class="relative  flex items-center w-1/3 h-12 rounded-lg focus-within:shadow-lg bg-black overflow-hidden">
