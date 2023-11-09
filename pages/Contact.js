@@ -10,7 +10,7 @@ export default function Contact() {
     <div>
       <Header />
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover flex lg:flex-row flex-col lg:px-[120px] px-[20px] pt-[100px]">
-        <div className="lg:w-1/2 text-white flex flex-col lg:px-16 -mt-20">
+        <div className="lg:w-1/2 text-white flex flex-col lg:px-16 -mt-20 nustmax:mb-32">
           <div class="container mx-auto flex flex-col">
             <div class="text-center">
               <h1 class="lg:mt-56 md:mt-10 mt-40 text-[48px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] text-white">
