@@ -36,7 +36,7 @@ export default function Header() {
           <Image src={Logo1} alt="logo" />
           <Image className="!ml-[-10px]" src={Logo2} alt="logo" />
         </Link>
-        <div className=" lg:flex hidden flex-col ml-16 col-start-2 nustmax:col-start-3 col-end-7 nustmax:col-end-8 items-center">
+        <div className=" lg:flex hidden flex-col ml-16 col-start-2 col-end-7 items-center">
           {/* <a className="text-[12px] text-center w-6/12">1234567890</a> */}
           <nav className="flex gap-10 text-[14px] justify-center items-center">
             <Link
