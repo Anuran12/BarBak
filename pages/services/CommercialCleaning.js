@@ -19,7 +19,7 @@ export default function CommercialCleaning() {
       {/* Hero Section */}
 
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover lg:h-[100vh] nust:h-[100vh]">
-        <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain lg:h-[100.2vh] nust:h-[100.2vh] lg:px-[120px] px-[20px]">
+        <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain lg:h-[100.2vh] nust:h-[100.2vh] lg:px-[120px] nustmax:px-[50px] px-[20px]">
           <div className="absolute lg:!top-[350px] top-[350px] lg:!left-[200px]">
             <Image
               src={HeroBg}
@@ -28,7 +28,7 @@ export default function CommercialCleaning() {
               height={250}
             />
           </div>
-          <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28 nustmax:pt-0">
+          <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28">
             <h1 className="text-white lg:text-[65px] md:text-[50px] text-[25px] nustmax:text-[50px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               Do you need a reliable <br />
               <span className="text-[#F7BC06]">Cleaning</span> service?
@@ -109,7 +109,7 @@ export default function CommercialCleaning() {
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-center lg:-mt-[1150px] md:-mt-[700px] -mt-[300px] scale-90">
+      <div className="w-full flex justify-center lg:-mt-[1150px] nustmax:-mt-[700px] md:-mt-[700px] -mt-[300px] scale-90">
         <div className="w-[45%] flex justify-center">
           <Image src={CourierImg2} />
         </div>
