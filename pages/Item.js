@@ -9,7 +9,7 @@ export default function Item() {
   return (
     <div>
       <Header />
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover px-[120px]">
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover lg:px-[120px]">
         <Link href={"/Catalog"}>
           <div className=" absolute flex items-center pt-24 group">
             <svg
@@ -31,8 +31,8 @@ export default function Item() {
             </span>
           </div>
         </Link>
-        <div className="flex flex-row w-full pt-20">
-          <div className="w-1/2 flex flex-col justify-center items-center">
+        <div className="flex lg:flex-row flex-col justify-center items-center w-full lg:pt-20 pt-32">
+          <div className="lg:w-1/2 flex flex-col justify-center items-center">
             <div className="w-1/2">
               <Image src={DishImg} />
             </div>
@@ -72,12 +72,12 @@ export default function Item() {
               factors.
             </p>
           </div>
-          <div className="w-1/2 flex flex-col">
-            <div className="mt-10 w-[90%] flex flex-row justify-between gap-4 items-center">
+          <div className="lg:w-1/2 flex flex-col justify-center items-center lg:justify-start lg:items-start">
+            <div className="mt-10 w-[90%] flex lg:flex-row flex-col justify-between gap-4 items-center">
               <div className="flex w-fit bg-[#F7BC06] rounded-full py-2 px-6 flex-row items-center">
                 <h1 className="text-[40px] font-bold">$14</h1>
               </div>
-              <div className="custom-number-input w-full ">
+              <div className="custom-number-input w-1/2 ">
                 <div className="flex flex-row justify-between">
                   <label
                     for="countries"
@@ -128,7 +128,7 @@ export default function Item() {
                   </option>
                 </select>
               </div>
-              <div className="custom-number-input w-full ">
+              <div className="custom-number-input w-1/2 ">
                 <div className="flex flex-row justify-between">
                   <label
                     for="countries"
@@ -180,9 +180,9 @@ export default function Item() {
                 </select>
               </div>
             </div>
-            <div className="flex flex-row items-center gap-5 mt-6">
-              <button class="bg-yellow-950 text-yellow-400 border border-yellow-400 border-b-4 overflow-hidden relative hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 font-bold text-[24px] w-1/2 flex items-center justify-center rounded-full  group">
-                <span class="bg-yellow-400 shadow-yellow-400 absolute -top-[150%] left-0 inline-flex w-full h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
+            <div className="flex flex-row items-center gap-5 mt-6 w-full justify-center">
+              <button class="bg-yellow-950 text-yellow-400 border border-yellow-400 border-b-4 overflow-hidden relative hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 font-bold lg:text-[24px] w-1/2 flex items-center justify-center rounded-full  group">
+                <span class="bg-yellow-400 absolute -top-[150%] left-0 inline-flex w-full h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
                 Add to cart
               </button>
               <div className=" flex flex-col justify-center group mt-5">
@@ -336,76 +336,107 @@ export default function Item() {
         </div>
       </div>
 
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-slate-50/60 bg-center bg-cover ] pt-16 px-[120px]">
-        <h1 className="text-white text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-slate-50/60 bg-center bg-cover ] pt-16 px-[20px]  lg:px-[120px]">
+        <h1 className="text-white lg:text-[40px] md:text-[35px] text-[25px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
           We recommend you try it
         </h1>
-        <div className="mt-8 pb-32 grid grid-cols-5 gap-10">
+        <div className="mt-8 pb-32 grid grid-cols-2 md:grid-cols-3 md:px-10 lg:px-0 lg:grid-cols-5 gap-10">
           <div className="">
-            <h1 className=" text-gray-50/60 text-[20px] pl-6 mb-8">
-              Test Food 1
-            </h1>
-            <Image src={DishImg} alt="dish 1" />
-            <p className="text-gray-50/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
-            <a
-              className=" ml-10 bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-white w-fit"
-              href={"/"}
-            >
-              $14
-            </a>
-          </div>
+                <h1 className=" text-gray-50/60 text-[20px] lg:pl-6 mb-8">
+                  Test Food 1
+                </h1>
+                <Image src={DishImg} alt="dish 1" />
+                <p className="text-gray-50/60 text-[14px] pl-6 mb-5">
+                  $16 / 1 pc
+                </p>
+                <div className=" w-full flex justify-center h-fit pr-5">
+                                      <div
+                                          className="bg-[url('../img/btn_border_white.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
+                                          href={"/"}
+                                      >
+                                      <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
+
+                                          $14
+                                      </div>
+                                  </div>
+              </div>
           <div className="">
-            <h1 className=" text-gray-50/60 text-[20px] pl-6 mb-8">
-              Test Food 1
-            </h1>
-            <Image src={DishImg} alt="dish 1" />
-            <p className="text-gray-50/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
-            <a
-              className=" ml-10 bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-white w-fit"
-              href={"/"}
-            >
-              $14
-            </a>
-          </div>
+                <h1 className=" text-gray-50/60 text-[20px] lg:pl-6 mb-8">
+                  Test Food 1
+                </h1>
+                <Image src={DishImg} alt="dish 1" />
+                <p className="text-gray-50/60 text-[14px] pl-6 mb-5">
+                  $16 / 1 pc
+                </p>
+                <div className=" w-full flex justify-center h-fit pr-5">
+                                      <div
+                                          className="bg-[url('../img/btn_border_white.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
+                                          href={"/"}
+                                      >
+                                      <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
+
+                                          $14
+                                      </div>
+                                  </div>
+              </div>
           <div className="">
-            <h1 className=" text-gray-50/60 text-[20px] pl-6 mb-8">
-              Test Food 1
-            </h1>
-            <Image src={DishImg} alt="dish 1" />
-            <p className="text-gray-50/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
-            <a
-              className=" ml-10 bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-white w-fit"
-              href={"/"}
-            >
-              $14
-            </a>
-          </div>
+                <h1 className=" text-gray-50/60 text-[20px] lg:pl-6 mb-8">
+                  Test Food 1
+                </h1>
+                <Image src={DishImg} alt="dish 1" />
+                <p className="text-gray-50/60 text-[14px] pl-6 mb-5">
+                  $16 / 1 pc
+                </p>
+                <div className=" w-full flex justify-center h-fit pr-5">
+                                      <div
+                                          className="bg-[url('../img/btn_border_white.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
+                                          href={"/"}
+                                      >
+                                      <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
+
+                                          $14
+                                      </div>
+                                  </div>
+              </div>
           <div className="">
-            <h1 className=" text-gray-50/60 text-[20px] pl-6 mb-8">
-              Test Food 1
-            </h1>
-            <Image src={DishImg} alt="dish 1" />
-            <p className="text-gray-50/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
-            <a
-              className=" ml-10 bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-white w-fit"
-              href={"/"}
-            >
-              $14
-            </a>
-          </div>
+                <h1 className=" text-gray-50/60 text-[20px] lg:pl-6 mb-8">
+                  Test Food 1
+                </h1>
+                <Image src={DishImg} alt="dish 1" />
+                <p className="text-gray-50/60 text-[14px] pl-6 mb-5">
+                  $16 / 1 pc
+                </p>
+                <div className=" w-full flex justify-center h-fit pr-5">
+                                      <div
+                                          className="bg-[url('../img/btn_border_white.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
+                                          href={"/"}
+                                      >
+                                      <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
+
+                                          $14
+                                      </div>
+                                  </div>
+              </div>
           <div className="">
-            <h1 className=" text-gray-50/60 text-[20px] pl-6 mb-8">
-              Test Food 1
-            </h1>
-            <Image src={DishImg} alt="dish 1" />
-            <p className="text-gray-50/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
-            <a
-              className=" ml-10 bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-white w-fit"
-              href={"/"}
-            >
-              $14
-            </a>
-          </div>
+                <h1 className=" text-gray-50/60 text-[20px] lg:pl-6 mb-8">
+                  Test Food 1
+                </h1>
+                <Image src={DishImg} alt="dish 1" />
+                <p className="text-gray-50/60 text-[14px] pl-6 mb-5">
+                  $16 / 1 pc
+                </p>
+                <div className=" w-full flex justify-center h-fit pr-5">
+                                      <div
+                                          className="bg-[url('../img/btn_border_white.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-white text-center w-full"
+                                          href={"/"}
+                                      >
+                                      <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
+
+                                          $14
+                                      </div>
+                                  </div>
+              </div>
+
         </div>
       </div>
     </div>
