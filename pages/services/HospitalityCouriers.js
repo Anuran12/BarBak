@@ -9,6 +9,8 @@ import CourierImg2 from "../../img/HospitalityCouriers/Item7.png";
 import CourierImg3 from "../../img/HospitalityCouriers/Item6.png";
 import CourierImg4 from "../../img/HospitalityCouriers/Item3.png";
 import HeroCircle from "@/components/HeroCircle";
+import HeroCircleTab from "@/components/HeroCircleTab";
+import HeroCircleMobile from "@/components/HeroCircleMobile";
 
 export default function HospitalityCouriers() {
   return (
@@ -16,9 +18,9 @@ export default function HospitalityCouriers() {
       <Header />
       {/* Hero Section */}
 
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover h-[100vh]">
-        <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain h-[100vh] px-[120px]">
-          <div className="absolute !top-[350px] !left-[200px]">
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover lg:h-[100vh]">
+        <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain lg:h-[100.2vh] lg:px-[120px] px-[20px]">
+          <div className="absolute lg:!top-[350px] top-[350px] lg:!left-[200px]">
             <Image
               src={HeroBg}
               alt="hero bg"
@@ -26,13 +28,13 @@ export default function HospitalityCouriers() {
               height={250}
             />
           </div>
-          <div className="h-[80vh] flex flex-col justify-center">
-            <h1 className="text-white text-[65px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28">
+            <h1 className="text-white lg:text-[65px] md:text-[50px] text-[25px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               Need your
               <span className="text-[#F7BC06]"> Package</span>
               <br /> at your doorstep?
             </h1>
-            <p className="text-white text-[24px] mt-8 w-1/2">
+            <p className="text-white md:text-[24px] text-[18px] mt-8 w-1/2">
               Order 10,000+ products, with same-day & next day delivery straight
               into your kitchen
             </p>
@@ -44,21 +46,28 @@ export default function HospitalityCouriers() {
             </a>
           </div>
         </div>
-        <div className=" absolute right-0 top-0 h-[120vh] w-[100vh] overflow-hidden">
-          <div className="absolute !top-[50px] !right-[40px]">
-            <HeroCircle />
-          </div>
+        <div className=" absolute right-0 top-5 h-[120vh] w-full overflow-hidden">
+        {/* <div className="h-[90vh] w-[90vh] absolute !top-28 !-right-[30vh] hero_circle"></div> */}
+        <div className="absolute !top-[50px] !right-[40px] hidden lg:block">
+          <HeroCircle />
         </div>
+        <div className="absolute !top-[150px] !right-[160px] md:hidden block">
+          <HeroCircleMobile />
+        </div>
+        <div className="absolute !top-[150px] !right-[160px] hidden lg:hidden md:block">
+          <HeroCircleTab />
+        </div>
+      </div>
       </div>
 
       {/* Hero Section */}
-      <div className=" flex flex-col justify-center items-center px-[120px] mt-20">
-        <h1 className="text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+      <div className=" flex flex-col justify-center items-center lg:px-[120px] px-[20px] mt-20">
+        <h1 className="lg:text-[40px] md:text-[35px] text-[25px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
           YOU
           <span className="text-[#F7BC06]"> ASK</span>. WE
           <span className="text-[#F7BC06]"> DELIVER</span>.
         </h1>
-        <div className="grid grid-cols-4 gap-5 mt-16">
+        <div className="grid lg:grid-cols-4 grid-cols-2 gap-5 mt-16">
           <div className="shadow hover:shadow-2xl p-6 flex flex-col items-center group">
             <h1 className=" font-[540] text-[22px] text-center group-hover:text-[#F7BC06] w-full">
               Catering
@@ -69,7 +78,7 @@ export default function HospitalityCouriers() {
               help with your delivery and setup.
             </p>
           </div>
-          <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-center items-center group">
+          <div className="shadow hover:shadow-2xl p-6 flex flex-col items-center group">
             <h1 className=" font-[540] text-[22px] text-center group-hover:text-[#F7BC06] w-full">
               Hotels
               <div className=" bg-[url('../img/underline.png')] bg-no-repeat bg-center bg-cover h-1 w-0 group-hover:w-full duration-300 ease-in-out"></div>
@@ -80,7 +89,7 @@ export default function HospitalityCouriers() {
               can help with all your guests and management delivery needs.
             </p>
           </div>
-          <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-center items-center group">
+          <div className="shadow hover:shadow-2xl p-6 flex flex-col items-center group">
             <h1 className=" font-[540] text-[22px] text-center group-hover:text-[#F7BC06] w-full">
               Farms & Markets
               <div className=" bg-[url('../img/underline.png')] bg-no-repeat bg-center bg-cover h-1 w-0 group-hover:w-full duration-300 ease-in-out"></div>
@@ -91,7 +100,7 @@ export default function HospitalityCouriers() {
               become a partner, please contact us below
             </p>
           </div>
-          <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-center items-center group">
+          <div className="shadow hover:shadow-2xl p-6 flex flex-col items-center group">
             <h1 className=" font-[540] text-[22px] text-center group-hover:text-[#F7BC06] w-full">
               Florists
               <div className=" bg-[url('../img/underline.png')] bg-no-repeat bg-center bg-cover h-1 w-0 group-hover:w-full duration-300 ease-in-out"></div>
@@ -105,14 +114,14 @@ export default function HospitalityCouriers() {
       </div>
       <div className="bg-[url('../img/wood.jpg')] bg-no-repeat bg-center bg-cover ] mt-20">
         <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
-          <div className="bg-[url('../img/patternDown.png')] flex flex-row justify-between bg-no-repeat bg-bottom bg-contain px-[30px]">
+          <div className="bg-[url('../img/patternDown.png')] flex flex-row justify-between bg-no-repeat bg-bottom bg-contain lg:px-[30px]">
             <div className="w-1/3 flex flex-col justify-evenly">
-              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white md:text-[28px] text-[16px] md:ml-28 ml-5 mt-10 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 Delivering Dreams, <br />
                 Not Just <span className="text-[#F7BC06]">Couriers</span>
               </h1>
               <Image src={CourierImg1} className=" scale-75" />
-              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white md:text-[28px] text-[16px] md:ml-28 ml-5 mb-10 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 More than <span className="text-[#F7BC06]">Couriers</span>,{" "}
                 <br />
                 We&#39;re Your <span className="text-[#F7BC06]">Partners</span>
@@ -120,7 +129,7 @@ export default function HospitalityCouriers() {
             </div>
             <div className="w-1/3 flex flex-col justify-evenly">
               <Image src={CourierImg3} className=" scale-75" />
-              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white md:text-[28px] text-[16px] md:ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 <span className="text-[#F7BC06]">Fast</span>,{" "}
                 <span className="text-[#F7BC06]">Flexible</span>, and <br />
                 Always <span className="text-[#F7BC06]">Friendly</span>
@@ -130,14 +139,16 @@ export default function HospitalityCouriers() {
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-center -mt-[900px] scale-100">
-        <Image src={CourierImg2} />
-      </div>
-      <div className="flex flex-row justify-center items-center px-[120px] -mt-32">
-        <div className="w-1/2 drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
-          <Image src={HeroImg2} alt="hero image" className=" scale-75" />
+      <div className="w-full flex justify-center lg:-mt-[900px] -mt-[350px] md:-mt-[700px] scale-100">
+        <div className="w-[55%] flex justify-center">
+          <Image src={CourierImg2} />
         </div>
-        <div className="w-1/2 flex flex-col ml-16">
+      </div>
+      <div className="flex lg:flex-row flex-col justify-center items-center lg:px-[120px] px-[20px] lg:-mt-32 mb-16 lg:mb-0">
+        <div className="lg:w-1/2 drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <Image src={HeroImg2} alt="hero image" className=" lg:scale-75" />
+        </div>
+        <div className="lg:w-1/2 flex flex-col lg:ml-16">
           <h1 className="text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
             Your
             <span className="text-[#F7BC06]"> Parcel</span>, Our

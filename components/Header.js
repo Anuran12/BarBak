@@ -40,7 +40,7 @@ export default function Header() {
   return (
     <div>
       <header
-        className={`bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover z-[9999] grid grid-cols-8 lg:px-10 text-white justify-center fixed items-center transition-[top] duration-[0.4s] ease-[ease-out] ${
+        className={`bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover z-[9999] grid grid-cols-8 lg:px-10 text-white justify-center fixed items-center transition-[top] w-full duration-[0.4s] ease-[ease-out] ${
           visible ? "top-0" : "-top-20"
         }`}
       >

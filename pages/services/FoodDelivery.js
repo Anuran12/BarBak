@@ -15,6 +15,8 @@ import BGImg2 from "../../img/BG_Images/tomato1.png";
 import FoodBG1 from "../../img/BG_Images/food1.png";
 import FoodBG2 from "../../img/BG_Images/food2.png";
 import DotBG from "../../img/BG_Images/dot2.png";
+import HeroCircleMobile from "@/components/HeroCircleMobile";
+import HeroCircleTab from "@/components/HeroCircleTab";
 
 export default function FoodDelivery() {
   return (
@@ -22,9 +24,9 @@ export default function FoodDelivery() {
       <Header />
       {/* Hero Section */}
 
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover h-[100vh]">
-        <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain h-[100vh] px-[120px]">
-          <div className="absolute !top-[350px] !left-[200px]">
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover lg:h-[100vh]">
+        <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain lg:h-[100.2vh] lg:px-[120px] px-[20px]">
+          <div className="absolute lg:!top-[350px] top-[350px] lg:!left-[200px]">
             <Image
               src={HeroBg}
               alt="hero bg"
@@ -32,12 +34,12 @@ export default function FoodDelivery() {
               height={250}
             />
           </div>
-          <div className="h-[80vh] flex flex-col justify-center">
-            <h1 className="text-white text-[65px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28">
+            <h1 className="text-white lg:text-[65px] md:text-[50px] text-[25px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               A Partner You can Count On <br />
               <span className="text-[#F7BC06]">Transparent</span> Pricing
             </h1>
-            <p className="text-white text-[24px] mt-8 w-1/2">
+            <p className="text-white md:text-[24px] text-[18px] mt-8 w-1/2">
               Order 10,000+ products, with same-day & next day delivery straight
               into your kitchen
             </p>
@@ -49,29 +51,36 @@ export default function FoodDelivery() {
             </a>
           </div>
         </div>
-        <div className=" absolute right-0 top-0 h-[120vh] w-[100vh] overflow-hidden">
-          <div className="absolute !top-[50px] !right-[40px]">
-            <HeroCircle />
-          </div>
+        <div className=" absolute right-0 top-5 h-[120vh] w-full overflow-hidden">
+        {/* <div className="h-[90vh] w-[90vh] absolute !top-28 !-right-[30vh] hero_circle"></div> */}
+        <div className="absolute !top-[50px] !right-[40px] hidden lg:block">
+          <HeroCircle />
+        </div>
+        <div className="absolute !top-[150px] !right-[160px] md:hidden block">
+          <HeroCircleMobile />
+        </div>
+        <div className="absolute !top-[150px] !right-[160px] hidden lg:hidden md:block">
+          <HeroCircleTab />
         </div>
       </div>
+      </div>
 
-      <div className=" absolute w-[230px] ml-16 -mt-20 h-auto">
+      <div className=" absolute lg:w-[230px] w-[100px] ml-16 -mt-20 h-auto">
         <Image src={BGImg1} className="" />
       </div>
-      <div className=" absolute w-[250px] ml-60 -mt-24 h-auto">
+      <div className=" absolute lg:w-[250px] w-[100px] ml-60 -mt-24 h-auto">
         <Image src={BGImg2} className="" />
       </div>
 
       {/* Hero Section */}
-      <div className="w-full flex px-[100px]">
-        <div className="w-1/2 flex flex-col justify-center items-center">
+      <div className="w-full flex lg:flex-row flex-col lg:px-[100px] px-[20px]">
+        <div className="lg:w-1/2 flex flex-col justify-center items-center">
           <div className="w-full h-28"></div>
           <Image src={ProcessImg} className="mt-10" />
         </div>
-        <div className="w-1/2">
-          <div className="bg-[url('../img/NoticeBG.png')]  bg-no-repeat bg-center bg-contain w-full h-[80vh] flex justify-center items-center px-20">
-            <p className="text-black !text-[20px] mt-16">
+        <div className="lg:w-1/2">
+          <div className="bg-[url('../img/NoticeBG.png')]  bg-no-repeat bg-center bg-contain w-full lg:h-[80vh] h-[40vh] leading-4 md:leading-7 lg:leading-none flex justify-center items-center lg:px-20 md:px-40 px-10">
+            <p className="text-black lg:text-[20px] md:text-[18px] mt-16">
               Do you really like pushing that cart at 6:00 AM? Seriously?! Do
               you really like that rep who keeps changing prices on you? We
               don&#39;t believe it. We give you hours of your precious life
@@ -89,15 +98,15 @@ export default function FoodDelivery() {
 
       <div className="bg-[url('../img/wood.jpg')] bg-no-repeat bg-center bg-cover ] mt-20">
         <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
-          <div className="bg-[url('../img/patternDown.png')] flex flex-row justify-between bg-no-repeat bg-bottom bg-contain px-[30px]">
+          <div className="bg-[url('../img/patternDown.png')] flex flex-row justify-between bg-no-repeat bg-bottom bg-contain lg:px-[30px]">
             <div className="w-1/3 flex flex-col justify-evenly">
-              <h1 className="text-white text-[28px] ml-28 mt-10 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white md:text-[28px] text-[16px] md:ml-28 ml-5 mt-10 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 Delivering quality
                 <span className="text-[#F7BC06]"> food</span>
                 <br /> to your door.
               </h1>
               <Image src={CourierImg1} className=" scale-75" />
-              <h1 className="text-white text-[28px] ml-28 mb-10 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white md:text-[28px] text-[16px] md:ml-28 ml-5 mb-10 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 Save <span className="text-[#F7BC06]">time</span> and{" "}
                 <span className="text-[#F7BC06]">money</span> <br /> with our
                 service.
@@ -105,7 +114,7 @@ export default function FoodDelivery() {
             </div>
             <div className="w-1/3 flex flex-col justify-evenly">
               <Image src={CourierImg3} className=" scale-75" />
-              <h1 className="text-white text-[28px] ml-20 mb-7 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white md:text-[28px] text-[16px] md:ml-20 mb-7 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 <span className="text-[#F7BC06]">Fast</span>,{" "}
                 <span className="text-[#F7BC06]">Safe</span>, and
                 <span className="text-[#F7BC06]"> Free</span>
@@ -116,84 +125,116 @@ export default function FoodDelivery() {
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-center -mt-[600px]">
-        <Image src={CourierImg2} className=" " />
+      <div className="w-full flex justify-center md:-mt-[600px] -mt-[250px]">
+        <div className="w-[35%] flex justify-center">
+          <Image src={CourierImg2} className=" " />
+        </div>
       </div>
 
       <div className=" absolute right-0 w-[250px] mr-28 -rotate-180 h-auto">
         <Image src={FoodBG2} className="" />
       </div>
 
-      <div className=" mt-28 px-[120px]">
+      <div className=" mt-28 px-[20px]  lg:px-[120px]">
         <h1 className="text-black text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
           Monthly Specials
         </h1>
-        <div className="mt-16 pb-32 grid grid-cols-5 gap-10">
-          <div className="">
-            <h1 className=" text-gray-900/60 text-[20px] pl-6 mb-8">
-              Test Food 1
-            </h1>
-            <Image src={DishImg} alt="dish 1" />
-            <p className="text-gray-900/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
-            <a
-              className=" ml-10 bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-black w-fit"
-              href={"/"}
-            >
-              $14
-            </a>
-          </div>
-          <div className="">
-            <h1 className=" text-gray-900/60 text-[20px] pl-6 mb-8">
-              Test Food 1
-            </h1>
-            <Image src={DishImg} alt="dish 1" />
-            <p className="text-gray-900/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
-            <a
-              className=" ml-10 bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-black w-fit"
-              href={"/"}
-            >
-              $14
-            </a>
-          </div>
-          <div className="">
-            <h1 className=" text-gray-900/60 text-[20px] pl-6 mb-8">
-              Test Food 1
-            </h1>
-            <Image src={DishImg} alt="dish 1" />
-            <p className="text-gray-900/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
-            <a
-              className=" ml-10 bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-black w-fit"
-              href={"/"}
-            >
-              $14
-            </a>
-          </div>
-          <div className="">
-            <h1 className=" text-gray-900/60 text-[20px] pl-6 mb-8">
-              Test Food 1
-            </h1>
-            <Image src={DishImg} alt="dish 1" />
-            <p className="text-gray-900/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
-            <a
-              className=" ml-10 bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-black w-fit"
-              href={"/"}
-            >
-              $14
-            </a>
-          </div>
-          <div className="">
-            <h1 className=" text-gray-900/60 text-[20px] pl-6 mb-8">
-              Test Food 1
-            </h1>
-            <Image src={DishImg} alt="dish 1" />
-            <p className="text-gray-900/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
-            <a
-              className=" ml-10 bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain py-8 px-16 text-[24px] mt-10 text-black w-fit"
-              href={"/"}
-            >
-              $14
-            </a>
-          </div>
+        <div className="mt-16 pb-32 grid grid-cols-2 md:grid-cols-3 md:px-10 lg:px-0 lg:grid-cols-5 gap-10">
+        <div className="">
+              <h1 className=" text-gray-900/60 text-[20px] lg:pl-6 mb-8">
+                Test Food 1
+              </h1>
+              <Image src={DishImg} alt="dish 1" />
+              <p className="text-gray-900/60 text-[14px] pl-6 mb-5">
+                $16 / 1 pc
+              </p>
+              <div className=" w-full flex justify-center h-fit pr-5">
+                                    <div
+                                        className="bg-[url('../img/btn-border_black.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-black text-center w-full"
+                                        href={"/"}
+                                    >
+                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
+
+                                        $14
+                                    </div>
+                                </div>
+            </div>
+        <div className="">
+              <h1 className=" text-gray-900/60 text-[20px] lg:pl-6 mb-8">
+                Test Food 1
+              </h1>
+              <Image src={DishImg} alt="dish 1" />
+              <p className="text-gray-900/60 text-[14px] pl-6 mb-5">
+                $16 / 1 pc
+              </p>
+              <div className=" w-full flex justify-center h-fit pr-5">
+                                    <div
+                                        className="bg-[url('../img/btn-border_black.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-black text-center w-full"
+                                        href={"/"}
+                                    >
+                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
+
+                                        $14
+                                    </div>
+                                </div>
+            </div>
+        <div className="">
+              <h1 className=" text-gray-900/60 text-[20px] lg:pl-6 mb-8">
+                Test Food 1
+              </h1>
+              <Image src={DishImg} alt="dish 1" />
+              <p className="text-gray-900/60 text-[14px] pl-6 mb-5">
+                $16 / 1 pc
+              </p>
+              <div className=" w-full flex justify-center h-fit pr-5">
+                                    <div
+                                        className="bg-[url('../img/btn-border_black.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-black text-center w-full"
+                                        href={"/"}
+                                    >
+                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
+
+                                        $14
+                                    </div>
+                                </div>
+            </div>
+        <div className="">
+              <h1 className=" text-gray-900/60 text-[20px] lg:pl-6 mb-8">
+                Test Food 1
+              </h1>
+              <Image src={DishImg} alt="dish 1" />
+              <p className="text-gray-900/60 text-[14px] pl-6 mb-5">
+                $16 / 1 pc
+              </p>
+              <div className=" w-full flex justify-center h-fit pr-5">
+                                    <div
+                                        className="bg-[url('../img/btn-border_black.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-black text-center w-full"
+                                        href={"/"}
+                                    >
+                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
+
+                                        $14
+                                    </div>
+                                </div>
+            </div>
+        <div className="">
+              <h1 className=" text-gray-900/60 text-[20px] lg:pl-6 mb-8">
+                Test Food 1
+              </h1>
+              <Image src={DishImg} alt="dish 1" />
+              <p className="text-gray-900/60 text-[14px] pl-6 mb-5">
+                $16 / 1 pc
+              </p>
+              <div className=" w-full flex justify-center h-fit pr-5">
+                                    <div
+                                        className="bg-[url('../img/btn-border_black.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-black text-center w-full"
+                                        href={"/"}
+                                    >
+                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
+
+                                        $14
+                                    </div>
+                                </div>
+            </div>
           <div className=" absolute  w-[30px] mt-96 mr-64 h-auto">
             <Image src={DotBG} className="" />
           </div>

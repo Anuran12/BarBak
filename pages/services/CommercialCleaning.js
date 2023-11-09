@@ -9,6 +9,8 @@ import CourierImg2 from "../../img/CommercialCleaning/Item9.png";
 import CourierImg3 from "../../img/CommercialCleaning/Item8.png";
 import CourierImg4 from "../../img/CommercialCleaning/Item7.png";
 import HeroCircle from "@/components/HeroCircle";
+import HeroCircleMobile from "@/components/HeroCircleMobile";
+import HeroCircleTab from "@/components/HeroCircleTab";
 
 export default function CommercialCleaning() {
   return (
@@ -16,9 +18,9 @@ export default function CommercialCleaning() {
       <Header />
       {/* Hero Section */}
 
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover h-[100vh]">
-        <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain h-[100vh] px-[120px]">
-          <div className="absolute !top-[350px] !left-[200px]">
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover lg:h-[100vh]">
+        <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain lg:h-[100.2vh] lg:px-[120px] px-[20px]">
+          <div className="absolute lg:!top-[350px] top-[350px] lg:!left-[200px]">
             <Image
               src={HeroBg}
               alt="hero bg"
@@ -26,12 +28,12 @@ export default function CommercialCleaning() {
               height={250}
             />
           </div>
-          <div className="h-[80vh] flex flex-col justify-center">
-            <h1 className="text-white text-[65px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28">
+            <h1 className="text-white lg:text-[65px] md:text-[50px] text-[25px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               Do you need a reliable <br />
               <span className="text-[#F7BC06]">Cleaning</span> service?
             </h1>
-            <p className="text-white text-[24px] mt-8 w-1/2">
+            <p className="text-white md:text-[24px] text-[18px] mt-8 w-1/2">
               Order 10,000+ products, with same-day & next day delivery straight
               into your kitchen
             </p>
@@ -43,20 +45,27 @@ export default function CommercialCleaning() {
             </a>
           </div>
         </div>
-        <div className=" absolute right-0 top-0 h-[120vh] w-[100vh] overflow-hidden">
-          <div className="absolute !top-[50px] !right-[40px]">
-            <HeroCircle />
-          </div>
+        <div className=" absolute right-0 top-5 h-[120vh] w-full overflow-hidden">
+        {/* <div className="h-[90vh] w-[90vh] absolute !top-28 !-right-[30vh] hero_circle"></div> */}
+        <div className="absolute !top-[50px] !right-[40px] hidden lg:block">
+          <HeroCircle />
         </div>
+        <div className="absolute !top-[150px] !right-[160px] md:hidden block">
+          <HeroCircleMobile />
+        </div>
+        <div className="absolute !top-[150px] !right-[160px] hidden lg:hidden md:block">
+          <HeroCircleTab />
+        </div>
+      </div>
       </div>
 
       {/* Hero Section */}
-      <div className=" absolute h-[600px] w-full flex -z-50">
+      <div className=" absolute h-[600px] w-full lg:flex -z-50 hidden">
         <Image src={WaterImg} width={1000} height={500} className=" !mb-48" />
-        <div className="h-2 w-1/4"></div>
+        <div className="h-2 lg:w-1/4"></div>
         <Image src={WaterImg} width={1000} height={500} className="!mt-48 " />
       </div>
-      <div className=" w-full text-center px-[300px] pt-28">
+      <div className=" w-full text-center lg:px-[300px] px-[20px] lg:pt-28 pt-16">
         <h1 className="text-[#F7BC06] text-[48px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
           Our Story
         </h1>
@@ -73,16 +82,16 @@ export default function CommercialCleaning() {
         </p>
       </div>
 
-      <div className="bg-[url('../img/wood.jpg')] bg-no-repeat bg-center bg-cover ] mt-52">
+      <div className="bg-[url('../img/wood.jpg')] bg-no-repeat bg-center bg-cover ] lg:mt-52 mt-16">
         <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
-          <div className="bg-[url('../img/patternDown.png')] flex flex-row justify-between bg-no-repeat bg-bottom bg-contain px-[30px]">
+          <div className="bg-[url('../img/patternDown.png')] flex flex-row justify-between bg-no-repeat bg-bottom bg-contain lg:px-[30px]">
             <div className="w-1/3 flex flex-col justify-evenly">
-              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white md:text-[28px] text-[16px] md:ml-28 ml-5 mt-10 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 Shine Bright with Our <br />
                 <span className="text-[#F7BC06]">Cleaning</span>Services.
               </h1>
               <Image src={CourierImg1} className=" scale-75" />
-              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white md:text-[28px] text-[16px] md:ml-28 ml-5 mb-10 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 Cleaning for a <span className="text-[#F7BC06]">Healthier</span>
                 , <br />
                 <span className="text-[#F7BC06]">Happier </span>Workplace.
@@ -90,7 +99,7 @@ export default function CommercialCleaning() {
             </div>
             <div className="w-1/3 flex flex-col justify-evenly">
               <Image src={CourierImg3} className=" scale-100" />
-              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white md:text-[28px] text-[16px] md:ml-20 mb-7 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 <span className="text-[#F7BC06]">Reliable</span>,{" "}
                 <span className="text-[#F7BC06]">Responsible</span>, <br />
                 <span className="text-[#F7BC06]">Remarkably</span> Clean.
@@ -100,15 +109,17 @@ export default function CommercialCleaning() {
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-center -mt-[1150px] scale-90">
-        <Image src={CourierImg2} />
+      <div className="w-full flex justify-center lg:-mt-[1150px] md:-mt-[700px] -mt-[300px] scale-90">
+        <div className="w-[45%] flex justify-center">
+          <Image src={CourierImg2} />
+        </div>
       </div>
 
-      <div className=" flex flex-col justify-center items-center px-[120px] mt-20">
-        <h1 className="text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+      <div className=" flex flex-col justify-center items-center lg:px-[120px] px-[20px] mt-20 md:mt-52 lg:mt-20">
+        <h1 className="lg:text-[40px] md:text-[35px] text-[25px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
           Our Service <span className="text-[#F7BC06]">Areas</span>
         </h1>
-        <div className="grid grid-cols-4 gap-5 mt-16">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-5 mt-16">
           <div className="shadow hover:shadow-2xl p-6 flex flex-col justify-between items-center group">
             <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06] w-full">
               Restaurants

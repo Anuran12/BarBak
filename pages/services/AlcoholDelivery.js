@@ -12,6 +12,8 @@ import HeroCircle from "@/components/HeroCircle";
 import AlcoholBG1 from "../../img/AlcoholDelivery/BG3.png";
 import AlcoholBG2 from "../../img/AlcoholDelivery/BG2.png";
 import AlcoholBG3 from "../../img/AlcoholDelivery/BG1.png";
+import HeroCircleMobile from "@/components/HeroCircleMobile";
+import HeroCircleTab from "@/components/HeroCircleTab";
 
 export default function AlcoholDelivery() {
   return (
@@ -19,9 +21,9 @@ export default function AlcoholDelivery() {
       <Header />
       {/* Hero Section */}
 
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover h-[100vh]">
-        <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain h-[100vh] px-[120px]">
-          <div className="absolute !top-[350px] !left-[200px]">
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover lg:h-[100vh] h-[80vh]">
+        <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain lg:h-[100.2vh] h-[80.2vh] lg:px-[120px] px-[20px]">
+          <div className="absolute lg:!top-[350px] top-[350px] lg:!left-[200px]">
             <Image
               src={HeroBg}
               alt="hero bg"
@@ -29,12 +31,12 @@ export default function AlcoholDelivery() {
               height={250}
             />
           </div>
-          <div className="h-[80vh] flex flex-col justify-center">
-            <h1 className="text-white text-[65px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28">
+            <h1 className="text-white lg:text-[65px] md:text-[50px] text-[25px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               Do you hate having <br /> to pickup your
               <span className="text-[#F7BC06]"> liquor</span>?
             </h1>
-            <p className="text-white text-[24px] mt-8 w-1/2">
+            <p className="text-white md:text-[24px] text-[18px] mt-8 w-1/2">
               Order 10,000+ products, with same-day & next day delivery straight
               into your kitchen
             </p>
@@ -46,21 +48,28 @@ export default function AlcoholDelivery() {
             </a>
           </div>
         </div>
-        <div className=" absolute right-0 top-0 h-[120vh] w-[100vh] overflow-hidden">
-          <div className="absolute !top-[50px] !right-[40px]">
-            <HeroCircle />
-          </div>
+        <div className=" absolute right-0 top-5 h-[120vh] w-full overflow-hidden">
+        {/* <div className="h-[90vh] w-[90vh] absolute !top-28 !-right-[30vh] hero_circle"></div> */}
+        <div className="absolute !top-[50px] !right-[40px] hidden lg:block">
+          <HeroCircle />
         </div>
+        <div className="absolute !top-[150px] !right-[160px] md:hidden block">
+          <HeroCircleMobile />
+        </div>
+        <div className="absolute !top-[150px] !right-[160px] hidden lg:hidden md:block">
+          <HeroCircleTab />
+        </div>
+      </div>
       </div>
 
       {/* Hero Section */}
 
-      <div className="flex flex-row justify-center items-center px-[120px] ">
-        <div className="w-1/2 drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)] -ml-60 -mb-3">
-          <Image src={BottlesImg} alt="hero image" className=" scale-[1.4]" />
+      <div className="flex lg:flex-row flex-col mb-16 justify-center items-center lg:px-[120px] px-10">
+        <div className="lg:w-1/2 md:w-5/6 drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)] lg:-ml-60 lg:-mb-3">
+          <Image src={BottlesImg} alt="hero image" className=" lg:scale-[1.4]" />
         </div>
-        <div className="w-1/2 flex flex-col ml-32">
-          <h1 className="text-[40px] text-[#F7BC06] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+        <div className="lg:w-1/2 flex flex-col lg:ml-32">
+          <h1 className="lg:text-[40px] md:text-[35px] text-[25px] text-[#F7BC06] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
             Mixed Beverage
             <br /> Permit Holder?
           </h1>
@@ -75,19 +84,19 @@ export default function AlcoholDelivery() {
       </div>
 
       <div className=" absolute right-0 -rotate-12 -mt-[250px] mr-24">
-        <Image src={AlcoholBG1} className=" scale-75 " />
+        <Image src={AlcoholBG1} className=" lg:scale-75 scale-50 " />
       </div>
 
       <div className="bg-[url('../img/wood.jpg')] bg-no-repeat bg-center bg-cover ]">
         <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
-          <div className="bg-[url('../img/patternDown.png')] flex flex-row justify-between bg-no-repeat bg-bottom bg-contain px-[30px]">
+          <div className="bg-[url('../img/patternDown.png')] flex flex-row justify-between bg-no-repeat bg-bottom bg-contain lg:px-[30px]">
             <div className="w-1/3 flex flex-col justify-evenly">
-              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white md:text-[28px] text-[16px] md:ml-28 ml-5 mt-10 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 No need to go out, we&#39;ll <br />
                 bring the <span className="text-[#F7BC06]">booze</span> to you.
               </h1>
               <Image src={CourierImg1} className=" scale-75" />
-              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white md:text-[28px] text-[16px] md:ml-28 ml-5 mb-10 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 No <span className="text-[#F7BC06]">Bar</span>, no problem,{" "}
                 <br />
                 we&#39;ll bring the{" "}
@@ -97,7 +106,7 @@ export default function AlcoholDelivery() {
             </div>
             <div className="w-1/3 flex flex-col justify-evenly">
               <Image src={CourierImg3} className=" scale-75" />
-              <h1 className="text-white text-[28px] ml-28 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+              <h1 className="text-white md:text-[28px] text-[16px] md:ml-20 mb-7 mr-5 font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
                 You <span className="text-[#F7BC06]">order</span>, we <br />
                 <span className="text-[#F7BC06]"> deliver</span>, you{" "}
                 <span className="text-[#F7BC06]">enjoy</span>.
@@ -107,22 +116,24 @@ export default function AlcoholDelivery() {
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-center -mt-[1000px]">
+      <div className="w-full flex justify-center lg:-mt-[1000px] md:-mt-[900px] -mt-[400px]">
+        <div className="w-[35%] flex justify-center">
         <Image src={CourierImg2} />
+        </div>
       </div>
 
-      <div className=" absolute w-[250px] ml-28 -mt-28 rotate-[30deg] h-auto">
+      <div className=" absolute w-[250px] ml-28 -mt-28 lg:rotate-[30deg] h-auto">
         <Image src={AlcoholBG2} className=" scale-50" />
       </div>
 
-      <div className="w-full flex px-[100px] -mt-16">
-        <div className="w-1/2 flex justify-center items-center">
+      <div className="w-full flex flex-col lg:flex-row lg:px-[100px] px-[20px] -mt-16">
+        <div className="lg:w-1/2 flex justify-center mt-20 lg:mt-0 items-center">
           <div className="shadow hover:shadow-2xl p-6 h-fit  flex flex-col justify-center items-center group">
-            <h1 className="text-[24px] text-center font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] group-hover:text-[#F7BC06] w-full">
+            <h1 className="md:text-[24px] text-[20px] text-center font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] group-hover:text-[#F7BC06] w-full">
               Cost:
               <div className=" bg-[url('../img/underline.png')] bg-no-repeat bg-center bg-cover h-1 w-0 group-hover:w-full duration-300 ease-in-out"></div>
             </h1>
-            <p className="text-[20px] text-center text-[#0a0a0a85] font-[530] mt-2">
+            <p className="md:text-[20px] text-[16px] text-center text-[#0a0a0a85] font-[530] mt-2">
               $35 flat fee for delivery per liquor store $18 for every 5 cases
               ordered We will invoice you separately for liquor deliveries and
               can do this per delivery, weekly, or bi-weekly basis. We prefer
@@ -131,12 +142,12 @@ export default function AlcoholDelivery() {
             </p>
           </div>
         </div>
-        <div className="w-1/2">
-          <div className="bg-[url('../img/NoticeBG.png')]  bg-no-repeat bg-center bg-contain w-full h-[80vh] flex flex-col justify-center items-center px-20">
-            <h1 className="text-[24px] text-center font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] group-hover:text-[#F7BC06] w-full">
+        <div className="lg:w-1/2">
+          <div className="bg-[url('../img/NoticeBG.png')]  bg-no-repeat bg-center bg-contain w-full lg:h-[80vh] h-[40vh] flex flex-col justify-center items-center px-10 md:px-40 lg:px-20">
+            <h1 className="md:text-[24px] text-[20px] text-center font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] group-hover:text-[#F7BC06] w-full">
               Important Information:
             </h1>
-            <p className="text-[20px] text-center text-black font-[530] mt-2">
+            <p className="md:text-[20px] text-[16px] leading-5 md:leading-none text-center text-black font-[530] mt-2">
               We deliver liquor 6 days a week (Mon-Sat) We are licensed, insured
               and bonded and there is no contract, we deliver on an as needed
               basis.
