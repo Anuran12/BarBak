@@ -24,8 +24,8 @@ export default function FoodDelivery() {
       <Header />
       {/* Hero Section */}
 
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover lg:h-[100vh]">
-        <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain lg:h-[100.2vh] lg:px-[120px] px-[20px]">
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover lg:h-[100vh] nust:h-[100vh]">
+        <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain lg:h-[100.2vh] nust:h-[100.2vh] lg:px-[120px] px-[20px]">
           <div className="absolute lg:!top-[350px] top-[350px] lg:!left-[200px]">
             <Image
               src={HeroBg}
@@ -59,7 +59,7 @@ export default function FoodDelivery() {
         <div className="absolute !top-[150px] !right-[160px] md:hidden block">
           <HeroCircleMobile />
         </div>
-        <div className="absolute !top-[150px] !right-[160px] hidden lg:hidden md:block">
+        <div className="absolute !top-[150px] nust:!top-[50px] !right-[160px] hidden lg:hidden md:block">
           <HeroCircleTab />
         </div>
       </div>
