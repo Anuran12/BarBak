@@ -27,12 +27,7 @@ export default function FoodDelivery() {
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover lg:h-[100vh] nust:h-[100vh]">
         <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain lg:h-[100.2vh] nust:h-[100.2vh] lg:px-[120px] px-[20px]">
           <div className="absolute lg:!top-[350px] top-[350px] lg:!left-[200px]">
-            <Image
-              src={HeroBg}
-              alt="hero bg"
-              width={700}
-              height={250}
-            />
+            <Image src={HeroBg} alt="hero bg" width={700} height={250} />
           </div>
           <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28">
             <h1 className="text-white lg:text-[65px] md:text-[50px] text-[25px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
@@ -52,23 +47,23 @@ export default function FoodDelivery() {
           </div>
         </div>
         <div className=" absolute right-0 top-5 h-[120vh] w-full overflow-hidden">
-        {/* <div className="h-[90vh] w-[90vh] absolute !top-28 !-right-[30vh] hero_circle"></div> */}
-        <div className="absolute !top-[50px] !right-[40px] hidden lg:block">
-          <HeroCircle />
+          {/* <div className="h-[90vh] w-[90vh] absolute !top-28 !-right-[30vh] hero_circle"></div> */}
+          <div className="absolute !top-[50px] !right-[40px] hidden lg:block">
+            <HeroCircle />
+          </div>
+          <div className="absolute !top-[150px] !right-[160px] md:hidden block">
+            <HeroCircleMobile />
+          </div>
+          <div className="absolute !top-[150px] nust:!top-[50px] !right-[160px] hidden lg:hidden md:block">
+            <HeroCircleTab />
+          </div>
         </div>
-        <div className="absolute !top-[150px] !right-[160px] md:hidden block">
-          <HeroCircleMobile />
-        </div>
-        <div className="absolute !top-[150px] nust:!top-[50px] !right-[160px] hidden lg:hidden md:block">
-          <HeroCircleTab />
-        </div>
-      </div>
       </div>
 
-      <div className=" absolute lg:w-[230px] w-[100px] ml-16 -mt-20 h-auto">
+      <div className=" absolute lg:w-[230px] w-[100px] lg:ml-16 ml-4 lg:-mt-20 -mt-10 h-auto">
         <Image src={BGImg1} className="" />
       </div>
-      <div className=" absolute lg:w-[250px] w-[100px] ml-60 -mt-24 h-auto">
+      <div className=" absolute lg:w-[250px] w-[100px] lg:ml-60 ml-24 lg:-mt-24 -mt-14 h-auto">
         <Image src={BGImg2} className="" />
       </div>
 
@@ -80,7 +75,7 @@ export default function FoodDelivery() {
         </div>
         <div className="lg:w-1/2">
           <div className="bg-[url('../img/NoticeBG.png')]  bg-no-repeat bg-center bg-contain w-full lg:h-[80vh] h-[40vh] nust:h-[80vh] leading-4 md:leading-7 lg:leading-none flex justify-center items-center lg:px-20 md:px-40 px-10 nust:px-72">
-            <p className="text-black lg:text-[20px] md:text-[18px] mt-16">
+            <p className="text-black lg:text-[20px] md:text-[18px] text-[14px] lg:mt-16 mt-10">
               Do you really like pushing that cart at 6:00 AM? Seriously?! Do
               you really like that rep who keeps changing prices on you? We
               don&#39;t believe it. We give you hours of your precious life
@@ -131,116 +126,101 @@ export default function FoodDelivery() {
         </div>
       </div>
 
-      <div className=" absolute right-0 w-[250px] mr-28 -rotate-180 h-auto">
+      <div className=" absolute right-0 lg:w-[250px] w-[200px] lg:mr-28 mr-0 lg:-mt-0 -mt-8 -rotate-180 h-auto">
         <Image src={FoodBG2} className="" />
       </div>
 
-      <div className=" mt-28 px-[20px]  lg:px-[120px]">
+      <div className=" lg:mt-28 mt-10 px-[20px]  lg:px-[120px]">
         <h1 className="text-black text-[40px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
           Monthly Specials
         </h1>
         <div className="mt-16 pb-32 grid grid-cols-2 md:grid-cols-3 md:px-10 lg:px-0 lg:grid-cols-5 gap-10">
-        <div className="">
-              <h1 className=" text-gray-900/60 text-[20px] lg:pl-6 mb-8">
-                Test Food 1
-              </h1>
-              <Image src={DishImg} alt="dish 1" />
-              <p className="text-gray-900/60 text-[14px] pl-6 mb-5">
-                $16 / 1 pc
-              </p>
-              <div className=" w-full flex justify-center h-fit pr-5">
-                                    <div
-                                        className="bg-[url('../img/btn-border_black.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-black text-center w-full"
-                                        href={"/"}
-                                    >
-                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
-
-                                        $14
-                                    </div>
-                                </div>
+          <div className="">
+            <h1 className=" text-gray-900/60 text-[20px] lg:pl-6 mb-8">
+              Test Food 1
+            </h1>
+            <Image src={DishImg} alt="dish 1" />
+            <p className="text-gray-900/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
+            <div className=" w-full flex justify-center h-fit pr-5">
+              <div
+                className="bg-[url('../img/btn-border_black.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-black text-center w-full"
+                href={"/"}
+              >
+                <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
+                $14
+              </div>
             </div>
-        <div className="">
-              <h1 className=" text-gray-900/60 text-[20px] lg:pl-6 mb-8">
-                Test Food 1
-              </h1>
-              <Image src={DishImg} alt="dish 1" />
-              <p className="text-gray-900/60 text-[14px] pl-6 mb-5">
-                $16 / 1 pc
-              </p>
-              <div className=" w-full flex justify-center h-fit pr-5">
-                                    <div
-                                        className="bg-[url('../img/btn-border_black.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-black text-center w-full"
-                                        href={"/"}
-                                    >
-                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
-
-                                        $14
-                                    </div>
-                                </div>
-            </div>
-        <div className="">
-              <h1 className=" text-gray-900/60 text-[20px] lg:pl-6 mb-8">
-                Test Food 1
-              </h1>
-              <Image src={DishImg} alt="dish 1" />
-              <p className="text-gray-900/60 text-[14px] pl-6 mb-5">
-                $16 / 1 pc
-              </p>
-              <div className=" w-full flex justify-center h-fit pr-5">
-                                    <div
-                                        className="bg-[url('../img/btn-border_black.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-black text-center w-full"
-                                        href={"/"}
-                                    >
-                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
-
-                                        $14
-                                    </div>
-                                </div>
-            </div>
-        <div className="">
-              <h1 className=" text-gray-900/60 text-[20px] lg:pl-6 mb-8">
-                Test Food 1
-              </h1>
-              <Image src={DishImg} alt="dish 1" />
-              <p className="text-gray-900/60 text-[14px] pl-6 mb-5">
-                $16 / 1 pc
-              </p>
-              <div className=" w-full flex justify-center h-fit pr-5">
-                                    <div
-                                        className="bg-[url('../img/btn-border_black.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-black text-center w-full"
-                                        href={"/"}
-                                    >
-                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
-
-                                        $14
-                                    </div>
-                                </div>
-            </div>
-        <div className="">
-              <h1 className=" text-gray-900/60 text-[20px] lg:pl-6 mb-8">
-                Test Food 1
-              </h1>
-              <Image src={DishImg} alt="dish 1" />
-              <p className="text-gray-900/60 text-[14px] pl-6 mb-5">
-                $16 / 1 pc
-              </p>
-              <div className=" w-full flex justify-center h-fit pr-5">
-                                    <div
-                                        className="bg-[url('../img/btn-border_black.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-black text-center w-full"
-                                        href={"/"}
-                                    >
-                                    <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
-
-                                        $14
-                                    </div>
-                                </div>
-            </div>
-          <div className=" absolute  w-[30px] mt-96 mr-64 h-auto">
-            <Image src={DotBG} className="" />
           </div>
-          <div className=" absolute  w-[20px] mt-72 -ml-16 h-auto">
-            <Image src={DotBG} className="" />
+          <div className="">
+            <h1 className=" text-gray-900/60 text-[20px] lg:pl-6 mb-8">
+              Test Food 1
+            </h1>
+            <Image src={DishImg} alt="dish 1" />
+            <p className="text-gray-900/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
+            <div className=" w-full flex justify-center h-fit pr-5">
+              <div
+                className="bg-[url('../img/btn-border_black.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-black text-center w-full"
+                href={"/"}
+              >
+                <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
+                $14
+              </div>
+            </div>
           </div>
+          <div className="">
+            <h1 className=" text-gray-900/60 text-[20px] lg:pl-6 mb-8">
+              Test Food 1
+            </h1>
+            <Image src={DishImg} alt="dish 1" />
+            <p className="text-gray-900/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
+            <div className=" w-full flex justify-center h-fit pr-5">
+              <div
+                className="bg-[url('../img/btn-border_black.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-black text-center w-full"
+                href={"/"}
+              >
+                <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
+                $14
+              </div>
+            </div>
+          </div>
+          <div className="">
+            <h1 className=" text-gray-900/60 text-[20px] lg:pl-6 mb-8">
+              Test Food 1
+            </h1>
+            <Image src={DishImg} alt="dish 1" />
+            <p className="text-gray-900/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
+            <div className=" w-full flex justify-center h-fit pr-5">
+              <div
+                className="bg-[url('../img/btn-border_black.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-black text-center w-full"
+                href={"/"}
+              >
+                <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
+                $14
+              </div>
+            </div>
+          </div>
+          <div className="">
+            <h1 className=" text-gray-900/60 text-[20px] lg:pl-6 mb-8">
+              Test Food 1
+            </h1>
+            <Image src={DishImg} alt="dish 1" />
+            <p className="text-gray-900/60 text-[14px] pl-6 mb-5">$16 / 1 pc</p>
+            <div className=" w-full flex justify-center h-fit pr-5">
+              <div
+                className="bg-[url('../img/btn-border_black.png')] relative float-left bg-no-repeat z-10 bg-center bg-contain px-4 text-[24px] text-black text-center w-full"
+                href={"/"}
+              >
+                <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-0 duration-200 absolute -z-10 -ml-7 -mt-3 group-hover:w-[120%]"></div>
+                $14
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className=" absolute  w-[30px] lg:-mt-10 -mt-8 ml-72 lg:mr-64 h-auto">
+          <Image src={DotBG} className="" />
+        </div>
+        <div className=" absolute  w-[20px] lg:-mt-32 -mt-24 ml-56 lg:-ml-16 h-auto">
+          <Image src={DotBG} className="" />
         </div>
         <div></div>
       </div>

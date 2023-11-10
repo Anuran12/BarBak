@@ -24,12 +24,7 @@ export default function AlcoholDelivery() {
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover lg:h-[100vh] h-[80vh] nust:h-[100vh]">
         <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain lg:h-[100.2vh] nust:h-[100.2vh] h-[80.2vh] lg:px-[120px] px-[20px]">
           <div className="absolute lg:!top-[350px] top-[350px] lg:!left-[200px]">
-            <Image
-              src={HeroBg}
-              alt="hero bg"
-              width={700}
-              height={250}
-            />
+            <Image src={HeroBg} alt="hero bg" width={700} height={250} />
           </div>
           <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28">
             <h1 className="text-white lg:text-[65px] md:text-[50px] text-[25px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
@@ -49,24 +44,28 @@ export default function AlcoholDelivery() {
           </div>
         </div>
         <div className=" absolute right-0 top-5 h-[120vh] w-full overflow-hidden">
-        {/* <div className="h-[90vh] w-[90vh] absolute !top-28 !-right-[30vh] hero_circle"></div> */}
-        <div className="absolute !top-[50px] !right-[40px] hidden lg:block">
-          <HeroCircle />
+          {/* <div className="h-[90vh] w-[90vh] absolute !top-28 !-right-[30vh] hero_circle"></div> */}
+          <div className="absolute !top-[50px] !right-[40px] hidden lg:block">
+            <HeroCircle />
+          </div>
+          <div className="absolute !top-[150px] !right-[160px] md:hidden block">
+            <HeroCircleMobile />
+          </div>
+          <div className="absolute !top-[150px] !right-[160px] nust:!top-[50px] hidden lg:hidden md:block">
+            <HeroCircleTab />
+          </div>
         </div>
-        <div className="absolute !top-[150px] !right-[160px] md:hidden block">
-          <HeroCircleMobile />
-        </div>
-        <div className="absolute !top-[150px] !right-[160px] nust:!top-[50px] hidden lg:hidden md:block">
-          <HeroCircleTab />
-        </div>
-      </div>
       </div>
 
       {/* Hero Section */}
 
       <div className="flex lg:flex-row flex-col mb-16 justify-center items-center lg:px-[120px] px-10">
         <div className="lg:w-1/2 md:w-5/6 drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)] lg:-ml-60 lg:-mb-3">
-          <Image src={BottlesImg} alt="hero image" className=" lg:scale-[1.4]" />
+          <Image
+            src={BottlesImg}
+            alt="hero image"
+            className=" lg:scale-[1.4]"
+          />
         </div>
         <div className="lg:w-1/2 flex flex-col lg:ml-32">
           <h1 className="lg:text-[40px] md:text-[35px] text-[25px] text-[#F7BC06] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
@@ -83,8 +82,11 @@ export default function AlcoholDelivery() {
         </div>
       </div>
 
-      <div className=" absolute right-0 -rotate-12 -mt-[250px] mr-24">
-        <Image src={AlcoholBG1} className=" lg:scale-75 scale-50 " />
+      <div className=" absolute right-0  lg:-mt-[250px] -mt-[200px] lg:mr-24 mr-0">
+        <Image
+          src={AlcoholBG1}
+          className=" lg:scale-75 scale-[.4] -rotate-12"
+        />
       </div>
 
       <div className="bg-[url('../img/wood.jpg')] bg-no-repeat bg-center bg-cover ]">
@@ -118,12 +120,15 @@ export default function AlcoholDelivery() {
       </div>
       <div className="w-full flex justify-center lg:-mt-[1000px] md:-mt-[900px] -mt-[400px]">
         <div className="w-[35%] flex justify-center">
-        <Image src={CourierImg2} />
+          <Image src={CourierImg2} />
         </div>
       </div>
 
-      <div className=" absolute w-[250px] ml-28 -mt-28 lg:rotate-[30deg] h-auto">
-        <Image src={AlcoholBG2} className=" scale-50" />
+      <div className=" absolute w-[250px] lg:ml-28 -ml-16 lg:-mt-28 -mt-32  h-auto">
+        <Image
+          src={AlcoholBG2}
+          className=" rotate-[30deg] lg:scale-50 scale-[.3]"
+        />
       </div>
 
       <div className="w-full flex flex-col lg:flex-row lg:px-[100px] px-[20px] -mt-16">
@@ -155,8 +160,8 @@ export default function AlcoholDelivery() {
           </div>
         </div>
       </div>
-      <div className=" absolute right-0 -mt-44">
-        <Image src={AlcoholBG3} className=" scale-50 " />
+      <div className=" absolute right-0 lg:-mt-44 -mt-[150px]">
+        <Image src={AlcoholBG3} className=" lg:scale-50 scale-[.3] " />
       </div>
       <Footer />
     </div>

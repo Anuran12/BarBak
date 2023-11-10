@@ -33,11 +33,11 @@ export default function HomePage() {
       <div className=" absolute right-0 lg:w-[130px] w-[70px] lg:-mt-14 lg:mr-28 -mt-[720px] -rotate-90 lg:rotate-0  h-auto">
         <Image src={LeafBG} className="" />
       </div>
-      <div className=" absolute lg:w-[230px] w-[130px] lg:ml-16 lg:mr-28 mt-10 h-auto">
+      <div className=" absolute lg:w-[230px] w-[130px] lg:ml-16 ml-4 lg:mr-28 mt-10 h-auto">
         <Image src={BGItem} className="" />
       </div>
       <Services />
-      <div className=" absolute right-0 w-[60px] mt-2  h-auto">
+      <div className=" absolute right-0 mr-4 w-[60px] mt-2  h-auto">
         <Image src={BallBG1} className="" />
       </div>
       <Specials />
