@@ -8,13 +8,13 @@ export default function Login() {
   return (
     <div>
       <Header />
-      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover ] h-[100vh]">
+      <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover ] min-h-[80vh] lg:h-[100vh]">
         <div className=" absolute !top-[80px] hidden lg:block !left-[80px]">
           <Image src={HeroBg} alt="hero bg" width={700} height={700} />
         </div>
         <div className="flex lg:flex-row flex-col w-full h-full justify-center items-center">
           <div className="lg:w-1/2"></div>
-          <div className="lg:w-1/2 w-[80%] flex flex-col justify-center items-center">
+          <div className="lg:w-1/2 w-[80%] mt-40 nust:mt-20 lg:mt-20 nust:mb-20 lg:mb-0 flex flex-col justify-center items-center">
             <h1 className=" text-[40px] text-[#F7BC06] font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               Welcome Back
             </h1>
