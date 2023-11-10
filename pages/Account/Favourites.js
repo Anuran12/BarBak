@@ -8,12 +8,12 @@ export default function Favourites() {
     return(
         <div>
             <Header />
-            <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover pt-20 pb-16 px-[120px]">
-                    <div className="w-full mt-10 p-8 flex flex-col">
+            <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover pt-20 pb-16 lg:px-[120px] px-[20px]">
+                    <div className="w-full mt-10 md:p-8 flex flex-col">
                         <div className="flex flex-row justify-between items-center">
                         <h1 className="text-[40px] text-[#F7BC06]">My Favourites</h1>
                         </div>
-                        <div className="grid grid-cols-5 mt-6 gap-4">
+                        <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 mt-6 gap-4">
                         <Link href={'/Item'}>
                                         <div className=" bg-black rounded-2xl group hover:inner-border-2 hover:inner-border-white p-6 pt-1 pr-1">
                                             <div className="w-full flex justify-end">

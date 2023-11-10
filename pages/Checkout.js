@@ -33,13 +33,13 @@ export default function checkout() {
           <Image className="!ml-[-10px]" src={Logo2} alt="logo" />
         </Link>
       </div>
-      <div className="bg-[url('../img/bg_black.jpg')] flex pt-20 flex-row bg-no-repeat bg-center bg-cover">
-        <div className="w-[60%] pl-10 flex flex-col gap-40 mb-64">
-          <div className="h-1 p-10 flex flex-row gap-8">
+      <div className="bg-[url('../img/bg_black.jpg')] flex pt-20 lg:flex-row flex-col bg-no-repeat bg-center bg-cover">
+        <div className="lg:w-[60%] w-full lg:pl-10 flex flex-col gap-40 mb-64">
+          <div className="h-1 p-10 flex md:flex-row flex-col gap-8">
             <div>
               <h1 className="text-white text-[28px]">Delivery</h1>
             </div>
-            <div className="text-white flex flex-col bg-white/20 p-5 h-fit rounded-xl w-2/3">
+            <div className="text-white flex flex-col bg-white/20 p-5 h-fit rounded-xl lg:w-2/3">
               <div className="flex justify-between text-[#F7BC06]">
                 <span>New Delivery</span>
                 <span>$100</span>
@@ -82,11 +82,11 @@ export default function checkout() {
               </div>
             </div>
           </div>
-          <div className="h-1 p-10 flex flex-row gap-8">
+          <div className="h-1 p-10 flex md:flex-row flex-col gap-8 mt-20 md:mt-0">
             <div>
               <h1 className="text-white text-[28px]">Location</h1>
             </div>
-            <div className="text-white flex flex-col bg-white/20 p-5 h-fit rounded-xl w-2/3">
+            <div className="text-white flex flex-col bg-white/20 p-5 h-fit rounded-xl lg:w-2/3">
               <div className=" flex flex-col gap-5">
                 <h1 className="text-[18px] font-bold">
                   Delivering to Restaurant Chungdam
@@ -105,11 +105,11 @@ export default function checkout() {
               </div>
             </div>
           </div>
-          <div className="h-1 p-10 flex flex-row gap-8">
+          <div className="h-1 p-10 flex md:flex-row flex-col gap-8 mt-40 md:mt-0">
             <div>
               <h1 className="text-white text-[28px]">Payment</h1>
             </div>
-            <div className="text-white flex flex-col gap-4 p-5 pb-0 h-fit w-2/3">
+            <div className="text-white flex flex-col gap-4 p-5 pb-0 h-fit lg:w-2/3">
               <h1>Choose your payment method</h1>
               <div className="bg-white/20 p-5 rounded-xl border-2 border-white">
                 <h1>Add bank account</h1>
@@ -120,7 +120,7 @@ export default function checkout() {
             </div>
           </div>
         </div>
-        <div className="w-[40%] mr-16 flex px-20 items-center bg-white/20 h-[110vh]">
+        <div className="lg:w-[40%] lg:mr-16 flex  px-20 items-center bg-white/20 lg:h-[110vh] py-16 lg:py-0">
           <div className="w-full">
             <h1 className="text-white text-[28px] ">Checkout</h1>
             <div className="flex flex-col gap-6 mt-10 text-white justify-between w-full">

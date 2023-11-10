@@ -14,7 +14,7 @@ export default function Login() {
         </div>
         <div className="flex lg:flex-row flex-col w-full h-full justify-center items-center">
           <div className="lg:w-1/2"></div>
-          <div className="lg:w-1/2 flex flex-col justify-center items-center">
+          <div className="lg:w-1/2 w-[80%] flex flex-col justify-center items-center">
             <h1 className=" text-[40px] text-[#F7BC06] font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               Welcome Back
             </h1>
