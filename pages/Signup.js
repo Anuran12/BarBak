@@ -10,7 +10,7 @@ export default function Signup() {
       <Header />
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover ] lg:h-[150vh] py-24 lg:py-0">
         <div className="absolute !top-[20px] !left-[80px] hidden lg:block">
-          <Image src={HeroBg} alt="hero bg" width={800} height={800} />
+          <Image src={HeroBg} alt="hero bg" width={700} height={700} />
         </div>
         <div className="flex flex-row w-full h-full justify-center items-center">
           <div className="lg:w-1/2"></div>
@@ -102,7 +102,7 @@ export default function Signup() {
                 <span class="bg-yellow-400 shadow-yellow-400 absolute -top-[150%] left-0 inline-flex w-full h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
                 Sign Up
               </button>
-              <button class="bg-gray-950 text-gray-400 border border-gray-400 border-b-4 overflow-hidden relative hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 mt-5 font-bold md:text-[24px] w-full flex items-center justify-center rounded-full  group">
+              <button class="bg-gray-950 text-gray-400 border border-gray-400 border-b-4 overflow-hidden relative hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 mt-5 font-bold text-[24px] w-full flex items-center justify-center rounded-full  group">
                 <span class="bg-gray-400 shadow-gray-400 absolute -top-[150%] left-0 inline-flex w-full h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
