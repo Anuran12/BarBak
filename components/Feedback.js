@@ -480,7 +480,7 @@ export default function Feedback() {
         <div className=" absolute lg:w-[30px] w-[15px] -mt-72 ml-56 h-auto">
           <Image src={DotBG} className="" />
         </div>
-        <div className=" absolute lg:w-[200px] w-[130px] lg:-mt-[340px] lg:mr-28 -mt-[210px] right-0 h-auto">
+        <div className=" absolute lg:w-[200px] w-[110px] lg:-mt-[340px] lg:mr-28 -mt-[180px] mr-2 right-0 h-auto">
           <Image src={ChiefBG} className="" />
         </div>
       </div>
