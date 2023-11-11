@@ -20,7 +20,7 @@ export default function Services() {
           </p>
           <a
             className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-2 mt-5 text-black w-full text-center"
-            href={"/"}
+            href={"/services/HospitalityCouriers"}
           >
             {/* <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-64 absolute -z-10 -mt-4"></div> */}
             Learn More
@@ -40,7 +40,7 @@ export default function Services() {
           </p>
           <a
             className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-2 mt-5 text-black w-full text-center"
-            href={"/"}
+            href={"/services/FoodDelivery"}
           >
             {/* <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-64 absolute -z-10 -mt-4"></div> */}
             Learn More
@@ -61,7 +61,7 @@ export default function Services() {
           </p>
           <a
             className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-2 mt-5 text-black w-full text-center"
-            href={"/"}
+            href={"/services/AlcoholDelivery"}
           >
             {/* <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-64 absolute -z-10 -mt-4"></div> */}
             Learn More
@@ -82,7 +82,7 @@ export default function Services() {
           </p>
           <a
             className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-2 mt-5 text-black w-full text-center"
-            href={"/"}
+            href={"/services/CommercialCleaning"}
           >
             {/* <div className="bg-[url('../img/btnBg.png')] bg-no-repeat bg-center bg-contain h-14 w-64 absolute -z-10 -mt-4"></div> */}
             Learn More
