@@ -104,61 +104,63 @@ export default function Contact() {
         </div>
       </div>
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover flex flex-col justify-center items-center lg:px-[120px] px-[20px] pt-10 pb-16">
-        <div className=" absolute left-0 md:w-[250px] w-[150px] lg:-mt-96 lg:ml-10 -mt-[750px] h-auto">
+        <div className=" absolute left-0 md:w-[250px] w-[150px] lg:-mt-96 lg:ml-10 -mt-[800px] h-auto">
           <Image src={Plane1} className=" scale-75" />
         </div>
-        <div className="lg:w-1/2 w-[90%] md:w-[75%] !bg-white/20 rounded-3xl flex flex-col justify-center p-10">
+        <div className="lg:w-1/2 w-[90%] md:w-[75%] !bg-white/20 rounded-3xl flex flex-col justify-center lg:p-10 px-5 py-10">
           <form>
             <div class="-mx-2 lg:items-center lg:flex">
               <div class="flex-1 px-2">
-                <label class="block mb-2 text-sm text-gray-200">
+                <label class="block mb-2 text-[18px] text-[#F7BC06]">
                   First Name
                 </label>
                 <input
                   type="text"
                   placeholder="John "
-                  class="block w-full px-5 py-2.5 mt-2 text-gray-200 placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                  class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
                 />
               </div>
 
               <div class="flex-1 px-2 mt-4 lg:mt-0">
-                <label class="block mb-2 text-sm text-gray-200">
+                <label class="block mb-2 text-[18px] text-[#F7BC06]">
                   Last Name
                 </label>
                 <input
                   type="text"
                   placeholder="Doe"
-                  class="block w-full px-5 py-2.5 mt-2 text-gray-200 placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                  class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
                 />
               </div>
             </div>
 
             <div class="mt-4">
-              <label class="block mb-2 text-sm text-gray-200">
+              <label class="block mb-2 text-[18px] text-[#F7BC06]">
                 Mobile Number
               </label>
               <input
                 type="number"
                 placeholder="+1 (000) 000-0000"
-                class="block w-full px-5 py-2.5 mt-2 text-gray-200 placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
               />
             </div>
 
             <div class="mt-4">
-              <label class="block mb-2 text-sm text-gray-200">
+              <label class="block mb-2 text-[18px] text-[#F7BC06]">
                 Email address
               </label>
               <input
                 type="email"
                 placeholder="johndoe@example.com"
-                class="block w-full px-5 py-2.5 mt-2 text-gray-200 placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
               />
             </div>
 
             <div class="w-full mt-4">
-              <label class="block mb-2 text-sm text-gray-200">Message</label>
+              <label class="block mb-2 text-[18px] text-[#F7BC06]">
+                Message
+              </label>
               <textarea
-                class="block w-full h-32 px-5 py-2.5 mt-2 text-gray-200 placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg lg:h-56 focus:border-[#f7bb06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                class="block w-full h-32 px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg lg:h-56 focus:border-[#f7bb06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
                 placeholder="Message"
               ></textarea>
             </div>
@@ -169,7 +171,7 @@ export default function Contact() {
             </button>
           </form>
         </div>
-        <div className=" absolute right-0 md:w-[250px] w-[150px] lg:mt-96 lg:mr-10 mt-[550px] mr-0 h-auto">
+        <div className=" absolute right-0 md:w-[250px] w-[150px] lg:mt-96 lg:mr-10 mt-[580px] mr-0 h-auto">
           <Image src={Plane2} className=" scale-50" />
         </div>
         <div class="mt-6 w-80 lg:mt-8 flex flex-col justify-center items-center">
