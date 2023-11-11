@@ -15,7 +15,7 @@ export default function Catalog() {
 	return (
         <div>
             <Header />
-            <div className="bg-[url('../img/bg_black.jpg')] bg-no-repea flex  bg-center bg-cover">
+            <div className="bg-[url('../img/bg_black.jpg')] bg-no-repea flex min-h-[100vh]  bg-center bg-cover">
                     <Category categoryOpen={categoryOpen} setCategoryOpen={setCategoryOpen}/>
                 <div className=" w-1/5 h-1 mt-20 hidden lg:block">
                 </div>
