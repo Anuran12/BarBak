@@ -18,7 +18,7 @@ export default function Login() {
             <h1 className=" text-[40px] text-[#F7BC06] font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               Welcome Back
             </h1>
-            <div className="lg:w-2/3 w-[90%]  !bg-white/20 rounded-3xl flex flex-col justify-center p-10">
+            <div className="lg:w-2/3 w-[100%]  !bg-white/20 rounded-3xl flex flex-col justify-center lg:p-10 p-5">
               <div class="mt-4">
                 <label class="block mb-2 text-[24px] text-[#F7BC06]">
                   Email
@@ -53,7 +53,7 @@ export default function Login() {
                   width="40"
                   height="40"
                   viewBox="0 0 48 48"
-                  className=" mr-2"
+                  className=" mr-2 lg:w-10 w-7 h-auto"
                 >
                   <path
                     fill="#FFC107"
