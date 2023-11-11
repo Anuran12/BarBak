@@ -439,14 +439,62 @@ export default function Feedback() {
             </p>
             <div className="w-full flex justify-center items-center">
               <div className="text-white w-2/3">
-                <p>Your Name</p>
-                <hr class="h-px my-8 bg-gray-200 border-0" />
-                <p>Phone</p>
-                <hr class="h-px my-8 bg-gray-200 border-0" />
-                <p>Email</p>
-                <hr class="h-px my-8 bg-gray-200 border-0" />
-                <p>Your Message</p>
-                <hr class="h-px my-8 bg-gray-200 border-0" />
+                <div class="relative z-0 my-8">
+                  <input
+                    type="text"
+                    id="floating_standard"
+                    class="block py-2.5 px-0 w-full text-[20px] text-white bg-transparent border-0 border-b-2 border-white/50 appearance-none focus:outline-none focus:ring-0 focus:border-[#F7BC06] peer"
+                    placeholder=" "
+                  />
+                  <label
+                    for="floating_standard"
+                    class="absolute text-[20px] text-white/50 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-[#F7BC06] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                  >
+                    Your Name
+                  </label>
+                </div>
+                <div class="relative z-0 my-8">
+                  <input
+                    type="text"
+                    id="floating_standard"
+                    class="block py-2.5 px-0 w-full text-[20px] text-white bg-transparent border-0 border-b-2 border-white/50 appearance-none focus:outline-none focus:ring-0 focus:border-[#F7BC06] peer"
+                    placeholder=" "
+                  />
+                  <label
+                    for="floating_standard"
+                    class="absolute text-[20px] text-white/50 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-[#F7BC06] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                  >
+                    Phone
+                  </label>
+                </div>
+                <div class="relative z-0 my-8">
+                  <input
+                    type="text"
+                    id="floating_standard"
+                    class="block py-2.5 px-0 w-full text-[20px] text-white bg-transparent border-0 border-b-2 border-white/50 appearance-none focus:outline-none focus:ring-0 focus:border-[#F7BC06] peer"
+                    placeholder=" "
+                  />
+                  <label
+                    for="floating_standard"
+                    class="absolute text-[20px] text-white/50 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-[#F7BC06] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                  >
+                    Email
+                  </label>
+                </div>
+                <div class="relative z-0 my-8">
+                  <input
+                    type="text"
+                    id="floating_standard"
+                    class="block py-2.5 px-0 w-full text-[20px] text-white bg-transparent border-0 border-b-2 border-white/50 appearance-none focus:outline-none focus:ring-0 focus:border-[#F7BC06] peer"
+                    placeholder=" "
+                  />
+                  <label
+                    for="floating_standard"
+                    class="absolute text-[20px] text-white/50 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-[#F7BC06] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                  >
+                    Your Message
+                  </label>
+                </div>
                 <input
                   id="default-checkbox"
                   type="checkbox"
