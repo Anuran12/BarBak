@@ -455,7 +455,7 @@ export default function Feedback() {
                 </div>
                 <div class="relative z-0 my-8">
                   <input
-                    type="text"
+                    type="number"
                     id="floating_standard"
                     class="block py-2.5 px-0 w-full text-[20px] text-white bg-transparent border-0 border-b-2 border-white/50 appearance-none focus:outline-none focus:ring-0 focus:border-[#F7BC06] peer"
                     placeholder=" "
