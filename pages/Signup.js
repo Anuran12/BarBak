@@ -111,7 +111,7 @@ export default function Signup() {
                   width="40"
                   height="40"
                   viewBox="0 0 48 48"
-                  className=" mr-2"
+                  className=" mr-2 lg:w-10 w-7 h-auto"
                 >
                   <path
                     fill="#FFC107"
