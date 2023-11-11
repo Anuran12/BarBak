@@ -71,8 +71,13 @@ export default function Footer() {
           <li className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer">
             FAQ
           </li>
-          <li className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer">
-            TERMS & CONDITIONS
+          <li>
+            <Link
+              className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer"
+              href={"/TermsandConditions"}
+            >
+              TERMS & CONDITIONS
+            </Link>
           </li>
         </ul>
       </div>

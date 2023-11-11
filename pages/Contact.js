@@ -43,7 +43,7 @@ export default function Contact() {
 
                 <h2 class="mt-4 text-lg font-medium text-white">Email</h2>
                 <p class="mt-2 text-gray-500">Our team is here to help.</p>
-                <p class="mt-2 text-[#F7BC06]">hello@ barbak.com</p>
+                <p class="mt-2 text-[#F7BC06]">Info@bar-bak.com</p>
               </div>
 
               <div class="flex flex-col items-center justify-center text-center">
@@ -94,7 +94,7 @@ export default function Contact() {
 
                 <h2 class="mt-4 text-lg font-medium text-white">Phone</h2>
                 <p class="mt-2 text-gray-500">Mon-Fri from 8am to 5pm.</p>
-                <p class="mt-2 text-[#F7BC06]">+1 (000) 000-0000</p>
+                <p class="mt-2 text-[#F7BC06]">+1 704-980-2860</p>
               </div>
             </div>
           </div>
@@ -161,7 +161,7 @@ export default function Contact() {
               </label>
               <textarea
                 class="block w-full h-32 px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg lg:h-56 focus:border-[#f7bb06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
-                placeholder="Message"
+                placeholder="Type your message here..."
               ></textarea>
             </div>
 
