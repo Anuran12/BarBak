@@ -13,7 +13,7 @@ export default function Contact() {
         <div className="lg:w-1/2 text-white flex flex-col lg:px-16 -mt-20 nust:mt-10 nustmax:mb-32">
           <div class="container mx-auto flex flex-col">
             <div class="text-center">
-              <h1 class="lg:mt-56 md:mt-10 mt-40 text-[48px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] text-white">
+              <h1 class="lg:mt-56 mt-48 text-[48px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] text-white">
                 Get in touch
               </h1>
 
