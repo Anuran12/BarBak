@@ -507,7 +507,7 @@ export default function Feedback() {
                 >
                   I agree to the{" "}
                   <span className="text-[#F7BC06] underline underline-offset-2">
-                    terms and conditions
+                    <a href={"/TermsandConditions"}>terms and conditions</a>
                   </span>{" "}
                   and give my consent to receive advertising messages
                 </label>
