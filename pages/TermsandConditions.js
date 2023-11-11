@@ -30,55 +30,62 @@ export default function TermsandConditions() {
           Policy, you are not permitted to use the Support. The Privacy Policy
           is incorporated by reference into these Terms and Conditions, and
           these Terms and Conditions and the Privacy Policy together are
-          hereinafter referred to as the “Agreement.” BarBak Hospitality is an
-          online platform connecting buyers and merchants. All transaction made
-          on the BarBak Hospitality platform are between the buyer and the
-          merchant. BarBak Hospitality sales are online sales and are processed
-          as online transactions. You will receive an electronic receipt for
-          your order. BarBak Hospitality does not take title for any items sold
-          on the platform. Rather, title for each item you purchase will pass
-          directly from the merchant to you, either in the merchant&#39;s store
-          at the point of sale if BarBak Hospitality arranges for delivery of
-          the items, or at the delivery address if the merchant arranges for
-          delivery of the items from the merchant&#39;s warehouse or
-          distribution center. Sales tax will be calculated at the time title
-          passes to you. BarBak Hospitality may display estimated taxes on your
-          purchase to you online during the BarBak Hospitality purchase process;
-          however, your final receipt will display the final sales tax
-          calculated. Each merchant is solely responsible for calculating and
-          informing BarBak Hospitality how much sales tax to collect on each
-          order. BarBak Hospitality will collect the instructed amount from you
-          on behalf of the merchant and will remit those funds to the merchant.
-          In-store or in-warehouse prices and other applicable fees (such as
-          taxes and other fees that the merchant charges, like bottle deposits
-          and e-waste fees) may vary based on actual in-store or in-warehouse
-          item prices and availability. For example, items sold by weight may
-          end up costing a little more or less than the price listed on BarBak
-          Hospitality, depending on the exact weight and price of what&#39;s
-          chosen for you. Also, if something is out of stock, the substitutes
-          you get may have prices different from your original items. Because
-          these prices (and the associated taxes and other fees the merchant
-          charges) may vary based on current in-store or in-warehouse item
-          prices and availability, we may authorize your card for an estimated
-          amount that includes a reasonable buffer to cover that variance.
-          You&#39;ll pay the in-store or in-warehouse price (and the associated
-          taxes and other fees the merchant charges) for the items in your
-          order, and the total will show on your final receipt. If the total
-          exceeds the designated reasonable buffer for your order, then part or
-          all of your order will be automatically declined, and you may choose
-          to resubmit the declined part of your order at the new price. Items
-          are purchased from individual stores as listed in your cart and your
-          order history. The shipping & service fee is not a tip. All service
-          fees are paid to BarBak Hospitality. By using BarBak Hospitality you
-          agree to allow BarBak Hospitality to charge the credit card on file
-          and/or debit funds directly from the bank account you have set up on
-          our App. If your primary method of payment is credit card and the
-          credit card fails, the second credit card will be charged immediately.
-          If your primary method of payment is ACH bank transfer and the ACH
-          bank transfer fails, then your credit card will be charged immediately
-          &#8211; this includes the credit card processing fee of 3%. Neither
-          BarBak Hospitality nor its vendors on the platform offer credit and
-          therefore payment is due upon delivery of the order.
+          hereinafter referred to as the “Agreement”.
+          <br />
+          <br /> BarBak Hospitality is an online platform connecting buyers and
+          merchants. All transaction made on the BarBak Hospitality platform are
+          between the buyer and the merchant. BarBak Hospitality sales are
+          online sales and are processed as online transactions. You will
+          receive an electronic receipt for your order. BarBak Hospitality does
+          not take title for any items sold on the platform. Rather, title for
+          each item you purchase will pass directly from the merchant to you,
+          either in the merchant&#39;s store at the point of sale if BarBak
+          Hospitality arranges for delivery of the items, or at the delivery
+          address if the merchant arranges for delivery of the items from the
+          merchant&#39;s warehouse or distribution center. Sales tax will be
+          calculated at the time title passes to you. BarBak Hospitality may
+          display estimated taxes on your purchase to you online during the
+          BarBak Hospitality purchase process; however, your final receipt will
+          display the final sales tax calculated. Each merchant is solely
+          responsible for calculating and informing BarBak Hospitality how much
+          sales tax to collect on each order. BarBak Hospitality will collect
+          the instructed amount from you on behalf of the merchant and will
+          remit those funds to the merchant.
+          <br />
+          <br /> In-store or in-warehouse prices and other applicable fees (such
+          as taxes and other fees that the merchant charges, like bottle
+          deposits and e-waste fees) may vary based on actual in-store or
+          in-warehouse item prices and availability.
+          <br />
+          <br /> For example, items sold by weight may end up costing a little
+          more or less than the price listed on BarBak Hospitality, depending on
+          the exact weight and price of what&#39;s chosen for you. Also, if
+          something is out of stock, the substitutes you get may have prices
+          different from your original items. Because these prices (and the
+          associated taxes and other fees the merchant charges) may vary based
+          on current in-store or in-warehouse item prices and availability, we
+          may authorize your card for an estimated amount that includes a
+          reasonable buffer to cover that variance. You&#39;ll pay the in-store
+          or in-warehouse price (and the associated taxes and other fees the
+          merchant charges) for the items in your order, and the total will show
+          on your final receipt. If the total exceeds the designated reasonable
+          buffer for your order, then part or all of your order will be
+          automatically declined, and you may choose to resubmit the declined
+          part of your order at the new price. Items are purchased from
+          individual stores as listed in your cart and your order history. The
+          shipping & service fee is not a tip. All service fees are paid to
+          BarBak Hospitality.
+          <br />
+          <br /> By using BarBak Hospitality you agree to allow BarBak
+          Hospitality to charge the credit card on file and/or debit funds
+          directly from the bank account you have set up on our App. If your
+          primary method of payment is credit card and the credit card fails,
+          the second credit card will be charged immediately. If your primary
+          method of payment is ACH bank transfer and the ACH bank transfer
+          fails, then your credit card will be charged immediately &#8211; this
+          includes the credit card processing fee of 3%. Neither BarBak
+          Hospitality nor its vendors on the platform offer credit and therefore
+          payment is due upon delivery of the order.
         </p>
       </div>
 
