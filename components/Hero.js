@@ -25,12 +25,17 @@ export default function Hero() {
           />
         </div>
         <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28">
-          <div className="text-white lg:text-[65px] xl:text-[65px] md:text-[50px] text-[25px] flex overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <h1 className="text-white flex flex-col lg:text-[65px] xl:text-[65px] md:text-[50px] text-[25px] overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+            <span className="hero_text">
           A Partner You can Count On
-          </div>
-          <div className="text-white lg:text-[65px] md:text-[50px] text-[25px] flex overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
-          Transparent Pricing
-          </div>
+            </span>
+          </h1>
+          <h1 className="text-white flex flex-col lg:text-[65px] xl:text-[65px] md:text-[50px] text-[25px] overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+            <span className="hero_text">
+            Transparent Pricing
+            </span>
+          </h1>
+          
           <p className="text-white lg:text-[24px] mt-8 w-1/2">
             Order 10,000+ products, with same-day & next day delivery straight
             into your kitchen
