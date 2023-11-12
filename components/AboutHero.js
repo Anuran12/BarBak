@@ -4,11 +4,11 @@ import DotBG from "../img/BG_Images/dot2.png";
 
 export default function AboutHero() {
   return (
-    <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover lg:h-[100vh] pb-10 lg:px-[120px] px-[30px]">
+    <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover pb-10 lg:px-[120px] px-[30px]">
       <div className="absolute lg:!top-16 md:-top-48 nust:top-10 z-0 !left-0 m-auto w-full h-full flex justify-center items-center">
         <Image src={HeroBg} alt="hero bg" width={700} height={250} />
       </div>
-      <div className=" lg:w-1/3 nustmax:w-full pt-28">
+      <div className=" lg:w-1/3 pt-28">
         <h1 className="text-[#F7BC06] text-[48px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
           About us
         </h1>

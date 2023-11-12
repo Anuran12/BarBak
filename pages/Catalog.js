@@ -73,7 +73,7 @@ export default function Catalog() {
                                 </svg>
                             </div>
                     </div>
-                    <div className=" grid lg:grid-cols-5 grid-cols-2 gap-5 p-4 lg:p-0 md:p-10">
+                    <div className=" grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 gap-5 p-4 lg:p-0 md:p-10">
                         <Link href={'/Item'}>
                             <div className=" bg-black rounded-2xl group hover:inner-border-2 hover:inner-border-white p-6 pt-1 pr-1">
                                 <div className="w-full flex justify-end">
