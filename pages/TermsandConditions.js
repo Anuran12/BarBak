@@ -10,7 +10,7 @@ export default function TermsandConditions() {
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover ">
         <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain">
           <div className="lg:h-[80vh] h-[50vh] flex flex-col justify-center items-center">
-            <h1 className="text-[#F7BC06] lg:text-[100px] md:text-[70px] text-[48px] text-center leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+            <h1 className="text-[#F7BC06] lg:text-[100px] md:text-[70px] text-[48px] lg:mt-5 mt-10 text-center leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               TERMS <br /> &#38; <br /> CONDITIONS
             </h1>
           </div>

@@ -16,7 +16,7 @@ export default function Cart({ cartOpen, setCartOpen }) {
       }`}
     >
       <div>
-        <div className="flex flex-row justify-between p-5">
+        <div className="flex flex-row justify-between p-5 lg:px-0 px-10">
           <h1 className="text-[40px] text-[#F7BC06]">Cart</h1>
           <button onClick={HandleCloseBtn}>
             <svg
@@ -33,11 +33,11 @@ export default function Cart({ cartOpen, setCartOpen }) {
           </button>
         </div>
         <hr class="h-px bg-gray-200 border-0"></hr>
-        <div className="flex flex-row justify-between text-white bg-slate-50/20 py-1 px-5">
+        <div className="flex flex-row justify-between text-white bg-slate-50/20 py-1 lg:px-5 px-10">
           <span>Available Tomorrow</span>
           <span>1 item</span>
         </div>
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-1 lg:px-0 px-5">
           <div className="grid grid-cols-4 m-5 justify-center items-center">
             <div className="pr-5 col-start-1">
               <Image src={DishImg} alt="dish 1" />
@@ -136,7 +136,7 @@ export default function Cart({ cartOpen, setCartOpen }) {
           </div>
         </div>
       </div>
-      <div className="p-8">
+      <div className="p-8 lg:px-0 px-10">
         <Link
           href={"/Checkout"}
           className=" bg-[#F7BC06] w-full px-6 rounded-full py-2 text-[20px] font-bold"
