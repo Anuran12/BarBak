@@ -92,7 +92,7 @@ export default function Signup() {
                 >
                   I agree to the{" "}
                   <span className="text-[#F7BC06] underline underline-offset-2">
-                    <a href="/TermsandConditions">terms and conditions</a>
+                    <Link href="/TermsandConditions">terms and conditions</Link>
                   </span>{" "}
                   and give my consent to receive advertising messages
                 </label>
