@@ -2,14 +2,32 @@ import Image from "next/legacy/image";
 import HeroBg from "../img/hero_bg.png";
 import HeroImg1 from "../img/hero/hero1.png";
 import Link from "next/link";
-import gsap from "gsap";
 import HeroCircle from "./HeroCircle";
 import { useEffect, useState } from "react";
 import HeroCircleMobile from "./HeroCircleMobile";
 import HeroCircleTab from "./HeroCircleTab";
 
 export default function Hero() {
+  const [currentString, setCurrentString] = useState(0);
+
+
+  const texts = ["A Partner You can Count On", "Do you hate having ", "Need your Package", "Do you need a reliable"];
+  const texts2 = ["Transparent Pricing", " to pickup your liquor?", "at your doorstep?", "Cleaning service?"];
+  const [currentTextIndex, setCurrentTextIndex] = useState(0);
+  const [currentText2Index, setCurrentText2Index] = useState(0);
   
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      // Update the text to the next one in the array
+      setCurrentTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
+      setCurrentText2Index((prevIndex) => (prevIndex + 1) % texts2.length);
+    }, 3001);
+
+    // Cleanup the interval when the component unmounts
+    return () => clearInterval(intervalId);
+  }, []);
+
   
 
   
@@ -25,14 +43,14 @@ export default function Hero() {
           />
         </div>
         <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28">
-          <h1 className="text-white flex flex-col lg:text-[65px] xl:text-[65px] md:text-[50px] text-[25px] overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <h1 className="text-[#F7BC06] flex flex-col lg:text-[65px] xl:text-[65px] md:text-[50px] text-[25px] overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
             <span className="hero_text">
-          A Partner You can Count On
+            {texts[currentTextIndex]}
             </span>
           </h1>
-          <h1 className="text-white flex flex-col lg:text-[65px] xl:text-[65px] md:text-[50px] text-[25px] overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <h1 className="text-[#F7BC06] flex flex-col lg:text-[65px] xl:text-[65px] md:text-[50px] text-[25px] overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
             <span className="hero_text">
-            Transparent Pricing
+            {texts2[currentText2Index]}
             </span>
           </h1>
           
