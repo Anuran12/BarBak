@@ -10,7 +10,7 @@ export default function checkout() {
   return (
     <div>
       <div className="bg-[url('../img/bg_black.jpg')] grid grid-cols-2 items-center px-10 fixed w-full bg-no-repeat bg-center bg-cover">
-        <Link href={"/"} className="flex text-white gap-2 group">
+        <Link href={"/"} className="flex text-white gap-2 group w-fit">
           <svg
             width="30px"
             height="30px"
