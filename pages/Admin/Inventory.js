@@ -13,6 +13,7 @@ export default function Inventory() {
     const [showDelete, setShowDelete] = useState(false);
     const [showView, setShowView] = useState(false);
     const [showEdit, setShowEdit] = useState(false);
+    const [showAddCategory, setShowAddCategory] = useState(false);
 
     const [imageSrc, setImageSrc] = useState();
   console.log("check Img data", imageSrc);
@@ -129,7 +130,13 @@ export default function Inventory() {
                 <div className="w-full flex flex-col items-center gap-10 justify-center">
                     <div className="w-[90%] bg-white/20 p-5 rounded-lg">
                         <div className="flex justify-between">
-                            <h1 className="text-white text-[30px] mb-5">Categories</h1>
+                          <div className="flex justify-center items-center gap-3 mb-5">
+                            <h1 className="text-white text-[30px]">Categories</h1>
+                            <button onClick={() => setShowAddCategory(true)} class="bg-yellow-950 text-yellow-400 border border-yellow-400 border-b-4 overflow-hidden relative hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 font-bold  w-fit flex items-center justify-center rounded-full  group">
+                              <span class="bg-yellow-400 absolute -top-[150%] left-0 inline-flex w-full h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
+                              Add Category
+                            </button>
+                          </div>
                             <div class="relative  flex items-center w-1/3 h-12 rounded-lg focus-within:shadow-lg bg-black overflow-hidden">
                                     <input
                                     class="peer h-full w-full bg-black pl-3 outline-none text-sm text-gray-300 pr-2"
@@ -363,7 +370,13 @@ export default function Inventory() {
                     </div>
                     <div className="w-[90%] bg-white/20 p-5 rounded-lg">
                         <div className="flex justify-between">
-                            <h1 className="text-white text-[30px] mb-5">All Items</h1>
+                        <div className="flex justify-center items-center gap-3 mb-5">
+                            <h1 className="text-white text-[30px]">All Items</h1>
+                            <button class="bg-yellow-950 text-yellow-400 border border-yellow-400 border-b-4 overflow-hidden relative hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 font-bold  w-fit flex items-center justify-center rounded-full  group">
+                              <span class="bg-yellow-400 absolute -top-[150%] left-0 inline-flex w-full h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
+                              Add Item
+                            </button>
+                          </div>
                             <div class="relative  flex items-center w-1/3 h-12 rounded-lg focus-within:shadow-lg bg-black overflow-hidden">
                                     <input
                                     class="peer h-full w-full bg-black pl-3 outline-none text-sm text-gray-300 pr-2"
@@ -811,6 +824,120 @@ export default function Inventory() {
                     onClick={() => setShowEdit(false)}
                   >
                     Update
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+        </>
+      ) : null}
+            {showAddCategory ? (
+        <>
+          <div
+            className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+          >
+            <div className="relative my-6 mx-auto w-[75%]">
+              {/*content*/}
+              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-black outline-none focus:outline-none">
+                {/*body*/}
+                <div className="relative p-10 flex-auto w-full">
+                    <div className="rounded-3xl w-full grid grid-cols-2 gap-8 justify-center items-start">
+                        
+                    <div class="w-full">
+                <label class="block mb-2 text-[20px] text-[#F7BC06]">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  placeholder="Name*"
+                  class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                />
+              </div>
+              <div class="w-full">
+                <label class="block mb-2 text-[20px] text-[#F7BC06]">
+                  Parent Name
+                </label>
+                <input
+                  type="text"
+                  placeholder="Parent Name*"
+                  class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                />
+              </div>
+              <div class="w-full">
+                <label class="block mb-2 text-[20px] text-[#F7BC06]">
+                  Position
+                </label>
+                <input
+                  type="number"
+                  placeholder="Position*"
+                  class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                />
+              </div>
+             
+              <div class="w-full">
+                <label class="block mb-2 text-[20px] text-[#F7BC06]">
+                  Status
+                </label>
+                <input
+                  type="password"
+                  placeholder="Status*"
+                  class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                />
+              </div>
+              <div class="w-full">
+                <label class="block mb-2 text-[20px] text-[#F7BC06]">
+                  Meta tag
+                </label>
+                <input
+                  type="password"
+                  placeholder="Meta tag*"
+                  class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                />
+              </div>
+              <div class="w-full">
+                <label class="block mb-2 text-[20px] text-[#F7BC06]">
+                  Icon
+                </label>
+                <ImageUpload
+                  handleImageSelect={handleImageSelect}
+                  imageSrc={imageSrc}
+                  setImageSrc={setImageSrc}
+                  deleteIcon={
+                    <div
+                      style={{
+                        backgroundColor: "red",
+                        padding: "10px"
+                      }}
+                    >
+                      Delete
+                    </div>
+                  }
+                  style={{
+                    width: 100,
+                    height: 100,
+                    background: "gray"
+                  }}
+                />
+              </div>
+                        
+                    </div>
+                </div>
+                {/*footer*/}
+                <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
+                  <button
+                    className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                    type="button"
+                    onClick={() => setShowAddCategory(false)}
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    className="bg-[#F7BC06] text-black font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                    type="button"
+                    onClick={() => setShowAddCategory(false)}
+                  >
+                    Upload
                   </button>
                 </div>
               </div>
