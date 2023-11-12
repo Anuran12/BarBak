@@ -73,8 +73,8 @@ export default function Barbakplus() {
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover text-white flex flex-row justify-center items-center mt-32">
         <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
           <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain flex text-white md:flex-row flex-col justify-center items-center lg:px-[120px] px-[20px] pb-10 md:pb-0">
-            <div className="md:w-1/2">
-              <Image src={CalendarImg} className=" scale-75" />
+            <div className="md:w-1/4">
+              <Image src={CalendarImg} className=" " />
             </div>
             <div className="md:w-1/2">
               <h1 className="lg:text-[40px] md:text-[35px] text-[25px] font-bold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
@@ -99,15 +99,15 @@ export default function Barbakplus() {
             SCHEDULE, ALLOWING YOU TO TAKE ADVANTAGE OF YOUR DAY AS YOU SEE FIT.{" "}
           </p>
         </div>
-        <div className="md:w-1/2">
-          <Image src={ClockImg} className=" scale-75" />
+        <div className="md:w-1/4">
+          <Image src={ClockImg} className="" />
         </div>
       </div>
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover">
         <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
           <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain flex text-white md:flex-row flex-col justify-center items-center lg:px-[120px] px-[20px] pb-10 md:pb-0">
-            <div className="md:w-1/2">
-              <Image src={DeliveryImg} className=" scale-75" />
+            <div className="md:w-1/4">
+              <Image src={DeliveryImg} className="" />
             </div>
             <div className="md:w-1/2">
               <h1 className="lg:text-[40px] md:text-[35px] text-[25px] font-bold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
@@ -131,15 +131,15 @@ export default function Barbakplus() {
             RECEIVE EMERGENCY HELP IF YOU MISSED YOUR CUTOFF.{" "}
           </p>
         </div>
-        <div className="md:w-1/2">
-          <Image src={CuriousImg} className=" scale-75" />
+        <div className="md:w-1/4">
+          <Image src={CuriousImg} className="" />
         </div>
       </div>
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover">
         <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
           <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain flex text-white md:flex-row flex-col justify-center items-center lg:px-[120px] px-[20px] pb-10 md:pb-0">
-            <div className="md:w-1/2">
-              <Image src={SupportImg} className=" scale-75" />
+            <div className="md:w-1/4">
+              <Image src={SupportImg} className="" />
             </div>
             <div className="md:w-1/2">
               <h1 className="lg:text-[40px] md:text-[35px] text-[25px] font-bold text-center drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
