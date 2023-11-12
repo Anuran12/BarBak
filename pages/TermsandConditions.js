@@ -10,7 +10,7 @@ export default function TermsandConditions() {
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover ">
         <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain">
           <div className="lg:h-[80vh] h-[50vh] flex flex-col justify-center items-center">
-            <h1 className="text-[#F7BC06] lg:text-[100px] md:text-[100px] text-[70px] text-center leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+            <h1 className="text-[#F7BC06] lg:text-[100px] md:text-[70px] text-[48px] text-center leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               TERMS <br /> &#38; <br /> CONDITIONS
             </h1>
           </div>
@@ -93,7 +93,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           RETURNS
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -111,7 +111,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           CANCELLATION
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -122,7 +122,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           UNPAID INVOICES
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -134,7 +134,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           CREDIT EXPIRATION
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -146,7 +146,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           ORDER RELEASE CONSENT
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -163,7 +163,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           RE-DELIVERY FEE
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -175,7 +175,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           JUST IN TIME PRODUCTS: ORDER REFUSAL, CANCELATION, REDELIVERY AND
           AUTO-SHIP POLICY
         </h1>
@@ -209,7 +209,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           RELEASE
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -226,7 +226,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           TRANSACTIONS INVOLVING ALCOHOLIC BEVERAGES
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -259,7 +259,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           APIS AND THIRD PARTIES
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -277,12 +277,12 @@ export default function TermsandConditions() {
           providers. Any exchange of data or other interaction between Customer
           and a third party provider is solely between Customer and such third
           party provider and is governed by such third party&#39;s terms and
-          conditions
+          conditions.
         </p>
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           USE OF MATERIAL
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -304,7 +304,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           USER SUBMISSIONS
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -355,7 +355,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           REFERRAL PROGRAM RULES
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -413,7 +413,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           USER ACCOUNT
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -435,7 +435,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           DISCLAIMER
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -476,7 +476,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           LIMITATION OF LIABILITY
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -504,7 +504,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           INDEMNITY
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -525,7 +525,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           TERMINATION
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -546,7 +546,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           DISPUTE RESOLUTION
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -570,7 +570,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           GOVERNING LAW AND SEVERABILITY
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -585,7 +585,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           NO AGENCY
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -596,7 +596,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           CHANGES TO THE AGREEMENT
         </h1>
         <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
@@ -610,10 +610,10 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[70px] text-[48px] flex px-[120px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
+        <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           CONTACT US
         </h1>
-        <ul className=" lg:px-[120px] lg:text-[24px] lg:py-10 font-bold">
+        <ul className=" lg:px-[120px] lg:text-[24px] lg:py-10 p-5 font-bold">
           <li className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer w-fit">
             <a href="mailto:Info@bar-bak.com">Info@bar-bak.com</a>
           </li>
