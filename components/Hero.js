@@ -22,7 +22,7 @@ export default function Hero() {
       // Update the text to the next one in the array
       setCurrentTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
       setCurrentText2Index((prevIndex) => (prevIndex + 1) % texts2.length);
-    }, 3001);
+    }, 3000);
 
     // Cleanup the interval when the component unmounts
     return () => clearInterval(intervalId);
