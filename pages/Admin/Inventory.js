@@ -733,7 +733,7 @@ export default function Inventory() {
                 </label>
                 <input
                   type="text"
-                  placeholder="Address*"
+                  placeholder="Parent Name*"
                   class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
                 />
               </div>
@@ -743,7 +743,7 @@ export default function Inventory() {
                 </label>
                 <input
                   type="number"
-                  placeholder="Mobile Number*"
+                  placeholder="Position*"
                   class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
                 />
               </div>
@@ -754,7 +754,7 @@ export default function Inventory() {
                 </label>
                 <input
                   type="password"
-                  placeholder="Password*"
+                  placeholder="Status*"
                   class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
                 />
               </div>
@@ -764,7 +764,7 @@ export default function Inventory() {
                 </label>
                 <input
                   type="password"
-                  placeholder="Confirm Password*"
+                  placeholder="Meta tag*"
                   class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
                 />
               </div>
