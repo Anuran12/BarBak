@@ -810,7 +810,7 @@ export default function Inventory() {
                     type="button"
                     onClick={() => setShowEdit(false)}
                   >
-                    Delete
+                    Update
                   </button>
                 </div>
               </div>
