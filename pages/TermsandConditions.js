@@ -18,7 +18,7 @@ export default function TermsandConditions() {
       </div>
 
       <div>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] text-justify flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           These Terms and Conditions govern the use of the services offered by
           BarBak Hospitality (“BarBak Hospitality”) at the BarBak Hospitality
           website and mobile Application (the “Website”). Such services and
@@ -96,7 +96,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           RETURNS
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           If you wish to return an item from an order you must notify the driver
           at the time of delivery of that order. All returns of merchandise are
           subject to the return policy of the Vendors on the platform from which
@@ -114,7 +114,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           CANCELLATION
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           If the customer cancels an order the day of delivery, they will be
           charged a $50.00 cancellation fee. If the customer cancels an order
           the day of pick-up, they will be charged a $15.00 cancellation fee.
@@ -125,7 +125,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           UNPAID INVOICES
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           If you order and do not pay your invoice (this includes when your
           credit card fails or ACH fails due to insufficient funds) you will
           need to pay the amount of the invoice before you can make additional
@@ -137,7 +137,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           CREDIT EXPIRATION
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           Credits issued by BarBak Hospitality will be valid to apply for future
           orders up to 60 days from the date the credit was issued. Following
           the expiration date, the credit will fully expire and the customer
@@ -149,7 +149,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           ORDER RELEASE CONSENT
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           Customer acknowledges and agrees that by approving BarBak Hospitality
           to release their order when no one is present, BarBak Hospitality will
           make one delivery attempt and will reasonably try to obtain a
@@ -166,7 +166,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           RE-DELIVERY FEE
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           The customer will be charged a $50.00 re-delivery fee if they are not
           present at the delivery location during their selected delivery window
           and do not have a signed release consent form leading to a delay of
@@ -179,7 +179,7 @@ export default function TermsandConditions() {
           JUST IN TIME PRODUCTS: ORDER REFUSAL, CANCELATION, REDELIVERY AND
           AUTO-SHIP POLICY
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           The customer may refuse an item without being charged or
           credited/refunded for it if BarBak Hospitality confirms shipping the
           wrong item and/or if the item was damaged prior to delivery. If the
@@ -212,7 +212,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           RELEASE
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           YOU AGREE THAT NEITHER BarBak Hospitality NOR ITS AFFILIATES OR
           LICENSORS IS RESPONSIBLE FOR ANY ERRORS, MISTAKES OR OMISSIONS
           RESULTING FROM OUR SERVICE. IN THE EVENT YOU HAVE A DISPUTE RESULTING
@@ -229,7 +229,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           TRANSACTIONS INVOLVING ALCOHOLIC BEVERAGES
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           Alcoholic beverages may only be purchased by businesses with current
           and updates Alcohol Licenses, including without limitation Customers,
           who are at least twenty-one (21) years old (“Legal Age”). If you are a
@@ -262,7 +262,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           APIS AND THIRD PARTIES
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           Customer acknowledges and agrees that the Services operate on or with
           or using application programming interfaces (APIs) and/or other
           services operated or provided by third parties (“Third Party
@@ -285,7 +285,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           USE OF MATERIAL
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           Except as otherwise provided herein, all rights to all materials,
           content, layout, images, text, design (and any underlying software and
           computer codes) of this Website are proprietary to BarBak Hospitality
@@ -307,7 +307,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           USER SUBMISSIONS
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           This Website may now or in the future permit the submission, sharing
           or publishing of photographs, videos, comments, communications or
           other content submitted by you and other users (“User Submissions”).
@@ -358,7 +358,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           REFERRAL PROGRAM RULES
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           The BarBak Hospitality Referral Program (“Referral Program”) is
           offered by BarBak Hospitality and provides users who are interested in
           referring their family, friends, and restaurant businesses
@@ -416,7 +416,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           USER ACCOUNT
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           You are the sole authorized User of any account you create with BarBak
           Hospitality. You are responsible for maintaining the confidentiality
           of any password or account number provided by you or BarBak
@@ -438,7 +438,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           DISCLAIMER
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           USE OF THE SUPPORT IS ENTIRELY AT YOUR OWN RISK. CHANGES ARE
           PERIODICALLY MADE TO THE WEBSITE AND MAY BE MADE AT ANY TIME WITHOUT
           NOTICE TO YOU. THE SUPPORT IS PROVIDED ON AN “AS IS” BASIS WITHOUT
@@ -479,7 +479,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           LIMITATION OF LIABILITY
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           YOU AGREE THAT BARBAK HOSPITALITY SHALL NOT BE LIABLE FOR ANY DIRECT,
           INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES
           ARISING OUT OF OR IN CONNECTION WITH (I) YOUR USE OF THE SUPPORT; (II)
@@ -507,7 +507,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           INDEMNITY
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           You agree to defend, indemnify and hold harmless BarBak Hospitality
           and its officers, directors, employees, agents and affiliates (each,
           an “Indemnified Party”), from and against any losses, claims, actions,
@@ -528,7 +528,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           TERMINATION
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           At its sole discretion, BarBak Hospitality may modify or discontinue
           the Website, or may modify, suspend or terminate your access to the
           Website or the Support, for any reason, with or without notice to you
@@ -549,7 +549,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           DISPUTE RESOLUTION
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           The parties shall first attempt to resolve any dispute related to this
           Agreement in an amicable manner by mediation with a mutually
           acceptable mediator. If unable to agree upon an acceptable mediator,
@@ -573,7 +573,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           GOVERNING LAW AND SEVERABILITY
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           This Agreement is governed by the laws of the State of Florida,
           without regards to its conflict of laws principles. If any provision
           of this Agreement is found to be invalid in any court having competent
@@ -588,7 +588,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           NO AGENCY
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           No independent contractor, agency, partnership, joint venture,
           employer-employee or franchiser-franchisee relationship is intended or
           created by this Agreement.
@@ -599,7 +599,7 @@ export default function TermsandConditions() {
         <h1 className="text-[#F7BC06] lg:text-[48px] md:text-[32px] text-[24px] flex lg:px-[120px] px-5 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.2)]">
           CHANGES TO THE AGREEMENT
         </h1>
-        <p className="text-black lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
+        <p className="text-black text-justify lg:text-[24px] md:text-[18px] text-[16px] flex justify-center lg:px-[120px] lg:py-10 p-5 leading-tight font-bold ">
           BarBak Hospitality reserves the right, at its sole and absolute
           discretion, to change, modify, add to, supplement or delete any of the
           terms and conditions of this Agreement, effective with or without
