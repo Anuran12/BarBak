@@ -5,11 +5,20 @@ import Image from "next/legacy/image";
 import Category1 from "../../img/Admin/category1.png";
 import DishImg from "../../img/dish.png";
 import { useState } from "react";
+import ImageUpload from "image-upload-react";
+//important for getting nice style.
+import "image-upload-react/dist/index.css";
 
 export default function Inventory() {
     const [showDelete, setShowDelete] = useState(false);
     const [showView, setShowView] = useState(false);
     const [showEdit, setShowEdit] = useState(false);
+
+    const [imageSrc, setImageSrc] = useState();
+  console.log("check Img data", imageSrc);
+  const handleImageSelect = (e) => {
+    setImageSrc(URL.createObjectURL(e.target.files[0]));
+  };
     return(
         <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover flex flex-row">
             <div className="fixed w-[20%] flex flex-col items-center left-0 top-0 bg-white/20 h-full rounded-r-[40px]">
@@ -706,7 +715,7 @@ export default function Inventory() {
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-black outline-none focus:outline-none">
                 {/*body*/}
                 <div className="relative p-10 flex-auto w-full">
-                    <div className="rounded-3xl w-full grid grid-cols-2 gap-8 justify-center items-center">
+                    <div className="rounded-3xl w-full grid grid-cols-2 gap-8 justify-center items-start">
                         
                     <div class="w-full">
                 <label class="block mb-2 text-[20px] text-[#F7BC06]">
@@ -738,16 +747,7 @@ export default function Inventory() {
                   class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
                 />
               </div>
-              <div class="w-full">
-                <label class="block mb-2 text-[20px] text-[#F7BC06]">
-                  Icon
-                </label>
-                <input
-                  type="image"
-                  placeholder="Email*"
-                  class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
-                />
-              </div>
+             
               <div class="w-full">
                 <label class="block mb-2 text-[20px] text-[#F7BC06]">
                   Status
@@ -760,12 +760,37 @@ export default function Inventory() {
               </div>
               <div class="w-full">
                 <label class="block mb-2 text-[20px] text-[#F7BC06]">
-                  Confirm Password
+                  Meta tag
                 </label>
                 <input
                   type="password"
                   placeholder="Confirm Password*"
                   class="block w-full px-5 py-2.5 mt-2 text-black font-bold placeholder-gray-300 bg-white/40 border border-gray-200 rounded-lg focus:border-[#F7BC06] focus:ring-[#f7bb06bb] focus:outline-none focus:ring focus:ring-opacity-40"
+                />
+              </div>
+              <div class="w-full">
+                <label class="block mb-2 text-[20px] text-[#F7BC06]">
+                  Icon
+                </label>
+                <ImageUpload
+                  handleImageSelect={handleImageSelect}
+                  imageSrc={imageSrc}
+                  setImageSrc={setImageSrc}
+                  deleteIcon={
+                    <div
+                      style={{
+                        backgroundColor: "red",
+                        padding: "10px"
+                      }}
+                    >
+                      Delete
+                    </div>
+                  }
+                  style={{
+                    width: 200,
+                    height: 200,
+                    background: "gray"
+                  }}
                 />
               </div>
                         
