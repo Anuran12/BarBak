@@ -68,7 +68,7 @@ export default function HomePage() {
           <h1 className="lg:text-[40px] md:text-[35px] text-[25px] text-[#F7BC06] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
             Say Goodbye To Hidden Fees
           </h1>
-          <p className="lg:text-[20px] w-11/12 mt-6">
+          <p className="lg:text-[20px] w-11/12 mt-6 z-50">
             At BARBAK, we prioritize transparency and simplicity in our pricing.
             We aim to give our customers the confidence that they are receiving
             the best value for their money. We are dedicated to offering clear,
