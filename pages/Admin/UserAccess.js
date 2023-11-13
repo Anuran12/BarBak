@@ -69,7 +69,7 @@ export default function UserAccess() {
             </div>
             <div className=" w-[80%] pb-10">
             <div className="flex justify-between items-center p-5 pb-2">
-                    <h1 className="text-white text-[30px]">Orders</h1>
+                    <h1 className="text-white text-[30px]">User Access</h1>
                     <Link href={"/Login"} className="mr-2">
                     <svg
                         width="31"
@@ -115,7 +115,13 @@ export default function UserAccess() {
                 <div className="w-full flex flex-col items-center gap-10 justify-center">
                     <div className="w-[90%] bg-white/20 p-5 rounded-lg">
                         <div className="flex justify-between">
-                            <h1 className="text-white text-[30px] mb-5">Master Access</h1>
+                        <div className="flex justify-center items-center gap-3 mb-5">
+                            <h1 className="text-white text-[30px]">Master Access</h1>
+                            <button onClick={() => setShowAddCategory(true)} class="bg-yellow-950 text-yellow-400 border border-yellow-400 border-b-4 overflow-hidden relative hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 font-bold  w-fit flex items-center justify-center rounded-full  group">
+                              <span class="bg-yellow-400 absolute -top-[150%] left-0 inline-flex w-full h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
+                              Add Master
+                            </button>
+                          </div>
                             <div class="relative  flex items-center w-1/3 h-12 rounded-lg focus-within:shadow-lg bg-black overflow-hidden">
                                     <input
                                     class="peer h-full w-full bg-black pl-3 outline-none text-sm text-gray-300 pr-2"
@@ -260,7 +266,13 @@ export default function UserAccess() {
                     </div>
                     <div className="w-[90%] bg-white/20 p-5 rounded-lg">
                         <div className="flex justify-between">
-                            <h1 className="text-white text-[30px] mb-5">Manager Access</h1>
+                        <div className="flex justify-center items-center gap-3 mb-5">
+                            <h1 className="text-white text-[30px]">Manager Access</h1>
+                            <button onClick={() => setShowAddCategory(true)} class="bg-yellow-950 text-yellow-400 border border-yellow-400 border-b-4 overflow-hidden relative hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 font-bold  w-fit flex items-center justify-center rounded-full  group">
+                              <span class="bg-yellow-400 absolute -top-[150%] left-0 inline-flex w-full h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
+                              Add Manager
+                            </button>
+                          </div>
                             <div class="relative  flex items-center w-1/3 h-12 rounded-lg focus-within:shadow-lg bg-black overflow-hidden">
                                     <input
                                     class="peer h-full w-full bg-black pl-3 outline-none text-sm text-gray-300 pr-2"
@@ -405,7 +417,13 @@ export default function UserAccess() {
                     </div>
                     <div className="w-[90%] bg-white/20 p-5 rounded-lg">
                         <div className="flex justify-between">
-                            <h1 className="text-white text-[30px] mb-5">Operations Access</h1>
+                        <div className="flex justify-center items-center gap-3 mb-5">
+                            <h1 className="text-white text-[30px]">Operations Access</h1>
+                            <button onClick={() => setShowAddCategory(true)} class="bg-yellow-950 text-yellow-400 border border-yellow-400 border-b-4 overflow-hidden relative hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 font-bold  w-fit flex items-center justify-center rounded-full  group">
+                              <span class="bg-yellow-400 absolute -top-[150%] left-0 inline-flex w-full h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
+                              Add Operations
+                            </button>
+                          </div>
                             <div class="relative  flex items-center w-1/3 h-12 rounded-lg focus-within:shadow-lg bg-black overflow-hidden">
                                     <input
                                     class="peer h-full w-full bg-black pl-3 outline-none text-sm text-gray-300 pr-2"
@@ -550,7 +568,13 @@ export default function UserAccess() {
                     </div>
                     <div className="w-[90%] bg-white/20 p-5 rounded-lg">
                         <div className="flex justify-between">
-                            <h1 className="text-white text-[30px] mb-5">Logistics Access</h1>
+                        <div className="flex justify-center items-center gap-3 mb-5">
+                            <h1 className="text-white text-[30px]">Loginstics Access</h1>
+                            <button onClick={() => setShowAddCategory(true)} class="bg-yellow-950 text-yellow-400 border border-yellow-400 border-b-4 overflow-hidden relative hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 font-bold  w-fit flex items-center justify-center rounded-full  group">
+                              <span class="bg-yellow-400 absolute -top-[150%] left-0 inline-flex w-full h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
+                              Add Loginstics
+                            </button>
+                          </div>
                             <div class="relative  flex items-center w-1/3 h-12 rounded-lg focus-within:shadow-lg bg-black overflow-hidden">
                                     <input
                                     class="peer h-full w-full bg-black pl-3 outline-none text-sm text-gray-300 pr-2"

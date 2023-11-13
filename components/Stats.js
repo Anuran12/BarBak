@@ -4,8 +4,15 @@ import React, { useState } from "react";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
 
+
+
+
+
+
 export default function Stats() {
   const [counterOn, setCounterOn] = useState(false);
+
+  
   return (
     <div>
       <div className="lg:mt-[120px] mt-[50px] flex flex-col lg:flex-row md:flex-row justify-center w-full lg:px-[120px]">
