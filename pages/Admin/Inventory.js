@@ -678,9 +678,9 @@ export default function Inventory() {
           <div
             className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
           >
-            <div className="relative w-auto my-6 mx-auto max-w-3xl">
+            <div className="relative w-auto my-6 mx-auto max-w-3xl overflow-hidden">
               {/*content*/}
-              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-black outline-none focus:outline-none">
+              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-black outline-none focus:outline-none popup">
                 {/*body*/}
                 <div className="relative p-10 flex-auto">
                     <div className="rounded-3xl flex flex-col justify-center items-center">
@@ -723,9 +723,9 @@ export default function Inventory() {
           <div
             className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
           >
-            <div className="relative my-6 mx-auto w-[75%]">
+            <div className="relative my-6 mx-auto w-[75%] overflow-hidden">
               {/*content*/}
-              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-black outline-none focus:outline-none">
+              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-black outline-none focus:outline-none popup">
                 {/*body*/}
                 <div className="relative p-10 flex-auto w-full">
                     <div className="rounded-3xl w-full grid grid-cols-2 gap-8 justify-center items-start">
@@ -837,9 +837,9 @@ export default function Inventory() {
           <div
             className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
           >
-            <div className="relative my-6 mx-auto w-[75%]">
+            <div className="relative my-6 mx-auto w-[75%] overflow-hidden">
               {/*content*/}
-              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-black outline-none focus:outline-none">
+              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-black outline-none focus:outline-none popup">
                 {/*body*/}
                 <div className="relative p-10 flex-auto w-full">
                     <div className="rounded-3xl w-full grid grid-cols-2 gap-8 justify-center items-start">
@@ -951,9 +951,9 @@ export default function Inventory() {
           <div
             className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
           >
-            <div className="relative w-auto my-6 mx-auto max-w-3xl">
+            <div className="relative w-auto my-6 mx-auto max-w-3xl overflow-hidden">
               {/*content*/}
-              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-[url('../img/wood.jpg')] bg-no-repeat bg-center bg-cover outline-none focus:outline-none">
+              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-[url('../img/wood.jpg')] bg-no-repeat bg-center bg-cover outline-none focus:outline-none popup">
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
                   <h3 className="text-3xl font-semibold text-[#F7BC06]">
