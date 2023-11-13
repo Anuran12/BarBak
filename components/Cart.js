@@ -16,7 +16,7 @@ export default function Cart({ cartOpen, setCartOpen }) {
       }`}
     >
       <div>
-        <div className="flex flex-row justify-between p-5 lg:px-0 px-10">
+        <div className="flex flex-row justify-between p-5">
           <h1 className="text-[40px] text-[#F7BC06]">Cart</h1>
           <button onClick={HandleCloseBtn}>
             <svg
@@ -136,7 +136,7 @@ export default function Cart({ cartOpen, setCartOpen }) {
           </div>
         </div>
       </div>
-      <div className="p-8 lg:px-0 px-10">
+      <div className="px-16 py-8">
         <Link
           href={"/Checkout"}
           className=" bg-[#F7BC06] w-full px-6 rounded-full py-2 text-[20px] font-bold"
