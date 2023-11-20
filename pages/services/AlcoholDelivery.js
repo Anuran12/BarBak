@@ -82,14 +82,14 @@ export default function AlcoholDelivery() {
         </div>
       </div>
 
-      <div className=" absolute right-0  lg:-mt-[250px] -mt-[200px] lg:mr-24 mr-0">
+      <div className=" absolute right-0  lg:-mt-[310px] -mt-[200px] lg:mr-24 mr-0">
         <Image
           src={AlcoholBG1}
           className=" lg:scale-75 scale-[.4] -rotate-12"
         />
       </div>
 
-      <div className="bg-[url('../img/wood.jpg')] bg-no-repeat bg-center bg-cover ]">
+      <div className="bg-[url('../img/wood.jpg')] bg-no-repeat bg-center bg-cover ] lg:-mt-[65px]">
         <div className="bg-[url('../img/patternUp.png')] bg-no-repeat bg-top bg-contain ">
           <div className="bg-[url('../img/patternDown.png')] flex flex-row justify-between bg-no-repeat bg-bottom bg-contain lg:px-[30px]">
             <div className="w-1/3 flex flex-col justify-evenly">

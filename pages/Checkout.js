@@ -9,7 +9,7 @@ import Logo2 from "../img/Logo2.png";
 export default function checkout() {
   return (
     <div>
-      <div className="bg-[url('../img/bg_black.jpg')] grid grid-cols-2 items-center px-10 fixed w-full bg-no-repeat bg-center bg-cover">
+      <div className="bg-[url('../img/bg_black.jpg')] grid grid-cols-2 items-center px-10 fixed w-full bg-no-repeat bg-center bg-cover z-50">
         <Link href={"/"} className="flex text-white gap-2 group w-fit">
           <svg
             width="30px"
@@ -120,7 +120,7 @@ export default function checkout() {
             </div>
           </div>
         </div>
-        <div className="lg:w-[40%] lg:mr-16 flex  px-20 items-center bg-white/20 lg:h-[110vh] py-16 lg:py-0">
+        <div className="lg:w-[40%] lg:mr-16 flex  px-20 items-center lg:h-[110vh] py-16 lg:py-0 bg-[url('../img/checkout.png')] bg-no-repeat bg-center bg-cover">
           <div className="w-full">
             <h1 className="text-white text-[28px] ">Checkout</h1>
             <div className="flex flex-col gap-6 mt-10 text-white justify-between w-full">
@@ -132,7 +132,7 @@ export default function checkout() {
                 <span>Delivery fee</span>
                 <span>$100.00</span>
               </div>
-              <div className="w-full text-[24px] flex justify-between">
+              <div className="w-full lg:text-[24px] text-[20px] flex justify-between">
                 <span>Estimated Total</span>
                 <span>$409.55</span>
               </div>
