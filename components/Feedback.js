@@ -522,7 +522,7 @@ export default function Feedback() {
             </div>
           </div>
         </div>
-        <div className=" absolute lg:w-[200px] w-[80px] lg:-mt-44 lg:ml-28 -mt-[70px] rotate-180 h-auto">
+        <div className=" absolute lg:w-[200px] w-[80px] lg:-mt-44 lg:ml-28 -mt-[90px] rotate-180 h-auto">
           <Image src={LeafBG} className="" />
         </div>
         <div className=" absolute lg:w-[30px] w-[15px] -mt-72 ml-56 h-auto">

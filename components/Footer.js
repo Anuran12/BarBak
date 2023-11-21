@@ -77,7 +77,7 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-      <div className="lg:text-[12px] text-white/80 pt-2 col-start-8">
+      <div className="lg:text-[12px] text-white/60 pt-2 col-start-8">
         <ul>
           <li className="hover:text-[#F7BC06] ease-in-out duration-300 cursor-pointer">
             <a href="tel:1234567890">1234567890</a>
@@ -93,7 +93,7 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-      <div className="text-[12px] text-white/80 pt-2 col-start-9">
+      <div className="lg:text-[12px] text-white/60 pt-2 col-start-9">
         <ul>
           <li>We are in social networks</li>
           <div class="flex mt-4">

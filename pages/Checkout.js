@@ -9,7 +9,7 @@ import Logo2 from "../img/Logo2.png";
 export default function checkout() {
   return (
     <div>
-      <div className="bg-[url('../img/bg_black.jpg')] grid grid-cols-2 items-center px-10 fixed w-full bg-no-repeat bg-center bg-cover">
+      <div className="bg-[url('../img/bg_black.jpg')] grid grid-cols-2 items-center px-10 fixed w-full bg-no-repeat bg-center bg-cover z-50">
         <Link href={"/"} className="flex text-white gap-2 group w-fit">
           <svg
             width="30px"
@@ -120,7 +120,7 @@ export default function checkout() {
             </div>
           </div>
         </div>
-        <div className="lg:w-[40%] lg:mr-16 flex  px-20 items-center bg-white/20 lg:h-[110vh] py-16 lg:py-0">
+        <div className="lg:w-[40%] lg:mr-16 flex  px-20 items-center lg:h-[110vh] py-16 lg:py-0 bg-[url('../img/checkout.png')] bg-no-repeat bg-center bg-cover">
           <div className="w-full">
             <h1 className="text-white text-[28px] ">Checkout</h1>
             <div className="flex flex-col gap-6 mt-10 text-white justify-between w-full">
@@ -132,13 +132,13 @@ export default function checkout() {
                 <span>Delivery fee</span>
                 <span>$100.00</span>
               </div>
-              <div className="w-full text-[24px] flex justify-between">
+              <div className="w-full lg:text-[24px] text-[20px] flex justify-between">
                 <span>Estimated Total</span>
                 <span>$409.55</span>
               </div>
             </div>
             <div className="w-full flex justify-center">
-              <button class="bg-yellow-950 text-yellow-400 border border-yellow-400 border-b-4 font-medium overflow-hidden relative rounded-full w-2/3 hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 mt-10 group">
+              <button class="bg-yellow-950 text-yellow-400 border border-yellow-400 border-b-4 font-medium overflow-hidden relative rounded-full w-fit hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 mt-10 group">
                 <span class="bg-yellow-400 shadow-yellow-400 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
                 Place Order
               </button>

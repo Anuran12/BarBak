@@ -16,7 +16,7 @@ export default function Cart({ cartOpen, setCartOpen }) {
       }`}
     >
       <div>
-        <div className="flex flex-row justify-between p-5 lg:px-0 px-10">
+        <div className="flex flex-row justify-between p-5">
           <h1 className="text-[40px] text-[#F7BC06]">Cart</h1>
           <button onClick={HandleCloseBtn}>
             <svg
@@ -136,11 +136,12 @@ export default function Cart({ cartOpen, setCartOpen }) {
           </div>
         </div>
       </div>
-      <div className="p-8 lg:px-0 px-10">
+      <div className="px-16 py-8">
         <Link
           href={"/Checkout"}
-          className=" bg-[#F7BC06] w-full px-6 rounded-full py-2 text-[20px] font-bold"
+          class="bg-yellow-950 text-yellow-400 border border-yellow-400 border-b-4 overflow-hidden relative hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 px-6 py-2 mt-10 font-bold lg:text-[20px]  w-full flex items-center justify-center rounded-full  group"
         >
+          <span class="bg-yellow-400 absolute -top-[150%] left-0 inline-flex w-full h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
           Go to checkout · $348.69
         </Link>
       </div>

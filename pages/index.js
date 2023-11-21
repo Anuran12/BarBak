@@ -64,11 +64,11 @@ export default function HomePage() {
         <div className="lg:w-1/3 md:w-1/2">
           <Image src={VagImg} alt="vagitables img" />
         </div>
-        <div className="w-5/6 flex flex-col justify-center items-center">
+        <div className="w-5/6 lg:-mt-20 flex flex-col justify-center items-center">
           <h1 className="lg:text-[40px] md:text-[35px] text-[25px] text-[#F7BC06] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
             Say Goodbye To Hidden Fees
           </h1>
-          <p className="lg:text-[20px] w-11/12 mt-6">
+          <p className="lg:text-[20px] w-11/12 mt-6 z-50">
             At BARBAK, we prioritize transparency and simplicity in our pricing.
             We aim to give our customers the confidence that they are receiving
             the best value for their money. We are dedicated to offering clear,
@@ -79,7 +79,7 @@ export default function HomePage() {
             transparent pricing for your Business.
           </p>
         </div>
-        <div className=" absolute right-0 lg:w-[150px] w-[100px] lg:mt-[270px] mt-[850px] lg:mr-20 mr-5 h-auto">
+        <div className=" absolute right-0 lg:w-[150px] w-[100px] lg:mt-[270px] mt-[800px] lg:mr-20 mr-5 h-auto">
           <Image src={Fees1} className="" />
         </div>
       </div>
