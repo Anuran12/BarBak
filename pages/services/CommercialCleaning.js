@@ -49,7 +49,12 @@ export default function CommercialCleaning() {
         {/* <div className="h-[90vh] w-[90vh] absolute !top-28 !-right-[30vh] hero_circle"></div> */}
         <div className="absolute !top-[50px] !right-[40px] hidden lg:block">
           <HeroCircle 
-          
+          images={[
+            "https://i.ibb.co/8DmRRYW/pngwing-com-40.png",
+            "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero1.00236b01.png&w=1920&q=75",
+            "https://i.ibb.co/9pJCWBQ/pngwing-com-30.png",
+            "https://i.ibb.co/3ztMwC2/meat-desk-0-600-1.png"
+          ]}
           />
         </div>
         <div className="absolute !top-[150px] !right-[160px] md:hidden block">
