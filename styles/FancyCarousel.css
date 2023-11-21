@@ -45,6 +45,7 @@
     margin: 2px;
     bottom: 0;
     transition: 0.5s;
+    object-fit: contain;
 }
 .fancy-carousel-image{
     object-fit: contain;
