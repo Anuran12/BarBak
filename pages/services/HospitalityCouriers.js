@@ -49,7 +49,14 @@ export default function HospitalityCouriers() {
         <div className=" absolute right-0 top-5 h-[120vh] w-full overflow-hidden">
         {/* <div className="h-[90vh] w-[90vh] absolute !top-28 !-right-[30vh] hero_circle"></div> */}
         <div className="absolute !top-[50px] !right-[40px] hidden lg:block">
-          <HeroCircle />
+        <HeroCircle
+            images={[
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem1.e1fca5d6.png&w=1920&q=75",
+              "https://i.ibb.co/y6nVVKp/pngwing-com-37.png",
+              "https://i.ibb.co/GTc9cmN/pngwing-com-35.png",
+              "https://i.ibb.co/W3BHs1c/Item4.png"
+            ]}
+            />
         </div>
         <div className="absolute !top-[150px] !right-[160px] md:hidden block">
           <HeroCircleMobile />

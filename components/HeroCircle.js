@@ -63,14 +63,14 @@ export const FancyCarousel = ({ images, setFocusElement = () => { }, offsetAngle
                             bottom: `${rotatedCoordinates[index][1]}px`,
                             transition: `${transitionTime}`
                         } },
-                        React.createElement("img", { className: "fancy-carousel-image", src: item, style: { width: `${peripheralImageRadius * 2}px`, height: `${peripheralImageRadius * 2}px` } })) :
+                        React.createElement("img", { className: "fancy-carousel-image", src: item, style: { width: `${peripheralImageRadius * 2}px`, height: `auto`, } })) :
                     React.createElement("div", { className: "fancy-carousel-element", key: index, style: Object.assign({
                             transform: `rotate(${carousel.elementOrientation}deg)`, width: `${peripheralImageRadius * 2}px`, height: `${peripheralImageRadius * 2}px`,
                             left: `${rotatedCoordinates[index][0]}px`,
                             bottom: `${rotatedCoordinates[index][1]}px`,
                             transition: `${transitionTime}`
                         }, focusElementStyling) },
-                        React.createElement("img", { className: "fancy-carousel-image", src: item, style: { width: `${peripheralImageRadius * 2}px`, height: `${peripheralImageRadius * 2}px`, transition: `${transitionTime}` } })))),
+                        React.createElement("img", { className: "fancy-carousel-image", src: item, style: { width: `${peripheralImageRadius * 2}px`, height: `auto`, transition: `${transitionTime}` } })))),
                 React.createElement("div", { className: "fancy-carousel-element central-img", key: noOfImages, style: {
                         transform: `rotate(${carousel.elementOrientation}deg)`, width: `${centralImageRadius * 2}px`, height: `${centralImageRadius * 2}px`,
                         left: `${carouselRadius - centralImageRadius - 10}px`, bottom: `${carouselRadius - centralImageRadius - 10}px`,
@@ -97,8 +97,7 @@ export const FancyCarousel = ({ images, setFocusElement = () => { }, offsetAngle
 
 
 
-export default function HeroCircle() {
-    const images = ["/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem1.297026b0.png&w=1920&q=75", "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero1.00236b01.png&w=1920&q=75", "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem1.6a4b7184.png&w=1920&q=75", "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem1.e1fca5d6.png&w=1920&q=75"];
+export default function HeroCircle({ images }) {
     return(
         <div className="carousel absolute !top-20 -right-60 z-50">
     <FancyCarousel 

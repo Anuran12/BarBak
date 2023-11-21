@@ -48,7 +48,9 @@ export default function CommercialCleaning() {
         <div className=" absolute right-0 top-5 h-[120vh] w-full overflow-hidden">
         {/* <div className="h-[90vh] w-[90vh] absolute !top-28 !-right-[30vh] hero_circle"></div> */}
         <div className="absolute !top-[50px] !right-[40px] hidden lg:block">
-          <HeroCircle />
+          <HeroCircle 
+          
+          />
         </div>
         <div className="absolute !top-[150px] !right-[160px] md:hidden block">
           <HeroCircleMobile />
