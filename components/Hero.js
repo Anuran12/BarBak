@@ -6,26 +6,22 @@ import HeroCircle from "./HeroCircle";
 import { useEffect, useState } from "react";
 import HeroCircleMobile from "./HeroCircleMobile";
 import HeroCircleTab from "./HeroCircleTab";
+import TextTransition, { presets } from 'react-text-transition';
+
+
+const TEXTS = ["A Partner You can Count On", "Do you hate having ", "Need your Package", "Do you need a reliable"];
+const TEXTS2 = ["Transparent Pricing", " to pickup your liquor?", "at your doorstep?", "Cleaning service?"];
 
 export default function Hero() {
-  const [currentString, setCurrentString] = useState(0);
-
-
-  const texts = ["A Partner You can Count On", "Do you hate having ", "Need your Package", "Do you need a reliable"];
-  const texts2 = ["Transparent Pricing", " to pickup your liquor?", "at your doorstep?", "Cleaning service?"];
-  const [currentTextIndex, setCurrentTextIndex] = useState(0);
-  const [currentText2Index, setCurrentText2Index] = useState(0);
+  const [index, setIndex] = useState(0);
   
 
   useEffect(() => {
-    const intervalId = setInterval(() => {
-      // Update the text to the next one in the array
-      setCurrentTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
-      setCurrentText2Index((prevIndex) => (prevIndex + 1) % texts2.length);
-    }, 3000);
-
-    // Cleanup the interval when the component unmounts
-    return () => clearInterval(intervalId);
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      3000, // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
   }, []);
 
   
@@ -43,15 +39,11 @@ export default function Hero() {
           />
         </div>
         <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28">
-          <h1 className="text-[#F7BC06] flex flex-col lg:text-[65px] xl:text-[65px] md:text-[50px] text-[25px] overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
-            <span className="hero_text">
-            {texts[currentTextIndex]}
-            </span>
+          <h1 className="text-[#F7BC06] flex flex-col lg:text-[65px] xl:text-[65px] md:text-[50px] text-[25px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <TextTransition springConfig={presets.stiff}>{TEXTS[index % TEXTS.length]}</TextTransition>
           </h1>
-          <h1 className="text-[#F7BC06] flex flex-col lg:text-[65px] xl:text-[65px] md:text-[50px] text-[25px] overflow-hidden leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
-            <span className="hero_text">
-            {texts2[currentText2Index]}
-            </span>
+          <h1 className="text-[#F7BC06] flex flex-col lg:text-[65px] xl:text-[65px] md:text-[50px] text-[25px]  leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <TextTransition springConfig={presets.stiff}>{TEXTS2[index % TEXTS2.length]}</TextTransition>
           </h1>
           
           <p className="text-white lg:text-[24px] mt-8 w-1/2">
