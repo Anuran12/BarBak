@@ -43,7 +43,7 @@ export default function Hero() {
           <TextTransition springConfig={presets.stiff}>{TEXTS[index % TEXTS.length]}</TextTransition>
           </h1>
           <h1 className="text-[#F7BC06] flex flex-col lg:text-[65px] xl:text-[65px] md:text-[50px] text-[25px]  leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
-          <TextTransition springConfig={presets.stiff}>{TEXTS2[index % TEXTS2.length]}</TextTransition>
+          <TextTransition springConfig={presets.stiff} delay={200}>{TEXTS2[index % TEXTS2.length]}</TextTransition>
           </h1>
           
           <p className="text-white lg:text-[24px] mt-8 w-1/2">
