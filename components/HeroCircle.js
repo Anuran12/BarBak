@@ -65,14 +65,14 @@ export const FancyCarousel = ({ images, setFocusElement = () => { }, offsetAngle
                         } },
                         React.createElement("img", { className: "fancy-carousel-image", src: item, style: { width: `${peripheralImageRadius * 3}px`, height: `${peripheralImageRadius * 2}px` } })) :
                     React.createElement("div", { className: "fancy-carousel-element", key: index, style: Object.assign({
-                            transform: `rotate(${carousel.elementOrientation}deg)`, width: `${peripheralImageRadius * 2}px`, height: `${peripheralImageRadius * 2}px`,
+                            transform: `rotate(${carousel.elementOrientation}deg)`, width: `${peripheralImageRadius * 3}px`, height: `${peripheralImageRadius * 2}px`,
                             left: `${rotatedCoordinates[index][0]}px`,
                             bottom: `${rotatedCoordinates[index][1]}px`,
                             transition: `${transitionTime}`
                         }, focusElementStyling) },
                         React.createElement("img", { className: "fancy-carousel-image", src: item, style: { width: `${peripheralImageRadius * 3}px`, height: `${peripheralImageRadius * 2}px`, transition: `${transitionTime}` } })))),
                 React.createElement("div", { className: "fancy-carousel-element central-img", key: noOfImages, style: {
-                        transform: `rotate(${carousel.elementOrientation}deg)`, width: `${centralImageRadius * 2}px`, height: `${centralImageRadius * 2}px`,
+                        transform: `rotate(${carousel.elementOrientation}deg)`, width: `${centralImageRadius * 3}px`, height: `${centralImageRadius * 2}px`,
                         left: `${carouselRadius - centralImageRadius - 10}px`, bottom: `${carouselRadius - centralImageRadius - 10}px`,
                         
                         transition: `${transitionTime}`
