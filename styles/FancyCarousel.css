@@ -46,6 +46,9 @@
     bottom: 0;
     transition: 0.5s;
 }
+.fancy-carousel-image{
+    object-fit: contain;
+}
 
 
 
