@@ -32,10 +32,10 @@ export default function Hero() {
       <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain lg:h-[100.2vh] nust:h-[100.2vh] xl:px-[120px] px-[20px]">
         <div className="bg-[url('../img/hero_bg.png')] bg-no-repeat lg:bg-bottom bg-center bg-contain">
         <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28">
-          <h1 className="text-[#F7BC06] flex flex-col lg:text-[65px] xl:text-[65px] md:text-[50px] text-[25px] leading-tight font-black drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <h1 className="text-[#F7BC06] flex flex-col lg:text-[45px] xl:text-[45px] md:text-[50px] text-[25px] leading-tight font-black drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
           <TextTransition springConfig={presets.stiff}>{TEXTS[index % TEXTS.length]}</TextTransition>
           </h1>
-          <h1 className="text-[#F7BC06] flex flex-col lg:text-[65px] xl:text-[65px] md:text-[50px] text-[25px]  leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <h1 className="text-[#F7BC06] flex flex-col lg:text-[50px] xl:text-[45px] md:text-[45px] text-[25px]  leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
           <TextTransition springConfig={presets.stiff} delay={200}>{TEXTS2[index % TEXTS2.length]}</TextTransition>
           </h1>
           
