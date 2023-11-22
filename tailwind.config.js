@@ -29,6 +29,9 @@ module.exports = {
         // => @media (min-width: 1536px) { ... }
         'nust': {'raw': '(max-height: 602px)'},
         'nustmax': {'raw': '(max-height: 800px),(min-width:1280px)'}
+      },
+      fontFamily: {
+        heading: ['Luckiest+Guy']
       }
     },
   },
