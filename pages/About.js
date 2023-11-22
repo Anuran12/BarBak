@@ -25,7 +25,7 @@ export default function About() {
           We create an excellent service
           <br /> built on values
         </h1>
-        <p className="text-[14px] 2xl:text-[24px] text-slate-900/60 mt-3 text-center">
+        <p className="text-[14px] 2xl:text-[28px] text-slate-900/60 mt-3 text-center">
           The quality of our product is very important to us and we take care of
           our employees to take care of our customers
         </p>
