@@ -14,6 +14,8 @@ import AlcoholBG2 from "../../img/AlcoholDelivery/BG2.png";
 import AlcoholBG3 from "../../img/AlcoholDelivery/BG1.png";
 import HeroCircleMobile from "@/components/HeroCircleMobile";
 import HeroCircleTab from "@/components/HeroCircleTab";
+import HeroImg1 from "../../img";
+
 
 export default function AlcoholDelivery() {
   return (

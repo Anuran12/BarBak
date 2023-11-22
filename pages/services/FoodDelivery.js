@@ -17,6 +17,8 @@ import DotBG from "../../img/BG_Images/dot2.png";
 import HeroCircleMobile from "@/components/HeroCircleMobile";
 import HeroCircleTab from "@/components/HeroCircleTab";
 import HeroImg1 from "../../img/FoodDelivery/item16.png";
+import HeroImg2 from "../../img/FoodDelivery/item15.png";
+import HeroImg3 from "../../img/FoodDelivery/item14.png";
 
 export default function FoodDelivery() {
   return (
