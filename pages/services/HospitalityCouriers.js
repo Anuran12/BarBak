@@ -11,6 +11,7 @@ import HeroCircle from "@/components/HeroCircle";
 import HeroCircleTab from "@/components/HeroCircleTab";
 import HeroCircleMobile from "@/components/HeroCircleMobile";
 import HeroImg1 from "../../img/HospitalityCouriers/Item8.png";
+import HeroImg3 from "../../img/HospitalityCouriers/Item9.png";
 
 
 export default function HospitalityCouriers() {
@@ -53,7 +54,7 @@ export default function HospitalityCouriers() {
         <HeroCircle
             images={[
               "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem1.e1fca5d6.png&w=1920&q=75",
-              "https://i.ibb.co/y6nVVKp/pngwing-com-37.png",
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem9.65bf6ac6.png&w=1920&q=75",
               "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem8.1f9e474e.png&w=1920&q=75",
               "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem4.fcf6692b.png&w=3840&q=75"
             ]}
@@ -66,7 +67,6 @@ export default function HospitalityCouriers() {
           <HeroCircleTab />
         </div>
       </div>
-      
       </div>
 
       {/* Hero Section */}
