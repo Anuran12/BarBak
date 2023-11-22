@@ -2,7 +2,6 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/legacy/image";
 import HeroBg from "../../img/hero_bg.png";
-import HeroImg1 from "../../img/AlcoholDelivery/Item1.png";
 import CourierImg1 from "../../img/AlcoholDelivery/Item5.png";
 import CourierImg2 from "../../img/AlcoholDelivery/Item3.png";
 import CourierImg3 from "../../img/AlcoholDelivery/Item4.png";
@@ -14,6 +13,10 @@ import AlcoholBG2 from "../../img/AlcoholDelivery/BG2.png";
 import AlcoholBG3 from "../../img/AlcoholDelivery/BG1.png";
 import HeroCircleMobile from "@/components/HeroCircleMobile";
 import HeroCircleTab from "@/components/HeroCircleTab";
+import HeroImg1 from "../../img/AlcoholDelivery/Item8.png";
+import HeroImg2 from "../../img/AlcoholDelivery/Item9.png";
+import HeroImg3 from "../../img/AlcoholDelivery/Item10.png";
+
 
 
 export default function AlcoholDelivery() {
@@ -50,9 +53,9 @@ export default function AlcoholDelivery() {
             <HeroCircle
             images={[
               "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem1.297026b0.png&w=1920&q=75",
-              "https://i.ibb.co/74KGcsG/pngwing-com-25.png",
-              "https://i.ibb.co/KhcXqMW/pngwing-com-23.png",
-              "https://i.ibb.co/3NMbhvX/pngwing-com-28.png"
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem8.2c9f965d.png&w=1920&q=75",
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem9.4824f1d2.png&w=1920&q=75",
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem10.f05fb7cd.png&w=1920&q=75"
             ]}
             />
           </div>
