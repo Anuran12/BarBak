@@ -67,11 +67,11 @@ export default function AlcoholDelivery() {
       {/* Hero Section */}
 
       <div className="flex lg:flex-row flex-col mb-16 justify-center items-center lg:px-[120px] px-10">
-        <div className="lg:w-1/2 md:w-5/6 drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)] lg:-ml-60 lg:-mb-3">
+        <div className="lg:w-1/2 2xl:w-1/3 md:w-5/6 drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)] lg:-ml-60 lg:-mb-3">
           <Image
             src={BottlesImg}
             alt="hero image"
-            className=" lg:scale-[1.4]"
+            className=" lg:scale-[1.4] 2xl:scale-100"
           />
         </div>
         <div className="lg:w-1/2 flex flex-col lg:ml-32">
@@ -79,7 +79,7 @@ export default function AlcoholDelivery() {
             Mixed Beverage
             <br /> Permit Holder?
           </h1>
-          <p className="text-[20px] w-11/12 mt-6">
+          <p className="text-[20px] 2xl:text-[26px] w-11/12 mt-6">
             Our goal is to relieve you of the burden and frustrations of dealing
             with the state-run ABC. We aim to make ordering liquor as easy as it
             is to order beer and wine. Either let us log in and make your orders
