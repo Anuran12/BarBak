@@ -2,7 +2,6 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/legacy/image";
 import HeroBg from "../../img/hero_bg.png";
-import HeroImg1 from "../../img/HospitalityCouriers/Item1.png";
 import HeroImg2 from "../../img/HospitalityCouriers/Item2.png";
 import CourierImg1 from "../../img/HospitalityCouriers/Item4.png";
 import CourierImg2 from "../../img/HospitalityCouriers/Item7.png";
@@ -11,6 +10,8 @@ import CourierImg4 from "../../img/HospitalityCouriers/Item3.png";
 import HeroCircle from "@/components/HeroCircle";
 import HeroCircleTab from "@/components/HeroCircleTab";
 import HeroCircleMobile from "@/components/HeroCircleMobile";
+import HeroImg1 from "../../img/HospitalityCouriers/Item8.png";
+
 
 export default function HospitalityCouriers() {
   return (
@@ -53,8 +54,8 @@ export default function HospitalityCouriers() {
             images={[
               "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem1.e1fca5d6.png&w=1920&q=75",
               "https://i.ibb.co/y6nVVKp/pngwing-com-37.png",
-              "https://i.ibb.co/GTc9cmN/pngwing-com-35.png",
-              "https://i.ibb.co/W3BHs1c/Item4.png"
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem8.1f9e474e.png&w=1920&q=75",
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem4.fcf6692b.png&w=3840&q=75"
             ]}
             />
         </div>
@@ -65,6 +66,7 @@ export default function HospitalityCouriers() {
           <HeroCircleTab />
         </div>
       </div>
+      
       </div>
 
       {/* Hero Section */}
