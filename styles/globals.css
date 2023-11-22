@@ -21,11 +21,11 @@ h1{
   src: url(../fonts/AbrilFatface-Regular.ttf);
 }
 @font-face {
-  font-family: Zeyada;
-  src: url(../fonts/Zeyada-Regular.ttf);
+  font-family: Inkfree;
+  src: url(../fonts/Inkfree.ttf);
 }
 .written{
-  font-family: 'Zeyada';
+  font-family: 'Inkfree';
 }
 
 p{
