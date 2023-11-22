@@ -7,14 +7,14 @@ export default function Services() {
       </h1>
       <div className="grid lg:grid-cols-4 grid-cols-1 md:grid-cols-2 md:px-16 lg:px-0 gap-5 mt-16">
         <div className="shadow hover:shadow-2xl p-6 mx-8 lg:mx-0 my-3 lg:my-0 flex flex-col justify-between items-center group">
-          <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06] w-full">
+          <h1 className=" font-[540] text-[18px] 2xl:text-[30px] text-center group-hover:text-[#F7BC06] w-full">
             HOSPITALITY
             <br />
             COURIERS
             <div className=" bg-[url('../img/underline.png')] bg-no-repeat bg-center bg-cover h-1 w-0 group-hover:w-full duration-300 ease-in-out"></div>
           </h1>
 
-          <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
+          <p className="text-[14px] 2xl:text-[24px] text-center text-[#0a0a0a85] font-[530] mt-2">
             Need an extra hand? Give us a call we&#39;ll have someone ready to
             help with anything to keep you running smooth!
           </p>
@@ -27,15 +27,14 @@ export default function Services() {
           </a>
         </div>
         <div className="shadow hover:shadow-2xl p-6 mx-8 lg:mx-0 my-3 lg:my-0 flex flex-col justify-between items-center group">
-          <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06] w-full">
+          <h1 className=" font-[540] text-[18px] 2xl:text-[30px] text-center group-hover:text-[#F7BC06] w-full">
             WHOLESALE FOOD
             <br />
             DELIVERY
             <div className=" bg-[url('../img/underline.png')] bg-no-repeat bg-center bg-cover h-1 w-0 group-hover:w-full duration-300 ease-in-out"></div>
           </h1>
-          <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
-            We give you hours of your precious life back, with full price
-            transparency, by supplying everything you need to run your business
+          <p className="text-[14px] 2xl:text-[24px] text-center text-[#0a0a0a85] font-[530] mt-2">
+            We give you hours of your precious life back, by supplying everything you need to run your business
             from our fulfillment centers to your shelves and fridges.
           </p>
           <a
@@ -47,17 +46,16 @@ export default function Services() {
           </a>
         </div>
         <div className="shadow hover:shadow-2xl p-6 mx-8 lg:mx-0 my-3 lg:my-0 flex flex-col justify-between items-center group">
-          <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06] w-full">
+          <h1 className=" font-[540] text-[18px] 2xl:text-[30px] text-center group-hover:text-[#F7BC06] w-full">
             ALCOHOL
             <br />
             DELIVERY
             <div className=" bg-[url('../img/underline.png')] bg-no-repeat bg-center bg-cover h-1 w-0 group-hover:w-full duration-300 ease-in-out"></div>
           </h1>
-          <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
+          <p className="text-[14px] 2xl:text-[24px] text-center text-[#0a0a0a85] font-[530] mt-2">
             We provide Alcohol Delivery for all NC Licensed Liqour
             Establishments at an affordable rate. Simply input your order, or
-            send it for us to place. We will charge you by the case for pickup
-            and delivery.
+            send it for us to place.
           </p>
           <a
             className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-2 mt-5 text-black w-full text-center"
@@ -68,17 +66,16 @@ export default function Services() {
           </a>
         </div>
         <div className="shadow hover:shadow-2xl p-6 mx-8 lg:mx-0 my-3 lg:my-0 flex flex-col justify-between items-center group">
-          <h1 className=" font-[540] text-[18px] text-center group-hover:text-[#F7BC06] w-full">
+          <h1 className=" font-[540] text-[18px] 2xl:text-[30px] text-center group-hover:text-[#F7BC06] w-full">
             COMMERCIAL
             <br />
             CLEANING
             <div className=" bg-[url('../img/underline.png')] bg-no-repeat bg-center bg-cover h-1 w-0 group-hover:w-full duration-300 ease-in-out"></div>
           </h1>
-          <p className="text-[14px] text-center text-[#0a0a0a85] font-[530] mt-2">
+          <p className="text-[14px] 2xl:text-[24px] text-center text-[#0a0a0a85] font-[530] mt-2">
             You decide how often you need us! After working in the Hospitality
             industry for years, we were able to come up with a concept that
-            makes the customer happy. We understand the needs of the restaurant
-            and we can implement a strategy to keep clients satisfied.
+            makes the customer happy.
           </p>
           <a
             className="bg-[url('../img/btn-border_black.png')] bg-no-repeat bg-center bg-contain p-2 mt-5 text-black w-full text-center"
