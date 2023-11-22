@@ -2,7 +2,6 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/legacy/image";
 import HeroBg from "../../img/hero_bg.png";
-import HeroImg1 from "../../img/hero/hero1.png";
 import ProcessImg from "../../img/FoodDelivery/Process.png";
 import DishImg from "../../img/dish.png";
 import CourierImg1 from "../../img/FoodDelivery/Item11.png";
@@ -17,6 +16,7 @@ import FoodBG2 from "../../img/BG_Images/food2.png";
 import DotBG from "../../img/BG_Images/dot2.png";
 import HeroCircleMobile from "@/components/HeroCircleMobile";
 import HeroCircleTab from "@/components/HeroCircleTab";
+import HeroImg1 from "../../img/FoodDelivery/item16.png";
 
 export default function FoodDelivery() {
   return (
@@ -51,10 +51,10 @@ export default function FoodDelivery() {
           <div className="absolute !top-[50px] !right-[40px] hidden lg:block">
             <HeroCircle 
             images={[
-              "https://i.ibb.co/8DmRRYW/pngwing-com-40.png",
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fitem16.86cab1e6.png&w=1920&q=75",
               "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero1.00236b01.png&w=1920&q=75",
-              "https://i.ibb.co/9pJCWBQ/pngwing-com-30.png",
-              "https://i.ibb.co/3ztMwC2/meat-desk-0-600-1.png"
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fitem15.28b056d1.png&w=1920&q=75",
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fitem14.640ce742.png&w=1920&q=75"
             ]}
             />
           </div>
