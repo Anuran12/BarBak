@@ -155,11 +155,11 @@ export default function AlcoholDelivery() {
           </div>
         </div>
         <div className="lg:w-1/2">
-          <div className="bg-[url('../img/NoticeBG.png')]  bg-no-repeat bg-center bg-contain w-full lg:h-[80vh] md:h-[90vh] h-[40vh] nust:h-[80vh] flex flex-col justify-center items-center px-10 md:px-40 lg:px-20 nust:px-72">
+        <div className="bg-[url('../img/NoticeBG.png')] flex-col bg-no-repeat bg-center bg-contain w-full lg:h-[80vh] md:h-[90vh] h-[40vh] nust:h-[80vh] leading-5 md:leading-relaxed lg:leading-relaxed flex justify-center items-center lg:px-20 xl:px-28 2xl:px-40 md:px-32 px-10 nust:px-72">
             <h1 className="md:text-[28px] text-[20px] text-center font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] group-hover:text-[#F7BC06] w-full">
               Important Information:
             </h1>
-            <p className="md:text-[24px] text-[16px] leading-5 md:leading-10 text-center text-black font-[530] mt-2">
+            <p className="text-black lg:text-[20px] written font-bold 2xl:text-[30px] md:text-[24px] text-[14px] lg:mt-16 mt-10">
               We deliver liquor 6 days a week (Mon-Sat) We are licensed, insured
               and bonded and there is no contract, we deliver on an as needed
               basis.
