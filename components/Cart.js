@@ -11,7 +11,7 @@ export default function Cart({ cartOpen, setCartOpen }) {
   };
   return (
     <div>
-      <div className={`fixed w-full h-full bg-black/50 z-50 ${
+      <div className={`fixed w-full h-full bg-black/50 z-[99999] ${
           cartOpen ? "block" : " hidden"
         }`}>
 
