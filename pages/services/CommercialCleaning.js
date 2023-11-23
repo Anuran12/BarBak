@@ -3,7 +3,6 @@ import Header from "@/components/Header";
 import Image from "next/legacy/image";
 import HeroBg from "../../img/hero_bg.png";
 import WaterImg from "../../img/water.png";
-import HeroImg1 from "../../img/CommercialCleaning/Item1.png";
 import CourierImg1 from "../../img/CommercialCleaning/Item6.png";
 import CourierImg2 from "../../img/CommercialCleaning/Item9.png";
 import CourierImg3 from "../../img/CommercialCleaning/Item8.png";
@@ -11,6 +10,9 @@ import CourierImg4 from "../../img/CommercialCleaning/Item7.png";
 import HeroCircle from "@/components/HeroCircle";
 import HeroCircleMobile from "@/components/HeroCircleMobile";
 import HeroCircleTab from "@/components/HeroCircleTab";
+import HeroImg1 from "../../img/CommercialCleaning/Item12.png";
+import HeroImg2 from "../../img/CommercialCleaning/Item2.png";
+import HeroImg3 from "../../img/CommercialCleaning/Item8.png";
 
 export default function CommercialCleaning() {
   return (
@@ -50,10 +52,10 @@ export default function CommercialCleaning() {
         <div className="absolute !top-[50px] !right-[40px] hidden lg:block">
           <HeroCircle 
           images={[
-            "https://i.ibb.co/8DmRRYW/pngwing-com-40.png",
-            "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero1.00236b01.png&w=1920&q=75",
-            "https://i.ibb.co/9pJCWBQ/pngwing-com-30.png",
-            "https://i.ibb.co/3ztMwC2/meat-desk-0-600-1.png"
+            "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero2.5bfe651f.png&w=1920&q=75",
+            "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem12.f99ed13c.png&w=1920&q=75",
+            "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem2.a2d0a5ea.png&w=1920&q=75",
+            "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem8.67c54e02.png&w=1920&q=75"
           ]}
           />
         </div>
