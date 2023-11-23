@@ -10,11 +10,14 @@ export default function Cart({ cartOpen, setCartOpen }) {
     setCartOpen(!cartOpen);
   };
   return (
-    <div className={`w-full h-full fixed z-50 justify-end bg-black/50 ${
-      cartOpen ? "hidden" : "flex"
-    }`}>
+    <div>
+      <div className={`fixed w-full h-full bg-black/50 z-50 ${
+          cartOpen ? "block" : " hidden"
+        }`}>
+
+      </div>
       <div
-        className={` bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover h-[100vh] w-[400px] flex flex-col justify-between bg-white z-[999999] duration-300 delay-150 ${
+        className={`fixed bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover h-[100vh] w-[400px] flex flex-col justify-between bg-white z-[999999] duration-300 ${
           cartOpen ? "right-0" : "right-[-400px]"
         }`}
       >
