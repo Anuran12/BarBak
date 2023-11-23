@@ -19,6 +19,7 @@ import HeroCircleTab from "@/components/HeroCircleTab";
 import HeroImg1 from "../../img/FoodDelivery/item16.png";
 import HeroImg2 from "../../img/FoodDelivery/item15.png";
 import HeroImg3 from "../../img/FoodDelivery/item14.png";
+import HeroImg4 from "../../img/FoodDelivery/item17.png";
 
 export default function FoodDelivery() {
   return (
@@ -55,7 +56,7 @@ export default function FoodDelivery() {
               "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fitem16.86cab1e6.png&w=1920&q=75",
               "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero1.00236b01.png&w=1920&q=75",
               "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fitem15.28b056d1.png&w=1920&q=75",
-              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fitem14.640ce742.png&w=1920&q=75"
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fitem17.5b4201ea.png&w=1920&q=75"
             ]}
             />
           </div>
