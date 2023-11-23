@@ -8,7 +8,7 @@ export default function Category({ categoryOpen, setCategoryOpen }) {
   };
     
     return(
-        <div className={`text-white/50 fixed bg-[url('../img/bg_black.jpg')] bg-no-repea h-full  bg-center bg-cover flex flex-col lg:w-1/6 w-1/2 z-50 justify-star duration-300 ${categoryOpen ? 'left-0' : '-left-52 md:-left-[900px] lg:left-0'}`}t>
+        <div className={`text-white/50 fixed bg-[url('../img/bg_black.jpg')] bg-no-repea h-full  bg-center bg-cover flex flex-col lg:w-1/6 w-1/2 z-40 justify-star duration-300 ${categoryOpen ? 'left-0' : '-left-52 md:-left-[900px] lg:left-0'}`}t>
             <p className="text-[10px] text-end w-full mt-5 hidden lg:block">Home - recommend - We recommend</p>
             <button onClick={HandleCloseBtn} className=" flex items-center pt-5 group mt-20 lg:hidden">
                 <svg
