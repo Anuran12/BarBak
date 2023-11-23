@@ -193,3 +193,36 @@ background: linear-gradient(145deg, #e2dec0, #ffffe4);
 box-shadow:  20px 20px 40px #d5d2b5,
              -20px -20px 40px #fffff5;
   }
+
+
+  .css-13cymwt-control{
+    font-size: 16px;
+    background-color: rgb(0 0 0 / 1) !important;
+    border-radius: 50px !important;
+    color: #f9fafb99 !important;
+  }
+  .css-nl64fw-control{
+    font-size: 16px;
+    background-color: rgb(0 0 0 / 1) !important;
+    border-radius: 50px !important;
+    color: #f9fafb99 !important;
+    border-color: #F7BC06 !important;
+    box-shadow: 0 0 0 1px #F7BC06 !important;
+  }
+  .css-1dimb5e-singleValue{
+    color: #f9fafb99 !important;
+  }
+  .css-1xc3v61-indicatorContainer{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .css-1fdsijx-ValueContainer{
+    height: fit-content !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .css-qbdosj-Input{
+    margin: 0 !important;
+    padding: 0 !important;
+    height: fit-content !important;
+  }

@@ -5,12 +5,32 @@ import Image from "next/legacy/image";
 import Category from "@/components/Category";
 import Link from "next/link";
 import { useState } from "react";
+import Select from 'react-select';
+
+
+const options = [
+    { value: 'chocolate', label: 'Chocolate' },
+    { value: 'strawberry', label: 'Strawberry' },
+    { value: 'vanilla', label: 'Vanilla' },
+    { value: 'vanilla1', label: 'Vanilla' },
+    { value: 'vanilla2', label: 'Vanilla' },
+    { value: 'vanilla3', label: 'Vanilla' },
+    { value: 'vanilla4', label: 'Vanilla' },
+    { value: 'vanilla5', label: 'Vanilla' },
+    { value: 'vanilla6', label: 'Vanilla' },
+    { value: 'vanilla7', label: 'Vanilla' },
+    { value: 'vanilla8', label: 'Vanilla' },
+    { value: 'vanilla9', label: 'Vanilla' },
+  ];
 
 export default function Catalog() {
     const [categoryOpen, setCategoryOpen] = useState(false);
+    
     const handleCategoryButtonClick = () => {
         setCategoryOpen(!categoryOpen);
         }
+
+        const [selectedOption, setSelectedOption] = useState(null);
 
 	return (
         <div>
@@ -43,34 +63,67 @@ export default function Catalog() {
                         </div>
                     </div>
                     <div className="flex mb-8 mt-1 w-full justify-between px-4 lg:px-0">
-                        <div className="flex">
-                            <div className="text-[#f9fafb99] md:text-[24px] lg:text-[16px] flex items-center gap-3 lg:px-2 px-1 h-fit rounded-full border border-[#f9fafb99] bg-black">
-                                Depertment
-                                <svg fill="#f9fafb99" height="10px" width="10px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 330 330">
-                                <path id="XMLID_102_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
-                                    c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
-                                    s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"/>
-                                </svg>
+                        <div className="flex gap-3">
+                            <div className="flex flex-col">
+                                <span className="text-[#F7BC06] ">
+                                    Depertment
+                                </span>
+                                <Select
+                                    defaultValue={selectedOption}
+                                    onChange={setSelectedOption}
+                                    options={options}
+                                    maxMenuHeight={250}
+                                    theme={(theme) => ({
+                                        ...theme,
+                                        colors: {
+                                        ...theme.colors,
+                                        primary25: '#FBF7D5',
+                                        primary: '#F7BC06',
+                                        },
+                                    })}
+                                
+                                />
                             </div>
-                            <div className="text-[#f9fafb99] md:text-[24px] lg:text-[16px] ml-3 flex items-center gap-3 lg:px-2 px-1 h-fit rounded-full border border-[#f9fafb99] bg-black">
-                                Brand
-                                <svg fill="#f9fafb99" height="10px" width="10px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 330 330">
-                                <path id="XMLID_102_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
-                                    c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
-                                    s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"/>
-                                </svg>
+                            <div className="flex flex-col">
+                                <div className="text-[#F7BC06]">
+                                    Brand
+                                </div>
+                                <Select
+                                    defaultValue={selectedOption}
+                                    onChange={setSelectedOption}
+                                    options={options}
+                                    maxMenuHeight={250}
+                                    theme={(theme) => ({
+                                        ...theme,
+                                        colors: {
+                                        ...theme.colors,
+                                        primary25: '#FBF7D5',
+                                        primary: '#F7BC06',
+                                        },
+                                    })}
+                                
+                                />
                             </div>
                         </div>
-                        <div className="text-[#f9fafb99] md:text-[24px] lg:text-[16px] ml-3 flex items-center gap-3 lg:px-2 px-1 h-fit rounded-full border border-[#f9fafb99] bg-black">
-                                Sort by:
-                                <svg fill="#f9fafb99" height="10px" width="10px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 330 330">
-                                <path id="XMLID_102_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
-                                    c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
-                                    s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"/>
-                                </svg>
+                        <div className="flex flex-col">
+                                <div className="text-[#F7BC06]">
+                                    Sort By:
+                                </div>
+                                <Select
+                                    defaultValue={selectedOption}
+                                    onChange={setSelectedOption}
+                                    options={options}
+                                    maxMenuHeight={250}
+                                    theme={(theme) => ({
+                                        ...theme,
+                                        colors: {
+                                        ...theme.colors,
+                                        primary25: '#FBF7D5',
+                                        primary: '#F7BC06',
+                                        },
+                                    })}
+                                
+                                />
                             </div>
                     </div>
                     <div className=" grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 gap-5 p-4 lg:p-0 md:p-10">
