@@ -27,9 +27,7 @@ export default function AlcoholDelivery() {
 
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover lg:h-[100vh] h-[80vh] nust:h-[100vh]">
         <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain lg:h-[100.2vh] nust:h-[100.2vh] h-[80.2vh] lg:px-[120px] px-[20px]">
-          <div className="absolute lg:!top-[350px] top-[350px] lg:!left-[200px]">
-            <Image src={HeroBg} alt="hero bg" width={700} height={250} />
-          </div>
+        <div className="bg-[url('../img/hero_bg.png')] bg-no-repeat lg:bg-bottom bg-center bg-contain">
           <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28">
             <h1 className="text-white lg:text-[65px] md:text-[50px] text-[25px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               Do you hate having <br /> to pickup your
@@ -45,6 +43,7 @@ export default function AlcoholDelivery() {
             >
               SCHEDULE BARBAK
             </a>
+          </div>
           </div>
         </div>
         <div className=" absolute right-0 top-5 h-[120vh] w-full overflow-hidden">
