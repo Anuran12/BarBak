@@ -259,3 +259,13 @@ box-shadow:  20px 20px 40px #d5d2b5,
     justify-content: space-between !important;
     align-items: center !important;
   }
+
+  .rsc-float-button{
+    background-color: #F7BC06 !important;
+  }
+  .rsc-header{
+    background-color: #F7BC06 !important;
+  }
+  .rsc-ts-bubble{
+    background-color: #F7BC06 !important;
+  }
