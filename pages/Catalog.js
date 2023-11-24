@@ -6,6 +6,8 @@ import Category from "@/components/Category";
 import Link from "next/link";
 import { useState } from "react";
 import Select from 'react-select';
+import Pagination from '@mui/material/Pagination';
+import Stack from '@mui/material/Stack';
 
 
 const options = [
@@ -357,14 +359,9 @@ export default function Catalog() {
 
                     </div>
                     <div className=" text-white w-full flex justify-center my-16">
-                        <div className=" bg-black rounded-md flex gap-8 py-2 px-5">
-                            <span>&#60;</span>
-                            <span>1</span>
-                            <span>2</span>
-                            <span>3</span>
-                            <span>4</span>
-                            <span>&#62;</span>
-                        </div>
+                    <Stack spacing={2}>
+                    <Pagination count={10} shape="rounded" />
+                    </Stack>
                     </div>
                 </div>
             </div>

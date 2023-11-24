@@ -226,3 +226,19 @@ box-shadow:  20px 20px 40px #d5d2b5,
     padding: 0 !important;
     height: fit-content !important;
   }
+
+
+
+  .MuiPaginationItem-root{
+    background: #f7bb0659;
+    color: white;
+  }
+  .MuiPaginationItem-root:hover{
+    background: #F7BC06;
+  }
+  .css-10w330c-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected{
+    background: #F7BC06;
+  }
+  .MuiPaginationItem-text{
+    color: white;
+  }
