@@ -2,11 +2,14 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/legacy/image";
 import JoboffersImg from "../img/Joboffers.png";
+import Chat from "@/components/Chat";
+
 
 export default function Supplier() {
   return (
     <div>
       <Header />
+      <Chat />
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover ">
         <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain pb-16">
           <div className="lg:h-[80vh] md:h-[50vh] h-[60vh] flex flex-col justify-center items-center">

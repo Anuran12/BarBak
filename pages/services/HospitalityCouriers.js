@@ -12,12 +12,14 @@ import HeroCircleTab from "@/components/HeroCircleTab";
 import HeroCircleMobile from "@/components/HeroCircleMobile";
 import HeroImg1 from "../../img/HospitalityCouriers/Item8.png";
 import HeroImg3 from "../../img/HospitalityCouriers/Item9.png";
+import Chat from "@/components/Chat";
 
 
 export default function HospitalityCouriers() {
   return (
     <div className=" overflow-hidden">
       <Header />
+      <Chat />
       {/* Hero Section */}
 
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover lg:h-[100vh] nust:h-[100vh]">

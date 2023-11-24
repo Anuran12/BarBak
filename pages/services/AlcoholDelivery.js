@@ -16,6 +16,7 @@ import HeroCircleTab from "@/components/HeroCircleTab";
 import HeroImg1 from "../../img/AlcoholDelivery/Item8.png";
 import HeroImg2 from "../../img/AlcoholDelivery/Item9.png";
 import HeroImg3 from "../../img/AlcoholDelivery/Item10.png";
+import Chat from "@/components/Chat";
 
 
 
@@ -23,6 +24,7 @@ export default function AlcoholDelivery() {
   return (
     <div>
       <Header />
+      <Chat />
       {/* Hero Section */}
 
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover lg:h-[100vh] h-[80vh] nust:h-[100vh]">

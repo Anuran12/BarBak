@@ -8,6 +8,7 @@ import { useState } from "react";
 import Select from 'react-select';
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
+import Chat from "@/components/Chat";
 
 
 const options = [
@@ -37,6 +38,7 @@ export default function Catalog() {
 	return (
         <div>
             <Header />
+            <Chat />
             <div className="bg-[url('../img/bg_black.jpg')] bg-no-repea flex min-h-[100vh]  bg-center bg-cover">
                     <Category categoryOpen={categoryOpen} setCategoryOpen={setCategoryOpen}/>
                 <div className=" w-1/5 h-1 mt-20 hidden lg:block">

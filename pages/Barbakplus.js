@@ -8,11 +8,13 @@ import CuriousImg from "../img/Curious.png";
 import SupportImg from "../img/support.png";
 import CoinBG1 from "../img/coin.png";
 import CoinBG2 from "../img/note.png";
+import Chat from "@/components/Chat";
 
 export default function Barbakplus() {
   return (
     <div>
       <Header />
+      <Chat />
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover ">
         <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain">
           <div className="lg:h-[80vh] h-[50vh] flex flex-col justify-center items-center">

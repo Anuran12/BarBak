@@ -20,11 +20,13 @@ import HeroImg1 from "../../img/FoodDelivery/item16.png";
 import HeroImg2 from "../../img/FoodDelivery/item15.png";
 import HeroImg3 from "../../img/FoodDelivery/item14.png";
 import HeroImg4 from "../../img/FoodDelivery/item17.png";
+import Chat from "@/components/Chat";
 
 export default function FoodDelivery() {
   return (
     <div>
       <Header />
+      <Chat />
       {/* Hero Section */}
 
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover lg:h-[100vh] nust:h-[100vh]">

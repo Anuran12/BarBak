@@ -13,12 +13,14 @@ import LeafBG from "../img/BG_Images/Leaf1.png";
 import BGItem1 from "../img/BG_Images/mushroom1.png";
 import BGItem2 from "../img/BG_Images/mushroom2.png";
 import BGItem3 from "../img/BG_Images/knife.png";
+import Chat from "@/components/Chat";
 
 export default function About() {
   return (
     <div>
       <Header />
       <AboutHero />
+      <Chat />
       <Trust />
       <div className="mt-[100px] flex flex-col w-full lg:px-[120px] px-4">
         <h1 className="lg:text-[40px] md:text-[35px] text-[25px] text-center font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">

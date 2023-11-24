@@ -4,11 +4,13 @@ import Image from "next/legacy/image";
 import ContactImg from "../img/contact1.png";
 import Plane1 from "../img/paperplane1.png";
 import Plane2 from "../img/paperplane2.png";
+import Chat from "@/components/Chat";
 
 export default function Contact() {
   return (
     <div>
       <Header />
+      <Chat />
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover flex nust:flex-row lg:flex-row flex-col -mb-1 lg:px-[120px] px-[20px] pt-[100px]">
         <div className="lg:w-1/2 text-white flex flex-col lg:px-16 -mt-20 nust:mt-10 nustmax:mb-32">
           <div class="container mx-auto flex flex-col">
