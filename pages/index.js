@@ -17,12 +17,29 @@ import Fees from "../img/BG_Images/money.png";
 import DotBG from "../img/BG_Images/food6.png";
 import DotBG1 from "../img/BG_Images/food5.png";
 import Fees1 from "../img/BG_Images/Purse.png";
+import React, { Component } from "react";
+
+import {
+  Widget,
+  addResponseMessage,
+  addLinkSnippet,
+  addUserMessage,
+  setQuickButtons
+} from "react-chat-widget";
+
+import "react-chat-widget/lib/styles.css";
 
 export default function HomePage() {
   return (
     <div>
       <Header />
       <Hero />
+      <Widget
+          // profileAvatar={'text'}
+          title="BarBak"
+          subtitle="Ask Any query"
+          emojis={true}
+        />
       <div className=" absolute lg:w-[250px] w-[130px] ml-5 -mt-16 lg:ml-16 lg:-mt-48 h-auto">
         <Image src={PapperBG} className="" />
       </div>
