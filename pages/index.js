@@ -42,7 +42,7 @@ export default function HomePage() {
           {
             id: '3',
             message: 'Hi {previousValue}, nice to meet you!',
-            trigger: '4',
+            trigger: '2',
           },
         ]}
         floating={true}
