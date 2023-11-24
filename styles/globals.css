@@ -236,7 +236,7 @@ box-shadow:  20px 20px 40px #d5d2b5,
   .MuiPaginationItem-root:hover{
     background: #F7BC06 !important;
   }
-  .css-10w330c-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected{
+  .Mui-selected{
     background: #F7BC06 !important;
   }
   .MuiPaginationItem-text{
