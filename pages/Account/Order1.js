@@ -9,7 +9,7 @@ export default function Order1(){
         <div>
             <Header />
             <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover pt-28 pb-16 lg:px-[120px]">
-                <h1 className="text-[40px] text-[#F7BC06] text-center">My Orders</h1>
+                <h1 className="text-[40px] text-[#F7BC06] text-center">Order 1</h1>
                 <div className="flex flex-col gap-4">
                     <Link className="" href={'/Account/Tracking'}>
                         <div href={'/Account/Tracking'} className="grid lg:grid-cols-5 grid-cols-4 bg-white/20 rounded-t-xl p-2 items-center">
