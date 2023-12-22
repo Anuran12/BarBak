@@ -269,3 +269,16 @@ box-shadow:  20px 20px 40px #d5d2b5,
   .rsc-ts-bubble{
     background-color: #F7BC06 !important;
   }
+
+
+
+
+  .transition-all-Dropdown {
+    transition: all 0.3s ease; /* Adjust the duration and easing as needed */
+  }
+  
+  .openOrderDropdown {
+    /* Define your animation styles, for example: */
+    transform: translateY(0);
+    opacity: 1;
+  }

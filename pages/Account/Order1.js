@@ -70,22 +70,14 @@ export default function Order1(){
                                     <svg width="40px" height="40px" viewBox="0 0 1024 1024" fill="#F7BC06" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M642.174 504.594c7.99 7.241 7.897 17.58-0.334 24.782L332.62 799.945c-8.867 7.759-9.766 21.236-2.007 30.103 7.758 8.867 21.236 9.766 30.103 2.007l309.221-270.569c27.429-24 27.792-64.127 0.89-88.507L360.992 192.192c-8.73-7.912-22.221-7.248-30.133 1.482-7.912 8.73-7.248 22.222 1.482 30.134l309.833 280.786z" fill="" /></svg>
                             </div>
                         </div>
-                        <div className="grid grid-cols-4 bg-white/20 border-[1px] border-stone-400">
-                            <div className="text-white text-center p-2 Tracking_box bg-red-500/30 border-white">
-                                <h1 className="text-[18px]">Recieved</h1>
-                                <span className="text-[12px]">Done</span>
+                        <div className="grid grid-cols-4 bg-white/20">
+                            <div className="text-white text-center p-2 Tracking_box bg-red-500/60 border-white">
                             </div>
-                            <div className="text-white text-center  p-2 Tracking_box bg-red-500/30 border-white">
-                                <h1 className="text-[18px]">Preparing</h1>
-                                <span className="text-[12px]">Done</span>
+                            <div className="text-white text-center  p-2 Tracking_box bg-red-500/60 border-white">
                             </div>
                             <div className="text-white text-center  p-2 border-white">
-                                <h1 className="text-[18px]">In Transit</h1>
-                                <span className="text-[12px]">1 Nov 10:30am</span>
                             </div>
                             <div className="text-white text-center  p-2 border-white">
-                                <h1 className="text-[18px]">Delivered</h1>
-                                <span className="text-[12px]">1 Nov 10:30am</span>
                             </div>
                         </div>
                     </Link>
