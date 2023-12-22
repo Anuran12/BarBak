@@ -273,12 +273,16 @@ box-shadow:  20px 20px 40px #d5d2b5,
 
 
 
-  .transition-all-Dropdown {
-    transition: all 0.3s ease; /* Adjust the duration and easing as needed */
-  }
-  
-  .openOrderDropdown {
-    /* Define your animation styles, for example: */
-    transform: translateY(0);
-    opacity: 1;
-  }
+.dropdown{
+  transition: max-height 0.5s ease-out;
+  transition: opacity 0.5s ease-out;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+}
+.dropdownOpen{
+  opacity: 1;
+  max-height: 500px;
+  transition: max-height 0.5s ease-in;
+}
+
