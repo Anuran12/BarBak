@@ -286,3 +286,30 @@ box-shadow:  20px 20px 40px #d5d2b5,
   transition: max-height 0.5s ease-in;
 }
 
+
+.popup_item{
+  left: 0; 
+  right: 0; 
+  margin-left: 50px; 
+  margin-right: 50px; 
+  margin-top: -130px;
+}
+.popup_item2{
+  left: 0; 
+  right: 0; 
+  margin-left: 50px; 
+  margin-right: 50px; 
+  margin-top: -130px;
+}
+.hoverme:hover > .popup_item {
+  display: block !important;
+}
+.hoverme:hover > .hover_disable{
+  opacity: 0;
+}
+.hoverme2:hover > .popup_item2 {
+  display: block !important;
+}
+.hoverme2:hover > .hover_disable2{
+  opacity: 0;
+}

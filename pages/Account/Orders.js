@@ -69,9 +69,76 @@ export default function Orders(){
 
                 
                     <div className={`col-span-5 dropdown ${orderStates[index] ? "dropdownOpen" : ""}`}>
-                        <Link className=" col-span-5 mb-5" href={`/Account/Tracking`}>
-                        {/* ... rest of your code ... */}
-                        <div href={'/Account/Tracking'} className="grid lg:grid-cols-5 grid-cols-4 bg-white/20 hover:bg-black/20 rounded-t-xl p-2 items-center">
+                        <div className="hoverme">
+                            <Link className=" col-span-5 mb-5 hover_disable" href={`/Account/Tracking`}>
+                            <div href={'/Account/Tracking'} className="grid lg:grid-cols-5 grid-cols-4 bg-white/20 rounded-t-xl p-2 items-center">
+                                    <div className="w-full flex justify-center">
+                                        <div className="w-1/2">
+                                            <Image src={DishImg} />
+                                        </div>
+                                    </div>
+                                    <h1 className="text-[#F7BC06] text-center text-[20px]">Food Name</h1>
+                                    <div className="text-[#F7BC06] text-center text-[14px] ">
+                                        <h1>Case: 1</h1>
+                                        <h1>Unit: 0</h1>
+                                    </div>
+                                    <h1 className="text-[#F7BC06] text-center text-[20px]">$35.60</h1>
+                                    <div className="flex flex-row items-center justify-between col-span-2 lg:col-span-1">
+                                        <div className="flex w-3/4 bg-[#F7BC06] rounded-full py-2 h-fit px-6 flex-row items-center">
+                                            <h1 className="lg:text-[24px] text-center w-full font-bold">In Progress</h1>
+                                        </div>
+                                            <svg width="40px" height="40px" viewBox="0 0 1024 1024" fill="#F7BC06" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M642.174 504.594c7.99 7.241 7.897 17.58-0.334 24.782L332.62 799.945c-8.867 7.759-9.766 21.236-2.007 30.103 7.758 8.867 21.236 9.766 30.103 2.007l309.221-270.569c27.429-24 27.792-64.127 0.89-88.507L360.992 192.192c-8.73-7.912-22.221-7.248-30.133 1.482-7.912 8.73-7.248 22.222 1.482 30.134l309.833 280.786z" fill="" /></svg>
+                                    </div>
+                                </div>
+                                <div className="grid grid-cols-4">
+                                    <div className="text-white text-center p-2 Tracking_box border-white">
+                                    </div>
+                                    <div className="text-white text-center p-1 border-white">
+                                    </div>
+                                    <div className="text-white text-center p-1 border-white">
+                                    </div>
+                                    <div className="text-white text-center p-1 border-white">
+                                    </div>
+                                </div>
+                                
+                            </Link>
+                            <Link className=" col-span-5 mb-5 hidden popup_item absolute " href={`/Account/Tracking`}>
+                            {/* ... rest of your code ... */}
+                            <div href={'/Account/Tracking'} className="grid lg:grid-cols-5 grid-cols-4 bg-white/20 rounded-t-xl p-2 items-center">
+                                    <div className="w-full flex justify-center">
+                                        <div className="w-1/2">
+                                            <Image src={DishImg} />
+                                        </div>
+                                    </div>
+                                    <h1 className="text-[#F7BC06] text-center text-[20px]">Food Name</h1>
+                                    <div className="text-[#F7BC06] text-center text-[14px] ">
+                                        <h1>Case: 1</h1>
+                                        <h1>Unit: 0</h1>
+                                    </div>
+                                    <h1 className="text-[#F7BC06] text-center text-[20px]">$35.60</h1>
+                                    <div className="flex flex-row items-center justify-between col-span-2 lg:col-span-1">
+                                        <div className="flex w-3/4 bg-[#F7BC06] rounded-full py-2 h-fit px-6 flex-row items-center">
+                                            <h1 className="lg:text-[24px] text-center w-full font-bold">In Progress</h1>
+                                        </div>
+                                            <svg width="40px" height="40px" viewBox="0 0 1024 1024" fill="#F7BC06" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M642.174 504.594c7.99 7.241 7.897 17.58-0.334 24.782L332.62 799.945c-8.867 7.759-9.766 21.236-2.007 30.103 7.758 8.867 21.236 9.766 30.103 2.007l309.221-270.569c27.429-24 27.792-64.127 0.89-88.507L360.992 192.192c-8.73-7.912-22.221-7.248-30.133 1.482-7.912 8.73-7.248 22.222 1.482 30.134l309.833 280.786z" fill="" /></svg>
+                                    </div>
+                                </div>
+                                <div className="grid grid-cols-4">
+                                    <div className="text-white text-center p-2 Tracking_box border-white">
+                                    </div>
+                                    <div className="text-white text-center p-1 border-white">
+                                    </div>
+                                    <div className="text-white text-center p-1 border-white">
+                                    </div>
+                                    <div className="text-white text-center p-1 border-white">
+                                    </div>
+                                </div>
+                                
+                            </Link>
+                        </div>
+                        <div className="hoverme2">
+                            <Link className=" col-span-5 mb-5 hover_disable2" href={'/Account/Tracking'}>
+                            <div className="grid lg:grid-cols-5 grid-cols-4 bg-white/20 rounded-t-xl p-2 items-center">
                                 <div className="w-full flex justify-center">
                                     <div className="w-1/2">
                                         <Image src={DishImg} />
@@ -91,48 +158,48 @@ export default function Orders(){
                                 </div>
                             </div>
                             <div className="grid grid-cols-4">
-                                <div className="text-white text-center p-2 Tracking_box border-white">
+                                <div className="text-white text-center p-2 Tracking_box bg-red-500/60 border-white">
                                 </div>
-                                <div className="text-white text-center p-1 border-white">
+                                <div className="text-white text-center  p-2 Tracking_box bg-red-500/60 border-white">
                                 </div>
-                                <div className="text-white text-center p-1 border-white">
+                                <div className="text-white text-center  p-2 border-white">
                                 </div>
-                                <div className="text-white text-center p-1 border-white">
-                                </div>
-                            </div>
-                            
-                        </Link>
-                        <Link className=" col-span-5 mb-5" href={'/Account/Tracking'}>
-                        <div className="grid lg:grid-cols-5 grid-cols-4 bg-white/20 hover:bg-black/20 rounded-t-xl p-2 items-center">
-                            <div className="w-full flex justify-center">
-                                <div className="w-1/2">
-                                    <Image src={DishImg} />
+                                <div className="text-white text-center  p-2 border-white">
                                 </div>
                             </div>
-                            <h1 className="text-[#F7BC06] text-center text-[20px]">Food Name</h1>
-                            <div className="text-[#F7BC06] text-center text-[14px] ">
-                                <h1>Case: 1</h1>
-                                <h1>Unit: 0</h1>
-                            </div>
-                            <h1 className="text-[#F7BC06] text-center text-[20px]">$35.60</h1>
-                            <div className="flex flex-row items-center justify-between col-span-2 lg:col-span-1">
-                                <div className="flex w-3/4 bg-[#F7BC06] rounded-full py-2 h-fit px-6 flex-row items-center">
-                                    <h1 className="lg:text-[24px] text-center w-full font-bold">In Progress</h1>
+                            </Link>
+                            <Link className=" col-span-5 mb-5 hidden popup_item2 absolute" href={'/Account/Tracking'}>
+                            <div className="grid lg:grid-cols-5 grid-cols-4 bg-white/20 rounded-t-xl p-2 items-center">
+                                <div className="w-full flex justify-center">
+                                    <div className="w-1/2">
+                                        <Image src={DishImg} />
+                                    </div>
                                 </div>
-                                    <svg width="40px" height="40px" viewBox="0 0 1024 1024" fill="#F7BC06" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M642.174 504.594c7.99 7.241 7.897 17.58-0.334 24.782L332.62 799.945c-8.867 7.759-9.766 21.236-2.007 30.103 7.758 8.867 21.236 9.766 30.103 2.007l309.221-270.569c27.429-24 27.792-64.127 0.89-88.507L360.992 192.192c-8.73-7.912-22.221-7.248-30.133 1.482-7.912 8.73-7.248 22.222 1.482 30.134l309.833 280.786z" fill="" /></svg>
+                                <h1 className="text-[#F7BC06] text-center text-[20px]">Food Name</h1>
+                                <div className="text-[#F7BC06] text-center text-[14px] ">
+                                    <h1>Case: 1</h1>
+                                    <h1>Unit: 0</h1>
+                                </div>
+                                <h1 className="text-[#F7BC06] text-center text-[20px]">$35.60</h1>
+                                <div className="flex flex-row items-center justify-between col-span-2 lg:col-span-1">
+                                    <div className="flex w-3/4 bg-[#F7BC06] rounded-full py-2 h-fit px-6 flex-row items-center">
+                                        <h1 className="lg:text-[24px] text-center w-full font-bold">In Progress</h1>
+                                    </div>
+                                        <svg width="40px" height="40px" viewBox="0 0 1024 1024" fill="#F7BC06" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M642.174 504.594c7.99 7.241 7.897 17.58-0.334 24.782L332.62 799.945c-8.867 7.759-9.766 21.236-2.007 30.103 7.758 8.867 21.236 9.766 30.103 2.007l309.221-270.569c27.429-24 27.792-64.127 0.89-88.507L360.992 192.192c-8.73-7.912-22.221-7.248-30.133 1.482-7.912 8.73-7.248 22.222 1.482 30.134l309.833 280.786z" fill="" /></svg>
+                                </div>
                             </div>
+                            <div className="grid grid-cols-4">
+                                <div className="text-white text-center p-2 Tracking_box bg-red-500/60 border-white">
+                                </div>
+                                <div className="text-white text-center  p-2 Tracking_box bg-red-500/60 border-white">
+                                </div>
+                                <div className="text-white text-center  p-2 border-white">
+                                </div>
+                                <div className="text-white text-center  p-2 border-white">
+                                </div>
+                            </div>
+                            </Link>
                         </div>
-                        <div className="grid grid-cols-4 bg-white/20">
-                            <div className="text-white text-center p-2 Tracking_box bg-red-500/60 border-white">
-                            </div>
-                            <div className="text-white text-center  p-2 Tracking_box bg-red-500/60 border-white">
-                            </div>
-                            <div className="text-white text-center  p-2 border-white">
-                            </div>
-                            <div className="text-white text-center  p-2 border-white">
-                            </div>
-                        </div>
-                    </Link>
                     </div>
                     
               </div>
