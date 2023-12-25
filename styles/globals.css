@@ -274,16 +274,15 @@ box-shadow:  20px 20px 40px #d5d2b5,
 
 
 .dropdown{
-  transition: max-height 0.5s ease-out;
-  transition: opacity 0.5s ease-out;
-    opacity: 0;
+  transition: max-height 0.5s ease-in-out;
+    opacity: 1;
     max-height: 0;
     overflow: hidden;
 }
 .dropdownOpen{
   opacity: 1;
   max-height: 500px;
-  transition: max-height 0.5s ease-in;
+  transition: max-height 0.5s ease-in-out;
 }
 
 
@@ -303,6 +302,7 @@ box-shadow:  20px 20px 40px #d5d2b5,
 }
 .hoverme:hover > .popup_item {
   display: block !important;
+  
 }
 .hoverme:hover > .hover_disable{
   opacity: 0;
