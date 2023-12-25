@@ -69,7 +69,7 @@ export default function Orders(){
 
                 
                     <div className={`col-span-5 dropdown ${orderStates[index] ? "dropdownOpen" : ""}`}>
-                        <div className="hoverme">
+                        <div className="hoverme mb-3">
                             <Link className=" col-span-5 mb-5 hover_disable" href={`/Account/Tracking`}>
                             <div href={'/Account/Tracking'} className="grid lg:grid-cols-5 grid-cols-4 bg-white/20 rounded-t-xl p-2 items-center">
                                     <div className="w-full flex justify-center">
@@ -90,7 +90,7 @@ export default function Orders(){
                                             <svg width="40px" height="40px" viewBox="0 0 1024 1024" fill="#F7BC06" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M642.174 504.594c7.99 7.241 7.897 17.58-0.334 24.782L332.62 799.945c-8.867 7.759-9.766 21.236-2.007 30.103 7.758 8.867 21.236 9.766 30.103 2.007l309.221-270.569c27.429-24 27.792-64.127 0.89-88.507L360.992 192.192c-8.73-7.912-22.221-7.248-30.133 1.482-7.912 8.73-7.248 22.222 1.482 30.134l309.833 280.786z" fill="" /></svg>
                                     </div>
                                 </div>
-                                <div className="grid grid-cols-4">
+                                <div className="grid grid-cols-4 bg-white/20">
                                     <div className="text-white text-center p-2 Tracking_box border-white">
                                     </div>
                                     <div className="text-white text-center p-1 border-white">
@@ -123,7 +123,7 @@ export default function Orders(){
                                             <svg width="40px" height="40px" viewBox="0 0 1024 1024" fill="#F7BC06" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M642.174 504.594c7.99 7.241 7.897 17.58-0.334 24.782L332.62 799.945c-8.867 7.759-9.766 21.236-2.007 30.103 7.758 8.867 21.236 9.766 30.103 2.007l309.221-270.569c27.429-24 27.792-64.127 0.89-88.507L360.992 192.192c-8.73-7.912-22.221-7.248-30.133 1.482-7.912 8.73-7.248 22.222 1.482 30.134l309.833 280.786z" fill="" /></svg>
                                     </div>
                                 </div>
-                                <div className="grid grid-cols-4">
+                                <div className="grid grid-cols-4 bg-white/20">
                                     <div className="text-white text-center p-2 Tracking_box border-white">
                                     </div>
                                     <div className="text-white text-center p-1 border-white">
@@ -136,7 +136,7 @@ export default function Orders(){
                                 
                             </Link>
                         </div>
-                        <div className="hoverme2">
+                        <div className="hoverme2 mb-3">
                             <Link className=" col-span-5 mb-5 hover_disable2" href={'/Account/Tracking'}>
                             <div className="grid lg:grid-cols-5 grid-cols-4 bg-white/20 rounded-t-xl p-2 items-center">
                                 <div className="w-full flex justify-center">
@@ -157,7 +157,7 @@ export default function Orders(){
                                         <svg width="40px" height="40px" viewBox="0 0 1024 1024" fill="#F7BC06" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M642.174 504.594c7.99 7.241 7.897 17.58-0.334 24.782L332.62 799.945c-8.867 7.759-9.766 21.236-2.007 30.103 7.758 8.867 21.236 9.766 30.103 2.007l309.221-270.569c27.429-24 27.792-64.127 0.89-88.507L360.992 192.192c-8.73-7.912-22.221-7.248-30.133 1.482-7.912 8.73-7.248 22.222 1.482 30.134l309.833 280.786z" fill="" /></svg>
                                 </div>
                             </div>
-                            <div className="grid grid-cols-4">
+                            <div className="grid grid-cols-4 bg-white/20">
                                 <div className="text-white text-center p-2 Tracking_box bg-red-500/60 border-white">
                                 </div>
                                 <div className="text-white text-center  p-2 Tracking_box bg-red-500/60 border-white">
@@ -188,7 +188,7 @@ export default function Orders(){
                                         <svg width="40px" height="40px" viewBox="0 0 1024 1024" fill="#F7BC06" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M642.174 504.594c7.99 7.241 7.897 17.58-0.334 24.782L332.62 799.945c-8.867 7.759-9.766 21.236-2.007 30.103 7.758 8.867 21.236 9.766 30.103 2.007l309.221-270.569c27.429-24 27.792-64.127 0.89-88.507L360.992 192.192c-8.73-7.912-22.221-7.248-30.133 1.482-7.912 8.73-7.248 22.222 1.482 30.134l309.833 280.786z" fill="" /></svg>
                                 </div>
                             </div>
-                            <div className="grid grid-cols-4">
+                            <div className="grid grid-cols-4 bg-white/20">
                                 <div className="text-white text-center p-2 Tracking_box bg-red-500/60 border-white">
                                 </div>
                                 <div className="text-white text-center  p-2 Tracking_box bg-red-500/60 border-white">
