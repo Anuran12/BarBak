@@ -306,6 +306,22 @@ box-shadow:  20px 20px 40px #d5d2b5,
   margin-right: 120px;
   margin-top: -130px;
 }
+@media screen and (min-width: 1900px){
+  .popup_item{
+    margin-top: -160px;
+  }
+  .popup_item2{
+    margin-top: -160px;
+  }
+}
+@media screen and (min-width: 2200px){
+  .popup_item{
+    margin-top: -190px;
+  }
+  .popup_item2{
+    margin-top: -190px;
+  }
+}
 .hoverme:hover > .popup_item {
   opacity: 1;
   margin-left: 50px; 
