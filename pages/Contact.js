@@ -12,7 +12,7 @@ export default function Contact() {
       <Header />
       <Chat />
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover flex nust:flex-row lg:flex-row flex-col -mb-1 lg:px-[120px] px-[20px] pt-[100px]">
-        <div className="lg:w-1/2 text-white flex flex-col lg:px-16 -mt-20 nust:mt-10 nustmax:mb-32">
+        <div className="lg:w-1/2 text-white flex flex-col lg:px-16 sm:-mt-20 -mt-8 nust:mt-10 nustmax:mb-32">
           <div class="container mx-auto flex flex-col">
             <div class="text-center">
               <h1 class="lg:mt-56 md:mt-10 mt-40 text-[48px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] text-white">
@@ -24,7 +24,7 @@ export default function Contact() {
               </p>
             </div>
 
-            <div class="grid grid-cols-3 gap-12 mt-10 lg:grid-cols-3">
+            <div class="grid grid-cols-3 gap-12 mt-10 lg:grid-cols-3 items-start">
               <div class="flex flex-col items-center justify-center text-center">
                 <span class="p-3 text-[#F7BC06] rounded-full bg-white/20">
                   <svg

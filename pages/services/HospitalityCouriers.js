@@ -90,7 +90,7 @@ export default function HospitalityCouriers() {
           <span className="text-[#F7BC06]"> ASK</span>. WE
           <span className="text-[#F7BC06]"> DELIVER</span>.
         </h1>
-        <div className="grid lg:grid-cols-4 xs:grid-cols-2 grid-cols-1 gap-5 mt-16">
+        <div className="grid lg:grid-cols-4 sm:grid-cols-2 xs:grid-cols-2 grid-cols-1 gap-5 mt-16">
           <div className="shadow hover:shadow-2xl p-6 flex flex-col items-center group">
             <h1 className=" font-[540] text-[22px] text-center group-hover:text-[#F7BC06] w-full">
               Catering
