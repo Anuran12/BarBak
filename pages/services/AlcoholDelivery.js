@@ -80,10 +80,24 @@ export default function AlcoholDelivery() {
             />
           </div>
           <div className="absolute !top-[150px] !right-[160px] md:hidden block">
-            <HeroCircleMobile />
+            <HeroCircleMobile 
+            images={[
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem1.297026b0.png&w=1920&q=75",
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem8.2c9f965d.png&w=1920&q=75",
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem9.4824f1d2.png&w=1920&q=75",
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem10.f05fb7cd.png&w=1920&q=75"
+            ]}
+            />
           </div>
           <div className="absolute !top-[150px] !right-[160px] nust:!top-[50px] hidden lg:hidden md:block">
-            <HeroCircleTab />
+            <HeroCircleTab 
+            images={[
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem1.297026b0.png&w=1920&q=75",
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem8.2c9f965d.png&w=1920&q=75",
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem9.4824f1d2.png&w=1920&q=75",
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem10.f05fb7cd.png&w=1920&q=75"
+            ]}
+            />
           </div>
         </div>
       </div>

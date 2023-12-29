@@ -75,10 +75,24 @@ export default function CommercialCleaning() {
           />
         </div>
         <div className="absolute !top-[150px] !right-[160px] md:hidden block">
-          <HeroCircleMobile />
+          <HeroCircleMobile 
+          images={[
+            "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero2.5bfe651f.png&w=1920&q=75",
+            "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem12.f99ed13c.png&w=1920&q=75",
+            "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem2.a2d0a5ea.png&w=1920&q=75",
+            "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem8.67c54e02.png&w=1920&q=75"
+          ]}
+          />
         </div>
         <div className="absolute !top-[150px] nust:!top-[50px] !right-[160px] hidden lg:hidden md:block">
-          <HeroCircleTab />
+          <HeroCircleTab 
+          images={[
+            "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero2.5bfe651f.png&w=1920&q=75",
+            "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem12.f99ed13c.png&w=1920&q=75",
+            "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem2.a2d0a5ea.png&w=1920&q=75",
+            "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem8.67c54e02.png&w=1920&q=75"
+          ]}
+          />
         </div>
       </div>
       </div>

@@ -82,10 +82,24 @@ export default function FoodDelivery() {
             />
           </div>
           <div className="absolute !top-[150px] !right-[160px] md:hidden block">
-            <HeroCircleMobile />
+            <HeroCircleMobile 
+            images={[
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fitem16.86cab1e6.png&w=1920&q=75",
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero1.00236b01.png&w=1920&q=75",
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fitem15.28b056d1.png&w=1920&q=75",
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fitem17.5b4201ea.png&w=1920&q=75"
+            ]}
+            />
           </div>
           <div className="absolute !top-[150px] nust:!top-[50px] !right-[160px] hidden lg:hidden md:block">
-            <HeroCircleTab />
+            <HeroCircleTab 
+            images={[
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fitem16.86cab1e6.png&w=1920&q=75",
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero1.00236b01.png&w=1920&q=75",
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fitem15.28b056d1.png&w=1920&q=75",
+              "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fitem17.5b4201ea.png&w=1920&q=75"
+            ]}
+            />
           </div>
         </div>
       </div>
