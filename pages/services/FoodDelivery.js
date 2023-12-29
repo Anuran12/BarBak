@@ -118,7 +118,7 @@ export default function FoodDelivery() {
           <Image src={ProcessImg} className="mt-10" />
         </div>
         <div className="lg:w-1/2">
-          <div className="bg-[url('../img/NoticeBG.png')]  bg-no-repeat bg-center bg-contain w-full lg:h-[80vh] md:h-[90vh] h-[40vh] nust:h-[80vh] leading-5 md:leading-relaxed lg:leading-relaxed flex justify-center items-center lg:px-20 xl:px-28 2xl:px-40 md:px-32 xs:px-10 nust:px-72">
+          <div className="bg-[url('../img/NoticeBG.png')]  bg-no-repeat bg-center bg-contain w-full lg:h-[80vh] md:h-[90vh] min-h-[400px] nust:h-[80vh] leading-5 md:leading-relaxed lg:leading-relaxed flex justify-center items-center lg:px-20 xl:px-28 2xl:px-40 md:px-32 xs:px-10 nust:px-72">
             <p className="text-black lg:text-[20px] written font-bold 2xl:text-[30px] md:text-[24px] xs:text-[14px] text-[13px] lg:mt-16 mt-10 px-[35px] xs:px-0">
               Do you really like pushing that cart at 6:00 AM? Seriously?! Do
               you really like that rep who keeps changing prices on you? We
