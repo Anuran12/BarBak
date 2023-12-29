@@ -2,6 +2,8 @@ import Image from "next/legacy/image";
 import HeroBg from "../img/hero_bg.png";
 import HeroImg1 from "../img/hero/hero1.png";
 import HeroImg2 from "../img/hero/hero2.png";
+import HeroImg3 from "../img/hero/hero3.png";
+import HeroImg4 from "../img/hero/hero4.png";
 import Link from "next/link";
 import HeroCircle from "./HeroCircle";
 import { useEffect, useState } from "react";
@@ -58,10 +60,10 @@ export default function Hero() {
         <div className="absolute !top-[50px] !right-[40px] hidden lg:block">
           <HeroCircle 
           images={[
-            "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem1.297026b0.png&w=1920&q=75",
+            "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero3.297026b0.png&w=1920&q=75",
             "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero1.00236b01.png&w=1920&q=75",
             "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero2.5bfe651f.png&w=1920&q=75",
-            "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FItem1.e1fca5d6.png&w=1920&q=75"
+            "/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero4.e1fca5d6.png&w=1920&q=75"
           ]}
           />
         </div>
