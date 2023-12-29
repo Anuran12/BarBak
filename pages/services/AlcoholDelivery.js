@@ -183,7 +183,7 @@ export default function AlcoholDelivery() {
             <h1 className="md:text-[28px] text-[20px] text-center font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)] group-hover:text-[#F7BC06] w-full">
               Important Information:
             </h1>
-            <p className="text-black lg:text-[20px] written font-bold 2xl:text-[30px] md:text-[24px] text-[14px] lg:mt-16 mt-10">
+            <p className="text-black lg:text-[20px] written font-bold 2xl:text-[30px] md:text-[24px] text-[14px] lg:mt-16 xs:mt-10">
               We deliver liquor 6 days a week (Mon-Sat) We are licensed, insured
               and bonded and there is no contract, we deliver on an as needed
               basis.
