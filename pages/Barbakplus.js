@@ -18,7 +18,7 @@ export default function Barbakplus() {
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover ">
         <div className="bg-[url('../img/patternDown.png')] bg-no-repeat bg-bottom bg-contain">
           <div className="lg:h-[80vh] h-[50vh] flex flex-col justify-center items-center">
-            <h1 className="text-[#F7BC06] lg:text-[200px] md:text-[100px] text-[70px] mt-20 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+            <h1 className="text-[#F7BC06] lg:text-[200px] md:text-[100px] xs:text-[70px] text-[50px] mt-20 leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
               BARBAK+
             </h1>
             <p className="text-white text-[24px] mt-8 w-1/2 text-center">

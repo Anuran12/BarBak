@@ -32,15 +32,15 @@ export default function Hero() {
     <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover lg:h-[100vh] nust:h-[100vh]">
       <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain lg:h-[100.2vh] nust:h-[100.2vh] xl:px-[120px] px-[20px]">
         <div className="bg-[url('../img/hero_bg.png')] bg-no-repeat lg:bg-bottom bg-center bg-contain">
-        <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28">
-          <h1 className="text-[#F7BC06] flex flex-col lg:text-[65px] xl:text-[65px] md:text-[50px] text-[25px] leading-tight drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+        <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28 pt-28 xs:pt-0">
+          <h1 className="text-[#F7BC06] flex flex-col lg:text-[65px] xl:text-[65px] md:text-[50px] xs:text-[25px] text-[20px] leading-tight drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
           <TextTransition springConfig={presets.stiff}>{TEXTS[index % TEXTS.length]}</TextTransition>
           </h1>
-          <h1 className="text-[#F7BC06] flex flex-col lg:text-[65px] xl:text-[65px] md:text-[50px] text-[25px]  leading-tight drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <h1 className="text-[#F7BC06] flex flex-col lg:text-[65px] xl:text-[65px] md:text-[50px] xs:text-[25px] text-[20px] leading-tight drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
           <TextTransition springConfig={presets.stiff} delay={200}>{TEXTS2[index % TEXTS2.length]}</TextTransition>
           </h1>
           
-          <p className="text-white lg:text-[24px] mt-8 w-1/2">
+          <p className="text-white lg:text-[24px] mt-8 xs:w-1/2 w-2/5">
             Order 10,000+ products, with same-day & next day delivery straight
             into your kitchen
           </p>

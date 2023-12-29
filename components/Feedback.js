@@ -8,7 +8,7 @@ import ChiefBG from "../img/BG_Images/chief.png";
 export default function Feedback() {
   return (
     <div className="flex flex-col justify-center items-center">
-      <h1 className="lg:text-[40px] md:text-[35px] text-[25px] text-center mt-[100px] font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
+      <h1 className="lg:text-[40px] md:text-[35px] text-[25px] text-center mt-[100px] mb-[50px] xs:mb-0 font-bold drop-shadow-[-1px_0_1px_rgba(0,0,0,0.6)]">
         <span className="text-[#F7BC06]">Discover</span> What Others Say
       </h1>
       <section class="container flex justify-center items-center">

@@ -54,7 +54,7 @@ export default function About() {
         <Image src={LeafBG} className="" />
       </div>
       <Team />
-      <div className=" absolute w-[250px] ml-28 -mt-8 h-auto">
+      <div className=" absolute xs:w-[250px] ml-28 -mt-8 h-auto">
         <Image src={BGItem3} className="" />
       </div>
       <Services />

@@ -21,8 +21,24 @@ import HeroImg2 from "../../img/FoodDelivery/item15.png";
 import HeroImg3 from "../../img/FoodDelivery/item14.png";
 import HeroImg4 from "../../img/FoodDelivery/item17.png";
 import Chat from "@/components/Chat";
+import TextTransition, { presets } from 'react-text-transition';
+import { useEffect, useState } from "react";
+
+
+const TEXTS = ["A Partner You can Count On", "Do you hate having ", "Need your Package", "Do you need a reliable"];
+const TEXTS2 = ["Transparent Pricing", " to pickup your liquor?", "at your doorstep?", "Cleaning service?"];
 
 export default function FoodDelivery() {
+  const [index, setIndex] = useState(0);
+  
+
+  useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      3000, // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
   return (
     <div>
       <Header />
@@ -32,21 +48,24 @@ export default function FoodDelivery() {
       <div className="bg-[url('../img/bg_black.jpg')] bg-no-repeat bg-center bg-cover lg:h-[100vh] nust:h-[100vh]">
         <div className="bg-[url('../img/hero_bottom.png')] bg-no-repeat bg-bottom bg-contain lg:h-[100.2vh] nust:h-[100.2vh] lg:px-[120px] px-[20px]">
         <div className="bg-[url('../img/hero_bg.png')] bg-no-repeat lg:bg-bottom bg-center bg-contain">
-          <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28">
-            <h1 className="text-white lg:text-[65px] md:text-[50px] text-[25px] leading-tight font-bold drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
-              A Partner You can Count On <br />
-              <span className="text-[#F7BC06]">Transparent</span> Pricing
-            </h1>
-            <p className="text-white md:text-[24px] text-[18px] mt-8 w-1/2">
-              Order 10,000+ products, with same-day & next day delivery straight
-              into your kitchen
-            </p>
-            <a
-              className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-8 mt-10 text-white w-fit z-50"
-              href={"/Catalog"}
-            >
-              BROWSE CATALOG
-            </a>
+        <div className="h-[80vh] flex flex-col lg:justify-center md:justify-start justify-center md:pt-28 pt-28 xs:pt-0">
+          <h1 className="text-[#F7BC06] flex flex-col lg:text-[65px] xl:text-[65px] md:text-[50px] xs:text-[25px] text-[20px] leading-tight drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <TextTransition springConfig={presets.stiff}>{TEXTS[index % TEXTS.length]}</TextTransition>
+          </h1>
+          <h1 className="text-[#F7BC06] flex flex-col lg:text-[65px] xl:text-[65px] md:text-[50px] xs:text-[25px] text-[20px] leading-tight drop-shadow-[-3px_2px_4px_rgba(0,0,0,0.6)]">
+          <TextTransition springConfig={presets.stiff} delay={200}>{TEXTS2[index % TEXTS2.length]}</TextTransition>
+          </h1>
+          
+          <p className="text-white lg:text-[24px] mt-8 xs:w-1/2 w-2/5">
+            Order 10,000+ products, with same-day & next day delivery straight
+            into your kitchen
+          </p>
+          <a
+            className="bg-[url('../img/btn_border_white.png')] bg-no-repeat bg-center bg-contain p-8 mt-10 text-white w-fit z-50"
+            href={"/"}
+          >
+            Order Delivery
+          </a>
           </div>
           </div>
         </div>
@@ -79,14 +98,14 @@ export default function FoodDelivery() {
       </div>
 
       {/* Hero Section */}
-      <div className="w-full flex lg:flex-row flex-col lg:px-[100px] px-[20px]">
+      <div className="w-full flex lg:flex-row flex-col lg:px-[100px] xs:px-[20px]">
         <div className="lg:w-1/2 flex flex-col justify-center items-center">
           <div className="w-full h-28"></div>
           <Image src={ProcessImg} className="mt-10" />
         </div>
         <div className="lg:w-1/2">
-          <div className="bg-[url('../img/NoticeBG.png')]  bg-no-repeat bg-center bg-contain w-full lg:h-[80vh] md:h-[90vh] h-[40vh] nust:h-[80vh] leading-5 md:leading-relaxed lg:leading-relaxed flex justify-center items-center lg:px-20 xl:px-28 2xl:px-40 md:px-32 px-10 nust:px-72">
-            <p className="text-black lg:text-[20px] written font-bold 2xl:text-[30px] md:text-[24px] text-[14px] lg:mt-16 mt-10">
+          <div className="bg-[url('../img/NoticeBG.png')]  bg-no-repeat bg-center bg-contain w-full lg:h-[80vh] md:h-[90vh] h-[40vh] nust:h-[80vh] leading-5 md:leading-relaxed lg:leading-relaxed flex justify-center items-center lg:px-20 xl:px-28 2xl:px-40 md:px-32 xs:px-10 nust:px-72">
+            <p className="text-black lg:text-[20px] written font-bold 2xl:text-[30px] md:text-[24px] xs:text-[14px] text-[13px] lg:mt-16 mt-10 px-[35px] xs:px-0">
               Do you really like pushing that cart at 6:00 AM? Seriously?! Do
               you really like that rep who keeps changing prices on you? We
               don&#39;t believe it. We give you hours of your precious life
@@ -137,7 +156,7 @@ export default function FoodDelivery() {
         </div>
       </div>
 
-      <div className=" absolute right-0 lg:w-[250px] w-[200px] lg:mr-28 mr-0 lg:-mt-0 -mt-8 -rotate-180 h-auto">
+      <div className=" absolute right-0 lg:w-[250px] xs:w-[200px] w-[150px] lg:mr-28 mr-0 lg:-mt-0 xs:-mt-8 -rotate-180 h-auto">
         <Image src={FoodBG2} className="" />
       </div>
 
@@ -227,7 +246,7 @@ export default function FoodDelivery() {
             </div>
           </div>
         </div>
-        <div className=" absolute  w-[30px] lg:-mt-10 -mt-8 ml-72 lg:mr-64 h-auto">
+        <div className=" absolute  w-[30px] lg:-mt-10 -mt-8 xs:ml-72 ml-60 lg:mr-64 h-auto">
           <Image src={DotBG} className="" />
         </div>
         <div className=" absolute  w-[20px] lg:-mt-32 -mt-24 ml-56 lg:-ml-16 h-auto">
